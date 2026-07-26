@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="MyCSS.css">
+    <title>Java Script</title>
+</head>
+<body>
+    <script type = "text/javascript">
+       var age = 90
+        if(age<18 || age<=45){
+            document.write("Not Qulity !")
+        }
+        else if(age>=90){
+            document.write("Too old !")
+        }
+        else{
+            document.write("Qulity for driving")
+        }
+    </script>
+    <br> <br>
+    <script type = "text/javascript">
+        var finish = 5
+        var count = 1
+        while(count<=finish){
+            document.write(count + "<br>");
+            count = count + 1
+        }
+    </script>
+    <br><br>
+    <script type = "text/javascript">
+        var finish = 5
+        var count = 1
+        for(count=1;count<=finish;count++)
+        {
+            document.write(count + "<br>");
+            count = count + 1
+        }
+    </script>
+    <br><br>
+    <p id="demo">Hello world paragraph!</p>
+    <input type = "button" onclick="changeRed()" value = "Red">
+    <input type = "button" onclick="changeBlue()" value = "Blue">
+    <script type = "text/javascript">
+        function changeRed(){
+            var x = document.getElementById("demo")
+            x.style.color = "red";
+        }
+        function changeBlue(){
+            var x = document.getElementById("demo")
+            x.style.color = "blue";
+        }
+    </script>
+    <br><br>
+
+    <p>Input Number 1 to 10</p>
+    <input id="numb">
+    <button type="button" onclick="myfunction()">Submit</button>
+    <p id="demo1"></p>
+    <script type = "text/javascript">
+        function myfunction(){
+            var x ,text;
+            x = document.getElementById("numb").value;
+            if(isNaN(x) || x<1 || x>10){
+                text = "Not Valid !"
+            }
+            else{
+                text = "Value"
+            }
+        document.getElementById("demo1").innerHTML=text;
+        }
+    </script>
+</body>

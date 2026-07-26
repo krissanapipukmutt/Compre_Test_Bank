@@ -1,0 +1,104 @@
+# Comprehensive Examination Study Application Plan
+
+## Purpose
+
+Transform all local Term 1 and Term 2 learning and examination materials into an evidence-backed bilingual study library, practice system, mock examination, and locally persisted progress experience.
+
+## Scope and constraints
+
+- Source roots: `TERM1/`, `TERM2/`, and academic files at repository root.
+- Generated roots: `docs/`, `data/`, `reports/`, `scripts/`, and `web/`.
+- Original academic files are immutable.
+- Local processing only; no academic file or extracted content is sent to external services.
+- English examination wording and choices are preserved.
+- Academic uncertainty remains explicitly visible.
+- Version 1 is a static React + Vite + TypeScript application with local JSON and browser storage.
+- Mobile-first layouts cover phone, tablet, landscape, and desktop viewports.
+
+## Phases, dependencies, and gates
+
+1. **Phase 0 — inventory and initialization**  
+   Dependency: accessible project root.  
+   Gate: every discovered file inventoried, immutable-source baseline recorded, JSON valid, stable IDs unique, uncertain mappings reported.
+2. **Phase 1 — academic content analysis**  
+   Dependency: validated inventory.  
+   Gate: subject/chapter/topic/source relationships valid; every subject has sources; low-confidence content reported.
+3. **Phase 2 — examination analysis and bilingual answers**  
+   Dependency: validated knowledge base.  
+   Gate: stable question/choice IDs, bilingual fields, valid answer references, evidence on verified answers, ambiguous items retained.
+4. **Phase 3 — academic and data-quality audit**  
+   Dependency: Phases 1–2 data.  
+   Gate: coverage, evidence, translations, references, schemas, and readiness independently audited.
+5. **Phase 4 — architecture and responsive UX**  
+   Dependency: readiness is `ready_for_web_development` or `ready_with_warnings`.  
+   Gate: ten architecture documents agree with data models, flows, test strategy, and acceptance criteria.
+6. **Phase 5 — implementation**  
+   Dependency: validated architecture and academic data.  
+   Gate per subphase: lint, type check, tests, and production build.
+7. **Phase 6 — final testing and release**  
+   Dependency: feature-complete application.  
+   Gate: academic validation, automated tests, required viewport checks, accessibility/security review, and production build complete.
+8. **Phase 7 — unresolved-answer course recheck and external research**  
+   Dependency: Phase 6 release baseline and a safe pre-research backup.  
+   Gate: every flagged answer receives one evidence origin; originals remain preserved; external sources and probabilities validate; scoring and post-submission evidence UI enforce the research policy.
+9. **Phase 8 — examination visual-integrity audit and repair**  
+   Dependency: Phase 7 evidence-preserving question bank and a safe pre-visual-integrity checkpoint.  
+   Gate: every question is compared with its original page; essential visuals use source-faithful assets; missing/partial visual states are unscored and excluded from mock exams; accessible responsive rendering, asset provenance, production packaging, and preservation checks pass.
+
+## Phase 5 subphases
+
+- 5.1 project initialization and runtime data validation
+- 5.2 responsive application shell
+- 5.3 study library
+- 5.4 practice engine
+- 5.5 mock examination
+- 5.6 progress and bookmarks
+- 5.7 responsive polish and accessibility
+- 5.8 complete test and production build
+
+## Decisions
+
+- React + Vite + TypeScript is preferred because the application is local-first and statically deployable; no server-rendering requirement exists.
+- Academic extraction and validation will use local scripts so results are reproducible and source files stay private.
+- Git commits are skipped until a Git repository exists; Git will not be initialized implicitly.
+
+## Discoveries
+
+- The project root is accessible.
+- No Git repository is present at the project root.
+- Initial inspection found Term 1 and Term 2 trees, multiple office/PDF formats, source-code exercises, images, archives/installers, and a root `แนวข้อสอบ.pdf`.
+- Course-code conflict risk exists in `TERM2/BIS603_BIS604 Bussiness Data Management` and requires document-content verification.
+
+## Risks
+
+- A large mixed-format corpus may contain image-only PDFs or diagrams that text extraction cannot fully interpret.
+- Duplicate lecture exports (PDF/PPTX) and multiple student/work versions require cautious classification.
+- Some examination answers may remain ambiguous if no supplied learning source is sufficiently direct.
+- Legacy `.doc`, URL shortcuts, disk images, and archives may be unsupported academic extraction formats.
+
+## Progress
+
+- [x] Project root and Git status checked.
+- [x] Required generated directories created.
+- [x] Phase 0 inventory and initialization: 374 immutable sources inventoried and validated.
+- [x] Phase 1: 6 subjects, 44 chapters, 132 topics, and 132 glossary entries validated.
+- [x] Phase 2: 105 questions validated; 16 verified, 71 strongly inferred, and 18 review-required.
+- [x] Phase 3: `ready_with_warnings`, with no structural errors.
+- [x] Phase 4: ten architecture documents validated; React + Vite + strict TypeScript selected.
+- [x] Phase 5: complete responsive application; lint/typecheck/build pass, 19 unit/integration tests and 5 browser tests pass.
+- [x] Phase 6: academic, code, security, accessibility, responsive, test, build, preview, and release audits complete.
+- [x] Phase 7: all 89 flagged questions rechecked; 33 newly course-verified, 47 externally verified, 2 strongly externally supported, 2 probability-only, and 5 unresolvable.
+- [x] Phase 8: all 105 questions compared with all 16 original exam pages; 9 essential-visual questions repaired from embedded originals, 96 text-only questions confirmed complete, 18 source assets packaged, and no visual-loss review item remains.
+- [x] Phase 8 final verification: all source boundaries, 48 wording triggers, 2 code-format items, 9 inline visuals, and 9 reference crops independently rechecked; one clipped Q79 supplemental reference crop repaired; no academic answer changed; final validators, 32 unit/integration tests, 11 browser tests, responsive checks, and production build pass.
+
+## Remaining work
+
+No required automated work remains. Human academic adjudication remains for 10 questions (2 strongly externally supported, 2 probability-only, 5 unresolvable, and the Q96 answer-key contradiction). Optional follow-up includes native-speaker Thai review, code-splitting, formal screen-reader checks, and independent Firefox/Safari certification.
+
+## Recovery instructions
+
+1. Read `AGENTS.md`, `TASKS.md`, and `PROJECT_STATE.md`.
+2. Run the resume commands recorded in `PROJECT_STATE.md`.
+3. Re-run the current phase validation before editing downstream data.
+4. Compare immutable-source hashes in `data/file-inventory.json`; stop if an original changed unexpectedly.
+5. If warnings are being addressed, select one from `reports/final-release-readiness.md`; otherwise the project is complete.

@@ -1,0 +1,3701 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-26T11:14:16.798547+00:00",
+  "chapters": [
+    {
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "title_en": "Analyst role and information-system success",
+      "title_th": "บทบาทนักวิเคราะห์และความสำเร็จของระบบสารสนเทศ",
+      "concise_summary_en": "Systems analysis begins by defining success, understanding failure, and distinguishing the analyst's business-facing responsibilities from technical implementation roles.",
+      "concise_summary_th": "การวิเคราะห์ระบบเริ่มจากนิยามความสำเร็จ ทำความเข้าใจความล้มเหลว และแยกความรับผิดชอบที่มุ่งธุรกิจของนักวิเคราะห์ออกจากบทบาทการนำเทคนิคไปใช้",
+      "detailed_explanation_th": "การวิเคราะห์ระบบเริ่มจากนิยามความสำเร็จ ทำความเข้าใจความล้มเหลว และแยกความรับผิดชอบที่มุ่งธุรกิจของนักวิเคราะห์ออกจากบทบาทการนำเทคนิคไปใช้ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis601-analyst-and-system-success-01",
+        "topic-bis601-analyst-and-system-success-02",
+        "topic-bis601-analyst-and-system-success-03"
+      ],
+      "technical_terms": [
+        "Information-system success",
+        "Systems analyst",
+        "Problem and opportunity"
+      ],
+      "definitions": [
+        {
+          "term_en": "Information-system success",
+          "term_th": "ความสำเร็จของระบบสารสนเทศ",
+          "definition_en": "Success depends on business value, adoption, quality, and fit—not delivery alone.",
+          "definition_th": "ความสำเร็จขึ้นกับคุณค่าทางธุรกิจ การยอมรับ คุณภาพ และความสอดคล้อง ไม่ใช่เพียงส่งมอบเสร็จ"
+        },
+        {
+          "term_en": "Systems analyst",
+          "term_th": "นักวิเคราะห์ระบบ",
+          "definition_en": "An analyst bridges stakeholder needs and a feasible system solution.",
+          "definition_th": "นักวิเคราะห์เชื่อมความต้องการผู้มีส่วนได้ส่วนเสียกับโซลูชันระบบที่เป็นไปได้"
+        },
+        {
+          "term_en": "Problem and opportunity",
+          "term_th": "ปัญหาและโอกาส",
+          "definition_en": "Analysis frames the gap between the current and desired business state.",
+          "definition_th": "การวิเคราะห์กำหนดช่องว่างระหว่างสภาพธุรกิจปัจจุบันและสภาพที่ต้องการ"
+        }
+      ],
+      "concepts": [
+        "Information-system success",
+        "Systems analyst",
+        "Problem and opportunity"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Analyst role and information-system success.",
+        "Apply Information-system success, Systems analyst, Problem and opportunity in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply analyst role and information-system success to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Information-system success` from `Systems analyst` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Information-system success as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Information-system success, Systems analyst, Problem and opportunity.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Systems analysis begins by defining success, understanding failure, and distinguishing the analyst's business-facing responsibilities from technical implementation roles.",
+        "Distinguish `Information-system success` from `Systems analyst` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Analyst role and information-system success address?",
+        "How do Information-system success and Systems analyst differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "chapter_id": "chapter-bis601-development-methods",
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "title_en": "Development methods and lifecycle",
+      "title_th": "วิธีและวงจรชีวิตการพัฒนาระบบ",
+      "concise_summary_en": "Development methods organize planning, analysis, design, implementation, and evolution; method choice changes feedback speed, documentation, and risk handling.",
+      "concise_summary_th": "วิธีพัฒนาระบบจัดระเบียบการวางแผน วิเคราะห์ ออกแบบ นำไปใช้ และปรับปรุง โดยการเลือกวิธีมีผลต่อความเร็วของข้อเสนอแนะ เอกสาร และการจัดการความเสี่ยง",
+      "detailed_explanation_th": "วิธีพัฒนาระบบจัดระเบียบการวางแผน วิเคราะห์ ออกแบบ นำไปใช้ และปรับปรุง โดยการเลือกวิธีมีผลต่อความเร็วของข้อเสนอแนะ เอกสาร และการจัดการความเสี่ยง ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis601-development-methods-01",
+        "topic-bis601-development-methods-02",
+        "topic-bis601-development-methods-03"
+      ],
+      "technical_terms": [
+        "SDLC",
+        "Predictive method",
+        "Adaptive method"
+      ],
+      "definitions": [
+        {
+          "term_en": "SDLC",
+          "term_th": "วงจรชีวิตการพัฒนาระบบ",
+          "definition_en": "A structured sequence for planning, analysis, design, implementation, and maintenance.",
+          "definition_th": "ลำดับงานอย่างเป็นระบบตั้งแต่การวางแผน วิเคราะห์ ออกแบบ นำไปใช้ และบำรุงรักษา"
+        },
+        {
+          "term_en": "Predictive method",
+          "term_th": "วิธีเชิงคาดการณ์",
+          "definition_en": "A plan-driven approach suitable when scope is comparatively stable.",
+          "definition_th": "แนวทางขับเคลื่อนด้วยแผน เหมาะเมื่อขอบเขตค่อนข้างคงที่"
+        },
+        {
+          "term_en": "Adaptive method",
+          "term_th": "วิธีเชิงปรับตัว",
+          "definition_en": "An iterative approach that learns through frequent delivery and feedback.",
+          "definition_th": "แนวทางวนรอบที่เรียนรู้ผ่านการส่งมอบและข้อเสนอแนะบ่อยครั้ง"
+        }
+      ],
+      "concepts": [
+        "SDLC",
+        "Predictive method",
+        "Adaptive method"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Development methods and lifecycle.",
+        "Apply SDLC, Predictive method, Adaptive method in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply development methods and lifecycle to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `SDLC` from `Predictive method` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating SDLC as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish SDLC, Predictive method, Adaptive method.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Development methods organize planning, analysis, design, implementation, and evolution; method choice changes feedback speed, documentation, and risk handling.",
+        "Distinguish `SDLC` from `Predictive method` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Development methods and lifecycle address?",
+        "How do SDLC and Predictive method differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-cc0c959ac842"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "chapter_id": "chapter-bis601-project-identification",
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "title_en": "Project identification and feasibility",
+      "title_th": "การระบุโครงการและความเป็นไปได้",
+      "concise_summary_en": "Project selection translates business needs into a scoped proposal and tests organizational, technical, economic, and schedule feasibility before major commitment.",
+      "concise_summary_th": "การคัดเลือกโครงการแปลงความต้องการธุรกิจเป็นข้อเสนอที่มีขอบเขต และทดสอบความเป็นไปได้ด้านองค์กร เทคนิค เศรษฐศาสตร์ และเวลา ก่อนผูกพันทรัพยากรจำนวนมาก",
+      "detailed_explanation_th": "การคัดเลือกโครงการแปลงความต้องการธุรกิจเป็นข้อเสนอที่มีขอบเขต และทดสอบความเป็นไปได้ด้านองค์กร เทคนิค เศรษฐศาสตร์ และเวลา ก่อนผูกพันทรัพยากรจำนวนมาก ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis601-project-identification-01",
+        "topic-bis601-project-identification-02",
+        "topic-bis601-project-identification-03"
+      ],
+      "technical_terms": [
+        "System request",
+        "Feasibility analysis",
+        "Project scope"
+      ],
+      "definitions": [
+        {
+          "term_en": "System request",
+          "term_th": "คำขอระบบ",
+          "definition_en": "A concise statement of sponsor, need, requirements, value, and constraints.",
+          "definition_th": "ข้อความกระชับระบุผู้สนับสนุน ความต้องการ คุณค่า และข้อจำกัด"
+        },
+        {
+          "term_en": "Feasibility analysis",
+          "term_th": "การวิเคราะห์ความเป็นไปได้",
+          "definition_en": "A structured test of whether a proposed project should proceed.",
+          "definition_th": "การทดสอบอย่างมีโครงสร้างว่าโครงการที่เสนอควรดำเนินต่อหรือไม่"
+        },
+        {
+          "term_en": "Project scope",
+          "term_th": "ขอบเขตโครงการ",
+          "definition_en": "The agreed boundary of included outcomes, work, and exclusions.",
+          "definition_th": "ขอบเขตที่ตกลงของผลลัพธ์ งานที่รวม และสิ่งที่ไม่รวม"
+        }
+      ],
+      "concepts": [
+        "System request",
+        "Feasibility analysis",
+        "Project scope"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Project identification and feasibility.",
+        "Apply System request, Feasibility analysis, Project scope in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply project identification and feasibility to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `System request` from `Feasibility analysis` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating System request as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish System request, Feasibility analysis, Project scope.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Project selection translates business needs into a scoped proposal and tests organizational, technical, economic, and schedule feasibility before major commitment.",
+        "Distinguish `System request` from `Feasibility analysis` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Project identification and feasibility address?",
+        "How do System request and Feasibility analysis differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-76f6bb70a4fa"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "chapter_id": "chapter-bis601-requirements",
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "title_en": "Requirements determination and elicitation",
+      "title_th": "การกำหนดและเก็บความต้องการ",
+      "concise_summary_en": "Requirements work identifies stakeholders, elicits needs through suitable techniques, resolves conflicts, and expresses verifiable functional and quality expectations.",
+      "concise_summary_th": "งานความต้องการระบุผู้มีส่วนได้ส่วนเสีย เก็บความต้องการด้วยเทคนิคที่เหมาะสม แก้ความขัดแย้ง และระบุความคาดหวังเชิงหน้าที่และคุณภาพที่ตรวจสอบได้",
+      "detailed_explanation_th": "งานความต้องการระบุผู้มีส่วนได้ส่วนเสีย เก็บความต้องการด้วยเทคนิคที่เหมาะสม แก้ความขัดแย้ง และระบุความคาดหวังเชิงหน้าที่และคุณภาพที่ตรวจสอบได้ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis601-requirements-01",
+        "topic-bis601-requirements-02",
+        "topic-bis601-requirements-03"
+      ],
+      "technical_terms": [
+        "Functional requirement",
+        "Non-functional requirement",
+        "Elicitation"
+      ],
+      "definitions": [
+        {
+          "term_en": "Functional requirement",
+          "term_th": "ความต้องการเชิงหน้าที่",
+          "definition_en": "A behavior or service the system must provide.",
+          "definition_th": "พฤติกรรมหรือบริการที่ระบบต้องจัดให้"
+        },
+        {
+          "term_en": "Non-functional requirement",
+          "term_th": "ความต้องการที่ไม่ใช่เชิงหน้าที่",
+          "definition_en": "A quality or constraint such as performance, security, or usability.",
+          "definition_th": "คุณลักษณะหรือข้อจำกัด เช่น ประสิทธิภาพ ความมั่นคงปลอดภัย หรือความง่ายในการใช้"
+        },
+        {
+          "term_en": "Elicitation",
+          "term_th": "การเก็บความต้องการ",
+          "definition_en": "Purposeful discovery through interviews, observation, workshops, documents, or prototypes.",
+          "definition_th": "การค้นหาอย่างมีเป้าหมายผ่านการสัมภาษณ์ สังเกต เวิร์กช็อป เอกสาร หรือต้นแบบ"
+        }
+      ],
+      "concepts": [
+        "Functional requirement",
+        "Non-functional requirement",
+        "Elicitation"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Requirements determination and elicitation.",
+        "Apply Functional requirement, Non-functional requirement, Elicitation in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply requirements determination and elicitation to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Functional requirement` from `Non-functional requirement` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Functional requirement as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Functional requirement, Non-functional requirement, Elicitation.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Requirements work identifies stakeholders, elicits needs through suitable techniques, resolves conflicts, and expresses verifiable functional and quality expectations.",
+        "Distinguish `Functional requirement` from `Non-functional requirement` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Requirements determination and elicitation address?",
+        "How do Functional requirement and Non-functional requirement differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 4
+    },
+    {
+      "chapter_id": "chapter-bis601-behavior-models",
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "title_en": "Activity and use-case modeling",
+      "title_th": "การสร้างแบบจำลองกิจกรรมและกรณีใช้งาน",
+      "concise_summary_en": "Activity models show workflow, while use cases describe goal-oriented interactions between actors and the system boundary.",
+      "concise_summary_th": "Activity Diagram แสดงลำดับงาน ส่วน Use Case อธิบายปฏิสัมพันธ์ที่มุ่งเป้าหมายระหว่าง Actor กับขอบเขตระบบ",
+      "detailed_explanation_th": "Activity Diagram แสดงลำดับงาน ส่วน Use Case อธิบายปฏิสัมพันธ์ที่มุ่งเป้าหมายระหว่าง Actor กับขอบเขตระบบ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis601-behavior-models-01",
+        "topic-bis601-behavior-models-02",
+        "topic-bis601-behavior-models-03"
+      ],
+      "technical_terms": [
+        "Activity diagram",
+        "Actor",
+        "Use case"
+      ],
+      "definitions": [
+        {
+          "term_en": "Activity diagram",
+          "term_th": "แผนภาพกิจกรรม",
+          "definition_en": "A behavioral model of actions, decisions, parallel paths, and flow.",
+          "definition_th": "แบบจำลองพฤติกรรมของกิจกรรม การตัดสินใจ เส้นทางขนาน และการไหล"
+        },
+        {
+          "term_en": "Actor",
+          "term_th": "ผู้กระทำ",
+          "definition_en": "An external role that interacts with a system to achieve a goal.",
+          "definition_th": "บทบาทภายนอกที่โต้ตอบกับระบบเพื่อบรรลุเป้าหมาย"
+        },
+        {
+          "term_en": "Use case",
+          "term_th": "กรณีใช้งาน",
+          "definition_en": "A sequence of interactions that delivers observable value to an actor.",
+          "definition_th": "ลำดับปฏิสัมพันธ์ที่ส่งมอบคุณค่าที่สังเกตได้ให้ Actor"
+        }
+      ],
+      "concepts": [
+        "Activity diagram",
+        "Actor",
+        "Use case"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Activity and use-case modeling.",
+        "Apply Activity diagram, Actor, Use case in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply activity and use-case modeling to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Activity diagram` from `Actor` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Activity diagram as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Activity diagram, Actor, Use case.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Activity models show workflow, while use cases describe goal-oriented interactions between actors and the system boundary.",
+        "Distinguish `Activity diagram` from `Actor` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Activity and use-case modeling address?",
+        "How do Activity diagram and Actor differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-5347df2602b3",
+        "ref-48fadbe6b0c2"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 5
+    },
+    {
+      "chapter_id": "chapter-bis601-process-models",
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "title_en": "Data-flow and decision modeling",
+      "title_th": "การสร้างแบบจำลองการไหลของข้อมูลและการตัดสินใจ",
+      "concise_summary_en": "DFDs separate processes, flows, stores, and external entities; decision models make conditional business logic complete and testable.",
+      "concise_summary_th": "DFD แยก Process, Data Flow, Data Store และ External Entity ส่วนแบบจำลองการตัดสินใจทำให้ตรรกะเงื่อนไขครบถ้วนและทดสอบได้",
+      "detailed_explanation_th": "DFD แยก Process, Data Flow, Data Store และ External Entity ส่วนแบบจำลองการตัดสินใจทำให้ตรรกะเงื่อนไขครบถ้วนและทดสอบได้ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis601-process-models-01",
+        "topic-bis601-process-models-02",
+        "topic-bis601-process-models-03"
+      ],
+      "technical_terms": [
+        "Data-flow diagram",
+        "Balancing",
+        "Decision table"
+      ],
+      "definitions": [
+        {
+          "term_en": "Data-flow diagram",
+          "term_th": "แผนภาพการไหลของข้อมูล",
+          "definition_en": "A logical model of how data enters, is transformed, stored, and leaves a system.",
+          "definition_th": "แบบจำลองเชิงตรรกะว่าข้อมูลเข้าสู่ระบบ ถูกแปลง จัดเก็บ และออกจากระบบอย่างไร"
+        },
+        {
+          "term_en": "Balancing",
+          "term_th": "การสมดุล DFD",
+          "definition_en": "Inputs and outputs remain consistent across decomposition levels.",
+          "definition_th": "ข้อมูลเข้าและออกต้องสอดคล้องกันระหว่างระดับการแตกกระบวนการ"
+        },
+        {
+          "term_en": "Decision table",
+          "term_th": "ตารางการตัดสินใจ",
+          "definition_en": "A tabular representation of condition combinations and resulting actions.",
+          "definition_th": "ตารางแสดงชุดเงื่อนไขและการกระทำที่เกิดขึ้น"
+        }
+      ],
+      "concepts": [
+        "Data-flow diagram",
+        "Balancing",
+        "Decision table"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Data-flow and decision modeling.",
+        "Apply Data-flow diagram, Balancing, Decision table in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply data-flow and decision modeling to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Data-flow diagram` from `Balancing` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Data-flow diagram as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Data-flow diagram, Balancing, Decision table.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "DFDs separate processes, flows, stores, and external entities; decision models make conditional business logic complete and testable.",
+        "Distinguish `Data-flow diagram` from `Balancing` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Data-flow and decision modeling address?",
+        "How do Data-flow diagram and Balancing differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-94fddec5992b",
+        "ref-a0ca361426ba"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 6
+    },
+    {
+      "chapter_id": "chapter-bis601-bpmn",
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "title_en": "Business Process Model and Notation",
+      "title_th": "แบบจำลองและสัญลักษณ์กระบวนการธุรกิจ",
+      "concise_summary_en": "BPMN models events, activities, gateways, sequence flow, message flow, and responsibility across participants in an end-to-end process.",
+      "concise_summary_th": "BPMN ใช้ Event, Activity, Gateway, Sequence Flow, Message Flow และความรับผิดชอบของผู้มีส่วนร่วมเพื่อแสดงกระบวนการตั้งแต่ต้นจนจบ",
+      "detailed_explanation_th": "BPMN ใช้ Event, Activity, Gateway, Sequence Flow, Message Flow และความรับผิดชอบของผู้มีส่วนร่วมเพื่อแสดงกระบวนการตั้งแต่ต้นจนจบ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis601-bpmn-01",
+        "topic-bis601-bpmn-02",
+        "topic-bis601-bpmn-03"
+      ],
+      "technical_terms": [
+        "Event",
+        "Gateway",
+        "Pool and lane"
+      ],
+      "definitions": [
+        {
+          "term_en": "Event",
+          "term_th": "เหตุการณ์",
+          "definition_en": "Something that starts, affects, or ends a process.",
+          "definition_th": "สิ่งที่เริ่ม ส่งผลต่อ หรือยุติกระบวนการ"
+        },
+        {
+          "term_en": "Gateway",
+          "term_th": "จุดแยก/รวมเส้นทาง",
+          "definition_en": "A control point that splits or merges process paths.",
+          "definition_th": "จุดควบคุมที่แยกหรือรวมเส้นทางกระบวนการ"
+        },
+        {
+          "term_en": "Pool and lane",
+          "term_th": "พูลและเลน",
+          "definition_en": "Responsibility boundaries for participants and roles.",
+          "definition_th": "ขอบเขตความรับผิดชอบของผู้เข้าร่วมและบทบาท"
+        }
+      ],
+      "concepts": [
+        "Event",
+        "Gateway",
+        "Pool and lane"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Business Process Model and Notation.",
+        "Apply Event, Gateway, Pool and lane in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply business process model and notation to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Event` from `Gateway` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Event as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Event, Gateway, Pool and lane.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "BPMN models events, activities, gateways, sequence flow, message flow, and responsibility across participants in an end-to-end process.",
+        "Distinguish `Event` from `Gateway` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Business Process Model and Notation address?",
+        "How do Event and Gateway differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-28b6241dc035"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 7
+    },
+    {
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Business strategy and competitive advantage",
+      "title_th": "กลยุทธ์ธุรกิจและความได้เปรียบในการแข่งขัน",
+      "concise_summary_en": "Business strategy sets goals and uses value-chain and industry analysis to select defensible ways to compete with digital capabilities.",
+      "concise_summary_th": "กลยุทธ์ธุรกิจกำหนดเป้าหมายและใช้การวิเคราะห์ห่วงโซ่คุณค่าและอุตสาหกรรมเพื่อเลือกแนวทางแข่งขันที่ปกป้องได้ด้วยความสามารถดิจิทัล",
+      "detailed_explanation_th": "กลยุทธ์ธุรกิจกำหนดเป้าหมายและใช้การวิเคราะห์ห่วงโซ่คุณค่าและอุตสาหกรรมเพื่อเลือกแนวทางแข่งขันที่ปกป้องได้ด้วยความสามารถดิจิทัล ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-strategy-and-competition-01",
+        "topic-bis602-strategy-and-competition-02",
+        "topic-bis602-strategy-and-competition-03"
+      ],
+      "technical_terms": [
+        "Competitive advantage",
+        "Porter's Five Forces",
+        "Value chain"
+      ],
+      "definitions": [
+        {
+          "term_en": "Competitive advantage",
+          "term_th": "ความได้เปรียบในการแข่งขัน",
+          "definition_en": "A capability or position that lets a firm create superior value.",
+          "definition_th": "ความสามารถหรือตำแหน่งที่ทำให้องค์กรสร้างคุณค่าเหนือกว่า"
+        },
+        {
+          "term_en": "Porter's Five Forces",
+          "term_th": "แรงกดดันห้าประการของพอร์เตอร์",
+          "definition_en": "A framework for analyzing industry rivalry, entry, substitutes, buyers, and suppliers.",
+          "definition_th": "กรอบวิเคราะห์การแข่งขัน ผู้เข้าใหม่ สินค้าทดแทน ผู้ซื้อ และผู้ขาย"
+        },
+        {
+          "term_en": "Value chain",
+          "term_th": "ห่วงโซ่คุณค่า",
+          "definition_en": "Linked activities that create and deliver customer value.",
+          "definition_th": "กิจกรรมที่เชื่อมกันเพื่อสร้างและส่งมอบคุณค่าแก่ลูกค้า"
+        }
+      ],
+      "concepts": [
+        "Competitive advantage",
+        "Porter's Five Forces",
+        "Value chain"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Business strategy and competitive advantage.",
+        "Apply Competitive advantage, Porter's Five Forces, Value chain in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply business strategy and competitive advantage to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Competitive advantage` from `Porter's Five Forces` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Competitive advantage as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Competitive advantage, Porter's Five Forces, Value chain.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Business strategy sets goals and uses value-chain and industry analysis to select defensible ways to compete with digital capabilities.",
+        "Distinguish `Competitive advantage` from `Porter's Five Forces` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Business strategy and competitive advantage address?",
+        "How do Competitive advantage and Porter's Five Forces differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 8
+    },
+    {
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Business processes and performance measures",
+      "title_th": "กระบวนการธุรกิจและตัวชี้วัดผลการดำเนินงาน",
+      "concise_summary_en": "Process management links objectives to measurable outcomes through suitable KPIs, baselines, targets, and causal interpretation.",
+      "concise_summary_th": "การจัดการกระบวนการเชื่อมวัตถุประสงค์กับผลลัพธ์ที่วัดได้ผ่าน KPI ที่เหมาะสม ค่าฐาน เป้าหมาย และการตีความเชิงเหตุผล",
+      "detailed_explanation_th": "การจัดการกระบวนการเชื่อมวัตถุประสงค์กับผลลัพธ์ที่วัดได้ผ่าน KPI ที่เหมาะสม ค่าฐาน เป้าหมาย และการตีความเชิงเหตุผล ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-process-and-kpi-01",
+        "topic-bis602-process-and-kpi-02",
+        "topic-bis602-process-and-kpi-03"
+      ],
+      "technical_terms": [
+        "Business process",
+        "KPI",
+        "Balanced Scorecard"
+      ],
+      "definitions": [
+        {
+          "term_en": "Business process",
+          "term_th": "กระบวนการธุรกิจ",
+          "definition_en": "Coordinated activities that transform inputs into stakeholder value.",
+          "definition_th": "กิจกรรมประสานกันที่แปลง Input เป็นคุณค่าสำหรับผู้มีส่วนได้ส่วนเสีย"
+        },
+        {
+          "term_en": "KPI",
+          "term_th": "ตัวชี้วัดผลการดำเนินงานหลัก",
+          "definition_en": "A metric tied to a critical objective and decision.",
+          "definition_th": "ตัวชี้วัดที่ผูกกับวัตถุประสงค์และการตัดสินใจสำคัญ"
+        },
+        {
+          "term_en": "Balanced Scorecard",
+          "term_th": "ดุลยภาพตัวชี้วัด",
+          "definition_en": "A multi-perspective framework covering financial, customer, process, and learning outcomes.",
+          "definition_th": "กรอบหลายมุมมอง ครอบคลุมการเงิน ลูกค้า กระบวนการ และการเรียนรู้"
+        }
+      ],
+      "concepts": [
+        "Business process",
+        "KPI",
+        "Balanced Scorecard"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Business processes and performance measures.",
+        "Apply Business process, KPI, Balanced Scorecard in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply business processes and performance measures to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Business process` from `KPI` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Business process as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Business process, KPI, Balanced Scorecard.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Process management links objectives to measurable outcomes through suitable KPIs, baselines, targets, and causal interpretation.",
+        "Distinguish `Business process` from `KPI` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Business processes and performance measures address?",
+        "How do Business process and KPI differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 9
+    },
+    {
+      "chapter_id": "chapter-bis602-investment-decisions",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Business investment decisions",
+      "title_th": "การตัดสินใจลงทุนทางธุรกิจ",
+      "concise_summary_en": "Investment analysis compares cash flows across time using discounting, present value, NPV, and risk-aware assumptions.",
+      "concise_summary_th": "การวิเคราะห์การลงทุนเปรียบเทียบกระแสเงินสดต่างเวลาด้วยการคิดลด มูลค่าปัจจุบัน NPV และสมมติฐานที่คำนึงถึงความเสี่ยง",
+      "detailed_explanation_th": "การวิเคราะห์การลงทุนเปรียบเทียบกระแสเงินสดต่างเวลาด้วยการคิดลด มูลค่าปัจจุบัน NPV และสมมติฐานที่คำนึงถึงความเสี่ยง ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-investment-decisions-01",
+        "topic-bis602-investment-decisions-02",
+        "topic-bis602-investment-decisions-03"
+      ],
+      "technical_terms": [
+        "Time value of money",
+        "Present value",
+        "Net present value"
+      ],
+      "definitions": [
+        {
+          "term_en": "Time value of money",
+          "term_th": "มูลค่าเงินตามเวลา",
+          "definition_en": "Money available today differs in value from the same nominal amount later.",
+          "definition_th": "เงินที่มีวันนี้มีมูลค่าไม่เท่ากับจำนวนเงินนามธรรมเดียวกันในอนาคต"
+        },
+        {
+          "term_en": "Present value",
+          "term_th": "มูลค่าปัจจุบัน",
+          "definition_en": "A future cash flow discounted to today's value.",
+          "definition_th": "กระแสเงินสดอนาคตที่คิดลดกลับเป็นมูลค่าวันนี้"
+        },
+        {
+          "term_en": "Net present value",
+          "term_th": "มูลค่าปัจจุบันสุทธิ",
+          "definition_en": "Discounted benefits minus discounted costs; positive NPV indicates value under the assumptions.",
+          "definition_th": "ผลประโยชน์คิดลดลบต้นทุนคิดลด โดย NPV บวกบ่งชี้การสร้างคุณค่าภายใต้สมมติฐาน"
+        }
+      ],
+      "concepts": [
+        "Time value of money",
+        "Present value",
+        "Net present value"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Business investment decisions.",
+        "Apply Time value of money, Present value, Net present value in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [
+        "PV = FV / (1 + r)^n",
+        "NPV = Σ(CF_t / (1 + r)^t) − C₀"
+      ],
+      "examples": [
+        "Apply business investment decisions to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Time value of money` from `Present value` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Time value of money as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Time value of money, Present value, Net present value.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Investment analysis compares cash flows across time using discounting, present value, NPV, and risk-aware assumptions.",
+        "Distinguish `Time value of money` from `Present value` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Business investment decisions address?",
+        "How do Time value of money and Present value differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-43f347e0b01d"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 10
+    },
+    {
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Enterprise data management",
+      "title_th": "การจัดการข้อมูลองค์กร",
+      "concise_summary_en": "Enterprise data management coordinates data sources, quality, integration, governance, and lifecycle so analytics uses consistent and trustworthy data.",
+      "concise_summary_th": "การจัดการข้อมูลองค์กรประสานแหล่งข้อมูล คุณภาพ การบูรณาการ ธรรมาภิบาล และวงจรชีวิต เพื่อให้การวิเคราะห์ใช้ข้อมูลที่สอดคล้องและเชื่อถือได้",
+      "detailed_explanation_th": "การจัดการข้อมูลองค์กรประสานแหล่งข้อมูล คุณภาพ การบูรณาการ ธรรมาภิบาล และวงจรชีวิต เพื่อให้การวิเคราะห์ใช้ข้อมูลที่สอดคล้องและเชื่อถือได้ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-enterprise-data-01",
+        "topic-bis602-enterprise-data-02",
+        "topic-bis602-enterprise-data-03"
+      ],
+      "technical_terms": [
+        "Data quality",
+        "ETL",
+        "Data governance"
+      ],
+      "definitions": [
+        {
+          "term_en": "Data quality",
+          "term_th": "คุณภาพข้อมูล",
+          "definition_en": "Fitness for use across accuracy, completeness, consistency, timeliness, and validity.",
+          "definition_th": "ความเหมาะสมต่อการใช้งานด้านความถูกต้อง ครบถ้วน สอดคล้อง ทันเวลา และเป็นไปตามกฎ"
+        },
+        {
+          "term_en": "ETL",
+          "term_th": "กระบวนการ ETL",
+          "definition_en": "Extract data, transform it to agreed rules, and load it into a target.",
+          "definition_th": "ดึงข้อมูล แปลงตามกฎที่ตกลง และโหลดเข้าสู่ปลายทาง"
+        },
+        {
+          "term_en": "Data governance",
+          "term_th": "ธรรมาภิบาลข้อมูล",
+          "definition_en": "Decision rights, accountability, standards, and controls for data.",
+          "definition_th": "สิทธิในการตัดสินใจ ความรับผิดชอบ มาตรฐาน และการควบคุมข้อมูล"
+        }
+      ],
+      "concepts": [
+        "Data quality",
+        "ETL",
+        "Data governance"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Enterprise data management.",
+        "Apply Data quality, ETL, Data governance in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply enterprise data management to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Data quality` from `ETL` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Data quality as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Data quality, ETL, Data governance.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Enterprise data management coordinates data sources, quality, integration, governance, and lifecycle so analytics uses consistent and trustworthy data.",
+        "Distinguish `Data quality` from `ETL` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Enterprise data management address?",
+        "How do Data quality and ETL differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 11
+    },
+    {
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Probability and business statistics",
+      "title_th": "ความน่าจะเป็นและสถิติธุรกิจ",
+      "concise_summary_en": "Probability represents uncertainty; descriptive statistics, distributions, z-scores, and outlier analysis support evidence-based business decisions.",
+      "concise_summary_th": "ความน่าจะเป็นแทนความไม่แน่นอน ส่วนสถิติเชิงพรรณนา การแจกแจง z-score และการวิเคราะห์ Outlier สนับสนุนการตัดสินใจด้วยหลักฐาน",
+      "detailed_explanation_th": "ความน่าจะเป็นแทนความไม่แน่นอน ส่วนสถิติเชิงพรรณนา การแจกแจง z-score และการวิเคราะห์ Outlier สนับสนุนการตัดสินใจด้วยหลักฐาน ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-probability-and-statistics-01",
+        "topic-bis602-probability-and-statistics-02",
+        "topic-bis602-probability-and-statistics-03"
+      ],
+      "technical_terms": [
+        "Expected value",
+        "Standard deviation",
+        "Z-score"
+      ],
+      "definitions": [
+        {
+          "term_en": "Expected value",
+          "term_th": "ค่าคาดหมาย",
+          "definition_en": "The probability-weighted average outcome of a random variable.",
+          "definition_th": "ค่าเฉลี่ยของผลลัพธ์ที่ถ่วงด้วยความน่าจะเป็น"
+        },
+        {
+          "term_en": "Standard deviation",
+          "term_th": "ส่วนเบี่ยงเบนมาตรฐาน",
+          "definition_en": "A measure of dispersion around the mean.",
+          "definition_th": "ตัววัดการกระจายรอบค่าเฉลี่ย"
+        },
+        {
+          "term_en": "Z-score",
+          "term_th": "คะแนนมาตรฐาน z",
+          "definition_en": "The number of standard deviations an observation lies from the mean.",
+          "definition_th": "จำนวนส่วนเบี่ยงเบนมาตรฐานที่ค่าสังเกตห่างจากค่าเฉลี่ย"
+        }
+      ],
+      "concepts": [
+        "Expected value",
+        "Standard deviation",
+        "Z-score"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Probability and business statistics.",
+        "Apply Expected value, Standard deviation, Z-score in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [
+        "E(X) = Σx·P(x)",
+        "z = (x − μ) / σ"
+      ],
+      "examples": [
+        "Apply probability and business statistics to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Expected value` from `Standard deviation` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Expected value as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Expected value, Standard deviation, Z-score.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Probability represents uncertainty; descriptive statistics, distributions, z-scores, and outlier analysis support evidence-based business decisions.",
+        "Distinguish `Expected value` from `Standard deviation` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Probability and business statistics address?",
+        "How do Expected value and Standard deviation differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 12
+    },
+    {
+      "chapter_id": "chapter-bis602-data-treatment",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Data treatment and transformation",
+      "title_th": "การจัดการและแปลงข้อมูล",
+      "concise_summary_en": "Preparation resolves missing values, invalid records, outliers, scale differences, and representation choices before analysis.",
+      "concise_summary_th": "การเตรียมข้อมูลจัดการค่าสูญหาย ระเบียนผิดปกติ Outlier ความต่างของสเกล และรูปแบบการแทนข้อมูลก่อนวิเคราะห์",
+      "detailed_explanation_th": "การเตรียมข้อมูลจัดการค่าสูญหาย ระเบียนผิดปกติ Outlier ความต่างของสเกล และรูปแบบการแทนข้อมูลก่อนวิเคราะห์ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-data-treatment-01",
+        "topic-bis602-data-treatment-02",
+        "topic-bis602-data-treatment-03"
+      ],
+      "technical_terms": [
+        "Missing-data treatment",
+        "Transformation",
+        "Binning"
+      ],
+      "definitions": [
+        {
+          "term_en": "Missing-data treatment",
+          "term_th": "การจัดการข้อมูลสูญหาย",
+          "definition_en": "Omit or impute values using a method justified by the missingness and task.",
+          "definition_th": "ตัดออกหรือเติมค่าด้วยวิธีที่เหมาะกับสาเหตุการสูญหายและงาน"
+        },
+        {
+          "term_en": "Transformation",
+          "term_th": "การแปลงข้อมูล",
+          "definition_en": "Change scale or representation to support analysis while preserving meaning.",
+          "definition_th": "เปลี่ยนสเกลหรือรูปแบบเพื่อสนับสนุนการวิเคราะห์โดยรักษาความหมาย"
+        },
+        {
+          "term_en": "Binning",
+          "term_th": "การแบ่งช่วง",
+          "definition_en": "Convert continuous values into defined intervals.",
+          "definition_th": "แปลงค่าต่อเนื่องเป็นช่วงที่กำหนด"
+        }
+      ],
+      "concepts": [
+        "Missing-data treatment",
+        "Transformation",
+        "Binning"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Data treatment and transformation.",
+        "Apply Missing-data treatment, Transformation, Binning in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply data treatment and transformation to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Missing-data treatment` from `Transformation` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Missing-data treatment as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Missing-data treatment, Transformation, Binning.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Preparation resolves missing values, invalid records, outliers, scale differences, and representation choices before analysis.",
+        "Distinguish `Missing-data treatment` from `Transformation` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Data treatment and transformation address?",
+        "How do Missing-data treatment and Transformation differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-c42f8dd03ad7"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 13
+    },
+    {
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Business intelligence and visualization",
+      "title_th": "ข่าวกรองธุรกิจและการแสดงภาพข้อมูล",
+      "concise_summary_en": "BI integrates data for reporting and multidimensional analysis; visualization selects encodings that reveal comparisons, trends, composition, and relationships without distortion.",
+      "concise_summary_th": "BI บูรณาการข้อมูลเพื่อรายงานและวิเคราะห์หลายมิติ ส่วนการแสดงภาพเลือกการเข้ารหัสที่เปิดเผยการเปรียบเทียบ แนวโน้ม องค์ประกอบ และความสัมพันธ์โดยไม่บิดเบือน",
+      "detailed_explanation_th": "BI บูรณาการข้อมูลเพื่อรายงานและวิเคราะห์หลายมิติ ส่วนการแสดงภาพเลือกการเข้ารหัสที่เปิดเผยการเปรียบเทียบ แนวโน้ม องค์ประกอบ และความสัมพันธ์โดยไม่บิดเบือน ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-bi-and-visualization-01",
+        "topic-bis602-bi-and-visualization-02",
+        "topic-bis602-bi-and-visualization-03"
+      ],
+      "technical_terms": [
+        "Business intelligence",
+        "OLAP",
+        "Visual encoding"
+      ],
+      "definitions": [
+        {
+          "term_en": "Business intelligence",
+          "term_th": "ข่าวกรองธุรกิจ",
+          "definition_en": "Processes and tools that turn integrated data into decision information.",
+          "definition_th": "กระบวนการและเครื่องมือที่เปลี่ยนข้อมูลบูรณาการเป็นสารสนเทศเพื่อการตัดสินใจ"
+        },
+        {
+          "term_en": "OLAP",
+          "term_th": "การวิเคราะห์ OLAP",
+          "definition_en": "Interactive multidimensional analysis using operations such as slice, dice, drill, and roll-up.",
+          "definition_th": "การวิเคราะห์หลายมิติแบบโต้ตอบด้วย Slice, Dice, Drill และ Roll-up"
+        },
+        {
+          "term_en": "Visual encoding",
+          "term_th": "การเข้ารหัสด้วยภาพ",
+          "definition_en": "Mapping values to position, length, color, shape, or other visual channels.",
+          "definition_th": "การแมปค่ากับตำแหน่ง ความยาว สี รูปร่าง หรือช่องทางภาพอื่น"
+        }
+      ],
+      "concepts": [
+        "Business intelligence",
+        "OLAP",
+        "Visual encoding"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Business intelligence and visualization.",
+        "Apply Business intelligence, OLAP, Visual encoding in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply business intelligence and visualization to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Business intelligence` from `OLAP` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Business intelligence as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Business intelligence, OLAP, Visual encoding.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "BI integrates data for reporting and multidimensional analysis; visualization selects encodings that reveal comparisons, trends, composition, and relationships without distortion.",
+        "Distinguish `Business intelligence` from `OLAP` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Business intelligence and visualization address?",
+        "How do Business intelligence and OLAP differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 14
+    },
+    {
+      "chapter_id": "chapter-bis602-clustering",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Clustering",
+      "title_th": "การจัดกลุ่มข้อมูล",
+      "concise_summary_en": "Clustering is unsupervised learning that groups observations by similarity; k-means iteratively assigns points to centroids and updates those centroids.",
+      "concise_summary_th": "Clustering เป็นการเรียนรู้แบบไม่มี Label เพื่อจัดกลุ่มตามความคล้าย โดย k-means จะวนกำหนดจุดให้ Centroid และปรับ Centroid ใหม่",
+      "detailed_explanation_th": "Clustering เป็นการเรียนรู้แบบไม่มี Label เพื่อจัดกลุ่มตามความคล้าย โดย k-means จะวนกำหนดจุดให้ Centroid และปรับ Centroid ใหม่ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-clustering-01",
+        "topic-bis602-clustering-02",
+        "topic-bis602-clustering-03"
+      ],
+      "technical_terms": [
+        "Unsupervised learning",
+        "K-means",
+        "Cluster validation"
+      ],
+      "definitions": [
+        {
+          "term_en": "Unsupervised learning",
+          "term_th": "การเรียนรู้แบบไม่มีผู้สอน",
+          "definition_en": "Learning structure from observations without target labels.",
+          "definition_th": "การเรียนรู้โครงสร้างจากข้อมูลโดยไม่มี Label เป้าหมาย"
+        },
+        {
+          "term_en": "K-means",
+          "term_th": "เคมีนส์",
+          "definition_en": "A centroid-based algorithm minimizing within-cluster squared distance.",
+          "definition_th": "อัลกอริทึมอิงจุดศูนย์กลางที่ลดระยะกำลังสองภายในกลุ่ม"
+        },
+        {
+          "term_en": "Cluster validation",
+          "term_th": "การตรวจสอบคุณภาพกลุ่ม",
+          "definition_en": "Assess whether groups are compact, separated, stable, and useful.",
+          "definition_th": "ประเมินว่ากลุ่มกระชับ แยกจากกัน เสถียร และใช้ประโยชน์ได้หรือไม่"
+        }
+      ],
+      "concepts": [
+        "Unsupervised learning",
+        "K-means",
+        "Cluster validation"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Clustering.",
+        "Apply Unsupervised learning, K-means, Cluster validation in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply clustering to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Unsupervised learning` from `K-means` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Unsupervised learning as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Unsupervised learning, K-means, Cluster validation.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Clustering is unsupervised learning that groups observations by similarity; k-means iteratively assigns points to centroids and updates those centroids.",
+        "Distinguish `Unsupervised learning` from `K-means` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Clustering address?",
+        "How do Unsupervised learning and K-means differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-b6f3f17069ca"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 15
+    },
+    {
+      "chapter_id": "chapter-bis602-classification",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Classification",
+      "title_th": "การจำแนกประเภท",
+      "concise_summary_en": "Classification learns labeled categories; kNN predicts from nearby observations, while a confusion matrix separates types of correct and incorrect predictions.",
+      "concise_summary_th": "Classification เรียนรู้หมวดหมู่ที่มี Label โดย kNN พยากรณ์จากข้อมูลใกล้เคียง และ Confusion Matrix แยกประเภทผลทำนายที่ถูกและผิด",
+      "detailed_explanation_th": "Classification เรียนรู้หมวดหมู่ที่มี Label โดย kNN พยากรณ์จากข้อมูลใกล้เคียง และ Confusion Matrix แยกประเภทผลทำนายที่ถูกและผิด ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-classification-01",
+        "topic-bis602-classification-02",
+        "topic-bis602-classification-03"
+      ],
+      "technical_terms": [
+        "k-nearest neighbors",
+        "Confusion matrix",
+        "Validation"
+      ],
+      "definitions": [
+        {
+          "term_en": "k-nearest neighbors",
+          "term_th": "เพื่อนบ้านใกล้ที่สุด k ตัว",
+          "definition_en": "A classifier that votes from the labels of nearby training cases.",
+          "definition_th": "ตัวจำแนกที่ลงคะแนนจาก Label ของกรณีฝึกที่อยู่ใกล้"
+        },
+        {
+          "term_en": "Confusion matrix",
+          "term_th": "เมทริกซ์ความสับสน",
+          "definition_en": "Counts predictions by actual and predicted class.",
+          "definition_th": "นับผลทำนายแยกตามคลาสจริงและคลาสที่ทำนาย"
+        },
+        {
+          "term_en": "Validation",
+          "term_th": "การตรวจสอบแบบจำลอง",
+          "definition_en": "Estimate generalization with data not used to fit the model.",
+          "definition_th": "ประเมินความสามารถกับข้อมูลที่ไม่ได้ใช้สร้างแบบจำลอง"
+        }
+      ],
+      "concepts": [
+        "k-nearest neighbors",
+        "Confusion matrix",
+        "Validation"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Classification.",
+        "Apply k-nearest neighbors, Confusion matrix, Validation in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [
+        "Accuracy = (TP + TN) / (TP + TN + FP + FN)",
+        "Precision = TP / (TP + FP)",
+        "Recall = TP / (TP + FN)"
+      ],
+      "examples": [
+        "Apply classification to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `k-nearest neighbors` from `Confusion matrix` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating k-nearest neighbors as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish k-nearest neighbors, Confusion matrix, Validation.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Classification learns labeled categories; kNN predicts from nearby observations, while a confusion matrix separates types of correct and incorrect predictions.",
+        "Distinguish `k-nearest neighbors` from `Confusion matrix` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Classification address?",
+        "How do k-nearest neighbors and Confusion matrix differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-57e236c282a1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 16
+    },
+    {
+      "chapter_id": "chapter-bis602-regression",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Regression",
+      "title_th": "การวิเคราะห์การถดถอย",
+      "concise_summary_en": "Regression estimates a numeric outcome from explanatory variables and requires interpretation of coefficients, fit, residuals, and assumptions.",
+      "concise_summary_th": "Regression ประมาณค่าผลลัพธ์เชิงตัวเลขจากตัวแปรอธิบาย และต้องตีความสัมประสิทธิ์ ความพอดี Residual และสมมติฐาน",
+      "detailed_explanation_th": "Regression ประมาณค่าผลลัพธ์เชิงตัวเลขจากตัวแปรอธิบาย และต้องตีความสัมประสิทธิ์ ความพอดี Residual และสมมติฐาน ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-regression-01",
+        "topic-bis602-regression-02",
+        "topic-bis602-regression-03"
+      ],
+      "technical_terms": [
+        "Dependent variable",
+        "Coefficient",
+        "Residual"
+      ],
+      "definitions": [
+        {
+          "term_en": "Dependent variable",
+          "term_th": "ตัวแปรตาม",
+          "definition_en": "The numeric outcome a regression model explains or predicts.",
+          "definition_th": "ผลลัพธ์เชิงตัวเลขที่แบบจำลองอธิบายหรือพยากรณ์"
+        },
+        {
+          "term_en": "Coefficient",
+          "term_th": "สัมประสิทธิ์",
+          "definition_en": "The estimated change in outcome associated with a predictor, conditional on the model.",
+          "definition_th": "การเปลี่ยนแปลงผลลัพธ์โดยประมาณที่สัมพันธ์กับตัวแปรอธิบายภายใต้แบบจำลอง"
+        },
+        {
+          "term_en": "Residual",
+          "term_th": "ค่าคลาดเคลื่อนคงเหลือ",
+          "definition_en": "Observed outcome minus the model prediction.",
+          "definition_th": "ผลลัพธ์จริงลบค่าที่แบบจำลองพยากรณ์"
+        }
+      ],
+      "concepts": [
+        "Dependent variable",
+        "Coefficient",
+        "Residual"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Regression.",
+        "Apply Dependent variable, Coefficient, Residual in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [
+        "ŷ = β₀ + β₁x₁ + … + βₚxₚ",
+        "residual = y − ŷ"
+      ],
+      "examples": [
+        "Apply regression to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Dependent variable` from `Coefficient` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Dependent variable as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Dependent variable, Coefficient, Residual.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Regression estimates a numeric outcome from explanatory variables and requires interpretation of coefficients, fit, residuals, and assumptions.",
+        "Distinguish `Dependent variable` from `Coefficient` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Regression address?",
+        "How do Dependent variable and Coefficient differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 17
+    },
+    {
+      "chapter_id": "chapter-bis602-association-and-simulation",
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "title_en": "Association analysis and simulation",
+      "title_th": "การวิเคราะห์ความสัมพันธ์และการจำลอง",
+      "concise_summary_en": "Association rules reveal co-occurrence patterns through support, confidence, and lift; simulation samples uncertain inputs to study a distribution of possible outcomes.",
+      "concise_summary_th": "กฎความสัมพันธ์เปิดเผยรูปแบบการเกิดร่วมด้วย Support, Confidence และ Lift ส่วนการจำลองสุ่ม Input ที่ไม่แน่นอนเพื่อศึกษาการแจกแจงของผลลัพธ์ที่เป็นไปได้",
+      "detailed_explanation_th": "กฎความสัมพันธ์เปิดเผยรูปแบบการเกิดร่วมด้วย Support, Confidence และ Lift ส่วนการจำลองสุ่ม Input ที่ไม่แน่นอนเพื่อศึกษาการแจกแจงของผลลัพธ์ที่เป็นไปได้ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis602-association-and-simulation-01",
+        "topic-bis602-association-and-simulation-02",
+        "topic-bis602-association-and-simulation-03"
+      ],
+      "technical_terms": [
+        "Support",
+        "Confidence",
+        "Monte Carlo simulation"
+      ],
+      "definitions": [
+        {
+          "term_en": "Support",
+          "term_th": "ค่าสนับสนุน",
+          "definition_en": "The proportion of transactions containing an itemset.",
+          "definition_th": "สัดส่วนธุรกรรมที่มีชุดรายการ"
+        },
+        {
+          "term_en": "Confidence",
+          "term_th": "ค่าความเชื่อมั่นของกฎ",
+          "definition_en": "The conditional frequency of the consequent when the antecedent occurs.",
+          "definition_th": "ความถี่แบบมีเงื่อนไขของผลตามเมื่อเหตุเกิด"
+        },
+        {
+          "term_en": "Monte Carlo simulation",
+          "term_th": "การจำลองมอนติคาร์โล",
+          "definition_en": "Repeated random sampling to approximate an outcome distribution.",
+          "definition_th": "การสุ่มซ้ำเพื่อประมาณการแจกแจงของผลลัพธ์"
+        }
+      ],
+      "concepts": [
+        "Support",
+        "Confidence",
+        "Monte Carlo simulation"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Association analysis and simulation.",
+        "Apply Support, Confidence, Monte Carlo simulation in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [
+        "support(A→B) = P(A∩B)",
+        "confidence(A→B) = P(B|A)",
+        "lift(A→B) = P(B|A) / P(B)"
+      ],
+      "examples": [
+        "Apply association analysis and simulation to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Support` from `Confidence` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Support as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Support, Confidence, Monte Carlo simulation.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Association rules reveal co-occurrence patterns through support, confidence, and lift; simulation samples uncertain inputs to study a distribution of possible outcomes.",
+        "Distinguish `Support` from `Confidence` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Association analysis and simulation address?",
+        "How do Support and Confidence differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-258f80d9b977",
+        "ref-6c7a93d5070f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 18
+    },
+    {
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "subject_id": "subject-bis605",
+      "course_code": "BIS605",
+      "title_en": "System architecture and software lifecycle",
+      "title_th": "สถาปัตยกรรมระบบและวงจรชีวิตซอฟต์แวร์",
+      "concise_summary_en": "Architecture describes components, responsibilities, and interactions; the lifecycle organizes how a team discovers, designs, builds, tests, deploys, and evolves the solution.",
+      "concise_summary_th": "สถาปัตยกรรมอธิบายองค์ประกอบ ความรับผิดชอบ และปฏิสัมพันธ์ ส่วนวงจรชีวิตจัดระเบียบการค้นหา ออกแบบ สร้าง ทดสอบ นำไปใช้ และปรับปรุงโซลูชัน",
+      "detailed_explanation_th": "สถาปัตยกรรมอธิบายองค์ประกอบ ความรับผิดชอบ และปฏิสัมพันธ์ ส่วนวงจรชีวิตจัดระเบียบการค้นหา ออกแบบ สร้าง ทดสอบ นำไปใช้ และปรับปรุงโซลูชัน ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis605-architecture-and-sdlc-01",
+        "topic-bis605-architecture-and-sdlc-02",
+        "topic-bis605-architecture-and-sdlc-03"
+      ],
+      "technical_terms": [
+        "Layered architecture",
+        "Software lifecycle",
+        "Iterative delivery"
+      ],
+      "definitions": [
+        {
+          "term_en": "Layered architecture",
+          "term_th": "สถาปัตยกรรมแบบแบ่งชั้น",
+          "definition_en": "Separates presentation, application, domain, and data responsibilities.",
+          "definition_th": "แยกความรับผิดชอบด้านการนำเสนอ แอปพลิเคชัน โดเมน และข้อมูล"
+        },
+        {
+          "term_en": "Software lifecycle",
+          "term_th": "วงจรชีวิตซอฟต์แวร์",
+          "definition_en": "Activities that govern a software product from idea through operation.",
+          "definition_th": "กิจกรรมที่กำกับผลิตภัณฑ์ซอฟต์แวร์ตั้งแต่แนวคิดถึงการปฏิบัติการ"
+        },
+        {
+          "term_en": "Iterative delivery",
+          "term_th": "การส่งมอบแบบวนรอบ",
+          "definition_en": "Build and evaluate increments to reduce uncertainty early.",
+          "definition_th": "สร้างและประเมินส่วนเพิ่มเพื่อลดความไม่แน่นอนตั้งแต่ต้น"
+        }
+      ],
+      "concepts": [
+        "Layered architecture",
+        "Software lifecycle",
+        "Iterative delivery"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of System architecture and software lifecycle.",
+        "Apply Layered architecture, Software lifecycle, Iterative delivery in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply system architecture and software lifecycle to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Layered architecture` from `Software lifecycle` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Layered architecture as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Layered architecture, Software lifecycle, Iterative delivery.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Architecture describes components, responsibilities, and interactions; the lifecycle organizes how a team discovers, designs, builds, tests, deploys, and evolves the solution.",
+        "Distinguish `Layered architecture` from `Software lifecycle` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does System architecture and software lifecycle address?",
+        "How do Layered architecture and Software lifecycle differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 19
+    },
+    {
+      "chapter_id": "chapter-bis605-software-design",
+      "subject_id": "subject-bis605",
+      "course_code": "BIS605",
+      "title_en": "Software design and requirements",
+      "title_th": "การออกแบบซอฟต์แวร์และความต้องการ",
+      "concise_summary_en": "Design transforms requirements into modular responsibilities, interfaces, data, and interaction choices while controlling coupling and change impact.",
+      "concise_summary_th": "การออกแบบแปลงความต้องการเป็นความรับผิดชอบแบบโมดูล Interface ข้อมูล และปฏิสัมพันธ์ พร้อมควบคุม Coupling และผลกระทบจากการเปลี่ยนแปลง",
+      "detailed_explanation_th": "การออกแบบแปลงความต้องการเป็นความรับผิดชอบแบบโมดูล Interface ข้อมูล และปฏิสัมพันธ์ พร้อมควบคุม Coupling และผลกระทบจากการเปลี่ยนแปลง ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis605-software-design-01",
+        "topic-bis605-software-design-02",
+        "topic-bis605-software-design-03"
+      ],
+      "technical_terms": [
+        "Modularity",
+        "Cohesion",
+        "Coupling"
+      ],
+      "definitions": [
+        {
+          "term_en": "Modularity",
+          "term_th": "ความเป็นโมดูล",
+          "definition_en": "Decompose a system into focused, replaceable units.",
+          "definition_th": "แบ่งระบบเป็นหน่วยที่มุ่งหน้าที่และเปลี่ยนแทนได้"
+        },
+        {
+          "term_en": "Cohesion",
+          "term_th": "ความยึดเหนี่ยวภายใน",
+          "definition_en": "How strongly the responsibilities inside a module belong together.",
+          "definition_th": "ระดับที่ความรับผิดชอบในโมดูลสัมพันธ์เป็นเรื่องเดียวกัน"
+        },
+        {
+          "term_en": "Coupling",
+          "term_th": "การพึ่งพาระหว่างโมดูล",
+          "definition_en": "The degree of dependency between modules.",
+          "definition_th": "ระดับการพึ่งพากันระหว่างโมดูล"
+        }
+      ],
+      "concepts": [
+        "Modularity",
+        "Cohesion",
+        "Coupling"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Software design and requirements.",
+        "Apply Modularity, Cohesion, Coupling in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply software design and requirements to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Modularity` from `Cohesion` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Modularity as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Modularity, Cohesion, Coupling.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Design transforms requirements into modular responsibilities, interfaces, data, and interaction choices while controlling coupling and change impact.",
+        "Distinguish `Modularity` from `Cohesion` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Software design and requirements address?",
+        "How do Modularity and Cohesion differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 20
+    },
+    {
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "subject_id": "subject-bis605",
+      "course_code": "BIS605",
+      "title_en": "Web and interface design principles",
+      "title_th": "หลักการออกแบบเว็บและส่วนติดต่อ",
+      "concise_summary_en": "Good interfaces align information hierarchy, consistency, feedback, error prevention, accessibility, and responsive behavior with user tasks.",
+      "concise_summary_th": "ส่วนติดต่อที่ดีจัดลำดับข้อมูล ความสอดคล้อง Feedback การป้องกันข้อผิดพลาด การเข้าถึง และ Responsive ให้ตรงกับงานผู้ใช้",
+      "detailed_explanation_th": "ส่วนติดต่อที่ดีจัดลำดับข้อมูล ความสอดคล้อง Feedback การป้องกันข้อผิดพลาด การเข้าถึง และ Responsive ให้ตรงกับงานผู้ใช้ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis605-web-and-ui-design-01",
+        "topic-bis605-web-and-ui-design-02",
+        "topic-bis605-web-and-ui-design-03"
+      ],
+      "technical_terms": [
+        "Visual hierarchy",
+        "Usability",
+        "Prototype"
+      ],
+      "definitions": [
+        {
+          "term_en": "Visual hierarchy",
+          "term_th": "ลำดับชั้นทางสายตา",
+          "definition_en": "Use size, contrast, space, and position to communicate importance.",
+          "definition_th": "ใช้ขนาด ความต่าง พื้นที่ว่าง และตำแหน่งเพื่อสื่อความสำคัญ"
+        },
+        {
+          "term_en": "Usability",
+          "term_th": "ความสามารถในการใช้งาน",
+          "definition_en": "Effectiveness, efficiency, and satisfaction for intended users.",
+          "definition_th": "ประสิทธิผล ประสิทธิภาพ และความพึงพอใจของผู้ใช้เป้าหมาย"
+        },
+        {
+          "term_en": "Prototype",
+          "term_th": "ต้นแบบ",
+          "definition_en": "A testable representation used to learn before full implementation.",
+          "definition_th": "ตัวแทนที่ทดสอบได้เพื่อเรียนรู้ก่อนพัฒนาจริงเต็มรูปแบบ"
+        }
+      ],
+      "concepts": [
+        "Visual hierarchy",
+        "Usability",
+        "Prototype"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Web and interface design principles.",
+        "Apply Visual hierarchy, Usability, Prototype in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply web and interface design principles to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Visual hierarchy` from `Usability` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Visual hierarchy as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Visual hierarchy, Usability, Prototype.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Good interfaces align information hierarchy, consistency, feedback, error prevention, accessibility, and responsive behavior with user tasks.",
+        "Distinguish `Visual hierarchy` from `Usability` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Web and interface design principles address?",
+        "How do Visual hierarchy and Usability differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-48b117d4f581",
+        "ref-3df30e359a7a"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 21
+    },
+    {
+      "chapter_id": "chapter-bis605-development-technologies",
+      "subject_id": "subject-bis605",
+      "course_code": "BIS605",
+      "title_en": "Frameworks and development technologies",
+      "title_th": "เฟรมเวิร์กและเทคโนโลยีการพัฒนา",
+      "concise_summary_en": "Development technologies package conventions, reusable components, version control, containers, and service interfaces to improve delivery consistency.",
+      "concise_summary_th": "เทคโนโลยีการพัฒนารวม Convention ส่วนประกอบใช้ซ้ำ Version Control Container และ Service Interface เพื่อเพิ่มความสม่ำเสมอในการส่งมอบ",
+      "detailed_explanation_th": "เทคโนโลยีการพัฒนารวม Convention ส่วนประกอบใช้ซ้ำ Version Control Container และ Service Interface เพื่อเพิ่มความสม่ำเสมอในการส่งมอบ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis605-development-technologies-01",
+        "topic-bis605-development-technologies-02",
+        "topic-bis605-development-technologies-03"
+      ],
+      "technical_terms": [
+        "Framework",
+        "Version control",
+        "Container"
+      ],
+      "definitions": [
+        {
+          "term_en": "Framework",
+          "term_th": "เฟรมเวิร์ก",
+          "definition_en": "A reusable structure and conventions for building applications.",
+          "definition_th": "โครงสร้างและข้อตกลงที่ใช้ซ้ำในการสร้างแอปพลิเคชัน"
+        },
+        {
+          "term_en": "Version control",
+          "term_th": "การควบคุมเวอร์ชัน",
+          "definition_en": "Track and coordinate changes to source artifacts.",
+          "definition_th": "ติดตามและประสานการเปลี่ยนแปลงของ Source"
+        },
+        {
+          "term_en": "Container",
+          "term_th": "คอนเทนเนอร์",
+          "definition_en": "A packaged runtime environment for a process and its dependencies.",
+          "definition_th": "สภาพแวดล้อม Runtime ที่บรรจุ Process และ Dependency"
+        }
+      ],
+      "concepts": [
+        "Framework",
+        "Version control",
+        "Container"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Frameworks and development technologies.",
+        "Apply Framework, Version control, Container in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply frameworks and development technologies to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Framework` from `Version control` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Framework as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Framework, Version control, Container.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Development technologies package conventions, reusable components, version control, containers, and service interfaces to improve delivery consistency.",
+        "Distinguish `Framework` from `Version control` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Frameworks and development technologies address?",
+        "How do Framework and Version control differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-cebc3781d70f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 22
+    },
+    {
+      "chapter_id": "chapter-bis605-frontend",
+      "subject_id": "subject-bis605",
+      "course_code": "BIS605",
+      "title_en": "HTML, CSS, and JavaScript",
+      "title_th": "HTML, CSS และ JavaScript",
+      "concise_summary_en": "HTML provides semantic structure, CSS controls presentation and responsive layout, and JavaScript adds behavior and state in the browser.",
+      "concise_summary_th": "HTML ให้โครงสร้างเชิงความหมาย CSS ควบคุมการนำเสนอและ Layout แบบ Responsive ส่วน JavaScript เพิ่มพฤติกรรมและ State ใน Browser",
+      "detailed_explanation_th": "HTML ให้โครงสร้างเชิงความหมาย CSS ควบคุมการนำเสนอและ Layout แบบ Responsive ส่วน JavaScript เพิ่มพฤติกรรมและ State ใน Browser ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis605-frontend-01",
+        "topic-bis605-frontend-02",
+        "topic-bis605-frontend-03"
+      ],
+      "technical_terms": [
+        "Semantic HTML",
+        "Responsive CSS",
+        "DOM event"
+      ],
+      "definitions": [
+        {
+          "term_en": "Semantic HTML",
+          "term_th": "HTML เชิงความหมาย",
+          "definition_en": "Elements communicate document structure and control meaning.",
+          "definition_th": "Element สื่อโครงสร้างเอกสารและความหมายของ Control"
+        },
+        {
+          "term_en": "Responsive CSS",
+          "term_th": "CSS แบบตอบสนอง",
+          "definition_en": "Layouts adapt to available space and user preferences.",
+          "definition_th": "Layout ปรับตามพื้นที่และค่าที่ผู้ใช้เลือก"
+        },
+        {
+          "term_en": "DOM event",
+          "term_th": "เหตุการณ์ DOM",
+          "definition_en": "A browser signal handled to produce interactive behavior.",
+          "definition_th": "สัญญาณจาก Browser ที่ถูกจัดการเพื่อสร้างปฏิสัมพันธ์"
+        }
+      ],
+      "concepts": [
+        "Semantic HTML",
+        "Responsive CSS",
+        "DOM event"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of HTML, CSS, and JavaScript.",
+        "Apply Semantic HTML, Responsive CSS, DOM event in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply html, css, and javascript to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Semantic HTML` from `Responsive CSS` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Semantic HTML as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Semantic HTML, Responsive CSS, DOM event.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "HTML provides semantic structure, CSS controls presentation and responsive layout, and JavaScript adds behavior and state in the browser.",
+        "Distinguish `Semantic HTML` from `Responsive CSS` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does HTML, CSS, and JavaScript address?",
+        "How do Semantic HTML and Responsive CSS differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-a21db17e35c0",
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 23
+    },
+    {
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "subject_id": "subject-bis605",
+      "course_code": "BIS605",
+      "title_en": "Back-end, database, API, cloud, and mobile technologies",
+      "title_th": "Back-end ฐานข้อมูล API Cloud และ Mobile",
+      "concise_summary_en": "Server-side logic validates requests and coordinates data; databases persist state; APIs define contracts; cloud and mobile technologies shape deployment and client constraints.",
+      "concise_summary_th": "ตรรกะฝั่ง Server ตรวจสอบ Request และประสานข้อมูล ฐานข้อมูลเก็บ State API กำหนด Contract ส่วน Cloud และ Mobile กำหนดข้อจำกัดการ Deploy และ Client",
+      "detailed_explanation_th": "ตรรกะฝั่ง Server ตรวจสอบ Request และประสานข้อมูล ฐานข้อมูลเก็บ State API กำหนด Contract ส่วน Cloud และ Mobile กำหนดข้อจำกัดการ Deploy และ Client ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01",
+        "topic-bis605-backend-data-api-cloud-mobile-02",
+        "topic-bis605-backend-data-api-cloud-mobile-03"
+      ],
+      "technical_terms": [
+        "Server-side validation",
+        "API contract",
+        "Cloud service model"
+      ],
+      "definitions": [
+        {
+          "term_en": "Server-side validation",
+          "term_th": "การตรวจสอบฝั่งเซิร์ฟเวอร์",
+          "definition_en": "Validate untrusted input where policy and data are controlled.",
+          "definition_th": "ตรวจ Input ที่ไม่เชื่อถือในจุดที่ควบคุมนโยบายและข้อมูล"
+        },
+        {
+          "term_en": "API contract",
+          "term_th": "สัญญา API",
+          "definition_en": "An agreed request, response, error, and behavior interface.",
+          "definition_th": "ข้อตกลงของ Request, Response, Error และพฤติกรรม"
+        },
+        {
+          "term_en": "Cloud service model",
+          "term_th": "รูปแบบบริการคลาวด์",
+          "definition_en": "A division of responsibility for infrastructure, platform, or software services.",
+          "definition_th": "การแบ่งความรับผิดชอบสำหรับบริการ Infrastructure, Platform หรือ Software"
+        }
+      ],
+      "concepts": [
+        "Server-side validation",
+        "API contract",
+        "Cloud service model"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Back-end, database, API, cloud, and mobile technologies.",
+        "Apply Server-side validation, API contract, Cloud service model in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply back-end, database, api, cloud, and mobile technologies to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Server-side validation` from `API contract` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Server-side validation as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Server-side validation, API contract, Cloud service model.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Server-side logic validates requests and coordinates data; databases persist state; APIs define contracts; cloud and mobile technologies shape deployment and client constraints.",
+        "Distinguish `Server-side validation` from `API contract` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Back-end, database, API, cloud, and mobile technologies address?",
+        "How do Server-side validation and API contract differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 24
+    },
+    {
+      "chapter_id": "chapter-bis606-communications-foundations",
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "title_en": "Network communication foundations",
+      "title_th": "พื้นฐานการสื่อสารเครือข่าย",
+      "concise_summary_en": "Network communication is organized in layers that define services, protocols, encapsulation, addressing, and physical transmission.",
+      "concise_summary_th": "การสื่อสารเครือข่ายจัดเป็นชั้นที่กำหนด Service, Protocol, Encapsulation, Addressing และการส่งสัญญาณทางกายภาพ",
+      "detailed_explanation_th": "การสื่อสารเครือข่ายจัดเป็นชั้นที่กำหนด Service, Protocol, Encapsulation, Addressing และการส่งสัญญาณทางกายภาพ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis606-communications-foundations-01",
+        "topic-bis606-communications-foundations-02",
+        "topic-bis606-communications-foundations-03"
+      ],
+      "technical_terms": [
+        "Protocol",
+        "Encapsulation",
+        "Transmission medium"
+      ],
+      "definitions": [
+        {
+          "term_en": "Protocol",
+          "term_th": "โพรโทคอล",
+          "definition_en": "Rules and message formats used by communicating entities.",
+          "definition_th": "กฎและรูปแบบข้อความที่หน่วยสื่อสารใช้ร่วมกัน"
+        },
+        {
+          "term_en": "Encapsulation",
+          "term_th": "การห่อหุ้มข้อมูล",
+          "definition_en": "Each layer adds control information around higher-layer data.",
+          "definition_th": "แต่ละชั้นเพิ่มข้อมูลควบคุมรอบข้อมูลจากชั้นบน"
+        },
+        {
+          "term_en": "Transmission medium",
+          "term_th": "สื่อส่งสัญญาณ",
+          "definition_en": "The physical path carrying electrical, optical, or radio signals.",
+          "definition_th": "เส้นทางกายภาพที่นำสัญญาณไฟฟ้า แสง หรือวิทยุ"
+        }
+      ],
+      "concepts": [
+        "Protocol",
+        "Encapsulation",
+        "Transmission medium"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Network communication foundations.",
+        "Apply Protocol, Encapsulation, Transmission medium in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply network communication foundations to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Protocol` from `Encapsulation` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Protocol as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Protocol, Encapsulation, Transmission medium.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Network communication is organized in layers that define services, protocols, encapsulation, addressing, and physical transmission.",
+        "Distinguish `Protocol` from `Encapsulation` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Network communication foundations address?",
+        "How do Protocol and Encapsulation differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-6cdcc3e69303",
+        "ref-d568e27df9b3"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 25
+    },
+    {
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "title_en": "Data link, network, and transport layers",
+      "title_th": "ชั้น Data Link, Network และ Transport",
+      "concise_summary_en": "Frames provide local delivery, IP routes packets across networks, and transport protocols provide application-to-application delivery with different reliability tradeoffs.",
+      "concise_summary_th": "Frame ส่งข้อมูลในเครือข่ายท้องถิ่น IP กำหนดเส้นทาง Packet ข้ามเครือข่าย และ Transport Protocol ส่งระหว่าง Application ด้วยข้อแลกเปลี่ยนด้านความน่าเชื่อถือ",
+      "detailed_explanation_th": "Frame ส่งข้อมูลในเครือข่ายท้องถิ่น IP กำหนดเส้นทาง Packet ข้ามเครือข่าย และ Transport Protocol ส่งระหว่าง Application ด้วยข้อแลกเปลี่ยนด้านความน่าเชื่อถือ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis606-data-link-and-tcpip-01",
+        "topic-bis606-data-link-and-tcpip-02",
+        "topic-bis606-data-link-and-tcpip-03"
+      ],
+      "technical_terms": [
+        "Frame",
+        "IP routing",
+        "TCP and UDP"
+      ],
+      "definitions": [
+        {
+          "term_en": "Frame",
+          "term_th": "เฟรม",
+          "definition_en": "A data-link protocol data unit for local-network delivery.",
+          "definition_th": "หน่วยข้อมูลของ Data Link สำหรับการส่งในเครือข่ายท้องถิ่น"
+        },
+        {
+          "term_en": "IP routing",
+          "term_th": "การกำหนดเส้นทาง IP",
+          "definition_en": "Forward packets toward destination networks using routing information.",
+          "definition_th": "ส่งต่อ Packet ไปยังเครือข่ายปลายทางด้วยข้อมูลเส้นทาง"
+        },
+        {
+          "term_en": "TCP and UDP",
+          "term_th": "TCP และ UDP",
+          "definition_en": "Transport protocols offering different connection, reliability, and overhead properties.",
+          "definition_th": "Transport Protocol ที่มีคุณสมบัติการเชื่อมต่อ ความน่าเชื่อถือ และ Overhead ต่างกัน"
+        }
+      ],
+      "concepts": [
+        "Frame",
+        "IP routing",
+        "TCP and UDP"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Data link, network, and transport layers.",
+        "Apply Frame, IP routing, TCP and UDP in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply data link, network, and transport layers to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Frame` from `IP routing` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Frame as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Frame, IP routing, TCP and UDP.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Frames provide local delivery, IP routes packets across networks, and transport protocols provide application-to-application delivery with different reliability tradeoffs.",
+        "Distinguish `Frame` from `IP routing` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Data link, network, and transport layers address?",
+        "How do Frame and IP routing differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 26
+    },
+    {
+      "chapter_id": "chapter-bis606-lan-wan-internet",
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "title_en": "LAN, backbone, WAN, Internet, and network management",
+      "title_th": "LAN, Backbone, WAN, Internet และการจัดการเครือข่าย",
+      "concise_summary_en": "LANs connect local devices, backbones aggregate segments, WANs span locations, the Internet interconnects networks, and management observes and controls service health.",
+      "concise_summary_th": "LAN เชื่อมอุปกรณ์ในพื้นที่ Backbone รวม Segment, WAN เชื่อมพื้นที่ห่างไกล, Internet เชื่อมเครือข่าย และการจัดการติดตาม/ควบคุมสุขภาพบริการ",
+      "detailed_explanation_th": "LAN เชื่อมอุปกรณ์ในพื้นที่ Backbone รวม Segment, WAN เชื่อมพื้นที่ห่างไกล, Internet เชื่อมเครือข่าย และการจัดการติดตาม/ควบคุมสุขภาพบริการ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis606-lan-wan-internet-01",
+        "topic-bis606-lan-wan-internet-02",
+        "topic-bis606-lan-wan-internet-03"
+      ],
+      "technical_terms": [
+        "LAN",
+        "WAN",
+        "Network management"
+      ],
+      "definitions": [
+        {
+          "term_en": "LAN",
+          "term_th": "เครือข่ายท้องถิ่น",
+          "definition_en": "A network serving devices within a limited area.",
+          "definition_th": "เครือข่ายที่ให้บริการอุปกรณ์ในพื้นที่จำกัด"
+        },
+        {
+          "term_en": "WAN",
+          "term_th": "เครือข่ายบริเวณกว้าง",
+          "definition_en": "A network or service connecting geographically separated sites.",
+          "definition_th": "เครือข่ายหรือบริการที่เชื่อมสถานที่ห่างกัน"
+        },
+        {
+          "term_en": "Network management",
+          "term_th": "การจัดการเครือข่าย",
+          "definition_en": "Configuration, monitoring, fault, performance, and security activities.",
+          "definition_th": "กิจกรรมด้าน Configuration, Monitoring, Fault, Performance และ Security"
+        }
+      ],
+      "concepts": [
+        "LAN",
+        "WAN",
+        "Network management"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of LAN, backbone, WAN, Internet, and network management.",
+        "Apply LAN, WAN, Network management in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply lan, backbone, wan, internet, and network management to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `LAN` from `WAN` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating LAN as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish LAN, WAN, Network management.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "LANs connect local devices, backbones aggregate segments, WANs span locations, the Internet interconnects networks, and management observes and controls service health.",
+        "Distinguish `LAN` from `WAN` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does LAN, backbone, WAN, Internet, and network management address?",
+        "How do LAN and WAN differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-40f7a71f1253",
+        "ref-3de2a3994c20",
+        "ref-24b4b54571d9",
+        "ref-c297674e8f66",
+        "ref-702a4ec030dd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 27
+    },
+    {
+      "chapter_id": "chapter-bis606-cybersecurity-foundations",
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "title_en": "Cybersecurity foundations",
+      "title_th": "พื้นฐานความมั่นคงปลอดภัยไซเบอร์",
+      "concise_summary_en": "Cybersecurity protects confidentiality, integrity, and availability by managing threats, vulnerabilities, likelihood, impact, controls, and residual risk.",
+      "concise_summary_th": "Cybersecurity คุ้มครอง Confidentiality, Integrity และ Availability ผ่านการจัดการภัยคุกคาม ช่องโหว่ โอกาส ผลกระทบ การควบคุม และความเสี่ยงคงเหลือ",
+      "detailed_explanation_th": "Cybersecurity คุ้มครอง Confidentiality, Integrity และ Availability ผ่านการจัดการภัยคุกคาม ช่องโหว่ โอกาส ผลกระทบ การควบคุม และความเสี่ยงคงเหลือ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis606-cybersecurity-foundations-01",
+        "topic-bis606-cybersecurity-foundations-02",
+        "topic-bis606-cybersecurity-foundations-03"
+      ],
+      "technical_terms": [
+        "CIA triad",
+        "Threat and vulnerability",
+        "Defense in depth"
+      ],
+      "definitions": [
+        {
+          "term_en": "CIA triad",
+          "term_th": "หลัก CIA",
+          "definition_en": "Confidentiality, integrity, and availability security objectives.",
+          "definition_th": "วัตถุประสงค์ด้านความลับ ความถูกต้องครบถ้วน และความพร้อมใช้"
+        },
+        {
+          "term_en": "Threat and vulnerability",
+          "term_th": "ภัยคุกคามและช่องโหว่",
+          "definition_en": "A threat may exploit a weakness to cause harm.",
+          "definition_th": "ภัยคุกคามอาจใช้ประโยชน์จากจุดอ่อนเพื่อก่อผลเสีย"
+        },
+        {
+          "term_en": "Defense in depth",
+          "term_th": "การป้องกันหลายชั้น",
+          "definition_en": "Layer complementary preventive, detective, and corrective controls.",
+          "definition_th": "ซ้อนการควบคุมเชิงป้องกัน ตรวจจับ และแก้ไขที่เสริมกัน"
+        }
+      ],
+      "concepts": [
+        "CIA triad",
+        "Threat and vulnerability",
+        "Defense in depth"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Cybersecurity foundations.",
+        "Apply CIA triad, Threat and vulnerability, Defense in depth in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply cybersecurity foundations to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `CIA triad` from `Threat and vulnerability` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating CIA triad as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish CIA triad, Threat and vulnerability, Defense in depth.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Cybersecurity protects confidentiality, integrity, and availability by managing threats, vulnerabilities, likelihood, impact, controls, and residual risk.",
+        "Distinguish `CIA triad` from `Threat and vulnerability` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Cybersecurity foundations address?",
+        "How do CIA triad and Threat and vulnerability differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-fce1a389b139"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 28
+    },
+    {
+      "chapter_id": "chapter-bis606-continuity-and-risk",
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "title_en": "Business continuity and risk management",
+      "title_th": "ความต่อเนื่องทางธุรกิจและการจัดการความเสี่ยง",
+      "concise_summary_en": "Risk management prioritizes treatment using likelihood and impact; continuity planning prepares people, processes, sites, data, and technology to sustain or restore critical services.",
+      "concise_summary_th": "การจัดการความเสี่ยงจัดลำดับการตอบสนองด้วยโอกาสและผลกระทบ ส่วนแผนความต่อเนื่องเตรียมคน กระบวนการ สถานที่ ข้อมูล และเทคโนโลยีเพื่อคงหรือกู้บริการสำคัญ",
+      "detailed_explanation_th": "การจัดการความเสี่ยงจัดลำดับการตอบสนองด้วยโอกาสและผลกระทบ ส่วนแผนความต่อเนื่องเตรียมคน กระบวนการ สถานที่ ข้อมูล และเทคโนโลยีเพื่อคงหรือกู้บริการสำคัญ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis606-continuity-and-risk-01",
+        "topic-bis606-continuity-and-risk-02",
+        "topic-bis606-continuity-and-risk-03"
+      ],
+      "technical_terms": [
+        "Business impact analysis",
+        "RTO",
+        "Risk treatment"
+      ],
+      "definitions": [
+        {
+          "term_en": "Business impact analysis",
+          "term_th": "การวิเคราะห์ผลกระทบทางธุรกิจ",
+          "definition_en": "Identify critical activities, dependencies, impacts, and recovery priorities.",
+          "definition_th": "ระบุกิจกรรมสำคัญ การพึ่งพา ผลกระทบ และลำดับการกู้คืน"
+        },
+        {
+          "term_en": "RTO",
+          "term_th": "เป้าหมายเวลาการกู้คืน",
+          "definition_en": "Maximum targeted time to restore a service after disruption.",
+          "definition_th": "เวลาสูงสุดเป้าหมายในการกู้บริการหลังหยุดชะงัก"
+        },
+        {
+          "term_en": "Risk treatment",
+          "term_th": "การจัดการความเสี่ยง",
+          "definition_en": "Avoid, reduce, transfer/share, or accept risk with accountability.",
+          "definition_th": "หลีกเลี่ยง ลด โอน/แบ่งปัน หรือยอมรับความเสี่ยงอย่างมีผู้รับผิดชอบ"
+        }
+      ],
+      "concepts": [
+        "Business impact analysis",
+        "RTO",
+        "Risk treatment"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Business continuity and risk management.",
+        "Apply Business impact analysis, RTO, Risk treatment in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply business continuity and risk management to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Business impact analysis` from `RTO` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Business impact analysis as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Business impact analysis, RTO, Risk treatment.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Risk management prioritizes treatment using likelihood and impact; continuity planning prepares people, processes, sites, data, and technology to sustain or restore critical services.",
+        "Distinguish `Business impact analysis` from `RTO` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Business continuity and risk management address?",
+        "How do Business impact analysis and RTO differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-47bba284bfe3",
+        "ref-21d50dd40ada"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 29
+    },
+    {
+      "chapter_id": "chapter-bis606-infrastructure-security",
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "title_en": "Network, server, and system security",
+      "title_th": "ความมั่นคงปลอดภัยเครือข่าย เซิร์ฟเวอร์ และระบบ",
+      "concise_summary_en": "Infrastructure security combines segmentation, secure protocols, filtering, hardening, patching, identity, logging, endpoint controls, and monitoring.",
+      "concise_summary_th": "ความมั่นคงปลอดภัยโครงสร้างพื้นฐานผสาน Segmentation, Secure Protocol, Filtering, Hardening, Patching, Identity, Logging, Endpoint Control และ Monitoring",
+      "detailed_explanation_th": "ความมั่นคงปลอดภัยโครงสร้างพื้นฐานผสาน Segmentation, Secure Protocol, Filtering, Hardening, Patching, Identity, Logging, Endpoint Control และ Monitoring ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis606-infrastructure-security-01",
+        "topic-bis606-infrastructure-security-02",
+        "topic-bis606-infrastructure-security-03"
+      ],
+      "technical_terms": [
+        "Network segmentation",
+        "System hardening",
+        "Security monitoring"
+      ],
+      "definitions": [
+        {
+          "term_en": "Network segmentation",
+          "term_th": "การแบ่งส่วนเครือข่าย",
+          "definition_en": "Limit trust and traffic pathways between security zones.",
+          "definition_th": "จำกัดความไว้วางใจและเส้นทาง Traffic ระหว่างเขตความมั่นคง"
+        },
+        {
+          "term_en": "System hardening",
+          "term_th": "การเสริมความแข็งแกร่งระบบ",
+          "definition_en": "Reduce attack surface through secure configuration and removal of unnecessary services.",
+          "definition_th": "ลดพื้นที่โจมตีด้วย Configuration ที่ปลอดภัยและตัด Service ที่ไม่จำเป็น"
+        },
+        {
+          "term_en": "Security monitoring",
+          "term_th": "การเฝ้าระวังความมั่นคงปลอดภัย",
+          "definition_en": "Collect and analyze events to detect and respond to abnormal behavior.",
+          "definition_th": "รวบรวมและวิเคราะห์ Event เพื่อตรวจจับและตอบสนองพฤติกรรมผิดปกติ"
+        }
+      ],
+      "concepts": [
+        "Network segmentation",
+        "System hardening",
+        "Security monitoring"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Network, server, and system security.",
+        "Apply Network segmentation, System hardening, Security monitoring in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply network, server, and system security to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Network segmentation` from `System hardening` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Network segmentation as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Network segmentation, System hardening, Security monitoring.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Infrastructure security combines segmentation, secure protocols, filtering, hardening, patching, identity, logging, endpoint controls, and monitoring.",
+        "Distinguish `Network segmentation` from `System hardening` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Network, server, and system security address?",
+        "How do Network segmentation and System hardening differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-167835356c1e",
+        "ref-9a7e704561b4",
+        "ref-d71e0fac4451"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 30
+    },
+    {
+      "chapter_id": "chapter-bis606-security-frameworks",
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "title_en": "ISO 27001 and CIS controls",
+      "title_th": "ISO 27001 และ CIS Controls",
+      "concise_summary_en": "Security frameworks turn risk decisions into governance, policies, control objectives, implementation evidence, measurement, audit, and continual improvement.",
+      "concise_summary_th": "กรอบความมั่นคงปลอดภัยแปลงการตัดสินใจด้านความเสี่ยงเป็นธรรมาภิบาล นโยบาย วัตถุประสงค์การควบคุม หลักฐานการดำเนินงาน การวัด Audit และการปรับปรุงต่อเนื่อง",
+      "detailed_explanation_th": "กรอบความมั่นคงปลอดภัยแปลงการตัดสินใจด้านความเสี่ยงเป็นธรรมาภิบาล นโยบาย วัตถุประสงค์การควบคุม หลักฐานการดำเนินงาน การวัด Audit และการปรับปรุงต่อเนื่อง ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis606-security-frameworks-01",
+        "topic-bis606-security-frameworks-02",
+        "topic-bis606-security-frameworks-03"
+      ],
+      "technical_terms": [
+        "ISMS",
+        "Statement of Applicability",
+        "CIS Controls"
+      ],
+      "definitions": [
+        {
+          "term_en": "ISMS",
+          "term_th": "ระบบบริหารความมั่นคงปลอดภัยสารสนเทศ",
+          "definition_en": "A managed system of scope, policies, risk treatment, controls, evidence, and improvement.",
+          "definition_th": "ระบบบริหารที่มีขอบเขต นโยบาย การจัดการความเสี่ยง การควบคุม หลักฐาน และการปรับปรุง"
+        },
+        {
+          "term_en": "Statement of Applicability",
+          "term_th": "เอกสารแสดงการประยุกต์ใช้การควบคุม",
+          "definition_en": "Records selected controls and justification for inclusion or exclusion.",
+          "definition_th": "บันทึกการควบคุมที่เลือกและเหตุผลที่รวมหรือไม่รวม"
+        },
+        {
+          "term_en": "CIS Controls",
+          "term_th": "การควบคุม CIS",
+          "definition_en": "Prioritized safeguards for common cyber risks.",
+          "definition_th": "มาตรการป้องกันที่จัดลำดับสำหรับความเสี่ยงไซเบอร์ทั่วไป"
+        }
+      ],
+      "concepts": [
+        "ISMS",
+        "Statement of Applicability",
+        "CIS Controls"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of ISO 27001 and CIS controls.",
+        "Apply ISMS, Statement of Applicability, CIS Controls in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply iso 27001 and cis controls to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `ISMS` from `Statement of Applicability` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating ISMS as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish ISMS, Statement of Applicability, CIS Controls.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Security frameworks turn risk decisions into governance, policies, control objectives, implementation evidence, measurement, audit, and continual improvement.",
+        "Distinguish `ISMS` from `Statement of Applicability` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does ISO 27001 and CIS controls address?",
+        "How do ISMS and Statement of Applicability differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-a00b8a30917b"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 31
+    },
+    {
+      "chapter_id": "chapter-bis603-strategy-foundations",
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "title_en": "Strategy foundations and foresight",
+      "title_th": "พื้นฐานกลยุทธ์และการมองอนาคต",
+      "concise_summary_en": "Strategy links a diagnosis of conditions, guiding choices, and coordinated actions; digital strategy connects business goals to changing technologies and capabilities.",
+      "concise_summary_th": "กลยุทธ์เชื่อมการวินิจฉัยเงื่อนไข ทางเลือกนำทาง และการกระทำที่ประสานกัน ส่วนกลยุทธ์ดิจิทัลเชื่อมเป้าหมายธุรกิจกับเทคโนโลยีและความสามารถที่เปลี่ยนแปลง",
+      "detailed_explanation_th": "กลยุทธ์เชื่อมการวินิจฉัยเงื่อนไข ทางเลือกนำทาง และการกระทำที่ประสานกัน ส่วนกลยุทธ์ดิจิทัลเชื่อมเป้าหมายธุรกิจกับเทคโนโลยีและความสามารถที่เปลี่ยนแปลง ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis603-strategy-foundations-01",
+        "topic-bis603-strategy-foundations-02",
+        "topic-bis603-strategy-foundations-03"
+      ],
+      "technical_terms": [
+        "Strategy",
+        "Strategic foresight",
+        "Digital capability"
+      ],
+      "definitions": [
+        {
+          "term_en": "Strategy",
+          "term_th": "กลยุทธ์",
+          "definition_en": "An integrated set of choices about where and how to create advantage.",
+          "definition_th": "ชุดทางเลือกที่บูรณาการว่าจะสร้างความได้เปรียบที่ใดและอย่างไร"
+        },
+        {
+          "term_en": "Strategic foresight",
+          "term_th": "การมองอนาคตเชิงกลยุทธ์",
+          "definition_en": "Explore plausible futures to improve present choices.",
+          "definition_th": "สำรวจอนาคตที่เป็นไปได้เพื่อปรับปรุงการเลือกในปัจจุบัน"
+        },
+        {
+          "term_en": "Digital capability",
+          "term_th": "ความสามารถดิจิทัล",
+          "definition_en": "Organizational ability to use technology, data, people, and process toward strategy.",
+          "definition_th": "ความสามารถองค์กรในการใช้เทคโนโลยี ข้อมูล คน และกระบวนการตามกลยุทธ์"
+        }
+      ],
+      "concepts": [
+        "Strategy",
+        "Strategic foresight",
+        "Digital capability"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Strategy foundations and foresight.",
+        "Apply Strategy, Strategic foresight, Digital capability in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply strategy foundations and foresight to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Strategy` from `Strategic foresight` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Strategy as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Strategy, Strategic foresight, Digital capability.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Strategy links a diagnosis of conditions, guiding choices, and coordinated actions; digital strategy connects business goals to changing technologies and capabilities.",
+        "Distinguish `Strategy` from `Strategic foresight` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Strategy foundations and foresight address?",
+        "How do Strategy and Strategic foresight differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-bf1b2241e57c"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 32
+    },
+    {
+      "chapter_id": "chapter-bis603-external-analysis",
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "title_en": "External strategic analysis",
+      "title_th": "การวิเคราะห์กลยุทธ์ภายนอก",
+      "concise_summary_en": "External analysis examines macro forces, industry structure, stakeholders, competitors, opportunities, threats, and uncertainty outside the firm.",
+      "concise_summary_th": "การวิเคราะห์ภายนอกพิจารณาแรงระดับมหภาค โครงสร้างอุตสาหกรรม ผู้มีส่วนได้ส่วนเสีย คู่แข่ง โอกาส ภัยคุกคาม และความไม่แน่นอนภายนอกองค์กร",
+      "detailed_explanation_th": "การวิเคราะห์ภายนอกพิจารณาแรงระดับมหภาค โครงสร้างอุตสาหกรรม ผู้มีส่วนได้ส่วนเสีย คู่แข่ง โอกาส ภัยคุกคาม และความไม่แน่นอนภายนอกองค์กร ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis603-external-analysis-01",
+        "topic-bis603-external-analysis-02",
+        "topic-bis603-external-analysis-03"
+      ],
+      "technical_terms": [
+        "PESTEL",
+        "Industry analysis",
+        "Opportunity and threat"
+      ],
+      "definitions": [
+        {
+          "term_en": "PESTEL",
+          "term_th": "PESTEL",
+          "definition_en": "A scan of political, economic, social, technological, environmental, and legal forces.",
+          "definition_th": "การสำรวจแรงด้านการเมือง เศรษฐกิจ สังคม เทคโนโลยี สิ่งแวดล้อม และกฎหมาย"
+        },
+        {
+          "term_en": "Industry analysis",
+          "term_th": "การวิเคราะห์อุตสาหกรรม",
+          "definition_en": "Assess structure, competitive pressure, and profit potential.",
+          "definition_th": "ประเมินโครงสร้าง แรงแข่งขัน และศักยภาพกำไร"
+        },
+        {
+          "term_en": "Opportunity and threat",
+          "term_th": "โอกาสและภัยคุกคาม",
+          "definition_en": "External conditions that may help or hinder strategic objectives.",
+          "definition_th": "เงื่อนไขภายนอกที่อาจสนับสนุนหรือขัดขวางวัตถุประสงค์"
+        }
+      ],
+      "concepts": [
+        "PESTEL",
+        "Industry analysis",
+        "Opportunity and threat"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of External strategic analysis.",
+        "Apply PESTEL, Industry analysis, Opportunity and threat in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply external strategic analysis to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `PESTEL` from `Industry analysis` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating PESTEL as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish PESTEL, Industry analysis, Opportunity and threat.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "External analysis examines macro forces, industry structure, stakeholders, competitors, opportunities, threats, and uncertainty outside the firm.",
+        "Distinguish `PESTEL` from `Industry analysis` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does External strategic analysis address?",
+        "How do PESTEL and Industry analysis differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-bf3b0a5330cb"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 33
+    },
+    {
+      "chapter_id": "chapter-bis603-internal-analysis",
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "title_en": "Internal strategic analysis",
+      "title_th": "การวิเคราะห์กลยุทธ์ภายใน",
+      "concise_summary_en": "Internal analysis evaluates resources, capabilities, processes, culture, cost drivers, and distinctive strengths that can support advantage.",
+      "concise_summary_th": "การวิเคราะห์ภายในประเมินทรัพยากร ความสามารถ กระบวนการ วัฒนธรรม ตัวขับต้นทุน และจุดแข็งที่แตกต่างซึ่งสนับสนุนความได้เปรียบ",
+      "detailed_explanation_th": "การวิเคราะห์ภายในประเมินทรัพยากร ความสามารถ กระบวนการ วัฒนธรรม ตัวขับต้นทุน และจุดแข็งที่แตกต่างซึ่งสนับสนุนความได้เปรียบ ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis603-internal-analysis-01",
+        "topic-bis603-internal-analysis-02",
+        "topic-bis603-internal-analysis-03"
+      ],
+      "technical_terms": [
+        "Resource",
+        "Capability",
+        "VRIO"
+      ],
+      "definitions": [
+        {
+          "term_en": "Resource",
+          "term_th": "ทรัพยากร",
+          "definition_en": "An asset available to the organization.",
+          "definition_th": "สินทรัพย์ที่องค์กรนำมาใช้ได้"
+        },
+        {
+          "term_en": "Capability",
+          "term_th": "ความสามารถองค์กร",
+          "definition_en": "A repeatable ability to coordinate resources and perform activities.",
+          "definition_th": "ความสามารถทำซ้ำในการประสานทรัพยากรและดำเนินกิจกรรม"
+        },
+        {
+          "term_en": "VRIO",
+          "term_th": "กรอบ VRIO",
+          "definition_en": "Tests whether resources are valuable, rare, hard to imitate, and organizationally supported.",
+          "definition_th": "ทดสอบว่าทรัพยากรมีคุณค่า หายาก เลียนแบบยาก และองค์กรรองรับหรือไม่"
+        }
+      ],
+      "concepts": [
+        "Resource",
+        "Capability",
+        "VRIO"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Internal strategic analysis.",
+        "Apply Resource, Capability, VRIO in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply internal strategic analysis to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Resource` from `Capability` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Resource as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Resource, Capability, VRIO.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Internal analysis evaluates resources, capabilities, processes, culture, cost drivers, and distinctive strengths that can support advantage.",
+        "Distinguish `Resource` from `Capability` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Internal strategic analysis address?",
+        "How do Resource and Capability differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-feddaee048e5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 34
+    },
+    {
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "title_en": "Strategy formulation and alignment",
+      "title_th": "การกำหนดและทำให้กลยุทธ์สอดคล้อง",
+      "concise_summary_en": "Formulation converts analysis into objectives, strategic alternatives, tradeoffs, a coherent choice, implementation priorities, and measures.",
+      "concise_summary_th": "การกำหนดกลยุทธ์แปลงผลวิเคราะห์เป็นวัตถุประสงค์ ทางเลือก ข้อแลกเปลี่ยน ทางเลือกที่สอดคล้อง ลำดับการนำไปใช้ และตัววัด",
+      "detailed_explanation_th": "การกำหนดกลยุทธ์แปลงผลวิเคราะห์เป็นวัตถุประสงค์ ทางเลือก ข้อแลกเปลี่ยน ทางเลือกที่สอดคล้อง ลำดับการนำไปใช้ และตัววัด ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis603-strategy-formulation-01",
+        "topic-bis603-strategy-formulation-02",
+        "topic-bis603-strategy-formulation-03"
+      ],
+      "technical_terms": [
+        "Strategic alternative",
+        "Tradeoff",
+        "Strategic alignment"
+      ],
+      "definitions": [
+        {
+          "term_en": "Strategic alternative",
+          "term_th": "ทางเลือกเชิงกลยุทธ์",
+          "definition_en": "A distinct route for achieving objectives.",
+          "definition_th": "แนวทางที่แตกต่างเพื่อบรรลุวัตถุประสงค์"
+        },
+        {
+          "term_en": "Tradeoff",
+          "term_th": "ข้อแลกเปลี่ยน",
+          "definition_en": "Choosing one position or allocation limits another.",
+          "definition_th": "การเลือกตำแหน่งหรือการจัดสรรหนึ่งย่อมจำกัดอีกทาง"
+        },
+        {
+          "term_en": "Strategic alignment",
+          "term_th": "ความสอดคล้องเชิงกลยุทธ์",
+          "definition_en": "Objectives, capabilities, initiatives, and measures reinforce one another.",
+          "definition_th": "วัตถุประสงค์ ความสามารถ โครงการ และตัววัดสนับสนุนกัน"
+        }
+      ],
+      "concepts": [
+        "Strategic alternative",
+        "Tradeoff",
+        "Strategic alignment"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Strategy formulation and alignment.",
+        "Apply Strategic alternative, Tradeoff, Strategic alignment in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply strategy formulation and alignment to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Strategic alternative` from `Tradeoff` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Strategic alternative as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Strategic alternative, Tradeoff, Strategic alignment.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Formulation converts analysis into objectives, strategic alternatives, tradeoffs, a coherent choice, implementation priorities, and measures.",
+        "Distinguish `Strategic alternative` from `Tradeoff` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Strategy formulation and alignment address?",
+        "How do Strategic alternative and Tradeoff differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 35
+    },
+    {
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "title_en": "Marketing foundations and planning",
+      "title_th": "พื้นฐานและการวางแผนการตลาด",
+      "concise_summary_en": "Marketing identifies and serves selected customer needs through segmentation, targeting, positioning, coordinated value choices, situation analysis, and planned execution.",
+      "concise_summary_th": "การตลาดระบุและตอบสนองความต้องการลูกค้าเป้าหมายผ่าน Segmentation, Targeting, Positioning การกำหนดคุณค่า การวิเคราะห์สถานการณ์ และการดำเนินงานตามแผน",
+      "detailed_explanation_th": "การตลาดระบุและตอบสนองความต้องการลูกค้าเป้าหมายผ่าน Segmentation, Targeting, Positioning การกำหนดคุณค่า การวิเคราะห์สถานการณ์ และการดำเนินงานตามแผน ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis603-marketing-foundations-01",
+        "topic-bis603-marketing-foundations-02",
+        "topic-bis603-marketing-foundations-03"
+      ],
+      "technical_terms": [
+        "STP",
+        "Marketing mix",
+        "SOSTAC"
+      ],
+      "definitions": [
+        {
+          "term_en": "STP",
+          "term_th": "STP",
+          "definition_en": "Segment the market, select targets, and position a value proposition.",
+          "definition_th": "แบ่งส่วนตลาด เลือกตลาดเป้าหมาย และวางตำแหน่งคุณค่า"
+        },
+        {
+          "term_en": "Marketing mix",
+          "term_th": "ส่วนประสมการตลาด",
+          "definition_en": "Coordinated product, price, place, and promotion choices.",
+          "definition_th": "ทางเลือกผลิตภัณฑ์ ราคา ช่องทาง และการส่งเสริมที่ประสานกัน"
+        },
+        {
+          "term_en": "SOSTAC",
+          "term_th": "กรอบ SOSTAC",
+          "definition_en": "Situation, objectives, strategy, tactics, action, and control planning.",
+          "definition_th": "การวางแผน Situation, Objectives, Strategy, Tactics, Action และ Control"
+        }
+      ],
+      "concepts": [
+        "STP",
+        "Marketing mix",
+        "SOSTAC"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Marketing foundations and planning.",
+        "Apply STP, Marketing mix, SOSTAC in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply marketing foundations and planning to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `STP` from `Marketing mix` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating STP as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish STP, Marketing mix, SOSTAC.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Marketing identifies and serves selected customer needs through segmentation, targeting, positioning, coordinated value choices, situation analysis, and planned execution.",
+        "Distinguish `STP` from `Marketing mix` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Marketing foundations and planning address?",
+        "How do STP and Marketing mix differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 36
+    },
+    {
+      "chapter_id": "chapter-bis603-digital-marketing-data-ai",
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "title_en": "Digital marketing, customer data, and AI",
+      "title_th": "การตลาดดิจิทัล ข้อมูลลูกค้า และ AI",
+      "concise_summary_en": "Digital marketing coordinates paid, owned, and earned channels with measurable journeys; customer data and AI can improve targeting and decisions but introduce privacy, bias, and governance risks.",
+      "concise_summary_th": "การตลาดดิจิทัลประสานช่องทาง Paid, Owned และ Earned กับ Customer Journey ที่วัดได้ ข้อมูลลูกค้าและ AI ช่วย Targeting/Decision แต่เพิ่มความเสี่ยงด้านความเป็นส่วนตัว Bias และ Governance",
+      "detailed_explanation_th": "การตลาดดิจิทัลประสานช่องทาง Paid, Owned และ Earned กับ Customer Journey ที่วัดได้ ข้อมูลลูกค้าและ AI ช่วย Targeting/Decision แต่เพิ่มความเสี่ยงด้านความเป็นส่วนตัว Bias และ Governance ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis603-digital-marketing-data-ai-01",
+        "topic-bis603-digital-marketing-data-ai-02",
+        "topic-bis603-digital-marketing-data-ai-03"
+      ],
+      "technical_terms": [
+        "Customer journey",
+        "Marketing attribution",
+        "Responsible marketing data"
+      ],
+      "definitions": [
+        {
+          "term_en": "Customer journey",
+          "term_th": "เส้นทางลูกค้า",
+          "definition_en": "Stages and touchpoints through which a customer becomes aware, considers, converts, and remains.",
+          "definition_th": "ขั้นและ Touchpoint ที่ลูกค้ารับรู้ พิจารณา ซื้อ และคงอยู่"
+        },
+        {
+          "term_en": "Marketing attribution",
+          "term_th": "การระบุผลของช่องทางการตลาด",
+          "definition_en": "Assign credit for outcomes across marketing interactions.",
+          "definition_th": "กำหนดสัดส่วนผลลัพธ์ให้ปฏิสัมพันธ์ทางการตลาด"
+        },
+        {
+          "term_en": "Responsible marketing data",
+          "term_th": "การใช้ข้อมูลการตลาดอย่างรับผิดชอบ",
+          "definition_en": "Use data with purpose limitation, transparency, fairness, security, and accountability.",
+          "definition_th": "ใช้ข้อมูลโดยจำกัดวัตถุประสงค์ โปร่งใส เป็นธรรม ปลอดภัย และรับผิดชอบ"
+        }
+      ],
+      "concepts": [
+        "Customer journey",
+        "Marketing attribution",
+        "Responsible marketing data"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Digital marketing, customer data, and AI.",
+        "Apply Customer journey, Marketing attribution, Responsible marketing data in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply digital marketing, customer data, and ai to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Customer journey` from `Marketing attribution` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Customer journey as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Customer journey, Marketing attribution, Responsible marketing data.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Digital marketing coordinates paid, owned, and earned channels with measurable journeys; customer data and AI can improve targeting and decisions but introduce privacy, bias, and governance risks.",
+        "Distinguish `Customer journey` from `Marketing attribution` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Digital marketing, customer data, and AI address?",
+        "How do Customer journey and Marketing attribution differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-68183f8364be",
+        "ref-b8fc1abdab20",
+        "ref-f55706a5f2b5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 37
+    },
+    {
+      "chapter_id": "chapter-bis603-financial-strategy",
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "title_en": "Financial strategy for entrepreneurs",
+      "title_th": "กลยุทธ์การเงินสำหรับผู้ประกอบการ",
+      "concise_summary_en": "Financial strategy connects business models and growth plans to revenue logic, cost structure, cash needs, funding choices, risk, and investor expectations.",
+      "concise_summary_th": "กลยุทธ์การเงินเชื่อมโมเดลธุรกิจและแผนเติบโตกับตรรกะรายได้ โครงสร้างต้นทุน เงินสดที่ต้องใช้ ทางเลือกเงินทุน ความเสี่ยง และความคาดหวังนักลงทุน",
+      "detailed_explanation_th": "กลยุทธ์การเงินเชื่อมโมเดลธุรกิจและแผนเติบโตกับตรรกะรายได้ โครงสร้างต้นทุน เงินสดที่ต้องใช้ ทางเลือกเงินทุน ความเสี่ยง และความคาดหวังนักลงทุน ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis603-financial-strategy-01",
+        "topic-bis603-financial-strategy-02",
+        "topic-bis603-financial-strategy-03"
+      ],
+      "technical_terms": [
+        "Unit economics",
+        "Cash runway",
+        "Funding choice"
+      ],
+      "definitions": [
+        {
+          "term_en": "Unit economics",
+          "term_th": "เศรษฐศาสตร์ต่อหน่วย",
+          "definition_en": "Revenue and variable cost relationships for one customer, order, or unit.",
+          "definition_th": "ความสัมพันธ์รายได้และต้นทุนผันแปรต่อหนึ่งลูกค้า คำสั่งซื้อ หรือหน่วย"
+        },
+        {
+          "term_en": "Cash runway",
+          "term_th": "ระยะเวลาที่เงินสดรองรับ",
+          "definition_en": "How long available cash can fund operations at the current burn rate.",
+          "definition_th": "ระยะเวลาที่เงินสดรองรับการดำเนินงานตามอัตราการใช้เงินปัจจุบัน"
+        },
+        {
+          "term_en": "Funding choice",
+          "term_th": "ทางเลือกแหล่งเงินทุน",
+          "definition_en": "Select equity, debt, internal cash, or alternatives with control and risk tradeoffs.",
+          "definition_th": "เลือกทุน หนี้ เงินภายใน หรือทางเลือกอื่นโดยพิจารณาการควบคุมและความเสี่ยง"
+        }
+      ],
+      "concepts": [
+        "Unit economics",
+        "Cash runway",
+        "Funding choice"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Financial strategy for entrepreneurs.",
+        "Apply Unit economics, Cash runway, Funding choice in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply financial strategy for entrepreneurs to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Unit economics` from `Cash runway` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Unit economics as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Unit economics, Cash runway, Funding choice.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Financial strategy connects business models and growth plans to revenue logic, cost structure, cash needs, funding choices, risk, and investor expectations.",
+        "Distinguish `Unit economics` from `Cash runway` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Financial strategy for entrepreneurs address?",
+        "How do Unit economics and Cash runway differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-7f1a793312b7"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 38
+    },
+    {
+      "chapter_id": "chapter-bis604-database-foundations",
+      "subject_id": "subject-bis604",
+      "course_code": "BIS604",
+      "title_en": "Database and data-management foundations",
+      "title_th": "พื้นฐานฐานข้อมูลและการจัดการข้อมูล",
+      "concise_summary_en": "Database management replaces isolated files with shared, controlled data, metadata, integrity rules, security, and concurrent access managed through a DBMS.",
+      "concise_summary_th": "การจัดการฐานข้อมูลแทนไฟล์แยกส่วนด้วยข้อมูลร่วมที่ควบคุมได้ Metadata กฎความถูกต้อง Security และการเข้าถึงพร้อมกันผ่าน DBMS",
+      "detailed_explanation_th": "การจัดการฐานข้อมูลแทนไฟล์แยกส่วนด้วยข้อมูลร่วมที่ควบคุมได้ Metadata กฎความถูกต้อง Security และการเข้าถึงพร้อมกันผ่าน DBMS ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis604-database-foundations-01",
+        "topic-bis604-database-foundations-02",
+        "topic-bis604-database-foundations-03"
+      ],
+      "technical_terms": [
+        "Database",
+        "DBMS",
+        "Metadata"
+      ],
+      "definitions": [
+        {
+          "term_en": "Database",
+          "term_th": "ฐานข้อมูล",
+          "definition_en": "An organized, integrated collection of related data.",
+          "definition_th": "ชุดข้อมูลที่เกี่ยวข้องซึ่งจัดระเบียบและบูรณาการ"
+        },
+        {
+          "term_en": "DBMS",
+          "term_th": "ระบบจัดการฐานข้อมูล",
+          "definition_en": "Software that defines, stores, queries, protects, and controls a database.",
+          "definition_th": "ซอฟต์แวร์ที่กำหนด จัดเก็บ สืบค้น ปกป้อง และควบคุมฐานข้อมูล"
+        },
+        {
+          "term_en": "Metadata",
+          "term_th": "เมทาดาทา",
+          "definition_en": "Data describing structures, meaning, constraints, and lineage of other data.",
+          "definition_th": "ข้อมูลที่อธิบายโครงสร้าง ความหมาย ข้อจำกัด และที่มาของข้อมูลอื่น"
+        }
+      ],
+      "concepts": [
+        "Database",
+        "DBMS",
+        "Metadata"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Database and data-management foundations.",
+        "Apply Database, DBMS, Metadata in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply database and data-management foundations to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Database` from `DBMS` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Database as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Database, DBMS, Metadata.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Database management replaces isolated files with shared, controlled data, metadata, integrity rules, security, and concurrent access managed through a DBMS.",
+        "Distinguish `Database` from `DBMS` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Database and data-management foundations address?",
+        "How do Database and DBMS differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 39
+    },
+    {
+      "chapter_id": "chapter-bis604-data-models",
+      "subject_id": "subject-bis604",
+      "course_code": "BIS604",
+      "title_en": "Data models",
+      "title_th": "แบบจำลองข้อมูล",
+      "concise_summary_en": "A data model provides concepts and rules for describing entities, relationships, constraints, and operations at conceptual, logical, and physical levels.",
+      "concise_summary_th": "แบบจำลองข้อมูลให้แนวคิดและกฎเพื่ออธิบาย Entity, Relationship, Constraint และ Operation ในระดับ Conceptual, Logical และ Physical",
+      "detailed_explanation_th": "แบบจำลองข้อมูลให้แนวคิดและกฎเพื่ออธิบาย Entity, Relationship, Constraint และ Operation ในระดับ Conceptual, Logical และ Physical ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis604-data-models-01",
+        "topic-bis604-data-models-02",
+        "topic-bis604-data-models-03"
+      ],
+      "technical_terms": [
+        "Conceptual model",
+        "Logical model",
+        "Physical model"
+      ],
+      "definitions": [
+        {
+          "term_en": "Conceptual model",
+          "term_th": "แบบจำลองเชิงแนวคิด",
+          "definition_en": "A technology-independent business view of data and relationships.",
+          "definition_th": "มุมมองข้อมูลและความสัมพันธ์ทางธุรกิจที่ไม่ผูกเทคโนโลยี"
+        },
+        {
+          "term_en": "Logical model",
+          "term_th": "แบบจำลองเชิงตรรกะ",
+          "definition_en": "A detailed structure for a model type, independent of a specific storage product.",
+          "definition_th": "โครงสร้างละเอียดตามชนิดโมเดลโดยไม่ผูกผลิตภัณฑ์จัดเก็บ"
+        },
+        {
+          "term_en": "Physical model",
+          "term_th": "แบบจำลองเชิงกายภาพ",
+          "definition_en": "Implementation structures optimized for a specific DBMS.",
+          "definition_th": "โครงสร้างนำไปใช้ที่ปรับให้เหมาะกับ DBMS เฉพาะ"
+        }
+      ],
+      "concepts": [
+        "Conceptual model",
+        "Logical model",
+        "Physical model"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Data models.",
+        "Apply Conceptual model, Logical model, Physical model in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply data models to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Conceptual model` from `Logical model` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Conceptual model as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Conceptual model, Logical model, Physical model.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "A data model provides concepts and rules for describing entities, relationships, constraints, and operations at conceptual, logical, and physical levels.",
+        "Distinguish `Conceptual model` from `Logical model` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Data models address?",
+        "How do Conceptual model and Logical model differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-7e62c0bcdcdb"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 40
+    },
+    {
+      "chapter_id": "chapter-bis604-relational-model",
+      "subject_id": "subject-bis604",
+      "course_code": "BIS604",
+      "title_en": "Relational model and keys",
+      "title_th": "แบบจำลองเชิงสัมพันธ์และคีย์",
+      "concise_summary_en": "The relational model organizes tuples in relations, uses keys to identify and connect records, and enforces entity and referential integrity.",
+      "concise_summary_th": "แบบจำลองเชิงสัมพันธ์จัด Tuple ใน Relation ใช้ Key ระบุและเชื่อม Record และบังคับ Entity/Referential Integrity",
+      "detailed_explanation_th": "แบบจำลองเชิงสัมพันธ์จัด Tuple ใน Relation ใช้ Key ระบุและเชื่อม Record และบังคับ Entity/Referential Integrity ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis604-relational-model-01",
+        "topic-bis604-relational-model-02",
+        "topic-bis604-relational-model-03"
+      ],
+      "technical_terms": [
+        "Primary key",
+        "Foreign key",
+        "Referential integrity"
+      ],
+      "definitions": [
+        {
+          "term_en": "Primary key",
+          "term_th": "คีย์หลัก",
+          "definition_en": "A minimal selected identifier that is unique and not null.",
+          "definition_th": "ตัวระบุขั้นต่ำที่เลือก ซึ่งไม่ซ้ำและไม่เป็น Null"
+        },
+        {
+          "term_en": "Foreign key",
+          "term_th": "คีย์นอก",
+          "definition_en": "Attributes referencing a candidate key in a related relation.",
+          "definition_th": "Attribute ที่อ้าง Candidate Key ใน Relation ที่เกี่ยวข้อง"
+        },
+        {
+          "term_en": "Referential integrity",
+          "term_th": "บูรณภาพการอ้างอิง",
+          "definition_en": "Foreign-key values must match a referenced key or satisfy an allowed null rule.",
+          "definition_th": "ค่าคีย์นอกต้องตรงกับคีย์ที่อ้าง หรือเป็น Null ตามกฎที่อนุญาต"
+        }
+      ],
+      "concepts": [
+        "Primary key",
+        "Foreign key",
+        "Referential integrity"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Relational model and keys.",
+        "Apply Primary key, Foreign key, Referential integrity in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply relational model and keys to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Primary key` from `Foreign key` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Primary key as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Primary key, Foreign key, Referential integrity.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "The relational model organizes tuples in relations, uses keys to identify and connect records, and enforces entity and referential integrity.",
+        "Distinguish `Primary key` from `Foreign key` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Relational model and keys address?",
+        "How do Primary key and Foreign key differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-1f0a58974a9f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 41
+    },
+    {
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "subject_id": "subject-bis604",
+      "course_code": "BIS604",
+      "title_en": "Business rules and ER modeling",
+      "title_th": "กฎธุรกิจและแบบจำลอง ER",
+      "concise_summary_en": "Business rules define entities, attributes, relationships, cardinality, participation, and constraints that an ER model makes explicit.",
+      "concise_summary_th": "กฎธุรกิจกำหนด Entity, Attribute, Relationship, Cardinality, Participation และ Constraint ซึ่ง ER Model ทำให้เห็นชัด",
+      "detailed_explanation_th": "กฎธุรกิจกำหนด Entity, Attribute, Relationship, Cardinality, Participation และ Constraint ซึ่ง ER Model ทำให้เห็นชัด ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis604-business-rules-and-erd-01",
+        "topic-bis604-business-rules-and-erd-02",
+        "topic-bis604-business-rules-and-erd-03"
+      ],
+      "technical_terms": [
+        "Entity",
+        "Cardinality",
+        "Associative entity"
+      ],
+      "definitions": [
+        {
+          "term_en": "Entity",
+          "term_th": "เอนทิตี",
+          "definition_en": "A distinguishable business object or concept about which data is stored.",
+          "definition_th": "วัตถุหรือแนวคิดธุรกิจที่แยกได้และต้องเก็บข้อมูล"
+        },
+        {
+          "term_en": "Cardinality",
+          "term_th": "คาร์ดินาลิตี",
+          "definition_en": "The maximum number of relationship occurrences allowed.",
+          "definition_th": "จำนวนสูงสุดของความสัมพันธ์ที่อนุญาต"
+        },
+        {
+          "term_en": "Associative entity",
+          "term_th": "เอนทิตีเชื่อม",
+          "definition_en": "An entity used to represent a many-to-many relationship and its attributes.",
+          "definition_th": "Entity ที่แทนความสัมพันธ์หลายต่อหลายและ Attribute ของความสัมพันธ์"
+        }
+      ],
+      "concepts": [
+        "Entity",
+        "Cardinality",
+        "Associative entity"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Business rules and ER modeling.",
+        "Apply Entity, Cardinality, Associative entity in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply business rules and er modeling to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Entity` from `Cardinality` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Entity as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Entity, Cardinality, Associative entity.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Business rules define entities, attributes, relationships, cardinality, participation, and constraints that an ER model makes explicit.",
+        "Distinguish `Entity` from `Cardinality` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Business rules and ER modeling address?",
+        "How do Entity and Cardinality differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-b7d56889cebd",
+        "ref-3d8e8353d4d8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 42
+    },
+    {
+      "chapter_id": "chapter-bis604-normalization",
+      "subject_id": "subject-bis604",
+      "course_code": "BIS604",
+      "title_en": "Normalization",
+      "title_th": "การทำ Normalization",
+      "concise_summary_en": "Normalization uses functional dependencies and normal forms to reduce redundancy and prevent insert, update, and delete anomalies while preserving required relationships.",
+      "concise_summary_th": "Normalization ใช้ Functional Dependency และ Normal Form เพื่อลดความซ้ำและป้องกัน Insert, Update, Delete Anomaly โดยรักษาความสัมพันธ์ที่จำเป็น",
+      "detailed_explanation_th": "Normalization ใช้ Functional Dependency และ Normal Form เพื่อลดความซ้ำและป้องกัน Insert, Update, Delete Anomaly โดยรักษาความสัมพันธ์ที่จำเป็น ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis604-normalization-01",
+        "topic-bis604-normalization-02",
+        "topic-bis604-normalization-03"
+      ],
+      "technical_terms": [
+        "Functional dependency",
+        "Second normal form",
+        "Third normal form"
+      ],
+      "definitions": [
+        {
+          "term_en": "Functional dependency",
+          "term_th": "การขึ้นต่อกันเชิงฟังก์ชัน",
+          "definition_en": "One attribute set determines another attribute set.",
+          "definition_th": "ชุด Attribute หนึ่งกำหนดค่าของอีกชุด"
+        },
+        {
+          "term_en": "Second normal form",
+          "term_th": "รูปแบบปกติที่สอง",
+          "definition_en": "1NF with no partial dependency of a non-key attribute on a candidate key.",
+          "definition_th": "1NF ที่ไม่มี Non-key Attribute ขึ้นกับเพียงบางส่วนของ Candidate Key"
+        },
+        {
+          "term_en": "Third normal form",
+          "term_th": "รูปแบบปกติที่สาม",
+          "definition_en": "2NF with no disallowed transitive dependency of non-key attributes.",
+          "definition_th": "2NF ที่ไม่มีการขึ้นต่อแบบส่งผ่านของ Non-key Attribute ที่ไม่อนุญาต"
+        }
+      ],
+      "concepts": [
+        "Functional dependency",
+        "Second normal form",
+        "Third normal form"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of Normalization.",
+        "Apply Functional dependency, Second normal form, Third normal form in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply normalization to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `Functional dependency` from `Second normal form` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating Functional dependency as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish Functional dependency, Second normal form, Third normal form.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "Normalization uses functional dependencies and normal forms to reduce redundancy and prevent insert, update, and delete anomalies while preserving required relationships.",
+        "Distinguish `Functional dependency` from `Second normal form` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does Normalization address?",
+        "How do Functional dependency and Second normal form differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-5e8a26483129"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 43
+    },
+    {
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "subject_id": "subject-bis604",
+      "course_code": "BIS604",
+      "title_en": "SQL and database implementation",
+      "title_th": "SQL และการสร้างฐานข้อมูล",
+      "concise_summary_en": "SQL defines schema and constraints, changes stored data, and retrieves it through selection, projection, joins, grouping, expressions, and transactions.",
+      "concise_summary_th": "SQL กำหนด Schema/Constraint เปลี่ยนข้อมูล และสืบค้นด้วย Selection, Projection, Join, Grouping, Expression และ Transaction",
+      "detailed_explanation_th": "SQL กำหนด Schema/Constraint เปลี่ยนข้อมูล และสืบค้นด้วย Selection, Projection, Join, Grouping, Expression และ Transaction ให้เริ่มจากวัตถุประสงค์ทางธุรกิจ ระบุข้อมูลหรือเงื่อนไขที่ต้องใช้ เลือกแนวคิดหรือขั้นตอนให้ตรงกับโจทย์ ตรวจสมมติฐาน แล้วสื่อความหมายของผลลัพธ์และข้อจำกัดอย่างชัดเจน",
+      "topic_ids": [
+        "topic-bis604-sql-and-implementation-01",
+        "topic-bis604-sql-and-implementation-02",
+        "topic-bis604-sql-and-implementation-03"
+      ],
+      "technical_terms": [
+        "DDL",
+        "DML",
+        "Join"
+      ],
+      "definitions": [
+        {
+          "term_en": "DDL",
+          "term_th": "ภาษากำหนดข้อมูล",
+          "definition_en": "SQL statements that create or alter database structures and constraints.",
+          "definition_th": "คำสั่ง SQL ที่สร้างหรือแก้โครงสร้างและ Constraint"
+        },
+        {
+          "term_en": "DML",
+          "term_th": "ภาษาจัดการข้อมูล",
+          "definition_en": "SQL statements that insert, update, delete, and query data.",
+          "definition_th": "คำสั่ง SQL สำหรับ Insert, Update, Delete และ Query"
+        },
+        {
+          "term_en": "Join",
+          "term_th": "การเชื่อมตาราง",
+          "definition_en": "Combine rows from related tables using a condition.",
+          "definition_th": "รวมแถวจากตารางที่เกี่ยวข้องด้วยเงื่อนไข"
+        }
+      ],
+      "concepts": [
+        "DDL",
+        "DML",
+        "Join"
+      ],
+      "processes_and_frameworks": [
+        "Identify the purpose and boundary of SQL and database implementation.",
+        "Apply DDL, DML, Join in the order required by the case.",
+        "Check assumptions, evidence quality, and stakeholder consequences."
+      ],
+      "formulas": [],
+      "examples": [
+        "Apply sql and database implementation to a supplied exercise or business case and justify each choice from the source material."
+      ],
+      "comparison_summaries": [
+        "Distinguish `DDL` from `DML` by purpose, input, and decision use."
+      ],
+      "common_misunderstandings": [
+        "Treating DDL as a label to memorize instead of explaining its decision purpose.",
+        "Presenting a result without checking assumptions, scope, or evidence limitations."
+      ],
+      "likely_examination_points": [
+        "Define and distinguish DDL, DML, Join.",
+        "Apply the chapter framework to a short case and justify the selected concept.",
+        "Interpret the result, limitation, or next action."
+      ],
+      "review_points": [
+        "SQL defines schema and constraints, changes stored data, and retrieves it through selection, projection, joins, grouping, expressions, and transactions.",
+        "Distinguish `DDL` from `DML` by purpose, input, and decision use.",
+        "Always connect the technique to a business decision and its evidence."
+      ],
+      "memory_aid": "Purpose → evidence → method → result → limitation.",
+      "short_review_questions": [
+        "What decision problem does SQL and database implementation address?",
+        "How do DDL and DML differ?",
+        "Which assumptions or limitations should be disclosed?"
+      ],
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 44
+    }
+  ]
+}

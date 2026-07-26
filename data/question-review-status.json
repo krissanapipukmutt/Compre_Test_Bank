@@ -1,0 +1,1477 @@
+{
+  "schema_version": "2.0.0",
+  "generated_at": "2026-07-26T20:30:00+07:00",
+  "question_review_status": [
+    {
+      "question_id": "question-comprehensive-001",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-002",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-scrum-guide-2020",
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-003",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-iiba-glossary",
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-004",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-005",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-006",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-007",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-008",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-009",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-010",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-019",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-020",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-021",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-022",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "confidence": "low",
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "review_note": "The course states that better fit combines lower standard error and higher adjusted R², but the displayed options split those criteria across Models 2 and 3; no option establishes a uniquely best model.",
+      "external_source_ids": [],
+      "scoring_eligibility": "excluded"
+    },
+    {
+      "question_id": "question-comprehensive-023",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "confidence": "low",
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "review_note": "The stem literally specifies a 739% confidence interval, which is invalid, and the intended level cannot be reconstructed without changing the source question.",
+      "external_source_ids": [],
+      "scoring_eligibility": "excluded"
+    },
+    {
+      "question_id": "question-comprehensive-024",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-025",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-salesforce-digital-transformation"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-026",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-management-advantage"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-027",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-028",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-029",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-030",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-031",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-032",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-033",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-034",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-035",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "confidence": "low",
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "review_note": "The observed value x is missing from the stem, so z = (x − 50) / 10 cannot be calculated.",
+      "external_source_ids": [],
+      "scoring_eligibility": "excluded"
+    },
+    {
+      "question_id": "question-comprehensive-036",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-ibm-data-mart"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-037",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-ibm-business-intelligence",
+        "ext-ibm-data-mining"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-038",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-ibm-big-data",
+        "ext-ibm-blockchain"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-039",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "strongly_supported_by_external_source",
+      "final_answer_status": "strongly_supported_by_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "medium",
+      "confidence_percentage": 70,
+      "requires_human_review": true,
+      "review_note": "The stem uses the nonstandard term 'discrete normal distribution'; external evidence supports rejecting it but cannot repair the intended wording.",
+      "external_source_ids": [
+        "ext-nist-normal-probability"
+      ],
+      "scoring_eligibility": "opt_in_external"
+    },
+    {
+      "question_id": "question-comprehensive-040",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-041",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-asu-diversification"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-042",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-cdc-social-marketing"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-043",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-promotion"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-044",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-segmentation"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-045",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-channels"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-046",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "probabilistic_recommendation",
+      "final_answer_status": "probabilistic_recommendation",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "confidence": "medium",
+      "confidence_percentage": 65,
+      "requires_human_review": true,
+      "review_note": "The stem does not identify a named customer-satisfaction framework, and each listed factor can matter in different organizational settings.",
+      "external_source_ids": [],
+      "scoring_eligibility": "practice_judgment_unscored"
+    },
+    {
+      "question_id": "question-comprehensive-047",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-product-life-cycle",
+        "ext-unilag-pricing"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-048",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-marketing-definition"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-049",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-management-advantage"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-050",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-marketing-concept"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-051",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-strategic-growth"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-052",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-brand-development"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-053",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-brand-development"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-054",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-products"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-055",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-product-mix"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-056",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-promotion"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-057",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-services"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-058",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-push-strategy"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-059",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-vt-horizontal-integration"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-060",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-segmentation"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-061",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-ibm-eai"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-062",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-063",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "confidence": "low",
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "review_note": "Several listed items—voice mail, data conferencing, calendaring, and discussion—can be electronic communication tools; the stem gives no framework that makes one unique.",
+      "external_source_ids": [],
+      "scoring_eligibility": "excluded"
+    },
+    {
+      "question_id": "question-comprehensive-064",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "strongly_supported_by_external_source",
+      "final_answer_status": "strongly_supported_by_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "medium",
+      "confidence_percentage": 80,
+      "requires_human_review": true,
+      "review_note": "The source supports application integration directly but only indirectly supports the exact alliance-strategy phrasing.",
+      "external_source_ids": [
+        "ext-ibm-eai"
+      ],
+      "scoring_eligibility": "opt_in_external"
+    },
+    {
+      "question_id": "question-comprehensive-065",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-iiba-glossary"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-066",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-067",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-ibm-what-if"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-068",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-ibm-crm"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-069",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-070",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-information-systems"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-071",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-information-systems",
+        "ext-oecd-ebusiness"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-072",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-fao-information-quality"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-073",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-074",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-075",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-076",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-information-systems"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-077",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-078",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-openstax-information-systems",
+        "ext-ibm-data-mining"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-079",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-080",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-081",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-082",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-083",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-084",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-085",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-086",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-087",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-088",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "probabilistic_recommendation",
+      "final_answer_status": "probabilistic_recommendation",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "confidence": "medium",
+      "confidence_percentage": 55,
+      "requires_human_review": true,
+      "review_note": "All five options can be framed as cloud-development benefits; Internet dependence is the most plausible intended non-advantage because it is a prerequisite or constraint.",
+      "external_source_ids": [],
+      "scoring_eligibility": "practice_judgment_unscored"
+    },
+    {
+      "question_id": "question-comprehensive-089",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-090",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-091",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-092",
+      "original_answer_status": "requires_human_review",
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "confidence": "low",
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "review_note": "Statement A is false as an absolute, B is false because local APIs need no network, and C is true; however, there is no C-only option, making the combination choices defective.",
+      "external_source_ids": [],
+      "scoring_eligibility": "excluded"
+    },
+    {
+      "question_id": "question-comprehensive-093",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-094",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-095",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-figma-prototyping",
+        "ext-sketch-prototyping"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-096",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": true,
+      "review_note": "The final answer contradicts the prior inferred key and requires human sign-off.",
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-097",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-098",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-099",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-100",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-101",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-102",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-103",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-104",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-105",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-106",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-107",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-108",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-109",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-110",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-111",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "confidence": "high",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [
+        "ext-wiley-network-design"
+      ],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-112",
+      "original_answer_status": "verified_from_source",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 98,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    },
+    {
+      "question_id": "question-comprehensive-113",
+      "original_answer_status": "strongly_inferred",
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "confidence": "high",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "review_note": null,
+      "external_source_ids": [],
+      "scoring_eligibility": "normal"
+    }
+  ]
+}

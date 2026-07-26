@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="หน้า-1" id="QBYYfbOodEK6SBIVklcz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-5" value="Quant_sold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-6" value="P_PRICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-7" value="V_NAME" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-8" value="V_CODE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-9" value="P_LABLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-10" value="S_DATE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-11" value="&lt;u&gt;P_NUM&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="PQARPbrmQJlqgfPfa-HO-12" target="PQARPbrmQJlqgfPfa-HO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="220" />
+              <mxPoint x="309" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-12" value="&lt;u&gt;I_NUM&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="149" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-22" value="Functional dependency" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#00ff00, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#00ff00, #ededed);" edge="1" parent="1" source="PQARPbrmQJlqgfPfa-HO-5" target="PQARPbrmQJlqgfPfa-HO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="140" as="sourcePoint" />
+            <mxPoint x="662" y="149" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="80" />
+              <mxPoint x="620" y="80" />
+              <mxPoint x="660" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-30" value="Partial dependency" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="109" y="219" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#0000ff, #ededed);" edge="1" parent="1" source="PQARPbrmQJlqgfPfa-HO-8" target="PQARPbrmQJlqgfPfa-HO-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="160" as="sourcePoint" />
+            <mxPoint x="430" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="467" y="220" />
+              <mxPoint x="490" y="220" />
+              <mxPoint x="520" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-32" value="Transitive dependency" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#0000ff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="239" y="240" width="421" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="PQARPbrmQJlqgfPfa-HO-33" source="PQARPbrmQJlqgfPfa-HO-11" target="PQARPbrmQJlqgfPfa-HO-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="111" as="sourcePoint" />
+            <mxPoint x="161" as="targetPoint" />
+            <Array as="points">
+              <mxPoint />
+              <mxPoint x="71" />
+              <mxPoint x="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PQARPbrmQJlqgfPfa-HO-33" source="PQARPbrmQJlqgfPfa-HO-11" target="PQARPbrmQJlqgfPfa-HO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1" as="sourcePoint" />
+            <mxPoint x="244" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1" />
+              <mxPoint x="175" />
+              <mxPoint x="421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PQARPbrmQJlqgfPfa-HO-33" source="PQARPbrmQJlqgfPfa-HO-11" target="PQARPbrmQJlqgfPfa-HO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="211" as="sourcePoint" />
+            <mxPoint x="631" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1" />
+              <mxPoint x="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-34" value="&lt;b&gt;PK :&amp;nbsp;&lt;/b&gt;&amp;nbsp;I_NUM,P_NUM&lt;br&gt;&lt;b&gt;Functional dependency :&lt;/b&gt; I_NUM , P_NUM &lt;b&gt;-&amp;gt;&lt;/b&gt; S_DATE , P_LABLE , V_CODE , V_NAME , Quant_sold , P_PROCE&lt;div&gt;&lt;b&gt;Partial Dependency :&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;I_NUM &lt;b&gt;-&amp;gt;&lt;/b&gt; S_DATE&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;P_NUM &lt;b&gt;-&amp;gt;&lt;/b&gt; P_LABLE , V_CODE , P_PRICE&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Transitive dependency :&lt;/b&gt; V_CODE , V_NAME&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="49" y="260" width="711" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="169" y="80" width="490" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#00ff00, #ededed);" edge="1" parent="PQARPbrmQJlqgfPfa-HO-35" source="PQARPbrmQJlqgfPfa-HO-12" target="PQARPbrmQJlqgfPfa-HO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="221" y="339" as="sourcePoint" />
+            <mxPoint x="271" y="289" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="40" />
+              <mxPoint x="70" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-23" value="" style="group" vertex="1" connectable="0" parent="PQARPbrmQJlqgfPfa-HO-35">
+          <mxGeometry x="140" width="350" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=light-dark(#00ff00, #ededed);" edge="1" parent="PQARPbrmQJlqgfPfa-HO-23" source="PQARPbrmQJlqgfPfa-HO-10" target="PQARPbrmQJlqgfPfa-HO-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-39" y="413.99999999999994" as="sourcePoint" />
+            <mxPoint x="11" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint />
+              <mxPoint x="31" />
+              <mxPoint x="71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-17" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#00ff00, #ededed);" edge="1" parent="PQARPbrmQJlqgfPfa-HO-23" source="PQARPbrmQJlqgfPfa-HO-9" target="PQARPbrmQJlqgfPfa-HO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="81" y="690" as="sourcePoint" />
+            <mxPoint x="131" y="575" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="71" />
+              <mxPoint x="101" />
+              <mxPoint x="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.528;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#00ff00, #ededed);" edge="1" parent="PQARPbrmQJlqgfPfa-HO-23" source="PQARPbrmQJlqgfPfa-HO-8" target="PQARPbrmQJlqgfPfa-HO-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="69" as="sourcePoint" />
+            <mxPoint x="211" y="69" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="141" />
+              <mxPoint x="172" />
+              <mxPoint x="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=light-dark(#00ff00, #ededed);" edge="1" parent="PQARPbrmQJlqgfPfa-HO-23" target="PQARPbrmQJlqgfPfa-HO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212" y="69" as="sourcePoint" />
+            <mxPoint x="282" y="69" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="212" />
+              <mxPoint x="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQARPbrmQJlqgfPfa-HO-24" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#00ff00, #ededed);" edge="1" parent="PQARPbrmQJlqgfPfa-HO-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" as="sourcePoint" />
+            <mxPoint x="31" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="31" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

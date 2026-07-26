@@ -1,0 +1,35 @@
+header{
+    color: blue;
+    background-color:burlywood;
+    text-align: center;
+}
+b{
+    color: blue;
+}
+
+article{
+    background-color: #ff7da4;
+    color:#0512c0;
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+    box-sizing:border-box;
+    margin-bottom: 1%;
+}
+div{
+    color:#00043f;
+    background-color: #f9ffb1;
+    float: left;
+}
+
+footer{
+    color: white;
+    background-color:gray;
+    text-align: center;
+    clear: both;
+}
+@media only screen and (orientation: portrait) {
+    article{
+        display: none;
+    }
+}

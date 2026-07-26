@@ -1,0 +1,706 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-26T11:14:16.798547+00:00",
+  "source_references": [
+    {
+      "source_reference_id": "ref-df3d0f3ce677",
+      "file_id": "file-962c67f3a107c532",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/MIDTERM/LACTURE/Chapter1/BIS601_2025_1_01a_intro.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 5,
+      "locator_note": "Whole 5-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-cc0c959ac842",
+      "file_id": "file-d0891b84d202c2b8",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/MIDTERM/LACTURE/Chapter2/BIS601_2025_1_04_method.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 30,
+      "locator_note": "Whole 30-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-76f6bb70a4fa",
+      "file_id": "file-2079e43b56fb3807",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/MIDTERM/LACTURE/Chapter4/BIS601_2025_1_05a_ident.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 21,
+      "locator_note": "Whole 21-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-8d8ca54e4d69",
+      "file_id": "file-88131bb4687a0174",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/MIDTERM/LACTURE/Chapter5/BIS601_2025_1_06_req.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 26,
+      "locator_note": "Whole 26-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-5347df2602b3",
+      "file_id": "file-176b53730e450e2b",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/FINAL/LEATURE/Chapter 8/BIS601_2025_1_08a_activity.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 5,
+      "locator_note": "Whole 5-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-48fadbe6b0c2",
+      "file_id": "file-9c1febf5899364af",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/FINAL/LEATURE/Chapter 9/BIS601_2025_1_09_usecases.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 36,
+      "locator_note": "Whole 36-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-94fddec5992b",
+      "file_id": "file-f85a1656cdcdd606",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/FINAL/LEATURE/Chapter 10/BIS601_2025_1_10a_DFD.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 29,
+      "locator_note": "Whole 29-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-a0ca361426ba",
+      "file_id": "file-6b2a1f29ed04b369",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/FINAL/LEATURE/Chapter 11/BIS601_2025_1_11_decision.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 4,
+      "locator_note": "Whole 4-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-28b6241dc035",
+      "file_id": "file-ea8e39ce20e51ecd",
+      "relative_path": "TERM2/BIS601 Business System Analysis and Design/FINAL/LEATURE/Chapter 13/BIS601_2025_1_13_BPMN.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 17,
+      "locator_note": "Whole 17-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-577959f5bfdc",
+      "file_id": "file-ce5d89e96b6767be",
+      "relative_path": "TERM1/BIS602/Midterm/Lecture/Business strategies.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 17,
+      "locator_note": "Whole 17-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-7f0ef008a19f",
+      "file_id": "file-f6e36c83b595db9f",
+      "relative_path": "TERM1/BIS602/Midterm/Lecture/BIS602 2023 L2 Business functions and performance measures.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 22,
+      "locator_note": "Whole 22-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-43f347e0b01d",
+      "file_id": "file-9d1b45e68b82f66b",
+      "relative_path": "TERM1/BIS602/Midterm/Lecture/L3 Business Investment Decision.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 37,
+      "locator_note": "Whole 37-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-9fb1166a3197",
+      "file_id": "file-5be65f456759d821",
+      "relative_path": "TERM1/BIS602/Midterm/Lecture/L4 Enterprise Data Management 2024.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 28,
+      "locator_note": "Whole 28-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-56af112c07c5",
+      "file_id": "file-f652263f18b9d568",
+      "relative_path": "TERM1/BIS602/Midterm/Lecture/L5 Probability v2024.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 37,
+      "locator_note": "Whole 37-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-679e87864421",
+      "file_id": "file-e746c6ad6ae2b5a6",
+      "relative_path": "TERM1/BIS602/Midterm/Lecture/L6 Statistics for Business Decision.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 32,
+      "locator_note": "Whole 32-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-c42f8dd03ad7",
+      "file_id": "file-01f666e5e5b76c34",
+      "relative_path": "TERM1/BIS602/Final/Lacture/L8 Data Treatment and Transformation.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 31,
+      "locator_note": "Whole 31-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-39852560330e",
+      "file_id": "file-cd252ddca6d85b3e",
+      "relative_path": "TERM1/BIS602/Final/Lacture/L9a BI.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 13,
+      "locator_note": "Whole 13-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-5db458a4f6f1",
+      "file_id": "file-3081d6f33e31c70b",
+      "relative_path": "TERM1/BIS602/Final/Lacture/L9b Visualization.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 29,
+      "locator_note": "Whole 29-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-b6f3f17069ca",
+      "file_id": "file-8ab03dba6a772847",
+      "relative_path": "TERM1/BIS602/Final/Lacture/L10 Clustering.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 21,
+      "locator_note": "Whole 21-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-57e236c282a1",
+      "file_id": "file-793fca945ee860e3",
+      "relative_path": "TERM1/BIS602/Final/Lacture/L11 Classification.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 17,
+      "locator_note": "Whole 17-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-6db4296cdaf8",
+      "file_id": "file-e82c8449fac30de1",
+      "relative_path": "TERM1/BIS602/Final/Lacture/L12 Regression 2024-2.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 39,
+      "locator_note": "Whole 39-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-258f80d9b977",
+      "file_id": "file-b2b50f4c76749d2f",
+      "relative_path": "TERM1/BIS602/Final/Lacture/Association mining.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 19,
+      "locator_note": "Whole 19-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-6c7a93d5070f",
+      "file_id": "file-94caeadde455c76c",
+      "relative_path": "TERM1/BIS602/Final/Lacture/BIS602 L14 Simulation.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 28,
+      "locator_note": "Whole 28-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-1a455307b1a8",
+      "file_id": "file-3c8eec8730f05143",
+      "relative_path": "TERM1/BIS605/Midterm/Lecture/CH01_Introduction.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 40,
+      "locator_note": "Whole 40-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-d6823ad3b758",
+      "file_id": "file-e0b981ebdd442e54",
+      "relative_path": "TERM1/BIS605/Midterm/Lecture/CH02_SWDevlopmentProcess.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 70,
+      "locator_note": "Whole 70-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-a0b013b733e0",
+      "file_id": "file-e35d30c4a92884e9",
+      "relative_path": "TERM1/BIS605/Midterm/Lecture/CH03_SoftwareDesign.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 45,
+      "locator_note": "Whole 45-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-48b117d4f581",
+      "file_id": "file-fa3f297079cee57a",
+      "relative_path": "TERM1/BIS605/Midterm/Lecture/CH04_WebDesign_principles.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 69,
+      "locator_note": "Whole 69-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-3df30e359a7a",
+      "file_id": "file-164c18ee921bf673",
+      "relative_path": "TERM1/BIS605/Midterm/Lecture/CH05_SoftwareDesign_Figma.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 29,
+      "locator_note": "Whole 29-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-cebc3781d70f",
+      "file_id": "file-4ebef8a809e1d5e6",
+      "relative_path": "TERM1/BIS605/Midterm/Lecture/CH06_SWDevelopmentTech.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 21,
+      "locator_note": "Whole 21-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-a21db17e35c0",
+      "file_id": "file-f8e2e7c99fee5d75",
+      "relative_path": "TERM1/BIS605/Final/Lacture/CH07_FrontEndDevTech_HTML.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 59,
+      "locator_note": "Whole 59-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-2ec19f686cd1",
+      "file_id": "file-6f0c94c0012067ca",
+      "relative_path": "TERM1/BIS605/Final/Lacture/CH08_FrontEndDevTech_CSS.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 62,
+      "locator_note": "Whole 62-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-9ce3a90c33fd",
+      "file_id": "file-a8f0ae53bbf8d98b",
+      "relative_path": "TERM1/BIS605/Final/Lacture/CH09_FrontEndDevTech_JS.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 23,
+      "locator_note": "Whole 23-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-b3b1200576f0",
+      "file_id": "file-b77c0232f4e3586f",
+      "relative_path": "TERM1/BIS605/Final/Lacture/CH10_BackEndDevTech.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 42,
+      "locator_note": "Whole 42-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-53572c7966e8",
+      "file_id": "file-cda9f9013b93e681",
+      "relative_path": "TERM1/BIS605/Final/Lacture/CH11_DatabaseTech.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 54,
+      "locator_note": "Whole 54-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-2a63c16321f4",
+      "file_id": "file-67303d6c4385f438",
+      "relative_path": "TERM1/BIS605/Final/Lacture/CH12_API_WS_Cloud_Mobile_Tech 2025-04-05 05_11_06.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 48,
+      "locator_note": "Whole 48-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-6cdcc3e69303",
+      "file_id": "file-329a11db2c8922a2",
+      "relative_path": "TERM1/BIS606/Midterm/Lecture/ch01 ed14_2.pptx",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": null,
+      "locator_note": "Whole supplied slide/document source supports this chapter-level summary; exact final slide is not encoded in the inventory.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-d568e27df9b3",
+      "file_id": "file-3d9f9ee41c5e6ff9",
+      "relative_path": "TERM1/BIS606/Midterm/Lecture/ch02_e14_2 2.pptx",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": null,
+      "locator_note": "Whole supplied slide/document source supports this chapter-level summary; exact final slide is not encoded in the inventory.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-a13b7ae81781",
+      "file_id": "file-b2ad8cad2c8374ec",
+      "relative_path": "TERM1/BIS606/Midterm/Lecture/ch03_e14.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 86,
+      "locator_note": "Whole 86-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-64c8aeb51ea7",
+      "file_id": "file-882f2430d45fc213",
+      "relative_path": "TERM1/BIS606/Midterm/Lecture/ch04_14e.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 68,
+      "locator_note": "Whole 68-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-940a2c55cfb9",
+      "file_id": "file-c2bd7b1ca3176963",
+      "relative_path": "TERM1/BIS606/Midterm/Lecture/ch05_14e.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 99,
+      "locator_note": "Whole 99-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-40f7a71f1253",
+      "file_id": "file-cb92b19e498217a7",
+      "relative_path": "TERM1/BIS606/Final/Lecture/ch07 LAN 14e2.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 72,
+      "locator_note": "Whole 72-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-3de2a3994c20",
+      "file_id": "file-3d571334473a13bf",
+      "relative_path": "TERM1/BIS606/Final/Lecture/ch08 Backbone_e142.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 43,
+      "locator_note": "Whole 43-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-24b4b54571d9",
+      "file_id": "file-ff0f560eb939282c",
+      "relative_path": "TERM1/BIS606/Final/Lecture/ch09 WAN_14e2.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 37,
+      "locator_note": "Whole 37-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-c297674e8f66",
+      "file_id": "file-21ac7abc24295e05",
+      "relative_path": "TERM1/BIS606/Final/Lecture/ch10 Internet-14e.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 41,
+      "locator_note": "Whole 41-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-702a4ec030dd",
+      "file_id": "file-80fa663d0e682885",
+      "relative_path": "TERM1/BIS606/Final/Lecture/ch12 NetworkMng 14e.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 35,
+      "locator_note": "Whole 35-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-fce1a389b139",
+      "file_id": "file-5ea1693fd318535d",
+      "relative_path": "TERM1/BIS606/Final/Lecture/Ch11Cybersecurity 14e.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 92,
+      "locator_note": "Whole 92-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-47bba284bfe3",
+      "file_id": "file-a7890c487bb250c2",
+      "relative_path": "TERM1/BIS606/Final/Lecture/12 Business Continuity Management.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 36,
+      "locator_note": "Whole 36-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-21d50dd40ada",
+      "file_id": "file-99a8ff408f6accba",
+      "relative_path": "TERM1/BIS606/Final/Lecture/13 Risk Management.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 27,
+      "locator_note": "Whole 27-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-167835356c1e",
+      "file_id": "file-2d34063579b7d66a",
+      "relative_path": "TERM1/BIS606/Final/Lecture/14 Networks Security-New.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 64,
+      "locator_note": "Whole 64-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-9a7e704561b4",
+      "file_id": "file-bf81a63b95357a6e",
+      "relative_path": "TERM1/BIS606/Final/Lecture/15 Server Security.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 45,
+      "locator_note": "Whole 45-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-d71e0fac4451",
+      "file_id": "file-a957eda3687b8a6a",
+      "relative_path": "TERM1/BIS606/Final/Lecture/16 System Security.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 65,
+      "locator_note": "Whole 65-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-a00b8a30917b",
+      "file_id": "file-9376a458b7ccf978",
+      "relative_path": "TERM1/BIS606/Final/Lecture/17. ISO 27001 and CIS.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 66,
+      "locator_note": "Whole 66-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-bf1b2241e57c",
+      "file_id": "file-7efb05ab6ddff0a1",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/MIDTERM/LACTURE/Chapter1/Lecture 1 Intro to Strategy.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 78,
+      "locator_note": "Whole 78-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-bf3b0a5330cb",
+      "file_id": "file-55c5e06fb6f9787c",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/MIDTERM/LACTURE/Chapter2/Lecture 2 External Analysis.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 86,
+      "locator_note": "Whole 86-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-feddaee048e5",
+      "file_id": "file-571b6d2eb47454b9",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/MIDTERM/LACTURE/Chapter3/Lecture 3 Internal Analysis.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 61,
+      "locator_note": "Whole 61-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-5ec412be8100",
+      "file_id": "file-8b275297984c4701",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/MIDTERM/LACTURE/Chapter4/Lecture4Strategy Formulationv2.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 84,
+      "locator_note": "Whole 84-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-055aacce6886",
+      "file_id": "file-736c3743c3ba0c14",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/MIDTERM/LACTURE/Chapter6/Lecture 6_Intro_Marketing_2025_08_24.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 128,
+      "locator_note": "Whole 128-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-68183f8364be",
+      "file_id": "file-083c90927b0d3636",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/FINAL/Leature/Lecture 7_Intro_Digital_Marketing_2025_09_07.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 79,
+      "locator_note": "Whole 79-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-b8fc1abdab20",
+      "file_id": "file-a060442e6493ebb6",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/FINAL/Leature/Lecture 10 AI and Big Data in Marketing.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 75,
+      "locator_note": "Whole 75-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-f55706a5f2b5",
+      "file_id": "file-2b578ef79450a0e2",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/FINAL/Leature/Cambridge Analyticas_long2025.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 85,
+      "locator_note": "Whole 85-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-7f1a793312b7",
+      "file_id": "file-947ee483993c859b",
+      "relative_path": "TERM2/BIS603 Strategies Maketing Management/FINAL/Leature/Financial Strategy for Entrepreneurs [Backup].pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 14,
+      "locator_note": "Whole 14-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-43dd91a3ecad",
+      "file_id": "file-87a2f931b312e101",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/MIDTERM/LACTURE/OutlineBIS604_1_2025_New1.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 3,
+      "locator_note": "Whole 3-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-5390a6e35b61",
+      "file_id": "file-8ace7237cc8b043e",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/MIDTERM/LACTURE/Chapter1/01BusinessDBMgmt 2025-07-19 02_53_26.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 11,
+      "locator_note": "Whole 11-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-7e62c0bcdcdb",
+      "file_id": "file-4a7c5a3cc1aa27a7",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/MIDTERM/LACTURE/Chapter2/Coronel_DatabaseSystems_13e_ch02_adj4Covid.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 45,
+      "locator_note": "Whole 45-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-1f0a58974a9f",
+      "file_id": "file-44af1285663d4416",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/MIDTERM/LACTURE/Chapter3/Coronel_PPT_Ch034_for2_2017CovidAddCandidateNew.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 54,
+      "locator_note": "Whole 54-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-b7d56889cebd",
+      "file_id": "file-c388c4b3009c6303",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/MIDTERM/LACTURE/Chapter4/BusinessRulesExercise_additional_New.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 3,
+      "locator_note": "Whole 3-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-3d8e8353d4d8",
+      "file_id": "file-e4f94337049e4beb",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/MIDTERM/LACTURE/Chapter5/Example4ERDSegment.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 1,
+      "locator_note": "Whole 1-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-5e8a26483129",
+      "file_id": "file-341f35b4328df935",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/FINAL/Chapter6/Leature/Coronel_DatabaseSystems_13e_ch06.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 41,
+      "locator_note": "Whole 41-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-0361f1ec60b4",
+      "file_id": "file-49fd40df7aa44288",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/FINAL/Chapter7/Coronel_DatabaseSystems_13e_ch07.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 40,
+      "locator_note": "Whole 40-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    },
+    {
+      "source_reference_id": "ref-410210966360",
+      "file_id": "file-e38bc6dc67d418d5",
+      "relative_path": "TERM2/BIS603_BIS604 Bussiness Data Management/FINAL/Class10/ขั้นตอนในการเข้าใข้ SQLPlus เพื่อส่งคำสั่ง SQL Statement.pdf",
+      "locator_type": "page_or_slide_range",
+      "locator_start": 1,
+      "locator_end": 2,
+      "locator_note": "Whole 2-page source supports this chapter-level summary.",
+      "evidence_type": "summarized_from_source"
+    }
+  ]
+}

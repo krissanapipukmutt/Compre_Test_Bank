@@ -1,0 +1,170 @@
+------------------------------------------------
+-- USERS
+------------------------------------------------
+CREATE TABLE USERS (
+    USER_ID       NUMBER         CONSTRAINT PK_USERS PRIMARY KEY,
+    USER_FNAME    NVARCHAR2(50)   NOT NULL,
+    USER_LNAME    NVARCHAR2(50)   NOT NULL,
+    USERNAME      VARCHAR2(50)   NOT NULL UNIQUE,
+    PASSWORD      VARCHAR2(100)  NOT NULL,
+    USER_ADDRESS  NVARCHAR2(200),
+    USER_MOBILE   VARCHAR2(20),
+    USER_STATUS   VARCHAR2(10)
+);
+ 
+------------------------------------------------
+-- CUSTOMERS
+------------------------------------------------
+CREATE TABLE CUSTOMERS (
+    CUS_ID        NUMBER         CONSTRAINT PK_CUSTOMERS PRIMARY KEY,
+    CUS_FNAME     VARCHAR2(50)   NOT NULL,
+    CUS_LNAME     VARCHAR2(50)   NOT NULL,
+    CUS_ADD       VARCHAR2(200),
+    CUS_TEL       VARCHAR2(20),
+    CUS_BIRTHDATE DATE,
+    CUS_IDCARD    VARCHAR2(20),
+    CREATE_DTM    DATE           DEFAULT SYSDATE
+);
+ 
+------------------------------------------------
+-- PROVINCES
+------------------------------------------------
+CREATE TABLE PROVINCES (
+    LPPROV_ID     NUMBER         CONSTRAINT PK_PROVINCES PRIMARY KEY,
+    LPPROVE_NAME  VARCHAR2(50)   NOT NULL,
+    LPPROVE_DESC  VARCHAR2(200)
+);
+ 
+------------------------------------------------
+-- CATEGORY  (สะกดให้ใช้ชื่อนี้ให้ตรงทั้งระบบ)
+------------------------------------------------
+CREATE TABLE CATEGORY (
+    CAT_ID        NUMBER         CONSTRAINT PK_CATEGORY PRIMARY KEY,
+    CAT_NAME      VARCHAR2(100)  NOT NULL,
+    CAT_TYPE      VARCHAR2(50)
+);
+ 
+------------------------------------------------
+-- SUPPLIER
+------------------------------------------------
+CREATE TABLE SUPPLIER (
+    SUP_ID        NUMBER         CONSTRAINT PK_SUPPLIER PRIMARY KEY,
+    SUP_NAME      VARCHAR2(100)  NOT NULL,
+    SUP_ADDRESS   VARCHAR2(200),
+    SUP_TEL       VARCHAR2(20),
+    SUP_EMAIL     VARCHAR2(100)
+);
+ 
+------------------------------------------------
+-- SERVICE_LIST
+------------------------------------------------
+CREATE TABLE SERVICE_LIST (
+    SER_L_ID      NUMBER         CONSTRAINT PK_SERVICE_LIST PRIMARY KEY,
+    SER_L_NAME    VARCHAR2(100)  NOT NULL,
+    SER_L_COST    NUMBER(10,2),
+    SER_L_DESC    VARCHAR2(200),
+    SER_L_ID_NAME VARCHAR2(100)
+);
+ 
+------------------------------------------------
+-- CARS
+------------------------------------------------
+CREATE TABLE CARS (
+    CARS_ID     NUMBER          CONSTRAINT PK_CARS PRIMARY KEY,
+    CUS_ID      NUMBER          NOT NULL,
+    CAR_BRAND   VARCHAR2(50),
+    CAR_MODEL   VARCHAR2(50),
+    CAR_COLOUR  VARCHAR2(30),
+    CAR_TYPE    VARCHAR2(30),
+    CAR_LENUM   NVARCHAR2(30),
+    LPPROV_ID   NUMBER          NOT NULL,
+    CAR_KM      NUMBER,
+    CAR_NUMBER  VARCHAR2(20),
+ 
+    CONSTRAINT FK_CARS_CUSTOMER
+        FOREIGN KEY (CUS_ID)
+        REFERENCES CUSTOMERS (CUS_ID),
+ 
+    CONSTRAINT FK_CARS_PROVINCE
+        FOREIGN KEY (LPPROV_ID)
+        REFERENCES PROVINCES (LPPROV_ID)
+);
+ 
+------------------------------------------------
+-- SERVICES
+------------------------------------------------
+CREATE TABLE SERVICES (
+    SER_SER_ID        NUMBER         CONSTRAINT PK_SERVICES PRIMARY KEY,
+    SER_SER_NO        VARCHAR2(50)   UNIQUE,
+    USER_ID           NUMBER         NOT NULL,
+    CARS_ID           NUMBER         NOT NULL,
+    SER_DATE_IN       DATE,
+    SER_DATE_OUT      DATE,
+    SER_PAY_TOTAL     NUMBER(10,2),
+    SER_PAY_VAT       NUMBER(10,2),
+    SER_PAY_TOTALV    NUMBER(10,2),
+    SER_STATUS        VARCHAR2(20),
+    SER_SER_NO_RECIEPT VARCHAR2(50),
+    PRINT_STATUS      VARCHAR2(10),
+    DATE_SER_RECIEPT  DATE           DEFAULT SYSDATE,
+ 
+    CONSTRAINT FK_SERVICES_USER
+        FOREIGN KEY (USER_ID)
+        REFERENCES USERS (USER_ID),
+ 
+    CONSTRAINT FK_SERVICES_CAR
+        FOREIGN KEY (CARS_ID)
+        REFERENCES CARS (CARS_ID)
+);
+ 
+------------------------------------------------
+-- PARTS_LIST
+------------------------------------------------
+CREATE TABLE PARTS_LIST (
+    PART_L_ID       NUMBER         CONSTRAINT PK_PARTS_LIST PRIMARY KEY,
+    PART_L_NAME     VARCHAR2(100)  NOT NULL,
+    PART_L_PRICE    NUMBER(10,2),
+    PART_L_DESC     VARCHAR2(200),
+    PART_L_STOCKQTY NUMBER,
+    SUP_ID          NUMBER         NOT NULL,
+    PART_L_STATUS   VARCHAR2(10),
+    CAT_ID          NUMBER         NOT NULL,
+    PART_L_D_NAME   VARCHAR2(100),
+ 
+    CONSTRAINT FK_PARTS_SUPPLIER
+        FOREIGN KEY (SUP_ID)
+        REFERENCES SUPPLIER (SUP_ID),
+ 
+    -- เปลี่ยนชื่อ Table ให้ตรง: CATEGORY
+    CONSTRAINT FK_PARTS_CATEGORY
+        FOREIGN KEY (CAT_ID)
+        REFERENCES CATEGORY (CAT_ID)
+);
+ 
+------------------------------------------------
+-- SERVICE_DETAIL
+------------------------------------------------
+CREATE TABLE SERVICE_DETAIL (
+    SER_SER_ID       NUMBER   NOT NULL,
+    SER_D_REPAIR_ID  NUMBER   NOT NULL,
+    SER_L_ID         NUMBER   NOT NULL,
+    PART_L_ID        NUMBER   NOT NULL,
+    SER_PART_QTY     NUMBER,
+    SER_D_PRICE      NUMBER(10,2),
+    SER_D_DESC       VARCHAR2(200),
+ 
+    CONSTRAINT PK_SERVICE_DETAIL
+        PRIMARY KEY (SER_SER_ID, SER_D_REPAIR_ID),
+ 
+    CONSTRAINT FK_SERVICE_DETAIL_SERVICES
+        FOREIGN KEY (SER_SER_ID)
+        REFERENCES SERVICES (SER_SER_ID),
+ 
+    CONSTRAINT FK_SERVICE_DETAIL_SERVICE_LIST
+        FOREIGN KEY (SER_L_ID)
+        REFERENCES SERVICE_LIST (SER_L_ID),
+ 
+    CONSTRAINT FK_SERVICE_DETAIL_PARTS_LIST
+        FOREIGN KEY (PART_L_ID)
+        REFERENCES PARTS_LIST (PART_L_ID)
+);

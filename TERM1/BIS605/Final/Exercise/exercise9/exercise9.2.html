@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Form Validation Exercise 9.2</title>
+<script>
+       function validateForm() {
+           let name = document.getElementById("name").value;
+           let age = document.getElementById("age").value;
+           let address = document.getElementById("address").value;
+           let zip = document.getElementById("zip").value;
+           if (!name || !isNaN(name.charAt(0))) {
+               alert("Name must not be empty and must not start with a number.");
+               return false;
+           }
+           if (!age || isNaN(age) || age < 18 || age > 150) {
+               alert("Age input is invalid.");
+               return false;
+           }
+           if (!address) {
+               alert("Address must not be empty.");
+               return false;
+           }
+           if (!zip || isNaN(zip) || zip.length !== 5) {
+               alert("Zip code must be a 5-digit number.");
+               return false;
+           }
+           alert("Form submitted successfully!");
+           return true;
+       }
+</script>
+</head>
+<body>
+<h2>Form Validation Exercise</h2>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label for="age">Age:</label>
+<input type="number" id="age" name="age"><br><br>
+<label for="address">Address:</label>
+<input type="text" id="address" name="address"><br><br>
+<label for="zip">Zip Code:</label>
+<input type="number" id="zip" name="zip"><br><br>
+<button type="button" onclick="validateForm()">Submit</button>
+</body>
+</html>

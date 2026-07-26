@@ -1,0 +1,917 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-26T11:22:08.555002+00:00",
+  "question_source_map": [
+    {
+      "question_id": "question-comprehensive-001",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 1,
+      "learning_source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-002",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 1,
+      "learning_source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-003",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 1,
+      "learning_source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-004",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 1,
+      "learning_source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-005",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 1,
+      "learning_source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-006",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 1,
+      "learning_source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-007",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 1,
+      "learning_source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-008",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 2,
+      "learning_source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-009",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 2,
+      "learning_source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-010",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 2,
+      "learning_source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-019",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 2,
+      "learning_source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-020",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 2,
+      "learning_source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-021",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 3,
+      "learning_source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-022",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 3,
+      "learning_source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-023",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 3,
+      "learning_source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-024",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 3,
+      "learning_source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-025",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 4,
+      "learning_source_reference_ids": [
+        "ref-577959f5bfdc"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-026",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 4,
+      "learning_source_reference_ids": [
+        "ref-577959f5bfdc"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-027",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 4,
+      "learning_source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-028",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 4,
+      "learning_source_reference_ids": [
+        "ref-577959f5bfdc"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-029",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 4,
+      "learning_source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-030",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 4,
+      "learning_source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-031",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 4,
+      "learning_source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-032",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 5,
+      "learning_source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-033",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 5,
+      "learning_source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-034",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 5,
+      "learning_source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-035",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 5,
+      "learning_source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-036",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 5,
+      "learning_source_reference_ids": [
+        "ref-9fb1166a3197"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-037",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 5,
+      "learning_source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-038",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 5,
+      "learning_source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-039",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-040",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-577959f5bfdc"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-041",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-5ec412be8100"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-042",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-043",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-044",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-045",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-046",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 6,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-047",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-048",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-049",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-5ec412be8100"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-050",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-051",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-5ec412be8100"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-052",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-053",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-054",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 7,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-055",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 8,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-056",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 8,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-057",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 8,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-058",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 8,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-059",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 8,
+      "learning_source_reference_ids": [
+        "ref-5ec412be8100"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-060",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 8,
+      "learning_source_reference_ids": [
+        "ref-055aacce6886"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-061",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 8,
+      "learning_source_reference_ids": [
+        "ref-9fb1166a3197"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-062",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 9,
+      "learning_source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-063",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 9,
+      "learning_source_reference_ids": [
+        "ref-9fb1166a3197"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-064",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 9,
+      "learning_source_reference_ids": [
+        "ref-577959f5bfdc"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-065",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 9,
+      "learning_source_reference_ids": [
+        "ref-cebc3781d70f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-066",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 9,
+      "learning_source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-067",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 10,
+      "learning_source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-068",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 10,
+      "learning_source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-069",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 10,
+      "learning_source_reference_ids": [
+        "ref-7e62c0bcdcdb"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-070",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 10,
+      "learning_source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-071",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 10,
+      "learning_source_reference_ids": [
+        "ref-9fb1166a3197"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-072",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 10,
+      "learning_source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-073",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 10,
+      "learning_source_reference_ids": [
+        "ref-b7d56889cebd",
+        "ref-3d8e8353d4d8"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-074",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 11,
+      "learning_source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-075",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 11,
+      "learning_source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-076",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 11,
+      "learning_source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-077",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 11,
+      "learning_source_reference_ids": [
+        "ref-b7d56889cebd",
+        "ref-3d8e8353d4d8"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-078",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 11,
+      "learning_source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-079",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 12,
+      "learning_source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-080",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 12,
+      "learning_source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-081",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 12,
+      "learning_source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-082",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 12,
+      "learning_source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-083",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 12,
+      "learning_source_reference_ids": [
+        "ref-a0b013b733e0"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-084",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 12,
+      "learning_source_reference_ids": [
+        "ref-a0b013b733e0"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-085",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-a0b013b733e0"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-086",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-087",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-088",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-089",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-090",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-091",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-092",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 13,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-093",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-094",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-cebc3781d70f"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-095",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-48b117d4f581",
+        "ref-3df30e359a7a"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-096",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-a0b013b733e0"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-097",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-a0b013b733e0"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-098",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-a21db17e35c0",
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-099",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-a21db17e35c0",
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-100",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 14,
+      "learning_source_reference_ids": [
+        "ref-a21db17e35c0",
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-101",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-102",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-103",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-104",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-105",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-106",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-107",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-108",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 15,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-109",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 16,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-110",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 16,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-111",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 16,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-112",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 16,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    },
+    {
+      "question_id": "question-comprehensive-113",
+      "exam_file_id": "file-7357a61279704b42",
+      "exam_page": 16,
+      "learning_source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ]
+    }
+  ]
+}

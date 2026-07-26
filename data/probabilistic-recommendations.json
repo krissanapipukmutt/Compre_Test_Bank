@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-26T20:30:00+07:00",
+  "required_warning_en": "This answer is a probability-based recommendation. It is not verified by the supplied course materials or by a sufficiently authoritative external source.",
+  "required_warning_th": "คำตอบนี้เป็นข้อเสนอแนะจากการวิเคราะห์ความน่าจะเป็นและการตัดตัวเลือก ไม่ได้รับการยืนยันจากเอกสารการเรียนหรือแหล่งข้อมูลภายนอกที่น่าเชื่อถือเพียงพอ",
+  "probabilistic_recommendations": [
+    {
+      "question_id": "question-comprehensive-046",
+      "recommended_choice_id": "question-comprehensive-046-choice-4",
+      "probability_percentage": 65,
+      "probability_explanation_en": "This answer is a probability-based recommendation. It is not verified by the supplied course materials or by a sufficiently authoritative external source. Recommended choice: all of the above. The stem does not identify a named customer-satisfaction framework, and each listed factor can matter in different organizational settings.",
+      "probability_explanation_th": "คำตอบนี้เป็นข้อเสนอแนะจากการวิเคราะห์ความน่าจะเป็นและการตัดตัวเลือก ไม่ได้รับการยืนยันจากเอกสารการเรียนหรือแหล่งข้อมูลภายนอกที่น่าเชื่อถือเพียงพอ ตัวเลือกที่แนะนำ: all of the above",
+      "probability_distribution": [
+        {
+          "choice_id": "question-comprehensive-046-choice-1",
+          "probability_percentage": 5
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-2",
+          "probability_percentage": 5
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-3",
+          "probability_percentage": 10
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-4",
+          "probability_percentage": 65
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-5",
+          "probability_percentage": 15
+        }
+      ],
+      "eliminated_choices": [
+        "question-comprehensive-046-choice-1",
+        "question-comprehensive-046-choice-2",
+        "question-comprehensive-046-choice-3",
+        "question-comprehensive-046-choice-5"
+      ],
+      "reason_each_choice_was_eliminated": [
+        {
+          "choice_id": "question-comprehensive-046-choice-1",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: performance evaluation"
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-2",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: tools and training"
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-3",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: Empowerment"
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-4",
+          "reason": "Retained as the most plausible interpretation, but not verified: all of the above"
+        },
+        {
+          "choice_id": "question-comprehensive-046-choice-5",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: both 1 and 2"
+        }
+      ],
+      "remaining_uncertainty": "The stem does not identify a named customer-satisfaction framework, and each listed factor can matter in different organizational settings.",
+      "warning_en": "This answer is a probability-based recommendation. It is not verified by the supplied course materials or by a sufficiently authoritative external source.",
+      "warning_th": "คำตอบนี้เป็นข้อเสนอแนะจากการวิเคราะห์ความน่าจะเป็นและการตัดตัวเลือก ไม่ได้รับการยืนยันจากเอกสารการเรียนหรือแหล่งข้อมูลภายนอกที่น่าเชื่อถือเพียงพอ",
+      "human_review_required": true
+    },
+    {
+      "question_id": "question-comprehensive-088",
+      "recommended_choice_id": "question-comprehensive-088-choice-3",
+      "probability_percentage": 55,
+      "probability_explanation_en": "This answer is a probability-based recommendation. It is not verified by the supplied course materials or by a sufficiently authoritative external source. Recommended choice: Access with Internet Connection. All five options can be framed as cloud-development benefits; Internet dependence is the most plausible intended non-advantage because it is a prerequisite or constraint.",
+      "probability_explanation_th": "คำตอบนี้เป็นข้อเสนอแนะจากการวิเคราะห์ความน่าจะเป็นและการตัดตัวเลือก ไม่ได้รับการยืนยันจากเอกสารการเรียนหรือแหล่งข้อมูลภายนอกที่น่าเชื่อถือเพียงพอ ตัวเลือกที่แนะนำ: Access with Internet Connection",
+      "probability_distribution": [
+        {
+          "choice_id": "question-comprehensive-088-choice-1",
+          "probability_percentage": 10
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-2",
+          "probability_percentage": 15
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-3",
+          "probability_percentage": 55
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-4",
+          "probability_percentage": 5
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-5",
+          "probability_percentage": 15
+        }
+      ],
+      "eliminated_choices": [
+        "question-comprehensive-088-choice-1",
+        "question-comprehensive-088-choice-2",
+        "question-comprehensive-088-choice-4",
+        "question-comprehensive-088-choice-5"
+      ],
+      "reason_each_choice_was_eliminated": [
+        {
+          "choice_id": "question-comprehensive-088-choice-1",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: Scalability"
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-2",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: Cost-efficiency"
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-3",
+          "reason": "Retained as the most plausible interpretation, but not verified: Access with Internet Connection"
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-4",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: Fast provision of resources"
+        },
+        {
+          "choice_id": "question-comprehensive-088-choice-5",
+          "reason": "Less plausible under the stem's ordinary reading, but not factually disproved: Wide geographic reach"
+        }
+      ],
+      "remaining_uncertainty": "All five options can be framed as cloud-development benefits; Internet dependence is the most plausible intended non-advantage because it is a prerequisite or constraint.",
+      "warning_en": "This answer is a probability-based recommendation. It is not verified by the supplied course materials or by a sufficiently authoritative external source.",
+      "warning_th": "คำตอบนี้เป็นข้อเสนอแนะจากการวิเคราะห์ความน่าจะเป็นและการตัดตัวเลือก ไม่ได้รับการยืนยันจากเอกสารการเรียนหรือแหล่งข้อมูลภายนอกที่น่าเชื่อถือเพียงพอ",
+      "human_review_required": true
+    }
+  ]
+}

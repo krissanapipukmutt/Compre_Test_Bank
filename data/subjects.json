@@ -1,0 +1,368 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-26T11:14:16.798547+00:00",
+  "subjects": [
+    {
+      "subject_id": "subject-bis601",
+      "course_code": "BIS601",
+      "course_title_en": "Business System Analysis and Design",
+      "course_title_th": "การวิเคราะห์และออกแบบระบบธุรกิจ",
+      "term": "term-2",
+      "source_file_ids": [
+        "file-176b53730e450e2b",
+        "file-2079e43b56fb3807",
+        "file-6b2a1f29ed04b369",
+        "file-88131bb4687a0174",
+        "file-962c67f3a107c532",
+        "file-9c1febf5899364af",
+        "file-d0891b84d202c2b8",
+        "file-ea8e39ce20e51ecd",
+        "file-f85a1656cdcdd606"
+      ],
+      "learning_objectives_en": [
+        "Explain the role and competencies of a systems/business analyst.",
+        "Select and apply development and requirements methods.",
+        "Create and interpret activity, use-case, DFD, decision, and BPMN models."
+      ],
+      "learning_objectives_th": [
+        "อธิบายบทบาทและสมรรถนะของนักวิเคราะห์ระบบ/ธุรกิจ",
+        "เลือกและประยุกต์วิธีพัฒนาระบบและวิธีวิเคราะห์ความต้องการ",
+        "สร้างและตีความ Activity, Use Case, DFD, Decision และ BPMN"
+      ],
+      "overview_en": "BIS601 follows an analysis-to-design path: understand business problems, identify feasible projects, elicit and structure requirements, and model behavior, data flow, decisions, and end-to-end processes.",
+      "overview_th": "BIS601 ดำเนินจากการวิเคราะห์ไปสู่การออกแบบ ได้แก่ ทำความเข้าใจปัญหาธุรกิจ ระบุโครงการที่เป็นไปได้ เก็บและจัดโครงสร้างความต้องการ และสร้างแบบจำลองพฤติกรรม การไหลของข้อมูล การตัดสินใจ และกระบวนการตั้งแต่ต้นจนจบ",
+      "major_themes": [
+        "Analyst role and information-system success",
+        "Development methods and lifecycle",
+        "Project identification and feasibility",
+        "Requirements determination and elicitation",
+        "Activity and use-case modeling",
+        "Data-flow and decision modeling",
+        "Business Process Model and Notation"
+      ],
+      "topic_relationships_en": "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+      "topic_relationships_th": "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+      "examination_focus": [
+        "Definitions and distinctions among core concepts",
+        "Framework or process application to a short case",
+        "Interpretation, limitations, and justified next actions"
+      ],
+      "chapter_ids": [
+        "chapter-bis601-analyst-and-system-success",
+        "chapter-bis601-development-methods",
+        "chapter-bis601-project-identification",
+        "chapter-bis601-requirements",
+        "chapter-bis601-behavior-models",
+        "chapter-bis601-process-models",
+        "chapter-bis601-bpmn"
+      ],
+      "mapping_confidence": "high",
+      "mapping_note": "Course code and subject title are present across the supplied BIS601 course materials."
+    },
+    {
+      "subject_id": "subject-bis602",
+      "course_code": "BIS602",
+      "course_title_en": "Business Decision and Data Analytics",
+      "course_title_th": "การตัดสินใจและการวิเคราะห์ข้อมูลธุรกิจ",
+      "term": "term-1",
+      "source_file_ids": [
+        "file-01f666e5e5b76c34",
+        "file-3081d6f33e31c70b",
+        "file-5be65f456759d821",
+        "file-793fca945ee860e3",
+        "file-8ab03dba6a772847",
+        "file-94caeadde455c76c",
+        "file-9d1b45e68b82f66b",
+        "file-b2b50f4c76749d2f",
+        "file-cd252ddca6d85b3e",
+        "file-ce5d89e96b6767be",
+        "file-e746c6ad6ae2b5a6",
+        "file-e82c8449fac30de1",
+        "file-f652263f18b9d568",
+        "file-f6e36c83b595db9f"
+      ],
+      "learning_objectives_en": [
+        "Frame business decisions with strategy, KPIs, and financial evidence.",
+        "Prepare, summarize, and visualize business data.",
+        "Interpret clustering, classification, regression, association, and simulation results."
+      ],
+      "learning_objectives_th": [
+        "กำหนดกรอบการตัดสินใจด้วยกลยุทธ์ KPI และหลักฐานทางการเงิน",
+        "เตรียม สรุป และแสดงภาพข้อมูลธุรกิจ",
+        "ตีความผลการจัดกลุ่ม การจำแนก การถดถอย กฎความสัมพันธ์ และการจำลอง"
+      ],
+      "overview_en": "BIS602 connects business strategy and performance decisions with enterprise data management, statistics, descriptive analytics, predictive models, association discovery, and simulation.",
+      "overview_th": "BIS602 เชื่อมกลยุทธ์และการตัดสินใจด้านผลการดำเนินงานเข้ากับการจัดการข้อมูลองค์กร สถิติ การวิเคราะห์เชิงพรรณนา แบบจำลองเชิงพยากรณ์ การค้นหาความสัมพันธ์ และการจำลอง",
+      "major_themes": [
+        "Business strategy and competitive advantage",
+        "Business processes and performance measures",
+        "Business investment decisions",
+        "Enterprise data management",
+        "Probability and business statistics",
+        "Data treatment and transformation",
+        "Business intelligence and visualization",
+        "Clustering",
+        "Classification",
+        "Regression",
+        "Association analysis and simulation"
+      ],
+      "topic_relationships_en": "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+      "topic_relationships_th": "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+      "examination_focus": [
+        "Definitions and distinctions among core concepts",
+        "Framework or process application to a short case",
+        "Interpretation, limitations, and justified next actions"
+      ],
+      "chapter_ids": [
+        "chapter-bis602-strategy-and-competition",
+        "chapter-bis602-process-and-kpi",
+        "chapter-bis602-investment-decisions",
+        "chapter-bis602-enterprise-data",
+        "chapter-bis602-probability-and-statistics",
+        "chapter-bis602-data-treatment",
+        "chapter-bis602-bi-and-visualization",
+        "chapter-bis602-clustering",
+        "chapter-bis602-classification",
+        "chapter-bis602-regression",
+        "chapter-bis602-association-and-simulation"
+      ],
+      "mapping_confidence": "high",
+      "mapping_note": "Verified from `BIS602 2024 outline.pdf`, which states the code, English title, Thai title, and schedule."
+    },
+    {
+      "subject_id": "subject-bis603",
+      "course_code": "BIS603",
+      "course_title_en": "Strategies Marketing Management",
+      "course_title_th": "การจัดการการตลาดเชิงกลยุทธ์",
+      "term": "term-2",
+      "source_file_ids": [
+        "file-083c90927b0d3636",
+        "file-2b578ef79450a0e2",
+        "file-55c5e06fb6f9787c",
+        "file-571b6d2eb47454b9",
+        "file-736c3743c3ba0c14",
+        "file-7efb05ab6ddff0a1",
+        "file-8b275297984c4701",
+        "file-947ee483993c859b",
+        "file-a060442e6493ebb6"
+      ],
+      "learning_objectives_en": [
+        "Analyze external and internal strategic conditions.",
+        "Formulate coherent business and marketing choices.",
+        "Connect segmentation, digital channels, data, AI, and financial logic."
+      ],
+      "learning_objectives_th": [
+        "วิเคราะห์เงื่อนไขเชิงกลยุทธ์ภายนอกและภายใน",
+        "กำหนดทางเลือกธุรกิจและการตลาดที่สอดคล้องกัน",
+        "เชื่อมการแบ่งส่วนตลาด ช่องทางดิจิทัล ข้อมูล AI และตรรกะทางการเงิน"
+      ],
+      "overview_en": "The supplied BIS603-context materials combine corporate strategy analysis and formulation with marketing foundations, digital campaigns, customer data, AI, and entrepreneurial financial strategy.",
+      "overview_th": "เอกสารในบริบท BIS603 ผสานการวิเคราะห์และกำหนดกลยุทธ์องค์กรกับพื้นฐานการตลาด แคมเปญดิจิทัล ข้อมูลลูกค้า AI และกลยุทธ์การเงินสำหรับผู้ประกอบการ",
+      "major_themes": [
+        "Strategy foundations and foresight",
+        "External strategic analysis",
+        "Internal strategic analysis",
+        "Strategy formulation and alignment",
+        "Marketing foundations and planning",
+        "Digital marketing, customer data, and AI",
+        "Financial strategy for entrepreneurs"
+      ],
+      "topic_relationships_en": "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+      "topic_relationships_th": "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+      "examination_focus": [
+        "Definitions and distinctions among core concepts",
+        "Framework or process application to a short case",
+        "Interpretation, limitations, and justified next actions"
+      ],
+      "chapter_ids": [
+        "chapter-bis603-strategy-foundations",
+        "chapter-bis603-external-analysis",
+        "chapter-bis603-internal-analysis",
+        "chapter-bis603-strategy-formulation",
+        "chapter-bis603-marketing-foundations",
+        "chapter-bis603-digital-marketing-data-ai",
+        "chapter-bis603-financial-strategy"
+      ],
+      "mapping_confidence": "medium",
+      "mapping_note": "The folder supplies the BIS603 code and a misspelled title; sampled lecture content confirms strategy/marketing topics but no authoritative course outline states the exact code-title pair."
+    },
+    {
+      "subject_id": "subject-bis604",
+      "course_code": "BIS604",
+      "course_title_en": "Business Data Management",
+      "course_title_th": "การจัดการข้อมูลธุรกิจ",
+      "term": "term-2",
+      "source_file_ids": [
+        "file-341f35b4328df935",
+        "file-44af1285663d4416",
+        "file-49fd40df7aa44288",
+        "file-4a7c5a3cc1aa27a7",
+        "file-87a2f931b312e101",
+        "file-8ace7237cc8b043e",
+        "file-c388c4b3009c6303",
+        "file-e38bc6dc67d418d5",
+        "file-e4f94337049e4beb"
+      ],
+      "learning_objectives_en": [
+        "Explain database systems and data-model tradeoffs.",
+        "Transform business rules into relational and ER designs.",
+        "Normalize and implement a database with SQL."
+      ],
+      "learning_objectives_th": [
+        "อธิบายระบบฐานข้อมูลและข้อแลกเปลี่ยนของแบบจำลองข้อมูล",
+        "แปลงกฎธุรกิจเป็นแบบเชิงสัมพันธ์และ ER",
+        "ทำ Normalization และสร้างฐานข้อมูลด้วย SQL"
+      ],
+      "overview_en": "BIS604 develops database literacy from data-management foundations and data models through relational design, business rules, ER modeling, normalization, SQL implementation, and business use.",
+      "overview_th": "BIS604 พัฒนาความรู้ฐานข้อมูลตั้งแต่พื้นฐานการจัดการข้อมูลและแบบจำลองข้อมูล ผ่านการออกแบบเชิงสัมพันธ์ กฎธุรกิจ ER การทำ Normalization การใช้ SQL และการนำข้อมูลไปใช้ในธุรกิจ",
+      "major_themes": [
+        "Database and data-management foundations",
+        "Data models",
+        "Relational model and keys",
+        "Business rules and ER modeling",
+        "Normalization",
+        "SQL and database implementation"
+      ],
+      "topic_relationships_en": "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+      "topic_relationships_th": "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+      "examination_focus": [
+        "Definitions and distinctions among core concepts",
+        "Framework or process application to a short case",
+        "Interpretation, limitations, and justified next actions"
+      ],
+      "chapter_ids": [
+        "chapter-bis604-database-foundations",
+        "chapter-bis604-data-models",
+        "chapter-bis604-relational-model",
+        "chapter-bis604-business-rules-and-erd",
+        "chapter-bis604-normalization",
+        "chapter-bis604-sql-and-implementation"
+      ],
+      "mapping_confidence": "high",
+      "mapping_note": "Verified from `OutlineBIS604_1_2025_New1.pdf`, which states `BIS604 Business Data Management`."
+    },
+    {
+      "subject_id": "subject-bis605",
+      "course_code": "BIS605",
+      "course_title_en": "Software Development Technologies for Digital Business",
+      "course_title_th": "เทคโนโลยีการพัฒนาซอฟต์แวร์สำหรับธุรกิจดิจิทัล",
+      "term": "term-1",
+      "source_file_ids": [
+        "file-164c18ee921bf673",
+        "file-3c8eec8730f05143",
+        "file-4ebef8a809e1d5e6",
+        "file-67303d6c4385f438",
+        "file-6f0c94c0012067ca",
+        "file-a8f0ae53bbf8d98b",
+        "file-b77c0232f4e3586f",
+        "file-cda9f9013b93e681",
+        "file-e0b981ebdd442e54",
+        "file-e35d30c4a92884e9",
+        "file-f8e2e7c99fee5d75",
+        "file-fa3f297079cee57a"
+      ],
+      "learning_objectives_en": [
+        "Relate architecture, lifecycle, requirements, and design decisions.",
+        "Build accessible interfaces with core web technologies.",
+        "Explain server, database, API, cloud, and mobile integration."
+      ],
+      "learning_objectives_th": [
+        "เชื่อมการตัดสินใจด้านสถาปัตยกรรม วงจรชีวิต ความต้องการ และการออกแบบ",
+        "สร้างส่วนติดต่อที่เข้าถึงได้ด้วยเทคโนโลยีเว็บหลัก",
+        "อธิบายการเชื่อม Server, Database, API, Cloud และ Mobile"
+      ],
+      "overview_en": "BIS605 covers the software lifecycle and design foundations, then applies them through front-end, back-end, database, API, cloud, and mobile technologies for digital-business solutions.",
+      "overview_th": "BIS605 ครอบคลุมวงจรชีวิตและพื้นฐานการออกแบบซอฟต์แวร์ แล้วนำไปประยุกต์ผ่านเทคโนโลยี Front-end, Back-end, ฐานข้อมูล, API, Cloud และ Mobile สำหรับโซลูชันธุรกิจดิจิทัล",
+      "major_themes": [
+        "System architecture and software lifecycle",
+        "Software design and requirements",
+        "Web and interface design principles",
+        "Frameworks and development technologies",
+        "HTML, CSS, and JavaScript",
+        "Back-end, database, API, cloud, and mobile technologies"
+      ],
+      "topic_relationships_en": "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+      "topic_relationships_th": "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+      "examination_focus": [
+        "Definitions and distinctions among core concepts",
+        "Framework or process application to a short case",
+        "Interpretation, limitations, and justified next actions"
+      ],
+      "chapter_ids": [
+        "chapter-bis605-architecture-and-sdlc",
+        "chapter-bis605-software-design",
+        "chapter-bis605-web-and-ui-design",
+        "chapter-bis605-development-technologies",
+        "chapter-bis605-frontend",
+        "chapter-bis605-backend-data-api-cloud-mobile"
+      ],
+      "mapping_confidence": "high",
+      "mapping_note": "Verified from the supplied BIS605 combined course material and chapter slides."
+    },
+    {
+      "subject_id": "subject-bis606",
+      "course_code": "BIS606",
+      "course_title_en": "Digital Infrastructure and Cyber Security System",
+      "course_title_th": "โครงสร้างพื้นฐานดิจิทัลและระบบความมั่นคงปลอดภัยไซเบอร์",
+      "term": "term-1",
+      "source_file_ids": [
+        "file-21ac7abc24295e05",
+        "file-2d34063579b7d66a",
+        "file-329a11db2c8922a2",
+        "file-3d571334473a13bf",
+        "file-3d9f9ee41c5e6ff9",
+        "file-5ea1693fd318535d",
+        "file-80fa663d0e682885",
+        "file-882f2430d45fc213",
+        "file-9376a458b7ccf978",
+        "file-99a8ff408f6accba",
+        "file-a7890c487bb250c2",
+        "file-a957eda3687b8a6a",
+        "file-b2ad8cad2c8374ec",
+        "file-bf81a63b95357a6e",
+        "file-c2bd7b1ca3176963",
+        "file-cb92b19e498217a7",
+        "file-ff0f560eb939282c"
+      ],
+      "learning_objectives_en": [
+        "Explain layered communication and network technologies.",
+        "Assess continuity and cyber risks.",
+        "Select network, server, system, and governance controls."
+      ],
+      "learning_objectives_th": [
+        "อธิบายการสื่อสารแบบแบ่งชั้นและเทคโนโลยีเครือข่าย",
+        "ประเมินความเสี่ยงด้านความต่อเนื่องและไซเบอร์",
+        "เลือกการควบคุมเครือข่าย เซิร์ฟเวอร์ ระบบ และธรรมาภิบาล"
+      ],
+      "overview_en": "BIS606 spans data communications and network infrastructure, then applies continuity, risk, defense-in-depth, host/network controls, and security frameworks to protect digital services.",
+      "overview_th": "BIS606 ครอบคลุมการสื่อสารข้อมูลและโครงสร้างพื้นฐานเครือข่าย ก่อนประยุกต์ความต่อเนื่องทางธุรกิจ ความเสี่ยง การป้องกันหลายชั้น การควบคุม Host/Network และกรอบความมั่นคงปลอดภัยเพื่อคุ้มครองบริการดิจิทัล",
+      "major_themes": [
+        "Network communication foundations",
+        "Data link, network, and transport layers",
+        "LAN, backbone, WAN, Internet, and network management",
+        "Cybersecurity foundations",
+        "Business continuity and risk management",
+        "Network, server, and system security",
+        "ISO 27001 and CIS controls"
+      ],
+      "topic_relationships_en": "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+      "topic_relationships_th": "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+      "examination_focus": [
+        "Definitions and distinctions among core concepts",
+        "Framework or process application to a short case",
+        "Interpretation, limitations, and justified next actions"
+      ],
+      "chapter_ids": [
+        "chapter-bis606-communications-foundations",
+        "chapter-bis606-data-link-and-tcpip",
+        "chapter-bis606-lan-wan-internet",
+        "chapter-bis606-cybersecurity-foundations",
+        "chapter-bis606-continuity-and-risk",
+        "chapter-bis606-infrastructure-security",
+        "chapter-bis606-security-frameworks"
+      ],
+      "mapping_confidence": "high",
+      "mapping_note": "Verified from `BIS606Syllabus_2_2024.docx` and the supplied combined course material."
+    }
+  ]
+}

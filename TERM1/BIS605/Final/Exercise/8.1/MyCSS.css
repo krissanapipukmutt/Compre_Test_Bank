@@ -1,0 +1,23 @@
+header{
+    color: blue;
+    background-color:burlywood;
+    text-align: center;
+}
+h3{
+    color: blue;
+    background-color:pink;
+}
+b{
+    color: blue;
+}
+div{
+    background-color:papayawhip;
+}
+article{
+    background-color:pink;
+}
+footer{
+    color: white;
+    background-color:gray;
+    text-align: center;
+}

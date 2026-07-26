@@ -1,0 +1,2064 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-26T11:14:16.798547+00:00",
+  "topics": [
+    {
+      "topic_id": "topic-bis601-analyst-and-system-success-01",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "title_en": "Information-system success",
+      "title_th": "ความสำเร็จของระบบสารสนเทศ",
+      "summary_en": "Success depends on business value, adoption, quality, and fit—not delivery alone.",
+      "summary_th": "ความสำเร็จขึ้นกับคุณค่าทางธุรกิจ การยอมรับ คุณภาพ และความสอดคล้อง ไม่ใช่เพียงส่งมอบเสร็จ",
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis601-analyst-and-system-success-02",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "title_en": "Systems analyst",
+      "title_th": "นักวิเคราะห์ระบบ",
+      "summary_en": "An analyst bridges stakeholder needs and a feasible system solution.",
+      "summary_th": "นักวิเคราะห์เชื่อมความต้องการผู้มีส่วนได้ส่วนเสียกับโซลูชันระบบที่เป็นไปได้",
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis601-analyst-and-system-success-03",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "title_en": "Problem and opportunity",
+      "title_th": "ปัญหาและโอกาส",
+      "summary_en": "Analysis frames the gap between the current and desired business state.",
+      "summary_th": "การวิเคราะห์กำหนดช่องว่างระหว่างสภาพธุรกิจปัจจุบันและสภาพที่ต้องการ",
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis601-development-methods-01",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-development-methods",
+      "title_en": "SDLC",
+      "title_th": "วงจรชีวิตการพัฒนาระบบ",
+      "summary_en": "A structured sequence for planning, analysis, design, implementation, and maintenance.",
+      "summary_th": "ลำดับงานอย่างเป็นระบบตั้งแต่การวางแผน วิเคราะห์ ออกแบบ นำไปใช้ และบำรุงรักษา",
+      "source_reference_ids": [
+        "ref-cc0c959ac842"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis601-development-methods-02",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-development-methods",
+      "title_en": "Predictive method",
+      "title_th": "วิธีเชิงคาดการณ์",
+      "summary_en": "A plan-driven approach suitable when scope is comparatively stable.",
+      "summary_th": "แนวทางขับเคลื่อนด้วยแผน เหมาะเมื่อขอบเขตค่อนข้างคงที่",
+      "source_reference_ids": [
+        "ref-cc0c959ac842"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis601-development-methods-03",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-development-methods",
+      "title_en": "Adaptive method",
+      "title_th": "วิธีเชิงปรับตัว",
+      "summary_en": "An iterative approach that learns through frequent delivery and feedback.",
+      "summary_th": "แนวทางวนรอบที่เรียนรู้ผ่านการส่งมอบและข้อเสนอแนะบ่อยครั้ง",
+      "source_reference_ids": [
+        "ref-cc0c959ac842"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis601-project-identification-01",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-project-identification",
+      "title_en": "System request",
+      "title_th": "คำขอระบบ",
+      "summary_en": "A concise statement of sponsor, need, requirements, value, and constraints.",
+      "summary_th": "ข้อความกระชับระบุผู้สนับสนุน ความต้องการ คุณค่า และข้อจำกัด",
+      "source_reference_ids": [
+        "ref-76f6bb70a4fa"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis601-project-identification-02",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-project-identification",
+      "title_en": "Feasibility analysis",
+      "title_th": "การวิเคราะห์ความเป็นไปได้",
+      "summary_en": "A structured test of whether a proposed project should proceed.",
+      "summary_th": "การทดสอบอย่างมีโครงสร้างว่าโครงการที่เสนอควรดำเนินต่อหรือไม่",
+      "source_reference_ids": [
+        "ref-76f6bb70a4fa"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis601-project-identification-03",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-project-identification",
+      "title_en": "Project scope",
+      "title_th": "ขอบเขตโครงการ",
+      "summary_en": "The agreed boundary of included outcomes, work, and exclusions.",
+      "summary_th": "ขอบเขตที่ตกลงของผลลัพธ์ งานที่รวม และสิ่งที่ไม่รวม",
+      "source_reference_ids": [
+        "ref-76f6bb70a4fa"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis601-requirements-01",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-requirements",
+      "title_en": "Functional requirement",
+      "title_th": "ความต้องการเชิงหน้าที่",
+      "summary_en": "A behavior or service the system must provide.",
+      "summary_th": "พฤติกรรมหรือบริการที่ระบบต้องจัดให้",
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis601-requirements-02",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-requirements",
+      "title_en": "Non-functional requirement",
+      "title_th": "ความต้องการที่ไม่ใช่เชิงหน้าที่",
+      "summary_en": "A quality or constraint such as performance, security, or usability.",
+      "summary_th": "คุณลักษณะหรือข้อจำกัด เช่น ประสิทธิภาพ ความมั่นคงปลอดภัย หรือความง่ายในการใช้",
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis601-requirements-03",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-requirements",
+      "title_en": "Elicitation",
+      "title_th": "การเก็บความต้องการ",
+      "summary_en": "Purposeful discovery through interviews, observation, workshops, documents, or prototypes.",
+      "summary_th": "การค้นหาอย่างมีเป้าหมายผ่านการสัมภาษณ์ สังเกต เวิร์กช็อป เอกสาร หรือต้นแบบ",
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis601-behavior-models-01",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-behavior-models",
+      "title_en": "Activity diagram",
+      "title_th": "แผนภาพกิจกรรม",
+      "summary_en": "A behavioral model of actions, decisions, parallel paths, and flow.",
+      "summary_th": "แบบจำลองพฤติกรรมของกิจกรรม การตัดสินใจ เส้นทางขนาน และการไหล",
+      "source_reference_ids": [
+        "ref-5347df2602b3",
+        "ref-48fadbe6b0c2"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis601-behavior-models-02",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-behavior-models",
+      "title_en": "Actor",
+      "title_th": "ผู้กระทำ",
+      "summary_en": "An external role that interacts with a system to achieve a goal.",
+      "summary_th": "บทบาทภายนอกที่โต้ตอบกับระบบเพื่อบรรลุเป้าหมาย",
+      "source_reference_ids": [
+        "ref-5347df2602b3",
+        "ref-48fadbe6b0c2"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis601-behavior-models-03",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-behavior-models",
+      "title_en": "Use case",
+      "title_th": "กรณีใช้งาน",
+      "summary_en": "A sequence of interactions that delivers observable value to an actor.",
+      "summary_th": "ลำดับปฏิสัมพันธ์ที่ส่งมอบคุณค่าที่สังเกตได้ให้ Actor",
+      "source_reference_ids": [
+        "ref-5347df2602b3",
+        "ref-48fadbe6b0c2"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis601-process-models-01",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-process-models",
+      "title_en": "Data-flow diagram",
+      "title_th": "แผนภาพการไหลของข้อมูล",
+      "summary_en": "A logical model of how data enters, is transformed, stored, and leaves a system.",
+      "summary_th": "แบบจำลองเชิงตรรกะว่าข้อมูลเข้าสู่ระบบ ถูกแปลง จัดเก็บ และออกจากระบบอย่างไร",
+      "source_reference_ids": [
+        "ref-94fddec5992b",
+        "ref-a0ca361426ba"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis601-process-models-02",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-process-models",
+      "title_en": "Balancing",
+      "title_th": "การสมดุล DFD",
+      "summary_en": "Inputs and outputs remain consistent across decomposition levels.",
+      "summary_th": "ข้อมูลเข้าและออกต้องสอดคล้องกันระหว่างระดับการแตกกระบวนการ",
+      "source_reference_ids": [
+        "ref-94fddec5992b",
+        "ref-a0ca361426ba"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis601-process-models-03",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-process-models",
+      "title_en": "Decision table",
+      "title_th": "ตารางการตัดสินใจ",
+      "summary_en": "A tabular representation of condition combinations and resulting actions.",
+      "summary_th": "ตารางแสดงชุดเงื่อนไขและการกระทำที่เกิดขึ้น",
+      "source_reference_ids": [
+        "ref-94fddec5992b",
+        "ref-a0ca361426ba"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis601-bpmn-01",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-bpmn",
+      "title_en": "Event",
+      "title_th": "เหตุการณ์",
+      "summary_en": "Something that starts, affects, or ends a process.",
+      "summary_th": "สิ่งที่เริ่ม ส่งผลต่อ หรือยุติกระบวนการ",
+      "source_reference_ids": [
+        "ref-28b6241dc035"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis601-bpmn-02",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-bpmn",
+      "title_en": "Gateway",
+      "title_th": "จุดแยก/รวมเส้นทาง",
+      "summary_en": "A control point that splits or merges process paths.",
+      "summary_th": "จุดควบคุมที่แยกหรือรวมเส้นทางกระบวนการ",
+      "source_reference_ids": [
+        "ref-28b6241dc035"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis601-bpmn-03",
+      "subject_id": "subject-bis601",
+      "chapter_id": "chapter-bis601-bpmn",
+      "title_en": "Pool and lane",
+      "title_th": "พูลและเลน",
+      "summary_en": "Responsibility boundaries for participants and roles.",
+      "summary_th": "ขอบเขตความรับผิดชอบของผู้เข้าร่วมและบทบาท",
+      "source_reference_ids": [
+        "ref-28b6241dc035"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-strategy-and-competition-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "title_en": "Competitive advantage",
+      "title_th": "ความได้เปรียบในการแข่งขัน",
+      "summary_en": "A capability or position that lets a firm create superior value.",
+      "summary_th": "ความสามารถหรือตำแหน่งที่ทำให้องค์กรสร้างคุณค่าเหนือกว่า",
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-strategy-and-competition-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "title_en": "Porter's Five Forces",
+      "title_th": "แรงกดดันห้าประการของพอร์เตอร์",
+      "summary_en": "A framework for analyzing industry rivalry, entry, substitutes, buyers, and suppliers.",
+      "summary_th": "กรอบวิเคราะห์การแข่งขัน ผู้เข้าใหม่ สินค้าทดแทน ผู้ซื้อ และผู้ขาย",
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-strategy-and-competition-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "title_en": "Value chain",
+      "title_th": "ห่วงโซ่คุณค่า",
+      "summary_en": "Linked activities that create and deliver customer value.",
+      "summary_th": "กิจกรรมที่เชื่อมกันเพื่อสร้างและส่งมอบคุณค่าแก่ลูกค้า",
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-process-and-kpi-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "title_en": "Business process",
+      "title_th": "กระบวนการธุรกิจ",
+      "summary_en": "Coordinated activities that transform inputs into stakeholder value.",
+      "summary_th": "กิจกรรมประสานกันที่แปลง Input เป็นคุณค่าสำหรับผู้มีส่วนได้ส่วนเสีย",
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-process-and-kpi-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "title_en": "KPI",
+      "title_th": "ตัวชี้วัดผลการดำเนินงานหลัก",
+      "summary_en": "A metric tied to a critical objective and decision.",
+      "summary_th": "ตัวชี้วัดที่ผูกกับวัตถุประสงค์และการตัดสินใจสำคัญ",
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-process-and-kpi-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "title_en": "Balanced Scorecard",
+      "title_th": "ดุลยภาพตัวชี้วัด",
+      "summary_en": "A multi-perspective framework covering financial, customer, process, and learning outcomes.",
+      "summary_th": "กรอบหลายมุมมอง ครอบคลุมการเงิน ลูกค้า กระบวนการ และการเรียนรู้",
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-investment-decisions-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-investment-decisions",
+      "title_en": "Time value of money",
+      "title_th": "มูลค่าเงินตามเวลา",
+      "summary_en": "Money available today differs in value from the same nominal amount later.",
+      "summary_th": "เงินที่มีวันนี้มีมูลค่าไม่เท่ากับจำนวนเงินนามธรรมเดียวกันในอนาคต",
+      "source_reference_ids": [
+        "ref-43f347e0b01d"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-investment-decisions-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-investment-decisions",
+      "title_en": "Present value",
+      "title_th": "มูลค่าปัจจุบัน",
+      "summary_en": "A future cash flow discounted to today's value.",
+      "summary_th": "กระแสเงินสดอนาคตที่คิดลดกลับเป็นมูลค่าวันนี้",
+      "source_reference_ids": [
+        "ref-43f347e0b01d"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-investment-decisions-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-investment-decisions",
+      "title_en": "Net present value",
+      "title_th": "มูลค่าปัจจุบันสุทธิ",
+      "summary_en": "Discounted benefits minus discounted costs; positive NPV indicates value under the assumptions.",
+      "summary_th": "ผลประโยชน์คิดลดลบต้นทุนคิดลด โดย NPV บวกบ่งชี้การสร้างคุณค่าภายใต้สมมติฐาน",
+      "source_reference_ids": [
+        "ref-43f347e0b01d"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-enterprise-data-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "title_en": "Data quality",
+      "title_th": "คุณภาพข้อมูล",
+      "summary_en": "Fitness for use across accuracy, completeness, consistency, timeliness, and validity.",
+      "summary_th": "ความเหมาะสมต่อการใช้งานด้านความถูกต้อง ครบถ้วน สอดคล้อง ทันเวลา และเป็นไปตามกฎ",
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-enterprise-data-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "title_en": "ETL",
+      "title_th": "กระบวนการ ETL",
+      "summary_en": "Extract data, transform it to agreed rules, and load it into a target.",
+      "summary_th": "ดึงข้อมูล แปลงตามกฎที่ตกลง และโหลดเข้าสู่ปลายทาง",
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-enterprise-data-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "title_en": "Data governance",
+      "title_th": "ธรรมาภิบาลข้อมูล",
+      "summary_en": "Decision rights, accountability, standards, and controls for data.",
+      "summary_th": "สิทธิในการตัดสินใจ ความรับผิดชอบ มาตรฐาน และการควบคุมข้อมูล",
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-probability-and-statistics-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "title_en": "Expected value",
+      "title_th": "ค่าคาดหมาย",
+      "summary_en": "The probability-weighted average outcome of a random variable.",
+      "summary_th": "ค่าเฉลี่ยของผลลัพธ์ที่ถ่วงด้วยความน่าจะเป็น",
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-probability-and-statistics-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "title_en": "Standard deviation",
+      "title_th": "ส่วนเบี่ยงเบนมาตรฐาน",
+      "summary_en": "A measure of dispersion around the mean.",
+      "summary_th": "ตัววัดการกระจายรอบค่าเฉลี่ย",
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-probability-and-statistics-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "title_en": "Z-score",
+      "title_th": "คะแนนมาตรฐาน z",
+      "summary_en": "The number of standard deviations an observation lies from the mean.",
+      "summary_th": "จำนวนส่วนเบี่ยงเบนมาตรฐานที่ค่าสังเกตห่างจากค่าเฉลี่ย",
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-data-treatment-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-data-treatment",
+      "title_en": "Missing-data treatment",
+      "title_th": "การจัดการข้อมูลสูญหาย",
+      "summary_en": "Omit or impute values using a method justified by the missingness and task.",
+      "summary_th": "ตัดออกหรือเติมค่าด้วยวิธีที่เหมาะกับสาเหตุการสูญหายและงาน",
+      "source_reference_ids": [
+        "ref-c42f8dd03ad7"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-data-treatment-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-data-treatment",
+      "title_en": "Transformation",
+      "title_th": "การแปลงข้อมูล",
+      "summary_en": "Change scale or representation to support analysis while preserving meaning.",
+      "summary_th": "เปลี่ยนสเกลหรือรูปแบบเพื่อสนับสนุนการวิเคราะห์โดยรักษาความหมาย",
+      "source_reference_ids": [
+        "ref-c42f8dd03ad7"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-data-treatment-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-data-treatment",
+      "title_en": "Binning",
+      "title_th": "การแบ่งช่วง",
+      "summary_en": "Convert continuous values into defined intervals.",
+      "summary_th": "แปลงค่าต่อเนื่องเป็นช่วงที่กำหนด",
+      "source_reference_ids": [
+        "ref-c42f8dd03ad7"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-bi-and-visualization-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "title_en": "Business intelligence",
+      "title_th": "ข่าวกรองธุรกิจ",
+      "summary_en": "Processes and tools that turn integrated data into decision information.",
+      "summary_th": "กระบวนการและเครื่องมือที่เปลี่ยนข้อมูลบูรณาการเป็นสารสนเทศเพื่อการตัดสินใจ",
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-bi-and-visualization-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "title_en": "OLAP",
+      "title_th": "การวิเคราะห์ OLAP",
+      "summary_en": "Interactive multidimensional analysis using operations such as slice, dice, drill, and roll-up.",
+      "summary_th": "การวิเคราะห์หลายมิติแบบโต้ตอบด้วย Slice, Dice, Drill และ Roll-up",
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-bi-and-visualization-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "title_en": "Visual encoding",
+      "title_th": "การเข้ารหัสด้วยภาพ",
+      "summary_en": "Mapping values to position, length, color, shape, or other visual channels.",
+      "summary_th": "การแมปค่ากับตำแหน่ง ความยาว สี รูปร่าง หรือช่องทางภาพอื่น",
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-clustering-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-clustering",
+      "title_en": "Unsupervised learning",
+      "title_th": "การเรียนรู้แบบไม่มีผู้สอน",
+      "summary_en": "Learning structure from observations without target labels.",
+      "summary_th": "การเรียนรู้โครงสร้างจากข้อมูลโดยไม่มี Label เป้าหมาย",
+      "source_reference_ids": [
+        "ref-b6f3f17069ca"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-clustering-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-clustering",
+      "title_en": "K-means",
+      "title_th": "เคมีนส์",
+      "summary_en": "A centroid-based algorithm minimizing within-cluster squared distance.",
+      "summary_th": "อัลกอริทึมอิงจุดศูนย์กลางที่ลดระยะกำลังสองภายในกลุ่ม",
+      "source_reference_ids": [
+        "ref-b6f3f17069ca"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-clustering-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-clustering",
+      "title_en": "Cluster validation",
+      "title_th": "การตรวจสอบคุณภาพกลุ่ม",
+      "summary_en": "Assess whether groups are compact, separated, stable, and useful.",
+      "summary_th": "ประเมินว่ากลุ่มกระชับ แยกจากกัน เสถียร และใช้ประโยชน์ได้หรือไม่",
+      "source_reference_ids": [
+        "ref-b6f3f17069ca"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-classification-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-classification",
+      "title_en": "k-nearest neighbors",
+      "title_th": "เพื่อนบ้านใกล้ที่สุด k ตัว",
+      "summary_en": "A classifier that votes from the labels of nearby training cases.",
+      "summary_th": "ตัวจำแนกที่ลงคะแนนจาก Label ของกรณีฝึกที่อยู่ใกล้",
+      "source_reference_ids": [
+        "ref-57e236c282a1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-classification-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-classification",
+      "title_en": "Confusion matrix",
+      "title_th": "เมทริกซ์ความสับสน",
+      "summary_en": "Counts predictions by actual and predicted class.",
+      "summary_th": "นับผลทำนายแยกตามคลาสจริงและคลาสที่ทำนาย",
+      "source_reference_ids": [
+        "ref-57e236c282a1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-classification-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-classification",
+      "title_en": "Validation",
+      "title_th": "การตรวจสอบแบบจำลอง",
+      "summary_en": "Estimate generalization with data not used to fit the model.",
+      "summary_th": "ประเมินความสามารถกับข้อมูลที่ไม่ได้ใช้สร้างแบบจำลอง",
+      "source_reference_ids": [
+        "ref-57e236c282a1"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-regression-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-regression",
+      "title_en": "Dependent variable",
+      "title_th": "ตัวแปรตาม",
+      "summary_en": "The numeric outcome a regression model explains or predicts.",
+      "summary_th": "ผลลัพธ์เชิงตัวเลขที่แบบจำลองอธิบายหรือพยากรณ์",
+      "source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-regression-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-regression",
+      "title_en": "Coefficient",
+      "title_th": "สัมประสิทธิ์",
+      "summary_en": "The estimated change in outcome associated with a predictor, conditional on the model.",
+      "summary_th": "การเปลี่ยนแปลงผลลัพธ์โดยประมาณที่สัมพันธ์กับตัวแปรอธิบายภายใต้แบบจำลอง",
+      "source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-regression-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-regression",
+      "title_en": "Residual",
+      "title_th": "ค่าคลาดเคลื่อนคงเหลือ",
+      "summary_en": "Observed outcome minus the model prediction.",
+      "summary_th": "ผลลัพธ์จริงลบค่าที่แบบจำลองพยากรณ์",
+      "source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis602-association-and-simulation-01",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-association-and-simulation",
+      "title_en": "Support",
+      "title_th": "ค่าสนับสนุน",
+      "summary_en": "The proportion of transactions containing an itemset.",
+      "summary_th": "สัดส่วนธุรกรรมที่มีชุดรายการ",
+      "source_reference_ids": [
+        "ref-258f80d9b977",
+        "ref-6c7a93d5070f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis602-association-and-simulation-02",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-association-and-simulation",
+      "title_en": "Confidence",
+      "title_th": "ค่าความเชื่อมั่นของกฎ",
+      "summary_en": "The conditional frequency of the consequent when the antecedent occurs.",
+      "summary_th": "ความถี่แบบมีเงื่อนไขของผลตามเมื่อเหตุเกิด",
+      "source_reference_ids": [
+        "ref-258f80d9b977",
+        "ref-6c7a93d5070f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis602-association-and-simulation-03",
+      "subject_id": "subject-bis602",
+      "chapter_id": "chapter-bis602-association-and-simulation",
+      "title_en": "Monte Carlo simulation",
+      "title_th": "การจำลองมอนติคาร์โล",
+      "summary_en": "Repeated random sampling to approximate an outcome distribution.",
+      "summary_th": "การสุ่มซ้ำเพื่อประมาณการแจกแจงของผลลัพธ์",
+      "source_reference_ids": [
+        "ref-258f80d9b977",
+        "ref-6c7a93d5070f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis605-architecture-and-sdlc-01",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "title_en": "Layered architecture",
+      "title_th": "สถาปัตยกรรมแบบแบ่งชั้น",
+      "summary_en": "Separates presentation, application, domain, and data responsibilities.",
+      "summary_th": "แยกความรับผิดชอบด้านการนำเสนอ แอปพลิเคชัน โดเมน และข้อมูล",
+      "source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis605-architecture-and-sdlc-02",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "title_en": "Software lifecycle",
+      "title_th": "วงจรชีวิตซอฟต์แวร์",
+      "summary_en": "Activities that govern a software product from idea through operation.",
+      "summary_th": "กิจกรรมที่กำกับผลิตภัณฑ์ซอฟต์แวร์ตั้งแต่แนวคิดถึงการปฏิบัติการ",
+      "source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis605-architecture-and-sdlc-03",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "title_en": "Iterative delivery",
+      "title_th": "การส่งมอบแบบวนรอบ",
+      "summary_en": "Build and evaluate increments to reduce uncertainty early.",
+      "summary_th": "สร้างและประเมินส่วนเพิ่มเพื่อลดความไม่แน่นอนตั้งแต่ต้น",
+      "source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis605-software-design-01",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-software-design",
+      "title_en": "Modularity",
+      "title_th": "ความเป็นโมดูล",
+      "summary_en": "Decompose a system into focused, replaceable units.",
+      "summary_th": "แบ่งระบบเป็นหน่วยที่มุ่งหน้าที่และเปลี่ยนแทนได้",
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis605-software-design-02",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-software-design",
+      "title_en": "Cohesion",
+      "title_th": "ความยึดเหนี่ยวภายใน",
+      "summary_en": "How strongly the responsibilities inside a module belong together.",
+      "summary_th": "ระดับที่ความรับผิดชอบในโมดูลสัมพันธ์เป็นเรื่องเดียวกัน",
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis605-software-design-03",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-software-design",
+      "title_en": "Coupling",
+      "title_th": "การพึ่งพาระหว่างโมดูล",
+      "summary_en": "The degree of dependency between modules.",
+      "summary_th": "ระดับการพึ่งพากันระหว่างโมดูล",
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis605-web-and-ui-design-01",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "title_en": "Visual hierarchy",
+      "title_th": "ลำดับชั้นทางสายตา",
+      "summary_en": "Use size, contrast, space, and position to communicate importance.",
+      "summary_th": "ใช้ขนาด ความต่าง พื้นที่ว่าง และตำแหน่งเพื่อสื่อความสำคัญ",
+      "source_reference_ids": [
+        "ref-48b117d4f581",
+        "ref-3df30e359a7a"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis605-web-and-ui-design-02",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "title_en": "Usability",
+      "title_th": "ความสามารถในการใช้งาน",
+      "summary_en": "Effectiveness, efficiency, and satisfaction for intended users.",
+      "summary_th": "ประสิทธิผล ประสิทธิภาพ และความพึงพอใจของผู้ใช้เป้าหมาย",
+      "source_reference_ids": [
+        "ref-48b117d4f581",
+        "ref-3df30e359a7a"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis605-web-and-ui-design-03",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "title_en": "Prototype",
+      "title_th": "ต้นแบบ",
+      "summary_en": "A testable representation used to learn before full implementation.",
+      "summary_th": "ตัวแทนที่ทดสอบได้เพื่อเรียนรู้ก่อนพัฒนาจริงเต็มรูปแบบ",
+      "source_reference_ids": [
+        "ref-48b117d4f581",
+        "ref-3df30e359a7a"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis605-development-technologies-01",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "title_en": "Framework",
+      "title_th": "เฟรมเวิร์ก",
+      "summary_en": "A reusable structure and conventions for building applications.",
+      "summary_th": "โครงสร้างและข้อตกลงที่ใช้ซ้ำในการสร้างแอปพลิเคชัน",
+      "source_reference_ids": [
+        "ref-cebc3781d70f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis605-development-technologies-02",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "title_en": "Version control",
+      "title_th": "การควบคุมเวอร์ชัน",
+      "summary_en": "Track and coordinate changes to source artifacts.",
+      "summary_th": "ติดตามและประสานการเปลี่ยนแปลงของ Source",
+      "source_reference_ids": [
+        "ref-cebc3781d70f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis605-development-technologies-03",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "title_en": "Container",
+      "title_th": "คอนเทนเนอร์",
+      "summary_en": "A packaged runtime environment for a process and its dependencies.",
+      "summary_th": "สภาพแวดล้อม Runtime ที่บรรจุ Process และ Dependency",
+      "source_reference_ids": [
+        "ref-cebc3781d70f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis605-frontend-01",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-frontend",
+      "title_en": "Semantic HTML",
+      "title_th": "HTML เชิงความหมาย",
+      "summary_en": "Elements communicate document structure and control meaning.",
+      "summary_th": "Element สื่อโครงสร้างเอกสารและความหมายของ Control",
+      "source_reference_ids": [
+        "ref-a21db17e35c0",
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis605-frontend-02",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-frontend",
+      "title_en": "Responsive CSS",
+      "title_th": "CSS แบบตอบสนอง",
+      "summary_en": "Layouts adapt to available space and user preferences.",
+      "summary_th": "Layout ปรับตามพื้นที่และค่าที่ผู้ใช้เลือก",
+      "source_reference_ids": [
+        "ref-a21db17e35c0",
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis605-frontend-03",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-frontend",
+      "title_en": "DOM event",
+      "title_th": "เหตุการณ์ DOM",
+      "summary_en": "A browser signal handled to produce interactive behavior.",
+      "summary_th": "สัญญาณจาก Browser ที่ถูกจัดการเพื่อสร้างปฏิสัมพันธ์",
+      "source_reference_ids": [
+        "ref-a21db17e35c0",
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis605-backend-data-api-cloud-mobile-01",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "title_en": "Server-side validation",
+      "title_th": "การตรวจสอบฝั่งเซิร์ฟเวอร์",
+      "summary_en": "Validate untrusted input where policy and data are controlled.",
+      "summary_th": "ตรวจ Input ที่ไม่เชื่อถือในจุดที่ควบคุมนโยบายและข้อมูล",
+      "source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis605-backend-data-api-cloud-mobile-02",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "title_en": "API contract",
+      "title_th": "สัญญา API",
+      "summary_en": "An agreed request, response, error, and behavior interface.",
+      "summary_th": "ข้อตกลงของ Request, Response, Error และพฤติกรรม",
+      "source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis605-backend-data-api-cloud-mobile-03",
+      "subject_id": "subject-bis605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "title_en": "Cloud service model",
+      "title_th": "รูปแบบบริการคลาวด์",
+      "summary_en": "A division of responsibility for infrastructure, platform, or software services.",
+      "summary_th": "การแบ่งความรับผิดชอบสำหรับบริการ Infrastructure, Platform หรือ Software",
+      "source_reference_ids": [
+        "ref-b3b1200576f0",
+        "ref-53572c7966e8",
+        "ref-2a63c16321f4"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis606-communications-foundations-01",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-communications-foundations",
+      "title_en": "Protocol",
+      "title_th": "โพรโทคอล",
+      "summary_en": "Rules and message formats used by communicating entities.",
+      "summary_th": "กฎและรูปแบบข้อความที่หน่วยสื่อสารใช้ร่วมกัน",
+      "source_reference_ids": [
+        "ref-6cdcc3e69303",
+        "ref-d568e27df9b3"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis606-communications-foundations-02",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-communications-foundations",
+      "title_en": "Encapsulation",
+      "title_th": "การห่อหุ้มข้อมูล",
+      "summary_en": "Each layer adds control information around higher-layer data.",
+      "summary_th": "แต่ละชั้นเพิ่มข้อมูลควบคุมรอบข้อมูลจากชั้นบน",
+      "source_reference_ids": [
+        "ref-6cdcc3e69303",
+        "ref-d568e27df9b3"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis606-communications-foundations-03",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-communications-foundations",
+      "title_en": "Transmission medium",
+      "title_th": "สื่อส่งสัญญาณ",
+      "summary_en": "The physical path carrying electrical, optical, or radio signals.",
+      "summary_th": "เส้นทางกายภาพที่นำสัญญาณไฟฟ้า แสง หรือวิทยุ",
+      "source_reference_ids": [
+        "ref-6cdcc3e69303",
+        "ref-d568e27df9b3"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis606-data-link-and-tcpip-01",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "title_en": "Frame",
+      "title_th": "เฟรม",
+      "summary_en": "A data-link protocol data unit for local-network delivery.",
+      "summary_th": "หน่วยข้อมูลของ Data Link สำหรับการส่งในเครือข่ายท้องถิ่น",
+      "source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis606-data-link-and-tcpip-02",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "title_en": "IP routing",
+      "title_th": "การกำหนดเส้นทาง IP",
+      "summary_en": "Forward packets toward destination networks using routing information.",
+      "summary_th": "ส่งต่อ Packet ไปยังเครือข่ายปลายทางด้วยข้อมูลเส้นทาง",
+      "source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis606-data-link-and-tcpip-03",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "title_en": "TCP and UDP",
+      "title_th": "TCP และ UDP",
+      "summary_en": "Transport protocols offering different connection, reliability, and overhead properties.",
+      "summary_th": "Transport Protocol ที่มีคุณสมบัติการเชื่อมต่อ ความน่าเชื่อถือ และ Overhead ต่างกัน",
+      "source_reference_ids": [
+        "ref-a13b7ae81781",
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis606-lan-wan-internet-01",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-lan-wan-internet",
+      "title_en": "LAN",
+      "title_th": "เครือข่ายท้องถิ่น",
+      "summary_en": "A network serving devices within a limited area.",
+      "summary_th": "เครือข่ายที่ให้บริการอุปกรณ์ในพื้นที่จำกัด",
+      "source_reference_ids": [
+        "ref-40f7a71f1253",
+        "ref-3de2a3994c20",
+        "ref-24b4b54571d9",
+        "ref-c297674e8f66",
+        "ref-702a4ec030dd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis606-lan-wan-internet-02",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-lan-wan-internet",
+      "title_en": "WAN",
+      "title_th": "เครือข่ายบริเวณกว้าง",
+      "summary_en": "A network or service connecting geographically separated sites.",
+      "summary_th": "เครือข่ายหรือบริการที่เชื่อมสถานที่ห่างกัน",
+      "source_reference_ids": [
+        "ref-40f7a71f1253",
+        "ref-3de2a3994c20",
+        "ref-24b4b54571d9",
+        "ref-c297674e8f66",
+        "ref-702a4ec030dd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis606-lan-wan-internet-03",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-lan-wan-internet",
+      "title_en": "Network management",
+      "title_th": "การจัดการเครือข่าย",
+      "summary_en": "Configuration, monitoring, fault, performance, and security activities.",
+      "summary_th": "กิจกรรมด้าน Configuration, Monitoring, Fault, Performance และ Security",
+      "source_reference_ids": [
+        "ref-40f7a71f1253",
+        "ref-3de2a3994c20",
+        "ref-24b4b54571d9",
+        "ref-c297674e8f66",
+        "ref-702a4ec030dd"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis606-cybersecurity-foundations-01",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-cybersecurity-foundations",
+      "title_en": "CIA triad",
+      "title_th": "หลัก CIA",
+      "summary_en": "Confidentiality, integrity, and availability security objectives.",
+      "summary_th": "วัตถุประสงค์ด้านความลับ ความถูกต้องครบถ้วน และความพร้อมใช้",
+      "source_reference_ids": [
+        "ref-fce1a389b139"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis606-cybersecurity-foundations-02",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-cybersecurity-foundations",
+      "title_en": "Threat and vulnerability",
+      "title_th": "ภัยคุกคามและช่องโหว่",
+      "summary_en": "A threat may exploit a weakness to cause harm.",
+      "summary_th": "ภัยคุกคามอาจใช้ประโยชน์จากจุดอ่อนเพื่อก่อผลเสีย",
+      "source_reference_ids": [
+        "ref-fce1a389b139"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis606-cybersecurity-foundations-03",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-cybersecurity-foundations",
+      "title_en": "Defense in depth",
+      "title_th": "การป้องกันหลายชั้น",
+      "summary_en": "Layer complementary preventive, detective, and corrective controls.",
+      "summary_th": "ซ้อนการควบคุมเชิงป้องกัน ตรวจจับ และแก้ไขที่เสริมกัน",
+      "source_reference_ids": [
+        "ref-fce1a389b139"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis606-continuity-and-risk-01",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-continuity-and-risk",
+      "title_en": "Business impact analysis",
+      "title_th": "การวิเคราะห์ผลกระทบทางธุรกิจ",
+      "summary_en": "Identify critical activities, dependencies, impacts, and recovery priorities.",
+      "summary_th": "ระบุกิจกรรมสำคัญ การพึ่งพา ผลกระทบ และลำดับการกู้คืน",
+      "source_reference_ids": [
+        "ref-47bba284bfe3",
+        "ref-21d50dd40ada"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis606-continuity-and-risk-02",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-continuity-and-risk",
+      "title_en": "RTO",
+      "title_th": "เป้าหมายเวลาการกู้คืน",
+      "summary_en": "Maximum targeted time to restore a service after disruption.",
+      "summary_th": "เวลาสูงสุดเป้าหมายในการกู้บริการหลังหยุดชะงัก",
+      "source_reference_ids": [
+        "ref-47bba284bfe3",
+        "ref-21d50dd40ada"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis606-continuity-and-risk-03",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-continuity-and-risk",
+      "title_en": "Risk treatment",
+      "title_th": "การจัดการความเสี่ยง",
+      "summary_en": "Avoid, reduce, transfer/share, or accept risk with accountability.",
+      "summary_th": "หลีกเลี่ยง ลด โอน/แบ่งปัน หรือยอมรับความเสี่ยงอย่างมีผู้รับผิดชอบ",
+      "source_reference_ids": [
+        "ref-47bba284bfe3",
+        "ref-21d50dd40ada"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis606-infrastructure-security-01",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-infrastructure-security",
+      "title_en": "Network segmentation",
+      "title_th": "การแบ่งส่วนเครือข่าย",
+      "summary_en": "Limit trust and traffic pathways between security zones.",
+      "summary_th": "จำกัดความไว้วางใจและเส้นทาง Traffic ระหว่างเขตความมั่นคง",
+      "source_reference_ids": [
+        "ref-167835356c1e",
+        "ref-9a7e704561b4",
+        "ref-d71e0fac4451"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis606-infrastructure-security-02",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-infrastructure-security",
+      "title_en": "System hardening",
+      "title_th": "การเสริมความแข็งแกร่งระบบ",
+      "summary_en": "Reduce attack surface through secure configuration and removal of unnecessary services.",
+      "summary_th": "ลดพื้นที่โจมตีด้วย Configuration ที่ปลอดภัยและตัด Service ที่ไม่จำเป็น",
+      "source_reference_ids": [
+        "ref-167835356c1e",
+        "ref-9a7e704561b4",
+        "ref-d71e0fac4451"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis606-infrastructure-security-03",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-infrastructure-security",
+      "title_en": "Security monitoring",
+      "title_th": "การเฝ้าระวังความมั่นคงปลอดภัย",
+      "summary_en": "Collect and analyze events to detect and respond to abnormal behavior.",
+      "summary_th": "รวบรวมและวิเคราะห์ Event เพื่อตรวจจับและตอบสนองพฤติกรรมผิดปกติ",
+      "source_reference_ids": [
+        "ref-167835356c1e",
+        "ref-9a7e704561b4",
+        "ref-d71e0fac4451"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis606-security-frameworks-01",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-security-frameworks",
+      "title_en": "ISMS",
+      "title_th": "ระบบบริหารความมั่นคงปลอดภัยสารสนเทศ",
+      "summary_en": "A managed system of scope, policies, risk treatment, controls, evidence, and improvement.",
+      "summary_th": "ระบบบริหารที่มีขอบเขต นโยบาย การจัดการความเสี่ยง การควบคุม หลักฐาน และการปรับปรุง",
+      "source_reference_ids": [
+        "ref-a00b8a30917b"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis606-security-frameworks-02",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-security-frameworks",
+      "title_en": "Statement of Applicability",
+      "title_th": "เอกสารแสดงการประยุกต์ใช้การควบคุม",
+      "summary_en": "Records selected controls and justification for inclusion or exclusion.",
+      "summary_th": "บันทึกการควบคุมที่เลือกและเหตุผลที่รวมหรือไม่รวม",
+      "source_reference_ids": [
+        "ref-a00b8a30917b"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis606-security-frameworks-03",
+      "subject_id": "subject-bis606",
+      "chapter_id": "chapter-bis606-security-frameworks",
+      "title_en": "CIS Controls",
+      "title_th": "การควบคุม CIS",
+      "summary_en": "Prioritized safeguards for common cyber risks.",
+      "summary_th": "มาตรการป้องกันที่จัดลำดับสำหรับความเสี่ยงไซเบอร์ทั่วไป",
+      "source_reference_ids": [
+        "ref-a00b8a30917b"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis603-strategy-foundations-01",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-strategy-foundations",
+      "title_en": "Strategy",
+      "title_th": "กลยุทธ์",
+      "summary_en": "An integrated set of choices about where and how to create advantage.",
+      "summary_th": "ชุดทางเลือกที่บูรณาการว่าจะสร้างความได้เปรียบที่ใดและอย่างไร",
+      "source_reference_ids": [
+        "ref-bf1b2241e57c"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis603-strategy-foundations-02",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-strategy-foundations",
+      "title_en": "Strategic foresight",
+      "title_th": "การมองอนาคตเชิงกลยุทธ์",
+      "summary_en": "Explore plausible futures to improve present choices.",
+      "summary_th": "สำรวจอนาคตที่เป็นไปได้เพื่อปรับปรุงการเลือกในปัจจุบัน",
+      "source_reference_ids": [
+        "ref-bf1b2241e57c"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis603-strategy-foundations-03",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-strategy-foundations",
+      "title_en": "Digital capability",
+      "title_th": "ความสามารถดิจิทัล",
+      "summary_en": "Organizational ability to use technology, data, people, and process toward strategy.",
+      "summary_th": "ความสามารถองค์กรในการใช้เทคโนโลยี ข้อมูล คน และกระบวนการตามกลยุทธ์",
+      "source_reference_ids": [
+        "ref-bf1b2241e57c"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis603-external-analysis-01",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-external-analysis",
+      "title_en": "PESTEL",
+      "title_th": "PESTEL",
+      "summary_en": "A scan of political, economic, social, technological, environmental, and legal forces.",
+      "summary_th": "การสำรวจแรงด้านการเมือง เศรษฐกิจ สังคม เทคโนโลยี สิ่งแวดล้อม และกฎหมาย",
+      "source_reference_ids": [
+        "ref-bf3b0a5330cb"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis603-external-analysis-02",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-external-analysis",
+      "title_en": "Industry analysis",
+      "title_th": "การวิเคราะห์อุตสาหกรรม",
+      "summary_en": "Assess structure, competitive pressure, and profit potential.",
+      "summary_th": "ประเมินโครงสร้าง แรงแข่งขัน และศักยภาพกำไร",
+      "source_reference_ids": [
+        "ref-bf3b0a5330cb"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis603-external-analysis-03",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-external-analysis",
+      "title_en": "Opportunity and threat",
+      "title_th": "โอกาสและภัยคุกคาม",
+      "summary_en": "External conditions that may help or hinder strategic objectives.",
+      "summary_th": "เงื่อนไขภายนอกที่อาจสนับสนุนหรือขัดขวางวัตถุประสงค์",
+      "source_reference_ids": [
+        "ref-bf3b0a5330cb"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis603-internal-analysis-01",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-internal-analysis",
+      "title_en": "Resource",
+      "title_th": "ทรัพยากร",
+      "summary_en": "An asset available to the organization.",
+      "summary_th": "สินทรัพย์ที่องค์กรนำมาใช้ได้",
+      "source_reference_ids": [
+        "ref-feddaee048e5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis603-internal-analysis-02",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-internal-analysis",
+      "title_en": "Capability",
+      "title_th": "ความสามารถองค์กร",
+      "summary_en": "A repeatable ability to coordinate resources and perform activities.",
+      "summary_th": "ความสามารถทำซ้ำในการประสานทรัพยากรและดำเนินกิจกรรม",
+      "source_reference_ids": [
+        "ref-feddaee048e5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis603-internal-analysis-03",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-internal-analysis",
+      "title_en": "VRIO",
+      "title_th": "กรอบ VRIO",
+      "summary_en": "Tests whether resources are valuable, rare, hard to imitate, and organizationally supported.",
+      "summary_th": "ทดสอบว่าทรัพยากรมีคุณค่า หายาก เลียนแบบยาก และองค์กรรองรับหรือไม่",
+      "source_reference_ids": [
+        "ref-feddaee048e5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis603-strategy-formulation-01",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "title_en": "Strategic alternative",
+      "title_th": "ทางเลือกเชิงกลยุทธ์",
+      "summary_en": "A distinct route for achieving objectives.",
+      "summary_th": "แนวทางที่แตกต่างเพื่อบรรลุวัตถุประสงค์",
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis603-strategy-formulation-02",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "title_en": "Tradeoff",
+      "title_th": "ข้อแลกเปลี่ยน",
+      "summary_en": "Choosing one position or allocation limits another.",
+      "summary_th": "การเลือกตำแหน่งหรือการจัดสรรหนึ่งย่อมจำกัดอีกทาง",
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis603-strategy-formulation-03",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "title_en": "Strategic alignment",
+      "title_th": "ความสอดคล้องเชิงกลยุทธ์",
+      "summary_en": "Objectives, capabilities, initiatives, and measures reinforce one another.",
+      "summary_th": "วัตถุประสงค์ ความสามารถ โครงการ และตัววัดสนับสนุนกัน",
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis603-marketing-foundations-01",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "title_en": "STP",
+      "title_th": "STP",
+      "summary_en": "Segment the market, select targets, and position a value proposition.",
+      "summary_th": "แบ่งส่วนตลาด เลือกตลาดเป้าหมาย และวางตำแหน่งคุณค่า",
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis603-marketing-foundations-02",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "title_en": "Marketing mix",
+      "title_th": "ส่วนประสมการตลาด",
+      "summary_en": "Coordinated product, price, place, and promotion choices.",
+      "summary_th": "ทางเลือกผลิตภัณฑ์ ราคา ช่องทาง และการส่งเสริมที่ประสานกัน",
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis603-marketing-foundations-03",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "title_en": "SOSTAC",
+      "title_th": "กรอบ SOSTAC",
+      "summary_en": "Situation, objectives, strategy, tactics, action, and control planning.",
+      "summary_th": "การวางแผน Situation, Objectives, Strategy, Tactics, Action และ Control",
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis603-digital-marketing-data-ai-01",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-digital-marketing-data-ai",
+      "title_en": "Customer journey",
+      "title_th": "เส้นทางลูกค้า",
+      "summary_en": "Stages and touchpoints through which a customer becomes aware, considers, converts, and remains.",
+      "summary_th": "ขั้นและ Touchpoint ที่ลูกค้ารับรู้ พิจารณา ซื้อ และคงอยู่",
+      "source_reference_ids": [
+        "ref-68183f8364be",
+        "ref-b8fc1abdab20",
+        "ref-f55706a5f2b5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis603-digital-marketing-data-ai-02",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-digital-marketing-data-ai",
+      "title_en": "Marketing attribution",
+      "title_th": "การระบุผลของช่องทางการตลาด",
+      "summary_en": "Assign credit for outcomes across marketing interactions.",
+      "summary_th": "กำหนดสัดส่วนผลลัพธ์ให้ปฏิสัมพันธ์ทางการตลาด",
+      "source_reference_ids": [
+        "ref-68183f8364be",
+        "ref-b8fc1abdab20",
+        "ref-f55706a5f2b5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis603-digital-marketing-data-ai-03",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-digital-marketing-data-ai",
+      "title_en": "Responsible marketing data",
+      "title_th": "การใช้ข้อมูลการตลาดอย่างรับผิดชอบ",
+      "summary_en": "Use data with purpose limitation, transparency, fairness, security, and accountability.",
+      "summary_th": "ใช้ข้อมูลโดยจำกัดวัตถุประสงค์ โปร่งใส เป็นธรรม ปลอดภัย และรับผิดชอบ",
+      "source_reference_ids": [
+        "ref-68183f8364be",
+        "ref-b8fc1abdab20",
+        "ref-f55706a5f2b5"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis603-financial-strategy-01",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-financial-strategy",
+      "title_en": "Unit economics",
+      "title_th": "เศรษฐศาสตร์ต่อหน่วย",
+      "summary_en": "Revenue and variable cost relationships for one customer, order, or unit.",
+      "summary_th": "ความสัมพันธ์รายได้และต้นทุนผันแปรต่อหนึ่งลูกค้า คำสั่งซื้อ หรือหน่วย",
+      "source_reference_ids": [
+        "ref-7f1a793312b7"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis603-financial-strategy-02",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-financial-strategy",
+      "title_en": "Cash runway",
+      "title_th": "ระยะเวลาที่เงินสดรองรับ",
+      "summary_en": "How long available cash can fund operations at the current burn rate.",
+      "summary_th": "ระยะเวลาที่เงินสดรองรับการดำเนินงานตามอัตราการใช้เงินปัจจุบัน",
+      "source_reference_ids": [
+        "ref-7f1a793312b7"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis603-financial-strategy-03",
+      "subject_id": "subject-bis603",
+      "chapter_id": "chapter-bis603-financial-strategy",
+      "title_en": "Funding choice",
+      "title_th": "ทางเลือกแหล่งเงินทุน",
+      "summary_en": "Select equity, debt, internal cash, or alternatives with control and risk tradeoffs.",
+      "summary_th": "เลือกทุน หนี้ เงินภายใน หรือทางเลือกอื่นโดยพิจารณาการควบคุมและความเสี่ยง",
+      "source_reference_ids": [
+        "ref-7f1a793312b7"
+      ],
+      "confidence": "medium",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis604-database-foundations-01",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "title_en": "Database",
+      "title_th": "ฐานข้อมูล",
+      "summary_en": "An organized, integrated collection of related data.",
+      "summary_th": "ชุดข้อมูลที่เกี่ยวข้องซึ่งจัดระเบียบและบูรณาการ",
+      "source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis604-database-foundations-02",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "title_en": "DBMS",
+      "title_th": "ระบบจัดการฐานข้อมูล",
+      "summary_en": "Software that defines, stores, queries, protects, and controls a database.",
+      "summary_th": "ซอฟต์แวร์ที่กำหนด จัดเก็บ สืบค้น ปกป้อง และควบคุมฐานข้อมูล",
+      "source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis604-database-foundations-03",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "title_en": "Metadata",
+      "title_th": "เมทาดาทา",
+      "summary_en": "Data describing structures, meaning, constraints, and lineage of other data.",
+      "summary_th": "ข้อมูลที่อธิบายโครงสร้าง ความหมาย ข้อจำกัด และที่มาของข้อมูลอื่น",
+      "source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis604-data-models-01",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-data-models",
+      "title_en": "Conceptual model",
+      "title_th": "แบบจำลองเชิงแนวคิด",
+      "summary_en": "A technology-independent business view of data and relationships.",
+      "summary_th": "มุมมองข้อมูลและความสัมพันธ์ทางธุรกิจที่ไม่ผูกเทคโนโลยี",
+      "source_reference_ids": [
+        "ref-7e62c0bcdcdb"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis604-data-models-02",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-data-models",
+      "title_en": "Logical model",
+      "title_th": "แบบจำลองเชิงตรรกะ",
+      "summary_en": "A detailed structure for a model type, independent of a specific storage product.",
+      "summary_th": "โครงสร้างละเอียดตามชนิดโมเดลโดยไม่ผูกผลิตภัณฑ์จัดเก็บ",
+      "source_reference_ids": [
+        "ref-7e62c0bcdcdb"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis604-data-models-03",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-data-models",
+      "title_en": "Physical model",
+      "title_th": "แบบจำลองเชิงกายภาพ",
+      "summary_en": "Implementation structures optimized for a specific DBMS.",
+      "summary_th": "โครงสร้างนำไปใช้ที่ปรับให้เหมาะกับ DBMS เฉพาะ",
+      "source_reference_ids": [
+        "ref-7e62c0bcdcdb"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis604-relational-model-01",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-relational-model",
+      "title_en": "Primary key",
+      "title_th": "คีย์หลัก",
+      "summary_en": "A minimal selected identifier that is unique and not null.",
+      "summary_th": "ตัวระบุขั้นต่ำที่เลือก ซึ่งไม่ซ้ำและไม่เป็น Null",
+      "source_reference_ids": [
+        "ref-1f0a58974a9f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis604-relational-model-02",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-relational-model",
+      "title_en": "Foreign key",
+      "title_th": "คีย์นอก",
+      "summary_en": "Attributes referencing a candidate key in a related relation.",
+      "summary_th": "Attribute ที่อ้าง Candidate Key ใน Relation ที่เกี่ยวข้อง",
+      "source_reference_ids": [
+        "ref-1f0a58974a9f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis604-relational-model-03",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-relational-model",
+      "title_en": "Referential integrity",
+      "title_th": "บูรณภาพการอ้างอิง",
+      "summary_en": "Foreign-key values must match a referenced key or satisfy an allowed null rule.",
+      "summary_th": "ค่าคีย์นอกต้องตรงกับคีย์ที่อ้าง หรือเป็น Null ตามกฎที่อนุญาต",
+      "source_reference_ids": [
+        "ref-1f0a58974a9f"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis604-business-rules-and-erd-01",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "title_en": "Entity",
+      "title_th": "เอนทิตี",
+      "summary_en": "A distinguishable business object or concept about which data is stored.",
+      "summary_th": "วัตถุหรือแนวคิดธุรกิจที่แยกได้และต้องเก็บข้อมูล",
+      "source_reference_ids": [
+        "ref-b7d56889cebd",
+        "ref-3d8e8353d4d8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis604-business-rules-and-erd-02",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "title_en": "Cardinality",
+      "title_th": "คาร์ดินาลิตี",
+      "summary_en": "The maximum number of relationship occurrences allowed.",
+      "summary_th": "จำนวนสูงสุดของความสัมพันธ์ที่อนุญาต",
+      "source_reference_ids": [
+        "ref-b7d56889cebd",
+        "ref-3d8e8353d4d8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis604-business-rules-and-erd-03",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "title_en": "Associative entity",
+      "title_th": "เอนทิตีเชื่อม",
+      "summary_en": "An entity used to represent a many-to-many relationship and its attributes.",
+      "summary_th": "Entity ที่แทนความสัมพันธ์หลายต่อหลายและ Attribute ของความสัมพันธ์",
+      "source_reference_ids": [
+        "ref-b7d56889cebd",
+        "ref-3d8e8353d4d8"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis604-normalization-01",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-normalization",
+      "title_en": "Functional dependency",
+      "title_th": "การขึ้นต่อกันเชิงฟังก์ชัน",
+      "summary_en": "One attribute set determines another attribute set.",
+      "summary_th": "ชุด Attribute หนึ่งกำหนดค่าของอีกชุด",
+      "source_reference_ids": [
+        "ref-5e8a26483129"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis604-normalization-02",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-normalization",
+      "title_en": "Second normal form",
+      "title_th": "รูปแบบปกติที่สอง",
+      "summary_en": "1NF with no partial dependency of a non-key attribute on a candidate key.",
+      "summary_th": "1NF ที่ไม่มี Non-key Attribute ขึ้นกับเพียงบางส่วนของ Candidate Key",
+      "source_reference_ids": [
+        "ref-5e8a26483129"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis604-normalization-03",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-normalization",
+      "title_en": "Third normal form",
+      "title_th": "รูปแบบปกติที่สาม",
+      "summary_en": "2NF with no disallowed transitive dependency of non-key attributes.",
+      "summary_th": "2NF ที่ไม่มีการขึ้นต่อแบบส่งผ่านของ Non-key Attribute ที่ไม่อนุญาต",
+      "source_reference_ids": [
+        "ref-5e8a26483129"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    },
+    {
+      "topic_id": "topic-bis604-sql-and-implementation-01",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "title_en": "DDL",
+      "title_th": "ภาษากำหนดข้อมูล",
+      "summary_en": "SQL statements that create or alter database structures and constraints.",
+      "summary_th": "คำสั่ง SQL ที่สร้างหรือแก้โครงสร้างและ Constraint",
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 1
+    },
+    {
+      "topic_id": "topic-bis604-sql-and-implementation-02",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "title_en": "DML",
+      "title_th": "ภาษาจัดการข้อมูล",
+      "summary_en": "SQL statements that insert, update, delete, and query data.",
+      "summary_th": "คำสั่ง SQL สำหรับ Insert, Update, Delete และ Query",
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 2
+    },
+    {
+      "topic_id": "topic-bis604-sql-and-implementation-03",
+      "subject_id": "subject-bis604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "title_en": "Join",
+      "title_th": "การเชื่อมตาราง",
+      "summary_en": "Combine rows from related tables using a condition.",
+      "summary_th": "รวมแถวจากตารางที่เกี่ยวข้องด้วยเงื่อนไข",
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ],
+      "confidence": "high",
+      "evidence_type": "summarized_from_source",
+      "order": 3
+    }
+  ]
+}

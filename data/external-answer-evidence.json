@@ -1,0 +1,1691 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-26T20:30:00+07:00",
+  "external_answer_evidence": [
+    {
+      "question_id": "question-comprehensive-001",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-001-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-002",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-scrum-guide-2020",
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The Product Owner represents stakeholder needs to the Scrum Team. The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The Product Owner represents stakeholder needs to the Scrum Team. The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-002-choice-1",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-003",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-iiba-glossary",
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The glossary directly defines COTS and the domain subject-matter role absent from Question 3's options. The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The glossary directly defines COTS and the domain subject-matter role absent from Question 3's options. The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-003-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-004",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-004-choice-4",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-005",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-005-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-006",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-006-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-007",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-007-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-008",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-008-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-009",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-009-choice-4",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-010",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-010-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-019",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-019-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-020",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "evidence_summary_en": "The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "evidence_summary_th": "สรุปหลักฐาน: The book directly supplies the role definitions and information-gathering statements used by Questions 1–10, 19, and 20.",
+      "final_answer": "question-comprehensive-020-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-021",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 L6 Statistics for Business Decision, slide 20, plus visual inspection of the supplied symmetric discrete plot."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 L6 Statistics for Business Decision, slide 20, plus visual inspection of the supplied symmetric discrete plot.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 L6 Statistics for Business Decision, slide 20, plus visual inspection of the supplied symmetric discrete plot.",
+      "final_answer": "question-comprehensive-021-choice-1",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-022",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [],
+      "evidence_summary_en": "Course recheck and external research could not establish a unique valid answer.",
+      "evidence_summary_th": "สรุปหลักฐาน: Course recheck and external research could not establish a unique valid answer.",
+      "final_answer": null,
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "unresolved_reason": "The course states that better fit combines lower standard error and higher adjusted R², but the displayed options split those criteria across Models 2 and 3; no option establishes a uniquely best model.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-023",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [],
+      "evidence_summary_en": "Course recheck and external research could not establish a unique valid answer.",
+      "evidence_summary_th": "สรุปหลักฐาน: Course recheck and external research could not establish a unique valid answer.",
+      "final_answer": null,
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "unresolved_reason": "The stem literally specifies a 739% confidence interval, which is invalid, and the intended level cannot be reconstructed without changing the source question.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-024",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 L9b Visualization, slide 14, plus visual inspection of the supplied boxplot showing a median near 60."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 L9b Visualization, slide 14, plus visual inspection of the supplied boxplot showing a median near 60.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 L9b Visualization, slide 14, plus visual inspection of the supplied boxplot showing a median near 60.",
+      "final_answer": "question-comprehensive-024-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-025",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-salesforce-digital-transformation"
+      ],
+      "evidence_summary_en": "The wording directly completes Question 25 with Transformation.",
+      "evidence_summary_th": "สรุปหลักฐาน: The wording directly completes Question 25 with Transformation.",
+      "final_answer": "question-comprehensive-025-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-026",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-management-advantage"
+      ],
+      "evidence_summary_en": "Matching distinctive competencies with market opportunities creates competitive advantage.",
+      "evidence_summary_th": "สรุปหลักฐาน: Matching distinctive competencies with market opportunities creates competitive advantage.",
+      "final_answer": "question-comprehensive-026-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-027",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 Business Functions and Performance Measures, slide 3, classifies manufacturing, delivering, and servicing as primary processes."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 Business Functions and Performance Measures, slide 3, classifies manufacturing, delivering, and servicing as primary processes.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 Business Functions and Performance Measures, slide 3, classifies manufacturing, delivering, and servicing as primary processes.",
+      "final_answer": "question-comprehensive-027-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-028",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 Business Strategies, slides 7 and 10, links differentiation to innovative features and distinctive customer experience."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 Business Strategies, slides 7 and 10, links differentiation to innovative features and distinctive customer experience.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 Business Strategies, slides 7 and 10, links differentiation to innovative features and distinctive customer experience.",
+      "final_answer": "question-comprehensive-028-choice-1",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-029",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 Business Functions and Performance Measures, slides 14–18, supports unresolved-inquiry percentage as a responsiveness KPI."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 Business Functions and Performance Measures, slides 14–18, supports unresolved-inquiry percentage as a responsiveness KPI.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 Business Functions and Performance Measures, slides 14–18, supports unresolved-inquiry percentage as a responsiveness KPI.",
+      "final_answer": "question-comprehensive-029-choice-2",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-030",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 Business Functions and Performance Measures, slides 14–18, distinguishes effectiveness outcomes such as profitability."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 Business Functions and Performance Measures, slides 14–18, distinguishes effectiveness outcomes such as profitability.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 Business Functions and Performance Measures, slides 14–18, distinguishes effectiveness outcomes such as profitability.",
+      "final_answer": "question-comprehensive-030-choice-4",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-031",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 Business Functions and Performance Measures, slides 14–18, supports correct and on-time delivery with a quantified target."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 Business Functions and Performance Measures, slides 14–18, supports correct and on-time delivery with a quantified target.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 Business Functions and Performance Measures, slides 14–18, supports correct and on-time delivery with a quantified target.",
+      "final_answer": "question-comprehensive-031-choice-1",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-034",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 L5 Probability, slide 29, defines a random variable as a chance-determined numerical outcome with a probability distribution."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 L5 Probability, slide 29, defines a random variable as a chance-determined numerical outcome with a probability distribution.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 L5 Probability, slide 29, defines a random variable as a chance-determined numerical outcome with a probability distribution.",
+      "final_answer": "question-comprehensive-034-choice-1",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-035",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [],
+      "evidence_summary_en": "Course recheck and external research could not establish a unique valid answer.",
+      "evidence_summary_th": "สรุปหลักฐาน: Course recheck and external research could not establish a unique valid answer.",
+      "final_answer": null,
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "unresolved_reason": "The observed value x is missing from the stem, so z = (x − 50) / 10 cannot be calculated.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-036",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-ibm-data-mart"
+      ],
+      "evidence_summary_en": "A marketing data mart organizes subject-specific data to support analysis and decisions.",
+      "evidence_summary_th": "สรุปหลักฐาน: A marketing data mart organizes subject-specific data to support analysis and decisions.",
+      "final_answer": "question-comprehensive-036-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-037",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-ibm-business-intelligence",
+        "ext-ibm-data-mining"
+      ],
+      "evidence_summary_en": "BI emphasizes queries, reports, dashboards, and decision support. Data mining discovers patterns and relationships, distinguishing it from BI reporting and querying.",
+      "evidence_summary_th": "สรุปหลักฐาน: BI emphasizes queries, reports, dashboards, and decision support. Data mining discovers patterns and relationships, distinguishing it from BI reporting and querying.",
+      "final_answer": "question-comprehensive-037-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-038",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-ibm-big-data",
+        "ext-ibm-blockchain"
+      ],
+      "evidence_summary_en": "Big-data methods emphasize storing and analyzing large, varied data for insights. Blockchain emphasizes distributed, tamper-resistant record-keeping rather than big-data analysis.",
+      "evidence_summary_th": "สรุปหลักฐาน: Big-data methods emphasize storing and analyzing large, varied data for insights. Blockchain emphasizes distributed, tamper-resistant record-keeping rather than big-data analysis.",
+      "final_answer": "question-comprehensive-038-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-039",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "strongly_supported_by_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-nist-normal-probability"
+      ],
+      "evidence_summary_en": "NIST's standard treatment identifies the normal distribution as continuous, making the stem's 'discrete normal distribution' nonstandard.",
+      "evidence_summary_th": "สรุปหลักฐาน: NIST's standard treatment identifies the normal distribution as continuous, making the stem's 'discrete normal distribution' nonstandard.",
+      "final_answer": "question-comprehensive-039-choice-5",
+      "confidence_percentage": 70,
+      "requires_human_review": true,
+      "unresolved_reason": "The stem uses the nonstandard term 'discrete normal distribution'; external evidence supports rejecting it but cannot repair the intended wording.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-040",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 Business Strategies explains that strategic decisions establish long-term organizational direction."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 Business Strategies explains that strategic decisions establish long-term organizational direction.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 Business Strategies explains that strategic decisions establish long-term organizational direction.",
+      "final_answer": "question-comprehensive-040-choice-3",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-041",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-asu-diversification"
+      ],
+      "evidence_summary_en": "Related products and technology introduced to new markets match concentric diversification.",
+      "evidence_summary_th": "สรุปหลักฐาน: Related products and technology introduced to new markets match concentric diversification.",
+      "final_answer": "question-comprehensive-041-choice-5",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-042",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-cdc-social-marketing"
+      ],
+      "evidence_summary_en": "A campaign intended to change harmful voluntary behavior for social welfare is social marketing.",
+      "evidence_summary_th": "สรุปหลักฐาน: A campaign intended to change harmful voluntary behavior for social welfare is social marketing.",
+      "final_answer": "question-comprehensive-042-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-043",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-promotion"
+      ],
+      "evidence_summary_en": "Educating customers about a new product's benefits is a promotion activity.",
+      "evidence_summary_th": "สรุปหลักฐาน: Educating customers about a new product's benefits is a promotion activity.",
+      "final_answer": "question-comprehensive-043-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-044",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-segmentation"
+      ],
+      "evidence_summary_en": "The STP process begins by selecting bases for segmenting; demographics are a segmentation basis.",
+      "evidence_summary_th": "สรุปหลักฐาน: The STP process begins by selecting bases for segmenting; demographics are a segmentation basis.",
+      "final_answer": "question-comprehensive-044-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-045",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-channels"
+      ],
+      "evidence_summary_en": "A producer-to-retailer-to-consumer channel fits major retailers purchasing and selling to end users.",
+      "evidence_summary_th": "สรุปหลักฐาน: A producer-to-retailer-to-consumer channel fits major retailers purchasing and selling to end users.",
+      "final_answer": "question-comprehensive-045-choice-4",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-046",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "probabilistic_recommendation",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [],
+      "evidence_summary_en": "No answer was found in the supplied course documents and no sufficiently authoritative external source established a unique answer. The recommendation uses option elimination and comparative plausibility only.",
+      "evidence_summary_th": "สรุปหลักฐาน: No answer was found in the supplied course documents and no sufficiently authoritative external source established a unique answer. The recommendation uses option elimination and comparative plausibility only.",
+      "final_answer": "question-comprehensive-046-choice-4",
+      "confidence_percentage": 65,
+      "requires_human_review": true,
+      "unresolved_reason": "The stem does not identify a named customer-satisfaction framework, and each listed factor can matter in different organizational settings.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-047",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-product-life-cycle",
+        "ext-unilag-pricing"
+      ],
+      "evidence_summary_en": "Growth-stage competition and rapid market expansion make aggressive competitive pricing most defensible among the choices. The paper places downward price pressure in growth and aggressive pricing in the immediately following competitive-turbulence discussion.",
+      "evidence_summary_th": "สรุปหลักฐาน: Growth-stage competition and rapid market expansion make aggressive competitive pricing most defensible among the choices. The paper places downward price pressure in growth and aggressive pricing in the immediately following competitive-turbulence discussion.",
+      "final_answer": "question-comprehensive-047-choice-2",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-048",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-marketing-definition"
+      ],
+      "evidence_summary_en": "The societal exchange definition in Question 48 refers to marketing.",
+      "evidence_summary_th": "สรุปหลักฐาน: The societal exchange definition in Question 48 refers to marketing.",
+      "final_answer": "question-comprehensive-048-choice-1",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-049",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-management-advantage"
+      ],
+      "evidence_summary_en": "Matching distinctive competencies with market opportunities creates competitive advantage.",
+      "evidence_summary_th": "สรุปหลักฐาน: Matching distinctive competencies with market opportunities creates competitive advantage.",
+      "final_answer": "question-comprehensive-049-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-050",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-marketing-concept"
+      ],
+      "evidence_summary_en": "The marketing concept combines satisfying customers with achieving organizational goals.",
+      "evidence_summary_th": "สรุปหลักฐาน: The marketing concept combines satisfying customers with achieving organizational goals.",
+      "final_answer": "question-comprehensive-050-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-051",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-strategic-growth"
+      ],
+      "evidence_summary_en": "Marketing an existing magazine to a new student segment is market development.",
+      "evidence_summary_th": "สรุปหลักฐาน: Marketing an existing magazine to a new student segment is market development.",
+      "final_answer": "question-comprehensive-051-choice-3",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-052",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-brand-development"
+      ],
+      "evidence_summary_en": "New variants in the same category are line extensions; using one name across new categories is brand extension.",
+      "evidence_summary_th": "สรุปหลักฐาน: New variants in the same category are line extensions; using one name across new categories is brand extension.",
+      "final_answer": "question-comprehensive-052-choice-1",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-053",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-brand-development"
+      ],
+      "evidence_summary_en": "New variants in the same category are line extensions; using one name across new categories is brand extension.",
+      "evidence_summary_th": "สรุปหลักฐาน: New variants in the same category are line extensions; using one name across new categories is brand extension.",
+      "final_answer": "question-comprehensive-053-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-054",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-products"
+      ],
+      "evidence_summary_en": "Products purchased for processing or business operations are industrial/business products.",
+      "evidence_summary_th": "สรุปหลักฐาน: Products purchased for processing or business operations are industrial/business products.",
+      "final_answer": "question-comprehensive-054-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-055",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-product-mix"
+      ],
+      "evidence_summary_en": "Length counts the total items carried within product lines; width counts product lines.",
+      "evidence_summary_th": "สรุปหลักฐาน: Length counts the total items carried within product lines; width counts product lines.",
+      "final_answer": "question-comprehensive-055-choice-3",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-056",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-promotion"
+      ],
+      "evidence_summary_en": "Educating customers about a new product's benefits is a promotion activity.",
+      "evidence_summary_th": "สรุปหลักฐาน: Educating customers about a new product's benefits is a promotion activity.",
+      "final_answer": "question-comprehensive-056-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-057",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-services"
+      ],
+      "evidence_summary_en": "Simultaneous sale, production, and consumption is service inseparability.",
+      "evidence_summary_th": "สรุปหลักฐาน: Simultaneous sale, production, and consumption is service inseparability.",
+      "final_answer": "question-comprehensive-057-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-058",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-push-strategy"
+      ],
+      "evidence_summary_en": "Using sales force and trade promotion to move products through channels is a push strategy.",
+      "evidence_summary_th": "สรุปหลักฐาน: Using sales force and trade promotion to move products through channels is a push strategy.",
+      "final_answer": "question-comprehensive-058-choice-1",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-059",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-vt-horizontal-integration"
+      ],
+      "evidence_summary_en": "Acquiring activities at the same value-chain level is horizontal integration.",
+      "evidence_summary_th": "สรุปหลักฐาน: Acquiring activities at the same value-chain level is horizontal integration.",
+      "final_answer": "question-comprehensive-059-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-060",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-segmentation"
+      ],
+      "evidence_summary_en": "The STP process begins by selecting bases for segmenting; demographics are a segmentation basis.",
+      "evidence_summary_th": "สรุปหลักฐาน: The STP process begins by selecting bases for segmenting; demographics are a segmentation basis.",
+      "final_answer": "question-comprehensive-060-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-061",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-ibm-eai"
+      ],
+      "evidence_summary_en": "EAI connects e-business applications; virtual integration with partners can support alliance strategies.",
+      "evidence_summary_th": "สรุปหลักฐาน: EAI connects e-business applications; virtual integration with partners can support alliance strategies.",
+      "final_answer": "question-comprehensive-061-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-062",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "ReviewBIS604, page 15, and the supplied EMPLOYEE table visually show E_ID as the unique identifier."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "ReviewBIS604, page 15, and the supplied EMPLOYEE table visually show E_ID as the unique identifier.",
+      "evidence_summary_th": "สรุปหลักฐาน: ReviewBIS604, page 15, and the supplied EMPLOYEE table visually show E_ID as the unique identifier.",
+      "final_answer": "question-comprehensive-062-choice-3",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-063",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [],
+      "evidence_summary_en": "Course recheck and external research could not establish a unique valid answer.",
+      "evidence_summary_th": "สรุปหลักฐาน: Course recheck and external research could not establish a unique valid answer.",
+      "final_answer": null,
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "unresolved_reason": "Several listed items—voice mail, data conferencing, calendaring, and discussion—can be electronic communication tools; the stem gives no framework that makes one unique.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-064",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "strongly_supported_by_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-ibm-eai"
+      ],
+      "evidence_summary_en": "EAI connects e-business applications; virtual integration with partners can support alliance strategies.",
+      "evidence_summary_th": "สรุปหลักฐาน: EAI connects e-business applications; virtual integration with partners can support alliance strategies.",
+      "final_answer": "question-comprehensive-064-choice-4",
+      "confidence_percentage": 80,
+      "requires_human_review": true,
+      "unresolved_reason": "The source supports application integration directly but only indirectly supports the exact alliance-strategy phrasing.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-065",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-iiba-glossary"
+      ],
+      "evidence_summary_en": "The glossary directly defines COTS and the domain subject-matter role absent from Question 3's options.",
+      "evidence_summary_th": "สรุปหลักฐาน: The glossary directly defines COTS and the domain subject-matter role absent from Question 3's options.",
+      "final_answer": "question-comprehensive-065-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-066",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "Database Systems Chapter 1, page 35, lists hardware, software, people, procedures, and data as the database system components."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "Database Systems Chapter 1, page 35, lists hardware, software, people, procedures, and data as the database system components.",
+      "evidence_summary_th": "สรุปหลักฐาน: Database Systems Chapter 1, page 35, lists hardware, software, people, procedures, and data as the database system components.",
+      "final_answer": "question-comprehensive-066-choice-1",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-067",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-ibm-what-if"
+      ],
+      "evidence_summary_en": "What-if, goal-seeking, sensitivity, and optimization are DSS modeling activities; systems analysis is not.",
+      "evidence_summary_th": "สรุปหลักฐาน: What-if, goal-seeking, sensitivity, and optimization are DSS modeling activities; systems analysis is not.",
+      "final_answer": "question-comprehensive-067-choice-1",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-068",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-ibm-crm"
+      ],
+      "evidence_summary_en": "CRM is the information system specifically suited to improving customer focus.",
+      "evidence_summary_th": "สรุปหลักฐาน: CRM is the information system specifically suited to improving customer focus.",
+      "final_answer": "question-comprehensive-068-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-069",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "Database Systems Chapter 2, page 42, defines the internal model as the database representation seen by the DBMS."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "Database Systems Chapter 2, page 42, defines the internal model as the database representation seen by the DBMS.",
+      "evidence_summary_th": "สรุปหลักฐาน: Database Systems Chapter 2, page 42, defines the internal model as the database representation seen by the DBMS.",
+      "final_answer": "question-comprehensive-069-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-070",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-information-systems"
+      ],
+      "evidence_summary_en": "The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications.",
+      "evidence_summary_th": "สรุปหลักฐาน: The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications.",
+      "final_answer": "question-comprehensive-070-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-071",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-information-systems",
+        "ext-oecd-ebusiness"
+      ],
+      "evidence_summary_en": "The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications. Using networks for commerce, collaboration, and web-enabled business processes is e-business.",
+      "evidence_summary_th": "สรุปหลักฐาน: The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications. Using networks for commerce, collaboration, and web-enabled business processes is e-business.",
+      "final_answer": "question-comprehensive-071-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-072",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-fao-information-quality"
+      ],
+      "evidence_summary_en": "Useful information can be provided at an appropriate detail or summary level.",
+      "evidence_summary_th": "สรุปหลักฐาน: Useful information can be provided at an appropriate detail or summary level.",
+      "final_answer": "question-comprehensive-072-choice-3",
+      "confidence_percentage": 86,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-073",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS604 Chapter 3/4, pages 6–8, defines double ovals as multivalued; visual inspection shows only HOME_COLOR double-oval."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS604 Chapter 3/4, pages 6–8, defines double ovals as multivalued; visual inspection shows only HOME_COLOR double-oval.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS604 Chapter 3/4, pages 6–8, defines double ovals as multivalued; visual inspection shows only HOME_COLOR double-oval.",
+      "final_answer": "question-comprehensive-073-choice-5",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-074",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS602 L9a BI, slide 8, defines slicing and dicing as examining data from different viewpoints."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS602 L9a BI, slide 8, defines slicing and dicing as examining data from different viewpoints.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS602 L9a BI, slide 8, defines slicing and dicing as examining data from different viewpoints.",
+      "final_answer": "question-comprehensive-074-choice-5",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-076",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-information-systems"
+      ],
+      "evidence_summary_en": "The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications.",
+      "evidence_summary_th": "สรุปหลักฐาน: The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications.",
+      "final_answer": "question-comprehensive-076-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-077",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS604 Chapter 3/4, page 4, defines required attributes; the supplied diagram visually bolds CUST_name and CUST_lastname only."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS604 Chapter 3/4, page 4, defines required attributes; the supplied diagram visually bolds CUST_name and CUST_lastname only.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS604 Chapter 3/4, page 4, defines required attributes; the supplied diagram visually bolds CUST_name and CUST_lastname only.",
+      "final_answer": "question-comprehensive-077-choice-5",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-078",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-openstax-information-systems",
+        "ext-ibm-data-mining"
+      ],
+      "evidence_summary_en": "The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications. Data mining discovers patterns and relationships, distinguishing it from BI reporting and querying.",
+      "evidence_summary_th": "สรุปหลักฐาน: The chapter supports input/process/output/storage/control, e-business use, organizational roles, and DSS/EIS classifications. Data mining discovers patterns and relationships, distinguishing it from BI reporting and querying.",
+      "final_answer": "question-comprehensive-078-choice-2",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-079",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "Database Systems Chapter 7, page 35, defines INTERSECT; visual inspection gives the common values 12121 and 22221."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "Database Systems Chapter 7, page 35, defines INTERSECT; visual inspection gives the common values 12121 and 22221.",
+      "evidence_summary_th": "สรุปหลักฐาน: Database Systems Chapter 7, page 35, defines INTERSECT; visual inspection gives the common values 12121 and 22221.",
+      "final_answer": "question-comprehensive-079-choice-3",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-080",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "Database Systems Chapter 7, page 35, defines UNION; visual inspection gives eight distinct combined values."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "Database Systems Chapter 7, page 35, defines UNION; visual inspection gives eight distinct combined values.",
+      "evidence_summary_th": "สรุปหลักฐาน: Database Systems Chapter 7, page 35, defines UNION; visual inspection gives eight distinct combined values.",
+      "final_answer": "question-comprehensive-080-choice-3",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-084",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH03 Software Design, slide 4, lists completeness, correctness, efficiency, and maintainability but not accessibility."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH03 Software Design, slide 4, lists completeness, correctness, efficiency, and maintainability but not accessibility.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH03 Software Design, slide 4, lists completeness, correctness, efficiency, and maintainability but not accessibility.",
+      "final_answer": "question-comprehensive-084-choice-1",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-085",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH02, slide 4, lists requirements, design, implementation, and testing as common development activities."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH02, slide 4, lists requirements, design, implementation, and testing as common development activities.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH02, slide 4, lists requirements, design, implementation, and testing as common development activities.",
+      "final_answer": "question-comprehensive-085-choice-1",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-088",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "probabilistic_recommendation",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [],
+      "evidence_summary_en": "No answer was found in the supplied course documents and no sufficiently authoritative external source established a unique answer. The recommendation uses option elimination and comparative plausibility only.",
+      "evidence_summary_th": "สรุปหลักฐาน: No answer was found in the supplied course documents and no sufficiently authoritative external source established a unique answer. The recommendation uses option elimination and comparative plausibility only.",
+      "final_answer": "question-comprehensive-088-choice-3",
+      "confidence_percentage": 55,
+      "requires_human_review": true,
+      "unresolved_reason": "All five options can be framed as cloud-development benefits; Internet dependence is the most plausible intended non-advantage because it is a prerequisite or constraint.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-089",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH06, slide 20, lists Bootstrap and React as front-end technologies."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH06, slide 20, lists Bootstrap and React as front-end technologies.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH06, slide 20, lists Bootstrap and React as front-end technologies.",
+      "final_answer": "question-comprehensive-089-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-090",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH06, slide 21, lists PHP and Node.js as back-end technologies."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH06, slide 21, lists PHP and Node.js as back-end technologies.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH06, slide 21, lists PHP and Node.js as back-end technologies.",
+      "final_answer": "question-comprehensive-090-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-091",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH12, slide 44, presents Flutter, React Native, Kotlin, and Ionic together as mobile frameworks or SDKs in course context."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH12, slide 44, presents Flutter, React Native, Kotlin, and Ionic together as mobile frameworks or SDKs in course context.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH12, slide 44, presents Flutter, React Native, Kotlin, and Ionic together as mobile frameworks or SDKs in course context.",
+      "final_answer": "question-comprehensive-091-choice-5",
+      "confidence_percentage": 88,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-092",
+      "original_answer_status": "requires_human_review",
+      "final_answer_status": "unresolvable_question",
+      "evidence_origin": "PROBABILISTIC_REASONING_ONLY",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [],
+      "evidence_summary_en": "Course recheck and external research could not establish a unique valid answer.",
+      "evidence_summary_th": "สรุปหลักฐาน: Course recheck and external research could not establish a unique valid answer.",
+      "final_answer": null,
+      "confidence_percentage": 0,
+      "requires_human_review": true,
+      "unresolved_reason": "Statement A is false as an absolute, B is false because local APIs need no network, and C is true; however, there is no C-only option, making the combination choices defective.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-093",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH12, slide 36, states Things, Connectivity, and Sense-making as the three main IoT parts."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH12, slide 36, states Things, Connectivity, and Sense-making as the three main IoT parts.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH12, slide 36, states Things, Connectivity, and Sense-making as the three main IoT parts.",
+      "final_answer": "question-comprehensive-093-choice-2",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-094",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH02, slide 9, and CH06, slide 14, present IDE, Git, Postman, and Docker as development tools."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH02, slide 9, and CH06, slide 14, present IDE, Git, Postman, and Docker as development tools.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH02, slide 9, and CH06, slide 14, present IDE, Git, Postman, and Docker as development tools.",
+      "final_answer": "question-comprehensive-094-choice-5",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-095",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-figma-prototyping",
+        "ext-sketch-prototyping"
+      ],
+      "evidence_summary_en": "Figma is explicitly a prototyping tool. Sketch officially documents a dedicated set of prototyping tools.",
+      "evidence_summary_th": "สรุปหลักฐาน: Figma is explicitly a prototyping tool. Sketch officially documents a dedicated set of prototyping tools.",
+      "final_answer": "question-comprehensive-095-choice-5",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-096",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH03 Software Design, slide 21, explicitly lists both Flowchart and UML as modeling languages."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH03 Software Design, slide 21, explicitly lists both Flowchart and UML as modeling languages.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH03 Software Design, slide 21, explicitly lists both Flowchart and UML as modeling languages.",
+      "final_answer": "question-comprehensive-096-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": true,
+      "unresolved_reason": "The final answer contradicts the prior inferred key and requires human sign-off.",
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-097",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH03 Software Design, slide 21, lists Sequence and Class diagrams as object-oriented diagrams."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH03 Software Design, slide 21, lists Sequence and Class diagrams as object-oriented diagrams.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH03 Software Design, slide 21, lists Sequence and Class diagrams as object-oriented diagrams.",
+      "final_answer": "question-comprehensive-097-choice-5",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-100",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS605 CH07/CH08, slide 46, teaches CSS float and flexbox as layout techniques."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS605 CH07/CH08, slide 46, teaches CSS float and flexbox as layout techniques.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS605 CH07/CH08, slide 46, teaches CSS float and flexbox as layout techniques.",
+      "final_answer": "question-comprehensive-100-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-102",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS606 combined exam/course pages 86–100 state that a thin client has little or no application logic at the client."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS606 combined exam/course pages 86–100 state that a thin client has little or no application logic at the client.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS606 combined exam/course pages 86–100 state that a thin client has little or no application logic at the client.",
+      "final_answer": "question-comprehensive-102-choice-5",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-103",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS606 Chapter 2, slide 43 and adjacent email-architecture material place a successfully delivered message at the receiver mail server."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS606 Chapter 2, slide 43 and adjacent email-architecture material place a successfully delivered message at the receiver mail server.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS606 Chapter 2, slide 43 and adjacent email-architecture material place a successfully delivered message at the receiver mail server.",
+      "final_answer": "question-comprehensive-103-choice-3",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-105",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS606 Chapter 3, page 47, defines Manchester encoding by a transition in the middle of each bit."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS606 Chapter 3, page 47, defines Manchester encoding by a transition in the middle of each bit.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS606 Chapter 3, page 47, defines Manchester encoding by a transition in the middle of each bit.",
+      "final_answer": "question-comprehensive-105-choice-1",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-106",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS606 Chapter 4, page 31, identifies continuous ARQ as a sliding-window protocol."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS606 Chapter 4, page 31, identifies continuous ARQ as a sliding-window protocol.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS606 Chapter 4, page 31, identifies continuous ARQ as a sliding-window protocol.",
+      "final_answer": "question-comprehensive-106-choice-2",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-108",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS606 Chapter 5, page 19, explains QoS priority by packet or traffic class."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS606 Chapter 5, page 19, explains QoS priority by packet or traffic class.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS606 Chapter 5, page 19, explains QoS priority by packet or traffic class.",
+      "final_answer": "question-comprehensive-108-choice-4",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-111",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_external_source",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [],
+      "external_source_ids": [
+        "ext-wiley-network-design"
+      ],
+      "evidence_summary_en": "The publisher's contents place selling the proposal to management under Cost Assessment.",
+      "evidence_summary_th": "สรุปหลักฐาน: The publisher's contents place selling the proposal to management under Cost Assessment.",
+      "final_answer": "question-comprehensive-111-choice-3",
+      "confidence_percentage": 92,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    },
+    {
+      "question_id": "question-comprehensive-113",
+      "original_answer_status": "strongly_inferred",
+      "final_answer_status": "verified_from_course_material",
+      "evidence_origin": "COURSE_MATERIAL",
+      "course_recheck_completed": true,
+      "course_material_references_preserved": true,
+      "course_evidence_locations": [
+        "BIS606 Chapter 8, page 22, identifies flexibility as the key chassis-switch advantage."
+      ],
+      "external_source_ids": [],
+      "evidence_summary_en": "BIS606 Chapter 8, page 22, identifies flexibility as the key chassis-switch advantage.",
+      "evidence_summary_th": "สรุปหลักฐาน: BIS606 Chapter 8, page 22, identifies flexibility as the key chassis-switch advantage.",
+      "final_answer": "question-comprehensive-113-choice-2",
+      "confidence_percentage": 95,
+      "requires_human_review": false,
+      "unresolved_reason": null,
+      "research_completed_at": "2026-07-26T20:30:00+07:00"
+    }
+  ]
+}

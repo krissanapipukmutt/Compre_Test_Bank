@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+    <script>
+        async function loadJSON() {
+            const response = await fetch('grades.json'); // Load JSON
+            const data = await response.json(); // Parse JSON
+
+            let table = `<table border="1">
+                            <tr>
+                                <th>Student</th>
+                                <th>Subject</th>
+                                <th>Grade</th>
+                            </tr>`;
+
+            data.forEach(row => {
+                table += `<tr>
+                            <td>${row.student}</td>
+                            <td>${row.subject}</td>
+                            <td>${row.grade}</td>
+                          </tr>`;
+            });
+
+            table += `</table>`;
+            document.getElementById("table-container").innerHTML = table;
+        }
+    </script>
+</head>
+<body onload="loadJSON()">
+    <h2>Student Grades</h2>
+    <div id="table-container"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise10.2</title>
+</head>
+<body>
+    <h2>Exercise10.2 Create a webpage to calculate a simple expression consisting of 2 operands and 1 operator</h2>
+    <form method="get" action="Exercise10_2.php">
+        <label>Input of user name</label> <br>
+        <input id = "name" name = "name" type="text"><br><br>
+        <label>2 Input of number</label> <br>
+        <input id = "num_1" name = "num_1" type="number"> <br>
+        <input id = "num_2" name = "num_2" type="number"> <br><br>
+        <label>Input operator</label><br>
+        <select id="operator" name="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <br><br>
+        <input type="Submit">
+        <input type="Reset">
+    </form>
+</body>
+</html>
