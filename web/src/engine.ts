@@ -4,6 +4,7 @@ import type {
   Question,
   QuestionFilters,
 } from "./domain";
+import { isTranslationReady } from "./translation";
 
 function hashSeed(seed: string): number {
   let value = 2166136261;
@@ -121,6 +122,7 @@ export function scoreQuestion(
     question.answer_status === "probabilistic_recommendation" ||
     question.answer_status === "unresolvable_question" ||
     !isVisualReady(question) ||
+    !isTranslationReady(question) ||
     (question.requires_human_review &&
       question.answer_status !== "strongly_supported_by_external_source")
   ) {

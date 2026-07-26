@@ -147,4 +147,33 @@ describe("session creation and timer", () => {
     );
     expect(session.questions).toHaveLength(0);
   });
+
+  it("excludes incomplete translations from mock sessions", () => {
+    const safe = academicData.questions.find(
+      (question) =>
+        question.answer_status === "verified_from_course_material" &&
+        !question.requires_human_review,
+    )!;
+    const incomplete: Question = {
+      ...safe,
+      question_id: "synthetic-translation-incomplete",
+      translation_status: "incomplete",
+      question_th: "",
+    };
+    const session = createSession(
+      [incomplete],
+      {
+        mode: "mock",
+        filters: {},
+        subjectCodes: [],
+        questionCount: 1,
+        feedbackMode: "delayed",
+        randomizeQuestions: false,
+        randomizeChoices: false,
+        timerMinutes: null,
+      },
+      "translation-safety",
+    );
+    expect(session.questions).toHaveLength(0);
+  });
 });

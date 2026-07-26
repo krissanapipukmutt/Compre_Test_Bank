@@ -12,6 +12,11 @@ import {
 } from "./Common";
 import { MISSING_VISUAL_WARNING } from "../visual";
 import { QuestionVisuals } from "./QuestionVisuals";
+import {
+  hasCompleteBilingualContent,
+  MISSING_TRANSLATION_WARNING,
+  TRANSLATION_REVIEW_WARNING,
+} from "../translation";
 
 const externalSourceById = new Map(
   (externalSourcesJson.external_sources as ExternalSource[]).map((source) => [
@@ -27,6 +32,9 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
   const choiceText = (choiceId: string) =>
     question.choices.find((choice) => choice.choice_id === choiceId)
       ?.original_text_en ?? choiceId;
+  const choiceTextTh = (choiceId: string) =>
+    question.choices.find((choice) => choice.choice_id === choiceId)?.text_th ??
+    choiceId;
 
   return (
     <section className="evidence-details">
@@ -48,24 +56,52 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
             {typeof question.final_answer === "string"
               ? choiceText(question.final_answer)
               : "No recommendation"}
+            {typeof question.final_answer === "string" ? (
+              <small className="bilingual-secondary" lang="th">
+                <strong>คำตอบที่แนะนำ:</strong>{" "}
+                {choiceTextTh(question.final_answer)}
+              </small>
+            ) : null}
           </p>
           <strong>Comparative probability by choice</strong>
           <ul>
             {question.probability_distribution.map((item) => (
               <li key={item.choice_id}>
-                {choiceText(item.choice_id)} — {item.probability_percentage}%
+                <span>
+                  {choiceText(item.choice_id)} — {item.probability_percentage}%
+                </span>
+                <small className="bilingual-secondary" lang="th">
+                  {choiceTextTh(item.choice_id)} —{" "}
+                  {item.probability_percentage}%
+                </small>
               </li>
             ))}
           </ul>
           <strong>Elimination reasoning</strong>
           <ul>
-            {question.elimination_reasoning_en.map((item) => (
-              <li key={item.choice_id}>{item.reason}</li>
-            ))}
+            {question.elimination_reasoning_en.map((item) => {
+              const thaiReason = question.elimination_reasoning_th.find(
+                (entry) => entry.choice_id === item.choice_id,
+              );
+              return (
+                <li key={item.choice_id}>
+                  <span>{item.reason}</span>
+                  {thaiReason ? (
+                    <small className="bilingual-secondary" lang="th">
+                      {thaiReason.reason}
+                    </small>
+                  ) : null}
+                </li>
+              );
+            })}
           </ul>
           <p>
             <strong>Remaining uncertainty:</strong>{" "}
             {question.remaining_uncertainty}
+            <small className="bilingual-secondary" lang="th">
+              <strong>ความไม่แน่นอนที่ยังเหลืออยู่:</strong>{" "}
+              {question.remaining_uncertainty_th}
+            </small>
           </p>
           <p>
             <strong>Human review required.</strong>
@@ -79,7 +115,9 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
           severity="danger"
         >
           <p>{question.unresolved_reason}</p>
+          <p lang="th">{question.unresolved_reason_th}</p>
           <p>This item is excluded from scoring and requires human review.</p>
+          <p lang="th">ข้อนี้ไม่รวมในการให้คะแนนและต้องได้รับการตรวจทานโดยผู้เชี่ยวชาญ</p>
         </AcademicNotice>
       ) : null}
 
@@ -91,6 +129,9 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
           severity="warning"
         >
           <p>{question.unresolved_reason}</p>
+          {question.unresolved_reason_th ? (
+            <p lang="th">{question.unresolved_reason_th}</p>
+          ) : null}
         </AcademicNotice>
       ) : null}
 
@@ -98,6 +139,7 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
         <div className="external-evidence">
           <h4>External evidence · หลักฐานภายนอก</h4>
           <p>{question.external_evidence_summary_en}</p>
+          <p lang="th">{question.external_evidence_summary_th}</p>
           {sources.map((source) => (
             <article className="external-source" key={source.source_id}>
               <h5>
@@ -163,6 +205,11 @@ export function QuestionCard({
   >(null);
   const visualLoadFailed =
     failedVisualQuestionId === question.question_id;
+  const translationInvalid = !hasCompleteBilingualContent(question);
+  const translationNeedsReview =
+    !translationInvalid &&
+    question.translation_status !== "verified" &&
+    question.translation_status !== "repaired";
 
   const update = (choiceId: string, checked: boolean) => {
     if (reveal) return;
@@ -192,13 +239,27 @@ export function QuestionCard({
       </header>
 
       <div className="question-copy">
-        <span className="eyebrow">Original English · ต้นฉบับภาษาอังกฤษ</span>
+        <span className="eyebrow" data-language="en">
+          Original English · ต้นฉบับภาษาอังกฤษ
+        </span>
         <h2>{question.original_question_en}</h2>
-        <div className="translation-block" lang="th">
+        <div className="translation-block" data-language="th" lang="th">
           <span>คำแปลภาษาไทย</span>
           <p>{question.question_th}</p>
         </div>
       </div>
+
+      {translationInvalid ? (
+        <p className="translation-warning" role="alert">
+          {MISSING_TRANSLATION_WARNING}
+        </p>
+      ) : null}
+
+      {translationNeedsReview ? (
+        <p className="translation-review-warning">
+          {TRANSLATION_REVIEW_WARNING}
+        </p>
+      ) : null}
 
       <QuestionVisuals
         assets={question.visual_assets}
@@ -235,7 +296,7 @@ export function QuestionCard({
             >
               <input
                 checked={selected}
-                disabled={reveal || visualLoadFailed}
+                disabled={reveal || visualLoadFailed || translationInvalid}
                 name={question.question_id}
                 onChange={(event) =>
                   update(choice.choice_id, event.currentTarget.checked)
@@ -283,7 +344,7 @@ export function QuestionCard({
                 : "Review · ทบทวน"
               : "Unscored reflection · ไม่ให้คะแนน"}
           </span>
-          <h3>Explanation</h3>
+          <h3>Explanation · คำอธิบาย</h3>
           <p>{question.explanation_en}</p>
           <p lang="th">{question.explanation_th}</p>
           <EvidenceDetails question={question} />
@@ -292,11 +353,20 @@ export function QuestionCard({
       ) : null}
 
       <footer className="question-card__footer">
-        <span>
-          Source question: {question.source_exam_relative_path}, page{" "}
-          {question.source_page_or_slide}
+        <span className="source-note">
+          <span>
+            Source question: {question.source_exam_relative_path}, page{" "}
+            {question.source_page_or_slide}
+          </span>
+          <small lang="th">
+            ที่มาของข้อสอบ: {question.source_exam_relative_path}, หน้า{" "}
+            {question.source_page_or_slide}
+          </small>
         </span>
-        <span>{question.translation_note}</span>
+        <span className="source-note">
+          <span>{question.translation_note}</span>
+          <small lang="th">{question.translation_note_th}</small>
+        </span>
       </footer>
     </article>
   );

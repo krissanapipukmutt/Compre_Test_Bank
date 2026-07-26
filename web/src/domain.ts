@@ -115,7 +115,26 @@ export interface Choice {
   is_correct: boolean;
   explanation_en: string;
   explanation_th: string;
+  translation_status: "verified" | "repaired";
+  translation_review_note: string;
   visual_assets?: VisualAsset[];
+}
+
+export type TranslationStatus =
+  | "verified"
+  | "repaired"
+  | "incomplete"
+  | "ambiguous"
+  | "requires_human_review";
+
+export interface TranslationAuditEntry {
+  completed_at: string;
+  action: string;
+  result: TranslationStatus;
+  fields_changed: string[];
+  answer_key_changed: boolean;
+  human_review_required: boolean;
+  review_note: string;
 }
 
 export type VisualIntegrityStatus =
@@ -235,6 +254,12 @@ export interface Question {
   human_review_note: string | null;
   original_text_correction_log: string[];
   translation_note: string;
+  translation_note_th: string;
+  translation_status: TranslationStatus;
+  translation_quality: Confidence;
+  translation_review_note: string;
+  translation_completed_at: string;
+  translation_audit_log: TranslationAuditEntry[];
   original_answer: string | string[] | null;
   original_explanation_en: string;
   original_explanation_th: string;
@@ -268,7 +293,9 @@ export interface Question {
   probability_warning_en: string | null;
   probability_warning_th: string | null;
   remaining_uncertainty: string | null;
+  remaining_uncertainty_th: string | null;
   unresolved_reason: string | null;
+  unresolved_reason_th: string | null;
   requires_human_review: boolean;
   research_completed_at: string | null;
   research_audit_log: ResearchAuditEntry[];

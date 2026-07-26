@@ -1,0 +1,3436 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-07-26T23:14:57+07:00",
+  "purpose": "Immutable English, identifier, order, and academic-answer fingerprint captured before the bilingual translation repair.",
+  "questions": [
+    {
+      "question_id": "question-comprehensive-001",
+      "original_question_en": "_____ is the one paying for the product in be developed.",
+      "choice_order": [
+        "question-comprehensive-001-choice-1",
+        "question-comprehensive-001-choice-2",
+        "question-comprehensive-001-choice-3",
+        "question-comprehensive-001-choice-4",
+        "question-comprehensive-001-choice-5"
+      ],
+      "choice_english": [
+        "Product owner",
+        "Problem owner",
+        "Business analyst",
+        "Business management",
+        "None of 1-4 correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-001-choice-5",
+      "final_answer": "question-comprehensive-001-choice-5",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-002",
+      "original_question_en": "_____ represents the product stakeholders to the development team.",
+      "choice_order": [
+        "question-comprehensive-002-choice-1",
+        "question-comprehensive-002-choice-2",
+        "question-comprehensive-002-choice-3",
+        "question-comprehensive-002-choice-4",
+        "question-comprehensive-002-choice-5"
+      ],
+      "choice_english": [
+        "Product owner",
+        "Problem owner",
+        "Business analyst",
+        "Business management",
+        "None of 1-4 correct."
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-002-choice-1",
+      "final_answer": "question-comprehensive-002-choice-1",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-003",
+      "original_question_en": "_____ has in-depth knowledge of a topic relevant to the business need or solution scope.",
+      "choice_order": [
+        "question-comprehensive-003-choice-1",
+        "question-comprehensive-003-choice-2",
+        "question-comprehensive-003-choice-3",
+        "question-comprehensive-003-choice-4",
+        "question-comprehensive-003-choice-5"
+      ],
+      "choice_english": [
+        "Product owner",
+        "Problem owner",
+        "Business analyst",
+        "Business management",
+        "None of 1-4 correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-003-choice-5",
+      "final_answer": "question-comprehensive-003-choice-5",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-004",
+      "original_question_en": "Upper-level management is informed about the status of the IT project by A) IT management B) The project manager C) The business analyst",
+      "choice_order": [
+        "question-comprehensive-004-choice-1",
+        "question-comprehensive-004-choice-2",
+        "question-comprehensive-004-choice-3",
+        "question-comprehensive-004-choice-4",
+        "question-comprehensive-004-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "C",
+        "A and B",
+        "B and C"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-004-choice-4",
+      "final_answer": "question-comprehensive-004-choice-4",
+      "original_answer": "question-comprehensive-004-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-004-choice-4"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-005",
+      "original_question_en": "Why should you write down the questions you intend to ask in an information gathering session?",
+      "choice_order": [
+        "question-comprehensive-005-choice-1",
+        "question-comprehensive-005-choice-2",
+        "question-comprehensive-005-choice-3",
+        "question-comprehensive-005-choice-4",
+        "question-comprehensive-005-choice-5"
+      ],
+      "choice_english": [
+        "Document for the future.",
+        "Verify good phraseology.",
+        "Remember your questions.",
+        "Keep track of the questions already asked.",
+        "All of 1-4 correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-005-choice-5",
+      "final_answer": "question-comprehensive-005-choice-5",
+      "original_answer": "question-comprehensive-005-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-005-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-006",
+      "original_question_en": "Which of the following is what you should do to start an information-gathering session? A) Identify the problem to be solved. B) Express the expected result of solving the problem. C)Express why the session is important to the responder personally.",
+      "choice_order": [
+        "question-comprehensive-006-choice-1",
+        "question-comprehensive-006-choice-2",
+        "question-comprehensive-006-choice-3",
+        "question-comprehensive-006-choice-4",
+        "question-comprehensive-006-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "C",
+        "A and B",
+        "All of A, B, C are correct"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-006-choice-5",
+      "final_answer": "question-comprehensive-006-choice-5",
+      "original_answer": "question-comprehensive-006-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-006-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-007",
+      "original_question_en": "Which of the following is the attribute that a business analyst should have'? A) Ability to ask the right kinds of questions. B) Ability to plan, develop, and conduct acceptance test. C) Ability to manage project",
+      "choice_order": [
+        "question-comprehensive-007-choice-1",
+        "question-comprehensive-007-choice-2",
+        "question-comprehensive-007-choice-3",
+        "question-comprehensive-007-choice-4",
+        "question-comprehensive-007-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "A and B",
+        "A and C",
+        "All of A, B, C are correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-007-choice-3",
+      "final_answer": "question-comprehensive-007-choice-3",
+      "original_answer": "question-comprehensive-007-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-007-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-008",
+      "original_question_en": "Which of the following is correct? A) The business analyst considers a project a unique, specific, und definable piece of work B) The business analyst should not inform the IT project manager about the feelings of the business community. C) The IT project manager focuses on bringing the project on time, within budget, and delivering everything promised for that time and budget.",
+      "choice_order": [
+        "question-comprehensive-008-choice-1",
+        "question-comprehensive-008-choice-2",
+        "question-comprehensive-008-choice-3",
+        "question-comprehensive-008-choice-4",
+        "question-comprehensive-008-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "C",
+        "B and C",
+        "All of A, B, C are correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-008-choice-3",
+      "final_answer": "question-comprehensive-008-choice-3",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-009",
+      "original_question_en": "Which of the following is correct? A) The business analyst is an agent for change in the business. B) Users have the requirements, and the business analyst has to gather them. C) Project may live or die based on expectations, perceptions, or both rather than results.",
+      "choice_order": [
+        "question-comprehensive-009-choice-1",
+        "question-comprehensive-009-choice-2",
+        "question-comprehensive-009-choice-3",
+        "question-comprehensive-009-choice-4",
+        "question-comprehensive-009-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "C",
+        "A and C",
+        "All of A, B, C are correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-009-choice-4",
+      "final_answer": "question-comprehensive-009-choice-4",
+      "original_answer": "question-comprehensive-009-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-009-choice-4"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-010",
+      "original_question_en": "Which of the following is correct? A) The type of question asked is irrelevant from the type of information desired. B) A problem is the difference between someone's desires and the way things seem to be. C) The business analyst with the business background can bring more different perspective about the business problem than the business analyst with the IT background.",
+      "choice_order": [
+        "question-comprehensive-010-choice-1",
+        "question-comprehensive-010-choice-2",
+        "question-comprehensive-010-choice-3",
+        "question-comprehensive-010-choice-4",
+        "question-comprehensive-010-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "C",
+        "B and C",
+        "All of A, B, C are correct."
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-010-choice-2",
+      "final_answer": "question-comprehensive-010-choice-2",
+      "original_answer": "question-comprehensive-010-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-010-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-019",
+      "original_question_en": "Which of the following is Incorrect? A) The business analyst, determines what must be done by business to solve the problem. B) The systems analyst determines how to implement the solution using computer / technology. C) The business analyst makes technical and business trade-offs ta determine the one best solution.",
+      "choice_order": [
+        "question-comprehensive-019-choice-1",
+        "question-comprehensive-019-choice-2",
+        "question-comprehensive-019-choice-3",
+        "question-comprehensive-019-choice-4",
+        "question-comprehensive-019-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "C",
+        "A and B",
+        "All of A, B, C are correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-019-choice-3",
+      "final_answer": "question-comprehensive-019-choice-3",
+      "original_answer": "question-comprehensive-019-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-019-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-020",
+      "original_question_en": "Which of the following is incorrect about an information-gathering session? A) Responders stop giving you information when you have corrected them. B) Responders give you information even though they believe you already know. C) Responders stop giving you Information when you have challenged the information they have given.",
+      "choice_order": [
+        "question-comprehensive-020-choice-1",
+        "question-comprehensive-020-choice-2",
+        "question-comprehensive-020-choice-3",
+        "question-comprehensive-020-choice-4",
+        "question-comprehensive-020-choice-5"
+      ],
+      "choice_english": [
+        "A",
+        "B",
+        "C",
+        "A and C",
+        "All of A, B, C are correct."
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-020-choice-2",
+      "final_answer": "question-comprehensive-020-choice-2",
+      "original_answer": "question-comprehensive-020-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-020-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-021",
+      "original_question_en": "For the following pint, how would the distribution be described?",
+      "choice_order": [
+        "question-comprehensive-021-choice-1",
+        "question-comprehensive-021-choice-2",
+        "question-comprehensive-021-choice-3",
+        "question-comprehensive-021-choice-4",
+        "question-comprehensive-021-choice-5"
+      ],
+      "choice_english": [
+        "Discretely symmetric",
+        "Continuously Skewed",
+        "Symmetrically Skewed",
+        "Negatively Skewed",
+        "Tree Shaped."
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-021-choice-1",
+      "final_answer": "question-comprehensive-021-choice-1",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-022",
+      "original_question_en": "Based on goodness-of-fit measures, which model is with the best performance?",
+      "choice_order": [
+        "question-comprehensive-022-choice-1",
+        "question-comprehensive-022-choice-2",
+        "question-comprehensive-022-choice-3",
+        "question-comprehensive-022-choice-4",
+        "question-comprehensive-022-choice-5"
+      ],
+      "choice_english": [
+        "Model 1, since its R2 is the lowest",
+        "Model 1, since its Se is the highest",
+        "Model 3, since its Se is positive",
+        "Model 2, since ins Se is the lowest",
+        "Model 3, since its R2 is the highest"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": null,
+      "final_answer": null,
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question"
+    },
+    {
+      "question_id": "question-comprehensive-023",
+      "original_question_en": "Based on the results of regression analysis shown below, which variable could be taken out of the system for a better goodness of fit, given 739% confidence interval'?",
+      "choice_order": [
+        "question-comprehensive-023-choice-1",
+        "question-comprehensive-023-choice-2",
+        "question-comprehensive-023-choice-3",
+        "question-comprehensive-023-choice-4",
+        "question-comprehensive-023-choice-5"
+      ],
+      "choice_english": [
+        "Intercept",
+        "Service cost",
+        "Contact complete",
+        "Payment Only",
+        "Service cost and Payment"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": null,
+      "final_answer": null,
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question"
+    },
+    {
+      "question_id": "question-comprehensive-024",
+      "original_question_en": "Using the following Boxplot, identify the median.",
+      "choice_order": [
+        "question-comprehensive-024-choice-1",
+        "question-comprehensive-024-choice-2",
+        "question-comprehensive-024-choice-3",
+        "question-comprehensive-024-choice-4",
+        "question-comprehensive-024-choice-5"
+      ],
+      "choice_english": [
+        "25",
+        "85",
+        "40",
+        "60",
+        "65"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-024-choice-4",
+      "final_answer": "question-comprehensive-024-choice-4",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-025",
+      "original_question_en": "Digital _____ is the process of using digital technologies to create new, or modify existing business processes, culture, and customer experiences to meet changing business and market requirements",
+      "choice_order": [
+        "question-comprehensive-025-choice-1",
+        "question-comprehensive-025-choice-2",
+        "question-comprehensive-025-choice-3",
+        "question-comprehensive-025-choice-4",
+        "question-comprehensive-025-choice-5"
+      ],
+      "choice_english": [
+        "Darwinism",
+        "Transformation",
+        "Disruption",
+        "Sustaining",
+        "business"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-025-choice-2",
+      "final_answer": "question-comprehensive-025-choice-2",
+      "original_answer": "question-comprehensive-025-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-025-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-026",
+      "original_question_en": "A ____is created when a company matches its distinctive competency to the opportunities it has discovered in the market.",
+      "choice_order": [
+        "question-comprehensive-026-choice-1",
+        "question-comprehensive-026-choice-2",
+        "question-comprehensive-026-choice-3",
+        "question-comprehensive-026-choice-4",
+        "question-comprehensive-026-choice-5"
+      ],
+      "choice_english": [
+        "Market opportunity",
+        "Market requirement",
+        "Competitive advantage",
+        "SWOT analysis chart",
+        "Business opportunity"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-026-choice-3",
+      "final_answer": "question-comprehensive-026-choice-3",
+      "original_answer": "question-comprehensive-026-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-026-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-027",
+      "original_question_en": "Which one is an example of primary business process?",
+      "choice_order": [
+        "question-comprehensive-027-choice-1",
+        "question-comprehensive-027-choice-2",
+        "question-comprehensive-027-choice-3",
+        "question-comprehensive-027-choice-4",
+        "question-comprehensive-027-choice-5"
+      ],
+      "choice_english": [
+        "Recruiting new employees.",
+        "Consolidating all cost of product",
+        "Collecting customer data to database",
+        "After sales servicing.",
+        "All are correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-027-choice-4",
+      "final_answer": "question-comprehensive-027-choice-4",
+      "original_answer": "question-comprehensive-027-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-027-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-028",
+      "original_question_en": "Which of the followings may lead to \"Differentiation\" strategy? A) Invests heavily in research and development to create innovative features B) Redesign the service center emphasis on providing a seamless and intuitive use experience. C) Streamline business process to reduce cost and high quality products.",
+      "choice_order": [
+        "question-comprehensive-028-choice-1",
+        "question-comprehensive-028-choice-2",
+        "question-comprehensive-028-choice-3",
+        "question-comprehensive-028-choice-4",
+        "question-comprehensive-028-choice-5"
+      ],
+      "choice_english": [
+        "1 and 2",
+        "1 only",
+        "2 only",
+        "3 only",
+        "2 and 3"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-028-choice-1",
+      "final_answer": "question-comprehensive-028-choice-1",
+      "original_answer": "question-comprehensive-028-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-028-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-029",
+      "original_question_en": "Which one is a good KPI for the critical success factor of \"improving responsiveness\"! If the responsiveness means the ability of a company to promptly address customer inquiries, concerts, and issues in a timely manner.",
+      "choice_order": [
+        "question-comprehensive-029-choice-1",
+        "question-comprehensive-029-choice-2",
+        "question-comprehensive-029-choice-3",
+        "question-comprehensive-029-choice-4",
+        "question-comprehensive-029-choice-5"
+      ],
+      "choice_english": [
+        "Percentage of products that are found to be defective",
+        "Percentage of customer inquiries or issues that are abandoned or left unresolved.",
+        "Percentage of products failure within guarantee period.",
+        "Numbers of customer support personnel.",
+        "No correct answer."
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-029-choice-2",
+      "final_answer": "question-comprehensive-029-choice-2",
+      "original_answer": "question-comprehensive-029-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-029-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-030",
+      "original_question_en": "Which of the following action is for targeting effectiveness of the business goal?",
+      "choice_order": [
+        "question-comprehensive-030-choice-1",
+        "question-comprehensive-030-choice-2",
+        "question-comprehensive-030-choice-3",
+        "question-comprehensive-030-choice-4",
+        "question-comprehensive-030-choice-5"
+      ],
+      "choice_english": [
+        "Increase speed of work.",
+        "Increase number of operation.",
+        "Increase response time to customer.",
+        "Increase profitability",
+        "All are correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-030-choice-4",
+      "final_answer": "question-comprehensive-030-choice-4",
+      "original_answer": "question-comprehensive-030-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-030-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-031",
+      "original_question_en": "What can be an example of measurement and Target that set for the objective \"High efficient in delivering\", when creating Balanced ScoreCard for food delivery servicing company?",
+      "choice_order": [
+        "question-comprehensive-031-choice-1",
+        "question-comprehensive-031-choice-2",
+        "question-comprehensive-031-choice-3",
+        "question-comprehensive-031-choice-4",
+        "question-comprehensive-031-choice-5"
+      ],
+      "choice_english": [
+        "The percentage of orders delivered correctly and on time (accuracy rate of 95%).",
+        "Top ranked in customer retention (no. 2 in two years)",
+        "Customer take less time to complete the online food order (within 3 clicks to complete ordering process)",
+        "Higher number of customer orders (15% compared to last month)",
+        "All are correct"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-031-choice-1",
+      "final_answer": "question-comprehensive-031-choice-1",
+      "original_answer": "question-comprehensive-031-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-031-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-032",
+      "original_question_en": "In a dataset of exam scores, a student scores 42 marks, while the mean score is 75 with a standard deviation of 10. Compute z-score for this student's score? Is this un outlier?",
+      "choice_order": [
+        "question-comprehensive-032-choice-1",
+        "question-comprehensive-032-choice-2",
+        "question-comprehensive-032-choice-3",
+        "question-comprehensive-032-choice-4",
+        "question-comprehensive-032-choice-5"
+      ],
+      "choice_english": [
+        "- 1.5, outlier",
+        "-",
+        "3, outlier 3. 1, not outlier.",
+        "3.3, not outlier.",
+        "No correct answer."
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-032-choice-2",
+      "final_answer": "question-comprehensive-032-choice-2",
+      "original_answer": "question-comprehensive-032-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-032-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-033",
+      "original_question_en": "Given the following dataset: 12, 15, 18, 20, 22, 25, 28, 30, what is the median of the data?",
+      "choice_order": [
+        "question-comprehensive-033-choice-1",
+        "question-comprehensive-033-choice-2",
+        "question-comprehensive-033-choice-3",
+        "question-comprehensive-033-choice-4",
+        "question-comprehensive-033-choice-5"
+      ],
+      "choice_english": [
+        "18",
+        "20",
+        "21",
+        "22",
+        "30"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-033-choice-3",
+      "final_answer": "question-comprehensive-033-choice-3",
+      "original_answer": "question-comprehensive-033-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-033-choice-3"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-034",
+      "original_question_en": "Which of the following best defines a random variable?",
+      "choice_order": [
+        "question-comprehensive-034-choice-1",
+        "question-comprehensive-034-choice-2",
+        "question-comprehensive-034-choice-3",
+        "question-comprehensive-034-choice-4",
+        "question-comprehensive-034-choice-5"
+      ],
+      "choice_english": [
+        "A variable whose value is determined by chance and is represented by a probability distribute",
+        "A variable with a fixed value that remains constant throughout an experiment.",
+        "A variable that can only take on integer values.",
+        "A variable that is out of control, or as called outlier.",
+        "All are correct."
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-034-choice-1",
+      "final_answer": "question-comprehensive-034-choice-1",
+      "original_answer": "question-comprehensive-034-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-034-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-035",
+      "original_question_en": "The mean (average) of a dataset is 50 and the standard deviation is 10. What is Z- score of",
+      "choice_order": [
+        "question-comprehensive-035-choice-1",
+        "question-comprehensive-035-choice-2",
+        "question-comprehensive-035-choice-3",
+        "question-comprehensive-035-choice-4",
+        "question-comprehensive-035-choice-5"
+      ],
+      "choice_english": [
+        "-1",
+        "-0.5",
+        "2.5",
+        "1",
+        "5"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": null,
+      "final_answer": null,
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question"
+    },
+    {
+      "question_id": "question-comprehensive-036",
+      "original_question_en": "What is the primary purpose of a marketing data mart in a business?",
+      "choice_order": [
+        "question-comprehensive-036-choice-1",
+        "question-comprehensive-036-choice-2",
+        "question-comprehensive-036-choice-3",
+        "question-comprehensive-036-choice-4",
+        "question-comprehensive-036-choice-5"
+      ],
+      "choice_english": [
+        "To store all customer data collected by the marketing department.",
+        "To analyze and organize marketing-related data for better decision-making.",
+        "To manage sales transactions and inventory.",
+        "To track employee performance in marketing campaigns.",
+        "All are applicable."
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-036-choice-2",
+      "final_answer": "question-comprehensive-036-choice-2",
+      "original_answer": "question-comprehensive-036-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-036-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-037",
+      "original_question_en": "What is the key distinction between Business Intelligence (BI) and Data Mining?",
+      "choice_order": [
+        "question-comprehensive-037-choice-1",
+        "question-comprehensive-037-choice-2",
+        "question-comprehensive-037-choice-3",
+        "question-comprehensive-037-choice-4",
+        "question-comprehensive-037-choice-5"
+      ],
+      "choice_english": [
+        "BI focuses on historical data, while data mining focuses on present data.",
+        "BI is primarily used for decision-making, while data mining is used for data exploration.",
+        "BI involves visualized reporting and interactive querying, while data mining involves discovering patterns and relationships in data.",
+        "BI is used by data engineers, while data mining is used by data superintendent.",
+        "All are correct."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-037-choice-3",
+      "final_answer": "question-comprehensive-037-choice-3",
+      "original_answer": "question-comprehensive-037-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-037-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-038",
+      "original_question_en": "What is a primary difference between big data and blockchain technology?",
+      "choice_order": [
+        "question-comprehensive-038-choice-1",
+        "question-comprehensive-038-choice-2",
+        "question-comprehensive-038-choice-3",
+        "question-comprehensive-038-choice-4",
+        "question-comprehensive-038-choice-5"
+      ],
+      "choice_english": [
+        "Big data involves decentralized consensus mechanisms, whereas blockchain relies on centralized data storage",
+        "Big data emphasizes data analysis for business insights, while blockchain emphasizes secured, distributed and transparent record-keeping.",
+        "Big data is primarily used for financial transactions, while blockchain is applicable to various industries for data analysis.",
+        "No correct answer",
+        "No correct answer."
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-038-choice-2",
+      "final_answer": "question-comprehensive-038-choice-2",
+      "original_answer": "question-comprehensive-038-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-038-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-039",
+      "original_question_en": "Which of the following statements best describes the concept of discrete normal distribution?",
+      "choice_order": [
+        "question-comprehensive-039-choice-1",
+        "question-comprehensive-039-choice-2",
+        "question-comprehensive-039-choice-3",
+        "question-comprehensive-039-choice-4",
+        "question-comprehensive-039-choice-5"
+      ],
+      "choice_english": [
+        "Discrete normal distribution is a probability distribution that models random variables with continuous outcomes. continuous",
+        "Discrete normal distribution is a probability distribution used to model discrete data with a symmetric bell-shaped curve.",
+        "Discrete normal distribution is a statistical concept primarily applied to continuous data sets.",
+        "Discrete normal distribution is a term used interchangeably with continuous normal distribution in statistics.",
+        "No correct answer."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-039-choice-5",
+      "final_answer": "question-comprehensive-039-choice-5",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "strongly_supported_by_external_source",
+      "final_answer_status": "strongly_supported_by_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-040",
+      "original_question_en": "In the context of business decision-making, which level typically involves decisions that affect the long-term direction of the organization?",
+      "choice_order": [
+        "question-comprehensive-040-choice-1",
+        "question-comprehensive-040-choice-2",
+        "question-comprehensive-040-choice-3",
+        "question-comprehensive-040-choice-4",
+        "question-comprehensive-040-choice-5"
+      ],
+      "choice_english": [
+        "Operational level",
+        "Tactical level",
+        "Strategic level",
+        "Managerial level",
+        "VIP level"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-040-choice-3",
+      "final_answer": "question-comprehensive-040-choice-3",
+      "original_answer": "question-comprehensive-040-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-040-choice-3"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-041",
+      "original_question_en": "In _________, the marketing and technology of new products are related to current products, but the new ones are introduced into new markets.",
+      "choice_order": [
+        "question-comprehensive-041-choice-1",
+        "question-comprehensive-041-choice-2",
+        "question-comprehensive-041-choice-3",
+        "question-comprehensive-041-choice-4",
+        "question-comprehensive-041-choice-5"
+      ],
+      "choice_english": [
+        "Backward integration",
+        "Conglomerate diversification",
+        "Forward integration",
+        "Horizontal diversification",
+        "Concentric diversification"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-041-choice-5",
+      "final_answer": "question-comprehensive-041-choice-5",
+      "original_answer": "question-comprehensive-041-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-041-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-042",
+      "original_question_en": "An advertising campaign that tries to persuade people to avoid drinking and driving is an example of:",
+      "choice_order": [
+        "question-comprehensive-042-choice-1",
+        "question-comprehensive-042-choice-2",
+        "question-comprehensive-042-choice-3",
+        "question-comprehensive-042-choice-4",
+        "question-comprehensive-042-choice-5"
+      ],
+      "choice_english": [
+        "Service advertising",
+        "Social marketing",
+        "Campaign marketing",
+        "Product advertising",
+        "Sport Marketing"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-042-choice-2",
+      "final_answer": "question-comprehensive-042-choice-2",
+      "original_answer": "question-comprehensive-042-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-042-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-043",
+      "original_question_en": "When Thai Carpets Int. develops new carpets that are highly stain resistant and durable, it must educate consumers about the product's benefits. This calls for activity in which of the following marketing mix variables?",
+      "choice_order": [
+        "question-comprehensive-043-choice-1",
+        "question-comprehensive-043-choice-2",
+        "question-comprehensive-043-choice-3",
+        "question-comprehensive-043-choice-4",
+        "question-comprehensive-043-choice-5"
+      ],
+      "choice_english": [
+        "Price",
+        "Promotion",
+        "Place",
+        "Product",
+        "Packaging"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-043-choice-2",
+      "final_answer": "question-comprehensive-043-choice-2",
+      "original_answer": "question-comprehensive-043-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-043-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-044",
+      "original_question_en": "The first step in segmentation, targeting and positioning for competitive advantage is",
+      "choice_order": [
+        "question-comprehensive-044-choice-1",
+        "question-comprehensive-044-choice-2",
+        "question-comprehensive-044-choice-3",
+        "question-comprehensive-044-choice-4",
+        "question-comprehensive-044-choice-5"
+      ],
+      "choice_english": [
+        "develop profiles of resulting segments",
+        "identify bases for segmenting the market",
+        "select target segment(s)",
+        "develop measures of segment attractiveness",
+        "develop marketing mix for each target segment"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-044-choice-2",
+      "final_answer": "question-comprehensive-044-choice-2",
+      "original_answer": "question-comprehensive-044-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-044-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-045",
+      "original_question_en": "Large retailers such as Tesco and Big C are MOST likely to participate in which of the following channels?",
+      "choice_order": [
+        "question-comprehensive-045-choice-1",
+        "question-comprehensive-045-choice-2",
+        "question-comprehensive-045-choice-3",
+        "question-comprehensive-045-choice-4",
+        "question-comprehensive-045-choice-5"
+      ],
+      "choice_english": [
+        "Producer, industrial distributors, retailers, consumers",
+        "Producer, consumers",
+        "Producer, wholesalers, retailers, consumers",
+        "Producer, retailers, consumers",
+        "Producer, agents, wholesalers, retailers, consumers"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-045-choice-4",
+      "final_answer": "question-comprehensive-045-choice-4",
+      "original_answer": "question-comprehensive-045-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-045-choice-4"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-046",
+      "original_question_en": "What is the critical success factor for customer satisfaction?",
+      "choice_order": [
+        "question-comprehensive-046-choice-1",
+        "question-comprehensive-046-choice-2",
+        "question-comprehensive-046-choice-3",
+        "question-comprehensive-046-choice-4",
+        "question-comprehensive-046-choice-5"
+      ],
+      "choice_english": [
+        "performance evaluation",
+        "tools and training",
+        "Empowerment",
+        "all of the above",
+        "both 1 and 2"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-046-choice-4",
+      "final_answer": "question-comprehensive-046-choice-4",
+      "original_answer": "question-comprehensive-046-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-046-choice-4"
+      ],
+      "answer_status": "probabilistic_recommendation",
+      "final_answer_status": "probabilistic_recommendation"
+    },
+    {
+      "question_id": "question-comprehensive-047",
+      "original_question_en": "Aggressive pricing is typical during the stage of the product life cycle.",
+      "choice_order": [
+        "question-comprehensive-047-choice-1",
+        "question-comprehensive-047-choice-2",
+        "question-comprehensive-047-choice-3",
+        "question-comprehensive-047-choice-4",
+        "question-comprehensive-047-choice-5"
+      ],
+      "choice_english": [
+        "Decline",
+        "Growth",
+        "Introduction",
+        "Plateau",
+        "Stabilisation"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-047-choice-2",
+      "final_answer": "question-comprehensive-047-choice-2",
+      "original_answer": "question-comprehensive-047-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-047-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-048",
+      "original_question_en": "In your context, _______ is a societal process by which individuals and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others.",
+      "choice_order": [
+        "question-comprehensive-048-choice-1",
+        "question-comprehensive-048-choice-2",
+        "question-comprehensive-048-choice-3",
+        "question-comprehensive-048-choice-4",
+        "question-comprehensive-048-choice-5"
+      ],
+      "choice_english": [
+        "marketing",
+        "internet marketing",
+        "mobile marketing",
+        "all of the above",
+        "both 1 and 2"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-048-choice-1",
+      "final_answer": "question-comprehensive-048-choice-1",
+      "original_answer": "question-comprehensive-048-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-048-choice-1"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-049",
+      "original_question_en": "A ___ is created when a company matches its distinctive competency to the opportunities it has discovered in the market.",
+      "choice_order": [
+        "question-comprehensive-049-choice-1",
+        "question-comprehensive-049-choice-2",
+        "question-comprehensive-049-choice-3",
+        "question-comprehensive-049-choice-4",
+        "question-comprehensive-049-choice-5"
+      ],
+      "choice_english": [
+        "Market, opportunity",
+        "Market requirement",
+        "Competitive advantage",
+        "SWOT analysis chart",
+        "Competitive opportunity"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-049-choice-3",
+      "final_answer": "question-comprehensive-049-choice-3",
+      "original_answer": "question-comprehensive-049-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-049-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-050",
+      "original_question_en": "The marketing concept is a philosophy that states that an organization should try to satisfy customers' needs and at the same time:",
+      "choice_order": [
+        "question-comprehensive-050-choice-1",
+        "question-comprehensive-050-choice-2",
+        "question-comprehensive-050-choice-3",
+        "question-comprehensive-050-choice-4",
+        "question-comprehensive-050-choice-5"
+      ],
+      "choice_english": [
+        "Increase market share.",
+        "Increase sales.",
+        "Achieve the organization’s goals.",
+        "Always produce high",
+        "Quality products."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-050-choice-3",
+      "final_answer": "question-comprehensive-050-choice-3",
+      "original_answer": "question-comprehensive-050-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-050-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-051",
+      "original_question_en": "The publishers of The Manager developed a campaign to market the magazine to university and college students studying business and management courses. This would best be refer to as a strategy centering on",
+      "choice_order": [
+        "question-comprehensive-051-choice-1",
+        "question-comprehensive-051-choice-2",
+        "question-comprehensive-051-choice-3",
+        "question-comprehensive-051-choice-4",
+        "question-comprehensive-051-choice-5"
+      ],
+      "choice_english": [
+        "Product development.",
+        "Horizontal diversification.",
+        "Market development.",
+        "Concentric diversification.",
+        "Conglomerate diversification."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-051-choice-3",
+      "final_answer": "question-comprehensive-051-choice-3",
+      "original_answer": "question-comprehensive-051-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-051-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-052",
+      "original_question_en": "Using a successful brand name to introduce additional items in a given product category under the same brand name (such as new colors, package sizes, flavors, or forms) is called a(n):",
+      "choice_order": [
+        "question-comprehensive-052-choice-1",
+        "question-comprehensive-052-choice-2",
+        "question-comprehensive-052-choice-3",
+        "question-comprehensive-052-choice-4",
+        "question-comprehensive-052-choice-5"
+      ],
+      "choice_english": [
+        "line extension.",
+        "product development",
+        "brand extension.",
+        "multi branding.",
+        "new brands."
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-052-choice-1",
+      "final_answer": "question-comprehensive-052-choice-1",
+      "original_answer": "question-comprehensive-052-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-052-choice-1"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-053",
+      "original_question_en": "If Honda uses its company name to cover such different products as its automobiles, lawn mowers, and motorcycles, it is practicing which of the following strategies?",
+      "choice_order": [
+        "question-comprehensive-053-choice-1",
+        "question-comprehensive-053-choice-2",
+        "question-comprehensive-053-choice-3",
+        "question-comprehensive-053-choice-4",
+        "question-comprehensive-053-choice-5"
+      ],
+      "choice_english": [
+        "line extension.",
+        "product development",
+        "brand extension.",
+        "multi branding.",
+        "new brands."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-053-choice-3",
+      "final_answer": "question-comprehensive-053-choice-3",
+      "original_answer": "question-comprehensive-053-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-053-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-054",
+      "original_question_en": "____ are products bought by individuals and organizations for further processing or for use in conducting a business.",
+      "choice_order": [
+        "question-comprehensive-054-choice-1",
+        "question-comprehensive-054-choice-2",
+        "question-comprehensive-054-choice-3",
+        "question-comprehensive-054-choice-4",
+        "question-comprehensive-054-choice-5"
+      ],
+      "choice_english": [
+        "Consumer products",
+        "Services",
+        "Industrial products",
+        "Specialty products",
+        "both 1 and 3"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-054-choice-3",
+      "final_answer": "question-comprehensive-054-choice-3",
+      "original_answer": "question-comprehensive-054-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-054-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-055",
+      "original_question_en": "The total number of items that the the company carries within its product lines refers to",
+      "choice_order": [
+        "question-comprehensive-055-choice-1",
+        "question-comprehensive-055-choice-2",
+        "question-comprehensive-055-choice-3",
+        "question-comprehensive-055-choice-4",
+        "question-comprehensive-055-choice-5"
+      ],
+      "choice_english": [
+        "lines",
+        "Depth",
+        "Length",
+        "Width",
+        "consistency"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-055-choice-3",
+      "final_answer": "question-comprehensive-055-choice-3",
+      "original_answer": "question-comprehensive-055-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-055-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-056",
+      "original_question_en": "If a company's objectives were to reach masses of buyers that were geographically dispersed at a low cost per exposure, the company would likely choose which of the following promotion forms?",
+      "choice_order": [
+        "question-comprehensive-056-choice-1",
+        "question-comprehensive-056-choice-2",
+        "question-comprehensive-056-choice-3",
+        "question-comprehensive-056-choice-4",
+        "question-comprehensive-056-choice-5"
+      ],
+      "choice_english": [
+        "Events and Experiences",
+        "Sales promotion",
+        "Personal selling",
+        "Public relations",
+        "Advertising"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-056-choice-5",
+      "final_answer": "question-comprehensive-056-choice-5",
+      "original_answer": "question-comprehensive-056-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-056-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-057",
+      "original_question_en": "The fact that services are sold, produced, the following service characteristics? and consumed at the same time refers to which of",
+      "choice_order": [
+        "question-comprehensive-057-choice-1",
+        "question-comprehensive-057-choice-2",
+        "question-comprehensive-057-choice-3",
+        "question-comprehensive-057-choice-4",
+        "question-comprehensive-057-choice-5"
+      ],
+      "choice_english": [
+        "Intangibility",
+        "Inseparability",
+        "Variability",
+        "Perishability",
+        "None of the Above"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-057-choice-2",
+      "final_answer": "question-comprehensive-057-choice-2",
+      "original_answer": "question-comprehensive-057-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-057-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-058",
+      "original_question_en": "A _____ is a promotion strategy that calls for using the sales force and trade promotion to move the product through channels.",
+      "choice_order": [
+        "question-comprehensive-058-choice-1",
+        "question-comprehensive-058-choice-2",
+        "question-comprehensive-058-choice-3",
+        "question-comprehensive-058-choice-4",
+        "question-comprehensive-058-choice-5"
+      ],
+      "choice_english": [
+        "push strategy",
+        "pull strategy",
+        "brick and mortar strategy",
+        "Bricks and clicks strategy",
+        "integrated strategy"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-058-choice-1",
+      "final_answer": "question-comprehensive-058-choice-1",
+      "original_answer": "question-comprehensive-058-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-058-choice-1"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-059",
+      "original_question_en": "_____ is to acquire additional business activities which operate at the same level of the value chain in similar or different industries.",
+      "choice_order": [
+        "question-comprehensive-059-choice-1",
+        "question-comprehensive-059-choice-2",
+        "question-comprehensive-059-choice-3",
+        "question-comprehensive-059-choice-4",
+        "question-comprehensive-059-choice-5"
+      ],
+      "choice_english": [
+        "Backward integration",
+        "Conglomerate diversification",
+        "Forward integration",
+        "Concentric diversification",
+        "Horizontal integration"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-059-choice-5",
+      "final_answer": "question-comprehensive-059-choice-5",
+      "original_answer": "question-comprehensive-059-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-059-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-060",
+      "original_question_en": "7-Up beverage is using an irreverent advertising campaign that pokes fun at other Up is using demographics to campaigns that appeal to Generation X members who are cynical about advertising. 7-Up is using demographics to _____ its market",
+      "choice_order": [
+        "question-comprehensive-060-choice-1",
+        "question-comprehensive-060-choice-2",
+        "question-comprehensive-060-choice-3",
+        "question-comprehensive-060-choice-4",
+        "question-comprehensive-060-choice-5"
+      ],
+      "choice_english": [
+        "integrate",
+        "Socialize",
+        "Segment",
+        "Position",
+        "strategize"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-060-choice-3",
+      "final_answer": "question-comprehensive-060-choice-3",
+      "original_answer": "question-comprehensive-060-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-060-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-061",
+      "original_question_en": "What is the software being used by companies to connect the e-Business applications?",
+      "choice_order": [
+        "question-comprehensive-061-choice-1",
+        "question-comprehensive-061-choice-2",
+        "question-comprehensive-061-choice-3",
+        "question-comprehensive-061-choice-4",
+        "question-comprehensive-061-choice-5"
+      ],
+      "choice_english": [
+        "Enterprise Service Bus",
+        "Enterprise Transaction Collaboration",
+        "Enterprise Application Integration",
+        "Enterprise Resource Planning",
+        "Enterprise Collaboration Management"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-061-choice-3",
+      "final_answer": "question-comprehensive-061-choice-3",
+      "original_answer": "question-comprehensive-061-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-061-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-062",
+      "original_question_en": "Consider the following table. What are the primary key and candidate key in EMPLOYEE table?",
+      "choice_order": [
+        "question-comprehensive-062-choice-1",
+        "question-comprehensive-062-choice-2",
+        "question-comprehensive-062-choice-3",
+        "question-comprehensive-062-choice-4",
+        "question-comprehensive-062-choice-5"
+      ],
+      "choice_english": [
+        "E_LNAME is the primary key and E_ID is the candidate key",
+        "E_TITLE is the primary key and E_LNAME is the candidate key",
+        "E_ID is the primary key and candidate key",
+        "E_LNAME is the primary key and candidate key",
+        "E_ID is the primary key and E_TITLE is the candidate key"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-062-choice-3",
+      "final_answer": "question-comprehensive-062-choice-3",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-063",
+      "original_question_en": "What is Electronic Communications tool?",
+      "choice_order": [
+        "question-comprehensive-063-choice-1",
+        "question-comprehensive-063-choice-2",
+        "question-comprehensive-063-choice-3",
+        "question-comprehensive-063-choice-4",
+        "question-comprehensive-063-choice-5"
+      ],
+      "choice_english": [
+        "Data conferencing",
+        "Calendaring and scheduling",
+        "Knowledge management",
+        "Voice Mail",
+        "Discussion"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": null,
+      "final_answer": null,
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question"
+    },
+    {
+      "question_id": "question-comprehensive-064",
+      "original_question_en": "How can you use the information technology to support the \"Alliance Strategies\" which is a competitive strategy that can be implemented for competitive advantage?",
+      "choice_order": [
+        "question-comprehensive-064-choice-1",
+        "question-comprehensive-064-choice-2",
+        "question-comprehensive-064-choice-3",
+        "question-comprehensive-064-choice-4",
+        "question-comprehensive-064-choice-5"
+      ],
+      "choice_english": [
+        "Use IT to lower the costs of customers or suppliers internal improve",
+        "Use IT to diversify and integrate into other products and services internal improve",
+        "Create new products and services that include IT components internal improve",
+        "Use IT to create virtual organization of business partners",
+        "No correct answer"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-064-choice-4",
+      "final_answer": "question-comprehensive-064-choice-4",
+      "original_answer": "question-comprehensive-064-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-064-choice-4"
+      ],
+      "answer_status": "strongly_supported_by_external_source",
+      "final_answer_status": "strongly_supported_by_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-065",
+      "original_question_en": "What is COTS software?",
+      "choice_order": [
+        "question-comprehensive-065-choice-1",
+        "question-comprehensive-065-choice-2",
+        "question-comprehensive-065-choice-3",
+        "question-comprehensive-065-choice-4",
+        "question-comprehensive-065-choice-5"
+      ],
+      "choice_english": [
+        "COTS is software that are developed within an organization for use by that organization",
+        "COTS is software that are developed to operate and manipulate computers and their peripheral devices",
+        "COTS is software that is developed with the intention of selling the software in multiple copies",
+        "COTS is software that is developed with the intention of providing the code for free to X anyone else who wishes to use it",
+        "COTS is software that helps companies develop, generate, deliver, update and achieve text data and multimedia information"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-065-choice-3",
+      "final_answer": "question-comprehensive-065-choice-3",
+      "original_answer": "question-comprehensive-065-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-065-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-066",
+      "original_question_en": "What are five major parts of a database system?",
+      "choice_order": [
+        "question-comprehensive-066-choice-1",
+        "question-comprehensive-066-choice-2",
+        "question-comprehensive-066-choice-3",
+        "question-comprehensive-066-choice-4",
+        "question-comprehensive-066-choice-5"
+      ],
+      "choice_english": [
+        "Hardware, Software, People, Procedure, Data",
+        "Data Integrity, Data Security, Data Redundancy, Data Recovery, Data Backup",
+        "Input, Process, Output, Storage, Control",
+        "Analysis, Design, Development, Implement, Maintenance",
+        "Field, Record, Attribute, Entity, File"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-066-choice-1",
+      "final_answer": "question-comprehensive-066-choice-1",
+      "original_answer": "question-comprehensive-066-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-066-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-067",
+      "original_question_en": "What is not the basic type of analytical modeling activities which are involved in using a decision support system?",
+      "choice_order": [
+        "question-comprehensive-067-choice-1",
+        "question-comprehensive-067-choice-2",
+        "question-comprehensive-067-choice-3",
+        "question-comprehensive-067-choice-4",
+        "question-comprehensive-067-choice-5"
+      ],
+      "choice_english": [
+        "System analysis",
+        "What-if analysis",
+        "Goal-seeking analysis",
+        "Sensitivity analysis",
+        "Optimization analysis"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-067-choice-1",
+      "final_answer": "question-comprehensive-067-choice-1",
+      "original_answer": "question-comprehensive-067-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-067-choice-1"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-068",
+      "original_question_en": "Assume that you are the business owner and you want to improve your customer focus, what is the suitable information system that can help you achieve your task?",
+      "choice_order": [
+        "question-comprehensive-068-choice-1",
+        "question-comprehensive-068-choice-2",
+        "question-comprehensive-068-choice-3",
+        "question-comprehensive-068-choice-4",
+        "question-comprehensive-068-choice-5"
+      ],
+      "choice_english": [
+        "Supply Chain Management system",
+        "Enterprise Resource Planning",
+        "Customer Relationship Management system",
+        "Human Resource management system",
+        "Business Collaborative management system"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-068-choice-3",
+      "final_answer": "question-comprehensive-068-choice-3",
+      "original_answer": "question-comprehensive-068-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-068-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-069",
+      "original_question_en": "What is the suitable word that can be filled in to complete the following sentence? \"The is the representation of the database as seen by the DBMS",
+      "choice_order": [
+        "question-comprehensive-069-choice-1",
+        "question-comprehensive-069-choice-2",
+        "question-comprehensive-069-choice-3",
+        "question-comprehensive-069-choice-4",
+        "question-comprehensive-069-choice-5"
+      ],
+      "choice_english": [
+        "External model",
+        "Entity relationship diagram",
+        "Conceptual model",
+        "Internal model",
+        "Normalization"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-069-choice-4",
+      "final_answer": "question-comprehensive-069-choice-4",
+      "original_answer": "question-comprehensive-069-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-069-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-070",
+      "original_question_en": "What are the activities of information system?",
+      "choice_order": [
+        "question-comprehensive-070-choice-1",
+        "question-comprehensive-070-choice-2",
+        "question-comprehensive-070-choice-3",
+        "question-comprehensive-070-choice-4",
+        "question-comprehensive-070-choice-5"
+      ],
+      "choice_english": [
+        "input, process, and output",
+        "input, process, output, storage, and control",
+        "input and output",
+        "storage and control",
+        "input, control, and output"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-070-choice-2",
+      "final_answer": "question-comprehensive-070-choice-2",
+      "original_answer": "question-comprehensive-070-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-070-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-071",
+      "original_question_en": "What is the key term to explain the following definition?\" Using the Internet and other networks for e-commerce, enterprise collaboration, and web-enabled business processes\"",
+      "choice_order": [
+        "question-comprehensive-071-choice-1",
+        "question-comprehensive-071-choice-2",
+        "question-comprehensive-071-choice-3",
+        "question-comprehensive-071-choice-4",
+        "question-comprehensive-071-choice-5"
+      ],
+      "choice_english": [
+        "Electronic commerce",
+        "Internet marketing",
+        "Online processing",
+        "Batch processing",
+        "Electronic business"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-071-choice-5",
+      "final_answer": "question-comprehensive-071-choice-5",
+      "original_answer": "question-comprehensive-071-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-071-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-072",
+      "original_question_en": "What characteristic of information make them valuable and useful?",
+      "choice_order": [
+        "question-comprehensive-072-choice-1",
+        "question-comprehensive-072-choice-2",
+        "question-comprehensive-072-choice-3",
+        "question-comprehensive-072-choice-4",
+        "question-comprehensive-072-choice-5"
+      ],
+      "choice_english": [
+        "Information that cannot be provided when users need",
+        "Information that contain many errors",
+        "Information that can be provided in detail or summary form",
+        "Information that is outdated",
+        "Information that is hard to understand"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-072-choice-3",
+      "final_answer": "question-comprehensive-072-choice-3",
+      "original_answer": "question-comprehensive-072-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-072-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-073",
+      "original_question_en": "Consider the following Chen model. What is(are) NOT the multivalued attribute?",
+      "choice_order": [
+        "question-comprehensive-073-choice-1",
+        "question-comprehensive-073-choice-2",
+        "question-comprehensive-073-choice-3",
+        "question-comprehensive-073-choice-4",
+        "question-comprehensive-073-choice-5"
+      ],
+      "choice_english": [
+        "HOME_CODE and HOME_COLOR",
+        "HOME_TYPE",
+        "HOME COLOR",
+        "HOME_CODE, HOME_TYPE, and HOME COLOR",
+        "HOME_CODE and HOME_TYPE"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-073-choice-5",
+      "final_answer": "question-comprehensive-073-choice-5",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-074",
+      "original_question_en": "What can we call the basic analytical operation of Online Analytical Processing ( OLAP) that has the ability to look at the database from difference viewpoints?",
+      "choice_order": [
+        "question-comprehensive-074-choice-1",
+        "question-comprehensive-074-choice-2",
+        "question-comprehensive-074-choice-3",
+        "question-comprehensive-074-choice-4",
+        "question-comprehensive-074-choice-5"
+      ],
+      "choice_english": [
+        "Push and Pull",
+        "Goal seeking",
+        "Drill-Down",
+        "Consolidation",
+        "Slicing and Dicing"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-074-choice-5",
+      "final_answer": "question-comprehensive-074-choice-5",
+      "original_answer": "question-comprehensive-074-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-074-choice-5"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-075",
+      "original_question_en": "What is the language that enables users to create database, perform data manipulation, and query the database to extract useful information?",
+      "choice_order": [
+        "question-comprehensive-075-choice-1",
+        "question-comprehensive-075-choice-2",
+        "question-comprehensive-075-choice-3",
+        "question-comprehensive-075-choice-4",
+        "question-comprehensive-075-choice-5"
+      ],
+      "choice_english": [
+        "Hyper Text Markup Language",
+        "Structured Query Language",
+        "Active Service Page Language",
+        "PHP Language",
+        "C Language"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-075-choice-2",
+      "final_answer": "question-comprehensive-075-choice-2",
+      "original_answer": "question-comprehensive-075-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-075-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-076",
+      "original_question_en": "What is (are) the fundamental role(s) of information system in business?",
+      "choice_order": [
+        "question-comprehensive-076-choice-1",
+        "question-comprehensive-076-choice-2",
+        "question-comprehensive-076-choice-3",
+        "question-comprehensive-076-choice-4",
+        "question-comprehensive-076-choice-5"
+      ],
+      "choice_english": [
+        "To support business processes and operations",
+        "To support business decision making",
+        "To support strategies for competitive advantage",
+        "To support communication, collaboration, and coordination within a company and with the customers and suppliers",
+        "All are correct answers"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-076-choice-5",
+      "final_answer": "question-comprehensive-076-choice-5",
+      "original_answer": "question-comprehensive-076-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-076-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-077",
+      "original_question_en": "Consider the following Crow's foot notation which represents the conceptual database modeling of customer. What are the required attributes?",
+      "choice_order": [
+        "question-comprehensive-077-choice-1",
+        "question-comprehensive-077-choice-2",
+        "question-comprehensive-077-choice-3",
+        "question-comprehensive-077-choice-4",
+        "question-comprehensive-077-choice-5"
+      ],
+      "choice_english": [
+        "CUST_name, CUST_lastname, CUST_age, CUST_email, and CUST_phone",
+        "CUST_name, CUST_lastname, CUST_age, and CUST_email",
+        "CUST_name, CUST_lastname, and CUST_email",
+        "CUST_name, CUST_lastname, and CUST_age",
+        "CUST name and CUST lastname"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-077-choice-5",
+      "final_answer": "question-comprehensive-077-choice-5",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-078",
+      "original_question_en": "What are the types of information system support for effective decision making by managers",
+      "choice_order": [
+        "question-comprehensive-078-choice-1",
+        "question-comprehensive-078-choice-2",
+        "question-comprehensive-078-choice-3",
+        "question-comprehensive-078-choice-4",
+        "question-comprehensive-078-choice-5"
+      ],
+      "choice_english": [
+        "Management Information Systems and Process Control Systems",
+        "Decision Support Systems and Executive Information Systems",
+        "Enterprise Collaboration Systems and Process Control Systems",
+        "Decision Support Systems and Enterprise Collaboration Systems",
+        "Executive Information Systems and Enterprise Collaboration Systems"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-078-choice-2",
+      "final_answer": "question-comprehensive-078-choice-2",
+      "original_answer": "question-comprehensive-078-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-078-choice-2"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-079",
+      "original_question_en": "What is the result from the following INTERSECT operator?",
+      "choice_order": [
+        "question-comprehensive-079-choice-1",
+        "question-comprehensive-079-choice-2",
+        "question-comprehensive-079-choice-3",
+        "question-comprehensive-079-choice-4",
+        "question-comprehensive-079-choice-5"
+      ],
+      "choice_english": [
+        "12121, 21121, 22221, and 11222",
+        "11122, 12112, 21212, and 22211",
+        "12121 and 22221",
+        "11122, 12112, 21212, 22211, 22221, and 12121",
+        "22221 and 11222"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-079-choice-3",
+      "final_answer": "question-comprehensive-079-choice-3",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-080",
+      "original_question_en": "What is the result from the following UNION operator?",
+      "choice_order": [
+        "question-comprehensive-080-choice-1",
+        "question-comprehensive-080-choice-2",
+        "question-comprehensive-080-choice-3",
+        "question-comprehensive-080-choice-4",
+        "question-comprehensive-080-choice-5"
+      ],
+      "choice_english": [
+        "12121, 21121, 22221, and 11222",
+        "11122, 12112, 21212, and 22211",
+        "12121, 21121, 22221, 11222, 11122, 12112, 21212, and 22211",
+        "21121, 11222, 11122, 12112, 21212, and 22211",
+        "12121 and 22221"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-080-choice-3",
+      "final_answer": "question-comprehensive-080-choice-3",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-081",
+      "original_question_en": "What is NOT described by \"System Architecture\"?",
+      "choice_order": [
+        "question-comprehensive-081-choice-1",
+        "question-comprehensive-081-choice-2",
+        "question-comprehensive-081-choice-3",
+        "question-comprehensive-081-choice-4",
+        "question-comprehensive-081-choice-5"
+      ],
+      "choice_english": [
+        "The structure and behavior of a system",
+        "The relationship between entities of a system",
+        "The detailed source code of each module in a system",
+        "The relationship between system components and sub-system components",
+        "None of them"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-081-choice-3",
+      "final_answer": "question-comprehensive-081-choice-3",
+      "original_answer": "question-comprehensive-081-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-081-choice-3"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-082",
+      "original_question_en": "Which is the most suitable pattern of system architecture used to describe World Wide Web?",
+      "choice_order": [
+        "question-comprehensive-082-choice-1",
+        "question-comprehensive-082-choice-2",
+        "question-comprehensive-082-choice-3",
+        "question-comprehensive-082-choice-4",
+        "question-comprehensive-082-choice-5"
+      ],
+      "choice_english": [
+        "Layered pattern",
+        "Client-server pattern",
+        "Model-View-Controller pattern",
+        "Event-bus pattern",
+        "Master-slave pattern"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-082-choice-2",
+      "final_answer": "question-comprehensive-082-choice-2",
+      "original_answer": "question-comprehensive-082-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-082-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-083",
+      "original_question_en": "Which of the following is a software design principle that separate the functionality of a program into independent, interchangeable unit where each unit contains everything necessary to execute the desired functionality?",
+      "choice_order": [
+        "question-comprehensive-083-choice-1",
+        "question-comprehensive-083-choice-2",
+        "question-comprehensive-083-choice-3",
+        "question-comprehensive-083-choice-4",
+        "question-comprehensive-083-choice-5"
+      ],
+      "choice_english": [
+        "Top-down & Bottom up strategy",
+        "Problem partitioning",
+        "Abstraction",
+        "Modularity",
+        "All of them"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-083-choice-4",
+      "final_answer": "question-comprehensive-083-choice-4",
+      "original_answer": "question-comprehensive-083-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-083-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-084",
+      "original_question_en": "Which of the following is NOT an objective of software design?",
+      "choice_order": [
+        "question-comprehensive-084-choice-1",
+        "question-comprehensive-084-choice-2",
+        "question-comprehensive-084-choice-3",
+        "question-comprehensive-084-choice-4",
+        "question-comprehensive-084-choice-5"
+      ],
+      "choice_english": [
+        "Accessibility",
+        "Completeness",
+        "Correctness",
+        "Efficiency",
+        "Maintainability"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-084-choice-1",
+      "final_answer": "question-comprehensive-084-choice-1",
+      "original_answer": "question-comprehensive-084-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-084-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-085",
+      "original_question_en": "What are common activities in software development process?",
+      "choice_order": [
+        "question-comprehensive-085-choice-1",
+        "question-comprehensive-085-choice-2",
+        "question-comprehensive-085-choice-3",
+        "question-comprehensive-085-choice-4",
+        "question-comprehensive-085-choice-5"
+      ],
+      "choice_english": [
+        "Requirement gathering and analysis, Design, Implement, Testing",
+        "Requirement gathering and analysis, Design, Implement, Testing, Monitoring",
+        "Requirement gathering and analysis, Design, Implement, Testing, Risk Analysis, Monitoring",
+        "Requirement gathering and analysis, Design, Implement, Testing, Feedback",
+        "Requirement gathering and analysis, Design, Implement, Testing, Monitoring, Controlling"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-085-choice-1",
+      "final_answer": "question-comprehensive-085-choice-1",
+      "original_answer": "question-comprehensive-085-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-085-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-086",
+      "original_question_en": "In the web architecture, which of the following is the component is used to handle receiving and sending request from clients?",
+      "choice_order": [
+        "question-comprehensive-086-choice-1",
+        "question-comprehensive-086-choice-2",
+        "question-comprehensive-086-choice-3",
+        "question-comprehensive-086-choice-4",
+        "question-comprehensive-086-choice-5"
+      ],
+      "choice_english": [
+        "Browser",
+        "Web server",
+        "Application",
+        "Database",
+        "DNS server"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-086-choice-2",
+      "final_answer": "question-comprehensive-086-choice-2",
+      "original_answer": "question-comprehensive-086-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-086-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-087",
+      "original_question_en": "Which component is NOT supported by web browser?",
+      "choice_order": [
+        "question-comprehensive-087-choice-1",
+        "question-comprehensive-087-choice-2",
+        "question-comprehensive-087-choice-3",
+        "question-comprehensive-087-choice-4",
+        "question-comprehensive-087-choice-5"
+      ],
+      "choice_english": [
+        "JavaScript",
+        "Cascading Style Sheet",
+        "eXtensible Markup Language",
+        "GIF image",
+        "MySQL"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-087-choice-5",
+      "final_answer": "question-comprehensive-087-choice-5",
+      "original_answer": "question-comprehensive-087-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-087-choice-5"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-088",
+      "original_question_en": "Which is NOT the advantage of cloud-based software development?",
+      "choice_order": [
+        "question-comprehensive-088-choice-1",
+        "question-comprehensive-088-choice-2",
+        "question-comprehensive-088-choice-3",
+        "question-comprehensive-088-choice-4",
+        "question-comprehensive-088-choice-5"
+      ],
+      "choice_english": [
+        "Scalability",
+        "Cost-efficiency",
+        "Access with Internet Connection",
+        "Fast provision of resources",
+        "Wide geographic reach"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-088-choice-3",
+      "final_answer": "question-comprehensive-088-choice-3",
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "probabilistic_recommendation",
+      "final_answer_status": "probabilistic_recommendation"
+    },
+    {
+      "question_id": "question-comprehensive-089",
+      "original_question_en": "Which of the following is a common front-end technology based on JavaScript?",
+      "choice_order": [
+        "question-comprehensive-089-choice-1",
+        "question-comprehensive-089-choice-2",
+        "question-comprehensive-089-choice-3",
+        "question-comprehensive-089-choice-4",
+        "question-comprehensive-089-choice-5"
+      ],
+      "choice_english": [
+        "React",
+        "Bootstrap",
+        "Node.js",
+        "Both a and b",
+        "Both b and c"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-089-choice-4",
+      "final_answer": "question-comprehensive-089-choice-4",
+      "original_answer": "question-comprehensive-089-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-089-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-090",
+      "original_question_en": "Which of the following is a common back-end technology?",
+      "choice_order": [
+        "question-comprehensive-090-choice-1",
+        "question-comprehensive-090-choice-2",
+        "question-comprehensive-090-choice-3",
+        "question-comprehensive-090-choice-4",
+        "question-comprehensive-090-choice-5"
+      ],
+      "choice_english": [
+        "PHP",
+        "Node.js",
+        "AngularJS",
+        "Both a and b",
+        "Both b and c"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-090-choice-4",
+      "final_answer": "question-comprehensive-090-choice-4",
+      "original_answer": "question-comprehensive-090-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-090-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-091",
+      "original_question_en": "Which of the followings is a common framework for mobile development?",
+      "choice_order": [
+        "question-comprehensive-091-choice-1",
+        "question-comprehensive-091-choice-2",
+        "question-comprehensive-091-choice-3",
+        "question-comprehensive-091-choice-4",
+        "question-comprehensive-091-choice-5"
+      ],
+      "choice_english": [
+        "Flutter",
+        "React Native",
+        "Kotlin",
+        "Ionic",
+        "All of them"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-091-choice-5",
+      "final_answer": "question-comprehensive-091-choice-5",
+      "original_answer": "question-comprehensive-091-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-091-choice-5"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-092",
+      "original_question_en": "Which of the following is true about APIs?",
+      "choice_order": [
+        "question-comprehensive-092-choice-1",
+        "question-comprehensive-092-choice-2",
+        "question-comprehensive-092-choice-3",
+        "question-comprehensive-092-choice-4",
+        "question-comprehensive-092-choice-5"
+      ],
+      "choice_english": [
+        "APIs are not web services.",
+        "APIs must be accessed through a network connection.",
+        "APIs are application interfaces enabling communication between applications in a standardize manner.",
+        "Both a and c",
+        "Both b and c"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": null,
+      "final_answer": null,
+      "original_answer": null,
+      "acceptable_answers": [],
+      "answer_status": "unresolvable_question",
+      "final_answer_status": "unresolvable_question"
+    },
+    {
+      "question_id": "question-comprehensive-093",
+      "original_question_en": "What are three main parts of Internet of Things (IoT)?",
+      "choice_order": [
+        "question-comprehensive-093-choice-1",
+        "question-comprehensive-093-choice-2",
+        "question-comprehensive-093-choice-3",
+        "question-comprehensive-093-choice-4",
+        "question-comprehensive-093-choice-5"
+      ],
+      "choice_english": [
+        "Things, Internet, Monitor",
+        "Things, Connectivity, Sense-making",
+        "Sensor, Actuator, Network",
+        "Data, Information, Knowledge",
+        "Devices, Application, Network"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-093-choice-2",
+      "final_answer": "question-comprehensive-093-choice-2",
+      "original_answer": "question-comprehensive-093-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-093-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-094",
+      "original_question_en": "Which of the following is NOT a common software development tool?",
+      "choice_order": [
+        "question-comprehensive-094-choice-1",
+        "question-comprehensive-094-choice-2",
+        "question-comprehensive-094-choice-3",
+        "question-comprehensive-094-choice-4",
+        "question-comprehensive-094-choice-5"
+      ],
+      "choice_english": [
+        "IDE",
+        "Git",
+        "Postman",
+        "Docker",
+        "None of the above"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-094-choice-5",
+      "final_answer": "question-comprehensive-094-choice-5",
+      "original_answer": "question-comprehensive-094-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-094-choice-5"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-095",
+      "original_question_en": "which of the following is a prototype tool?",
+      "choice_order": [
+        "question-comprehensive-095-choice-1",
+        "question-comprehensive-095-choice-2",
+        "question-comprehensive-095-choice-3",
+        "question-comprehensive-095-choice-4",
+        "question-comprehensive-095-choice-5"
+      ],
+      "choice_english": [
+        "Figma",
+        "Sketch",
+        "Adobe Premiere Pro",
+        "Both a and c",
+        "Both a and b"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-095-choice-5",
+      "final_answer": "question-comprehensive-095-choice-5",
+      "original_answer": "question-comprehensive-095-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-095-choice-5"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-096",
+      "original_question_en": "Which of the following is a common modeling language used in software design task?",
+      "choice_order": [
+        "question-comprehensive-096-choice-1",
+        "question-comprehensive-096-choice-2",
+        "question-comprehensive-096-choice-3",
+        "question-comprehensive-096-choice-4",
+        "question-comprehensive-096-choice-5"
+      ],
+      "choice_english": [
+        "Flowchart",
+        "BPMN",
+        "UML",
+        "Both a and c",
+        "Both b and c"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-096-choice-4",
+      "final_answer": "question-comprehensive-096-choice-4",
+      "original_answer": "question-comprehensive-096-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-096-choice-3"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-097",
+      "original_question_en": "Which of the following is a diagram commonly used to describe object-oriented system?",
+      "choice_order": [
+        "question-comprehensive-097-choice-1",
+        "question-comprehensive-097-choice-2",
+        "question-comprehensive-097-choice-3",
+        "question-comprehensive-097-choice-4",
+        "question-comprehensive-097-choice-5"
+      ],
+      "choice_english": [
+        "Sequence diagram",
+        "Data flow diagram",
+        "Class diagram",
+        "Both a and b",
+        "Both a and c"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-097-choice-5",
+      "final_answer": "question-comprehensive-097-choice-5",
+      "original_answer": "question-comprehensive-097-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-097-choice-5"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-098",
+      "original_question_en": "What is the correct HTML for making a paragraph with background color?",
+      "choice_order": [
+        "question-comprehensive-098-choice-1",
+        "question-comprehensive-098-choice-2",
+        "question-comprehensive-098-choice-3",
+        "question-comprehensive-098-choice-4",
+        "question-comprehensive-098-choice-5"
+      ],
+      "choice_english": [
+        "<p style=\"background-color-yellow; \"></p>",
+        "<p background-color:yellow></p>",
+        "<p background-color-yellow></p>",
+        "<p style=\"background-color:yellow; \"></p>",
+        "<p>style=\"background-color:yellow; \"</p>"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-098-choice-4",
+      "final_answer": "question-comprehensive-098-choice-4",
+      "original_answer": "question-comprehensive-098-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-098-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-099",
+      "original_question_en": "How can we create a function in JavaScript?",
+      "choice_order": [
+        "question-comprehensive-099-choice-1",
+        "question-comprehensive-099-choice-2",
+        "question-comprehensive-099-choice-3",
+        "question-comprehensive-099-choice-4",
+        "question-comprehensive-099-choice-5"
+      ],
+      "choice_english": [
+        "create myFunction()",
+        "new myFunction()",
+        "function myFunction()",
+        "<script>myFunction()</script>",
+        "def myFunction()"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-099-choice-3",
+      "final_answer": "question-comprehensive-099-choice-3",
+      "original_answer": "question-comprehensive-099-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-099-choice-3"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-100",
+      "original_question_en": "Which of the following is a HTML layout technique?",
+      "choice_order": [
+        "question-comprehensive-100-choice-1",
+        "question-comprehensive-100-choice-2",
+        "question-comprehensive-100-choice-3",
+        "question-comprehensive-100-choice-4",
+        "question-comprehensive-100-choice-5"
+      ],
+      "choice_english": [
+        "CSS Float property",
+        "CSS Flexbox",
+        "CSS Media Queries",
+        "Both a and b",
+        "Both b and c"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-100-choice-4",
+      "final_answer": "question-comprehensive-100-choice-4",
+      "original_answer": "question-comprehensive-100-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-100-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-101",
+      "original_question_en": "Which layer is not one of five layers of the Internet Model?",
+      "choice_order": [
+        "question-comprehensive-101-choice-1",
+        "question-comprehensive-101-choice-2",
+        "question-comprehensive-101-choice-3",
+        "question-comprehensive-101-choice-4",
+        "question-comprehensive-101-choice-5"
+      ],
+      "choice_english": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Session layer",
+        "Transport layer"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-101-choice-4",
+      "final_answer": "question-comprehensive-101-choice-4",
+      "original_answer": "question-comprehensive-101-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-101-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-102",
+      "original_question_en": "Which is not true?",
+      "choice_order": [
+        "question-comprehensive-102-choice-1",
+        "question-comprehensive-102-choice-2",
+        "question-comprehensive-102-choice-3",
+        "question-comprehensive-102-choice-4",
+        "question-comprehensive-102-choice-5"
+      ],
+      "choice_english": [
+        "Host-based architecture can have bottleneck at the server",
+        "Client-based architecture could overload the network because the data access logic is at client",
+        "Client-server architecture attempts to balance the processing between clients and server.",
+        "N-tier architecture provides better balancing among servers.",
+        "Application logic and data access logic are at client of thin-client architecture."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-102-choice-5",
+      "final_answer": "question-comprehensive-102-choice-5",
+      "original_answer": "question-comprehensive-102-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-102-choice-5"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-103",
+      "original_question_en": "Where is an email stored, immediately after, SMTP send it successfully?",
+      "choice_order": [
+        "question-comprehensive-103-choice-1",
+        "question-comprehensive-103-choice-2",
+        "question-comprehensive-103-choice-3",
+        "question-comprehensive-103-choice-4",
+        "question-comprehensive-103-choice-5"
+      ],
+      "choice_english": [
+        "Client of sender",
+        "Mail server of sender",
+        "Mail server of receiver",
+        "Client of receiver",
+        "Web server"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-103-choice-3",
+      "final_answer": "question-comprehensive-103-choice-3",
+      "original_answer": "question-comprehensive-103-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-103-choice-3"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-104",
+      "original_question_en": "Which media uses Wavelength Division Multiplexing?",
+      "choice_order": [
+        "question-comprehensive-104-choice-1",
+        "question-comprehensive-104-choice-2",
+        "question-comprehensive-104-choice-3",
+        "question-comprehensive-104-choice-4",
+        "question-comprehensive-104-choice-5"
+      ],
+      "choice_english": [
+        "Fiber-optic cables",
+        "Twisted pair cable",
+        "Coaxial cable",
+        "Radio",
+        "Microwave"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-104-choice-1",
+      "final_answer": "question-comprehensive-104-choice-1",
+      "original_answer": "question-comprehensive-104-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-104-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-105",
+      "original_question_en": "How does Manchester encoding signal 0 or 1?",
+      "choice_order": [
+        "question-comprehensive-105-choice-1",
+        "question-comprehensive-105-choice-2",
+        "question-comprehensive-105-choice-3",
+        "question-comprehensive-105-choice-4",
+        "question-comprehensive-105-choice-5"
+      ],
+      "choice_english": [
+        "Changing signal from positive to negative or from negative to positive",
+        "Negative or positive volts",
+        "0 or positive volts",
+        "High or low amplitude",
+        "High or low frequency"
+      ],
+      "choice_correctness": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-105-choice-1",
+      "final_answer": "question-comprehensive-105-choice-1",
+      "original_answer": "question-comprehensive-105-choice-1",
+      "acceptable_answers": [
+        "question-comprehensive-105-choice-1"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-106",
+      "original_question_en": "Which of the following uses \"sliding window\"?",
+      "choice_order": [
+        "question-comprehensive-106-choice-1",
+        "question-comprehensive-106-choice-2",
+        "question-comprehensive-106-choice-3",
+        "question-comprehensive-106-choice-4",
+        "question-comprehensive-106-choice-5"
+      ],
+      "choice_english": [
+        "Stop-and-wait ARQ",
+        "Continuous",
+        "Hamming code",
+        "CRC",
+        "Parity check"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-106-choice-2",
+      "final_answer": "question-comprehensive-106-choice-2",
+      "original_answer": "question-comprehensive-106-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-106-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-107",
+      "original_question_en": "How many bytes are used for an address of Ethernet?",
+      "choice_order": [
+        "question-comprehensive-107-choice-1",
+        "question-comprehensive-107-choice-2",
+        "question-comprehensive-107-choice-3",
+        "question-comprehensive-107-choice-4",
+        "question-comprehensive-107-choice-5"
+      ],
+      "choice_english": [
+        "4 bytes",
+        "5 bytes",
+        "6 bytes",
+        "7 bytes",
+        "8 bytes"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-107-choice-3",
+      "final_answer": "question-comprehensive-107-choice-3",
+      "original_answer": "question-comprehensive-107-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-107-choice-3"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-108",
+      "original_question_en": "What is true about Quality of Service, QoS?",
+      "choice_order": [
+        "question-comprehensive-108-choice-1",
+        "question-comprehensive-108-choice-2",
+        "question-comprehensive-108-choice-3",
+        "question-comprehensive-108-choice-4",
+        "question-comprehensive-108-choice-5"
+      ],
+      "choice_english": [
+        "QoS is applied at data link layer.",
+        "DNS sets QoS to a URL that has no IP address.",
+        "QoS divides a message into many segments.",
+        "Priority is set for each packet under QoS routing.",
+        "QoS is not appropriate for Real-Time Streaming Protocol."
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-108-choice-4",
+      "final_answer": "question-comprehensive-108-choice-4",
+      "original_answer": "question-comprehensive-108-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-108-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-109",
+      "original_question_en": "Which protocol is used for exterior routing?",
+      "choice_order": [
+        "question-comprehensive-109-choice-1",
+        "question-comprehensive-109-choice-2",
+        "question-comprehensive-109-choice-3",
+        "question-comprehensive-109-choice-4",
+        "question-comprehensive-109-choice-5"
+      ],
+      "choice_english": [
+        "RIP",
+        "BGP",
+        "OSPF",
+        "TCP",
+        "IP"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-109-choice-2",
+      "final_answer": "question-comprehensive-109-choice-2",
+      "original_answer": "question-comprehensive-109-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-109-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-110",
+      "original_question_en": "Which version of IP is replacing IPv4?",
+      "choice_order": [
+        "question-comprehensive-110-choice-1",
+        "question-comprehensive-110-choice-2",
+        "question-comprehensive-110-choice-3",
+        "question-comprehensive-110-choice-4",
+        "question-comprehensive-110-choice-5"
+      ],
+      "choice_english": [
+        "IPv4.1",
+        "IPv4.5",
+        "IPv5",
+        "IPv6",
+        "IPv10"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "correct_answer": "question-comprehensive-110-choice-4",
+      "final_answer": "question-comprehensive-110-choice-4",
+      "original_answer": "question-comprehensive-110-choice-4",
+      "acceptable_answers": [
+        "question-comprehensive-110-choice-4"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-111",
+      "original_question_en": "Which stage of network design does network manager have to \"sell the network proposal to management\"?",
+      "choice_order": [
+        "question-comprehensive-111-choice-1",
+        "question-comprehensive-111-choice-2",
+        "question-comprehensive-111-choice-3",
+        "question-comprehensive-111-choice-4",
+        "question-comprehensive-111-choice-5"
+      ],
+      "choice_english": [
+        "Need analysis",
+        "Technology design",
+        "Cost assessment",
+        "Requirement specification",
+        "Design specification"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-111-choice-3",
+      "final_answer": "question-comprehensive-111-choice-3",
+      "original_answer": "question-comprehensive-111-choice-3",
+      "acceptable_answers": [
+        "question-comprehensive-111-choice-3"
+      ],
+      "answer_status": "verified_from_external_source",
+      "final_answer_status": "verified_from_external_source"
+    },
+    {
+      "question_id": "question-comprehensive-112",
+      "original_question_en": "Which of the following is a type of security on wireless LAN?",
+      "choice_order": [
+        "question-comprehensive-112-choice-1",
+        "question-comprehensive-112-choice-2",
+        "question-comprehensive-112-choice-3",
+        "question-comprehensive-112-choice-4",
+        "question-comprehensive-112-choice-5"
+      ],
+      "choice_english": [
+        "Hub",
+        "Switch",
+        "Distributed Coordination Function",
+        "Point Coordination Function",
+        "WPA"
+      ],
+      "choice_correctness": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "correct_answer": "question-comprehensive-112-choice-5",
+      "final_answer": "question-comprehensive-112-choice-5",
+      "original_answer": "question-comprehensive-112-choice-5",
+      "acceptable_answers": [
+        "question-comprehensive-112-choice-5"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    },
+    {
+      "question_id": "question-comprehensive-113",
+      "original_question_en": "What is the key advantage of chassis switch?",
+      "choice_order": [
+        "question-comprehensive-113-choice-1",
+        "question-comprehensive-113-choice-2",
+        "question-comprehensive-113-choice-3",
+        "question-comprehensive-113-choice-4",
+        "question-comprehensive-113-choice-5"
+      ],
+      "choice_english": [
+        "Simplicity",
+        "Flexibility",
+        "Reliability",
+        "Durability",
+        "Accessibility"
+      ],
+      "choice_correctness": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "correct_answer": "question-comprehensive-113-choice-2",
+      "final_answer": "question-comprehensive-113-choice-2",
+      "original_answer": "question-comprehensive-113-choice-2",
+      "acceptable_answers": [
+        "question-comprehensive-113-choice-2"
+      ],
+      "answer_status": "verified_from_course_material",
+      "final_answer_status": "verified_from_course_material"
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import {
   presentQuestion,
   shuffleWithSeed,
 } from "./engine";
+import { isTranslationReady } from "./translation";
 
 export interface SessionConfig {
   mode: "practice" | "mock";
@@ -82,6 +83,7 @@ export function createSession(
     candidates = candidates.filter(
       (question) =>
         isVisualReady(question) &&
+        isTranslationReady(question) &&
         ((!question.requires_human_review &&
           (question.answer_status === "verified_from_course_material" ||
             question.answer_status === "verified_from_external_source")) ||

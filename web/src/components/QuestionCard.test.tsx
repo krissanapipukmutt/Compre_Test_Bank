@@ -6,6 +6,7 @@ import { presentQuestion } from "../engine";
 import { QuestionCard } from "./QuestionCard";
 import { MISSING_VISUAL_WARNING } from "../visual";
 import type { PresentedQuestion } from "../domain";
+import { MISSING_TRANSLATION_WARNING } from "../translation";
 
 const scoreable = presentQuestion(
   academicData.questions.find(
@@ -67,6 +68,51 @@ function renderQuestion(question: PresentedQuestion) {
 }
 
 describe("QuestionCard", () => {
+  it("renders every question and choice in English-then-Thai order", () => {
+    renderQuestion(scoreable);
+    const englishQuestion = screen.getByText(scoreable.original_question_en);
+    const thaiQuestion = screen.getByText(scoreable.question_th);
+    expect(
+      englishQuestion.compareDocumentPosition(thaiQuestion) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+
+    const firstChoice = scoreable.choices[0]!;
+    const englishChoice = screen.getByText(firstChoice.original_text_en);
+    const thaiChoice = screen.getByText(firstChoice.text_th);
+    expect(
+      englishChoice.compareDocumentPosition(thaiChoice) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
+  it("blocks a question and shows a bilingual warning when Thai is missing", () => {
+    const broken: PresentedQuestion = { ...scoreable, question_th: "" };
+    renderQuestion(broken);
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      MISSING_TRANSLATION_WARNING,
+    );
+    expect(screen.getAllByRole("radio")[0]).toBeDisabled();
+  });
+
+  it("renders long bilingual text and technical terms without truncation", () => {
+    const marketing = presentQuestion(
+      academicData.questions.find(
+        (question) => question.question_id === "question-comprehensive-052",
+      )!,
+      "marketing",
+      false,
+    );
+    renderQuestion(marketing);
+    expect(screen.getByText(marketing.original_question_en)).toBeVisible();
+    expect(screen.getByText(marketing.question_th)).toBeVisible();
+    expect(
+      screen.getByText("การขยายสายผลิตภัณฑ์ (Line Extension)"),
+    ).toBeVisible();
+    expect(screen.getByText("คำแปลภาษาไทย").closest(".translation-block")).not
+      .toHaveStyle({ textOverflow: "ellipsis" });
+  });
+
   it("renders Thai and seals answers until submission", async () => {
     const user = userEvent.setup();
     const onChange = vi.fn();
@@ -99,6 +145,14 @@ describe("QuestionCard", () => {
       />,
     );
     expect(screen.getAllByText(scoreable.explanation_en).length).toBeGreaterThan(0);
+    const explanationEnglish = screen.getAllByText(
+      scoreable.explanation_en,
+    )[0]!;
+    const explanationThai = screen.getAllByText(scoreable.explanation_th)[0]!;
+    expect(
+      explanationEnglish.compareDocumentPosition(explanationThai) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
     expect(screen.getByText(/Correct · ถูกต้อง/)).toBeInTheDocument();
   });
 

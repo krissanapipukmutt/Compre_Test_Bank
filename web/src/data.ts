@@ -44,6 +44,44 @@ function text(value: unknown, label: string): string {
   return value;
 }
 
+const translationPlaceholders = [
+  "คำศัพท์/ข้อความภาษาอังกฤษตามต้นฉบับ",
+  "translation pending",
+  "untranslated",
+  "todo",
+  "n/a",
+];
+
+function translationPair(
+  englishValue: unknown,
+  thaiValue: unknown,
+  label: string,
+  reviewedLiteral = false,
+): void {
+  const english = text(englishValue, `${label} English`);
+  const thai = text(thaiValue, `${label} Thai`);
+  const lowered = thai.toLocaleLowerCase();
+  if (
+    translationPlaceholders.some((placeholder) =>
+      lowered.includes(placeholder),
+    )
+  ) {
+    throw new AcademicDataError(`${label} Thai contains placeholder text`);
+  }
+  if (english.trim() === thai.trim() && !reviewedLiteral) {
+    throw new AcademicDataError(
+      `${label} Thai repeats English without a reviewed literal exemption`,
+    );
+  }
+  if (
+    english.length >= 24 &&
+    !/[\u0E00-\u0E7F]/u.test(thai) &&
+    !reviewedLiteral
+  ) {
+    throw new AcademicDataError(`${label} Thai contains no meaningful Thai`);
+  }
+}
+
 function finiteNumber(value: unknown, label: string): number {
   if (typeof value !== "number" || !Number.isFinite(value)) {
     throw new AcademicDataError(`${label} must be a finite number`);
@@ -208,11 +246,123 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
       record(choice, `${questionId}.choices[${index}]`),
     );
     const choiceIds = uniqueIds(choices, "choice_id", `${questionId} choices`);
-    text(item.original_question_en, `${questionId}.original_question_en`);
-    text(item.question_th, `${questionId}.question_th`);
+    translationPair(
+      item.original_question_en,
+      item.question_th,
+      `${questionId}.question`,
+    );
+    const translationStatus = text(
+      item.translation_status,
+      `${questionId}.translation_status`,
+    );
+    if (
+      !new Set([
+        "verified",
+        "repaired",
+        "incomplete",
+        "ambiguous",
+        "requires_human_review",
+      ]).has(translationStatus)
+    ) {
+      throw new AcademicDataError(
+        `${questionId} has an invalid translation status`,
+      );
+    }
+    if (!new Set(["high", "medium", "low"]).has(
+      text(item.translation_quality, `${questionId}.translation_quality`),
+    )) {
+      throw new AcademicDataError(
+        `${questionId} has an invalid translation quality`,
+      );
+    }
+    text(item.translation_review_note, `${questionId}.translation_review_note`);
+    text(item.translation_completed_at, `${questionId}.translation_completed_at`);
+    list(item.translation_audit_log, `${questionId}.translation_audit_log`);
+    translationPair(
+      item.translation_note,
+      item.translation_note_th,
+      `${questionId}.translation_note`,
+    );
+    translationPair(
+      item.explanation_en,
+      item.explanation_th,
+      `${questionId}.explanation`,
+    );
+    translationPair(
+      item.original_explanation_en,
+      item.original_explanation_th,
+      `${questionId}.original_explanation`,
+    );
+    translationPair(
+      item.final_explanation_en,
+      item.final_explanation_th,
+      `${questionId}.final_explanation`,
+    );
+    if (
+      typeof item.external_evidence_summary_en === "string" &&
+      item.external_evidence_summary_en.trim()
+    ) {
+      translationPair(
+        item.external_evidence_summary_en,
+        item.external_evidence_summary_th,
+        `${questionId}.external_evidence_summary`,
+      );
+    }
+    if (
+      typeof item.remaining_uncertainty === "string" &&
+      item.remaining_uncertainty.trim()
+    ) {
+      translationPair(
+        item.remaining_uncertainty,
+        item.remaining_uncertainty_th,
+        `${questionId}.remaining_uncertainty`,
+      );
+    }
+    if (
+      typeof item.unresolved_reason === "string" &&
+      item.unresolved_reason.trim()
+    ) {
+      translationPair(
+        item.unresolved_reason,
+        item.unresolved_reason_th,
+        `${questionId}.unresolved_reason`,
+      );
+    }
     for (const choice of choices) {
-      text(choice.original_text_en, `${questionId} choice original`);
-      text(choice.text_th, `${questionId} choice Thai`);
+      const choiceId = text(choice.choice_id, `${questionId} choice ID`);
+      const choiceTranslationStatus = text(
+        choice.translation_status,
+        `${choiceId}.translation_status`,
+      );
+      if (
+        choiceTranslationStatus !== "verified" &&
+        choiceTranslationStatus !== "repaired"
+      ) {
+        throw new AcademicDataError(
+          `${choiceId} has a non-ready translation status`,
+        );
+      }
+      const reviewNote = text(
+        choice.translation_review_note,
+        `${choiceId}.translation_review_note`,
+      );
+      const reviewedLiteral =
+        reviewNote.includes("คง") &&
+        (reviewNote.includes("โค้ด") ||
+          reviewNote.includes("ชื่อเฉพาะ") ||
+          reviewNote.includes("ตัวระบุ") ||
+          reviewNote.includes("ตัวเลข"));
+      translationPair(
+        choice.original_text_en,
+        choice.text_th,
+        `${choiceId}.choice`,
+        reviewedLiteral,
+      );
+      translationPair(
+        choice.explanation_en,
+        choice.explanation_th,
+        `${choiceId}.explanation`,
+      );
       if (choice.visual_assets !== undefined) {
         validateVisualAssets(
           choice.visual_assets,

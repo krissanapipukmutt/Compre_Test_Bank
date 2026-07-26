@@ -61,4 +61,53 @@ describe("academic data validation", () => {
       /exposes an answer while unresolved/,
     );
   });
+
+  it("rejects a missing Thai question translation", () => {
+    const cloned = structuredClone(questions);
+    cloned.questions[0]!.question_th = "";
+    expect(() => validateAcademicData({ ...valid, questions: cloned })).toThrow(
+      /question Thai must be a non-empty string/,
+    );
+  });
+
+  it("rejects placeholder and repeated-English choice translations", () => {
+    const placeholder = structuredClone(questions);
+    placeholder.questions[0]!.choices[0]!.text_th =
+      "คำศัพท์/ข้อความภาษาอังกฤษตามต้นฉบับ";
+    expect(() =>
+      validateAcademicData({ ...valid, questions: placeholder }),
+    ).toThrow(/placeholder/);
+
+    const repeated = structuredClone(questions);
+    repeated.questions[0]!.choices[0]!.text_th =
+      repeated.questions[0]!.choices[0]!.original_text_en;
+    repeated.questions[0]!.choices[0]!.translation_review_note =
+      "ตรวจแล้วแต่ไม่มีข้อยกเว้น";
+    expect(() =>
+      validateAcademicData({ ...valid, questions: repeated }),
+    ).toThrow(/repeats English/);
+  });
+
+  it("keeps the supplied marketing fixture bilingual without changing its answer", () => {
+    const data = validateAcademicData(valid);
+    const marketing = data.questions.find(
+      (question) => question.question_id === "question-comprehensive-052",
+    )!;
+    expect(marketing.original_question_en).toBe(
+      "Using a successful brand name to introduce additional items in a given product category under the same brand name (such as new colors, package sizes, flavors, or forms) is called a(n):",
+    );
+    expect(marketing.question_th).toBe(
+      "การใช้ชื่อตราสินค้าที่ประสบความสำเร็จเพื่อเพิ่มสินค้าใหม่ภายใต้ตราสินค้าเดิมในหมวดหมู่ผลิตภัณฑ์เดียวกัน เช่น การเพิ่มสี ขนาดบรรจุภัณฑ์ รสชาติ หรือรูปแบบ เรียกว่าอะไร",
+    );
+    expect(marketing.choices.map((choice) => choice.text_th)).toEqual([
+      "การขยายสายผลิตภัณฑ์ (Line Extension)",
+      "การพัฒนาผลิตภัณฑ์ (Product Development)",
+      "การขยายตราสินค้า (Brand Extension)",
+      "การใช้หลายตราสินค้า (Multi-branding)",
+      "ตราสินค้าใหม่ (New Brands)",
+    ]);
+    expect(marketing.correct_answer).toBe(
+      "question-comprehensive-052-choice-1",
+    );
+  });
 });

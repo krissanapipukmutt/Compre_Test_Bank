@@ -101,6 +101,23 @@ describe("question engine", () => {
     });
   });
 
+  it("excludes incomplete translations from scoring without changing the answer key", () => {
+    const unsafe: Question = {
+      ...scoreable,
+      translation_status: "incomplete",
+      question_th: "",
+    };
+    expect(unsafe.correct_answer).toBe(scoreable.correct_answer);
+    expect(
+      scoreQuestion(unsafe, [unsafe.correct_answer as string]),
+    ).toEqual({
+      scoreable: false,
+      correct: null,
+      earned: 0,
+      possible: 0,
+    });
+  });
+
   it("filters by term, subject, difficulty, and status", () => {
     const result = filterQuestions(academicData.questions, {
       term: "term-1",

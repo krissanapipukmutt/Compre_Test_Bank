@@ -15,6 +15,8 @@ const viewports = [
   { width: 1440, height: 900 },
 ];
 
+const STORAGE_KEY = "compre-study:v1";
+
 async function expectNoDocumentOverflow(page: Page) {
   const overflow = await page.evaluate(
     () =>
@@ -85,6 +87,82 @@ test("practice seals answers, reveals after submission, and uses tap-sized choic
   await page.getByRole("button", { name: "Submit answer" }).click();
   await expect(page.locator(".answer-panel")).toBeVisible();
   await expectNoDocumentOverflow(page);
+});
+
+test("the long marketing fixture stays English-first, complete, and readable at every required viewport", async ({
+  page,
+}) => {
+  const questionId = "question-comprehensive-052";
+  const english =
+    "Using a successful brand name to introduce additional items in a given product category under the same brand name (such as new colors, package sizes, flavors, or forms) is called a(n):";
+  const thai =
+    "การใช้ชื่อตราสินค้าที่ประสบความสำเร็จเพื่อเพิ่มสินค้าใหม่ภายใต้ตราสินค้าเดิมในหมวดหมู่ผลิตภัณฑ์เดียวกัน เช่น การเพิ่มสี ขนาดบรรจุภัณฑ์ รสชาติ หรือรูปแบบ เรียกว่าอะไร";
+  await page.addInitScript(
+    ({ key, questionId }) => {
+      localStorage.setItem(
+        key,
+        JSON.stringify({
+          schemaVersion: 1,
+          bookmarks: { chapterIds: [], questionIds: [questionId] },
+          attempts: [],
+          preferences: {
+            languageView: "bilingual",
+            feedbackMode: "immediate",
+            randomizeQuestions: false,
+            randomizeChoices: false,
+          },
+        }),
+      );
+    },
+    { key: STORAGE_KEY, questionId },
+  );
+
+  for (const viewport of [
+    { width: 320, height: 568 },
+    { width: 360, height: 800 },
+    { width: 390, height: 844 },
+    { width: 412, height: 915 },
+    { width: 768, height: 1024 },
+    { width: 1024, height: 768 },
+    { width: 1280, height: 800 },
+  ]) {
+    await page.setViewportSize(viewport);
+    await page.goto(`/#/practice?question=${questionId}`);
+    await page.getByRole("button", { name: /Start practice/i }).click();
+    const englishQuestion = page.getByRole("heading", { name: english });
+    const thaiQuestion = page.getByText(thai, { exact: true });
+    await expect(englishQuestion).toBeVisible();
+    await expect(thaiQuestion).toBeVisible();
+    await expect(
+      page.getByText("การขยายสายผลิตภัณฑ์ (Line Extension)", { exact: true }),
+    ).toBeVisible();
+    await expect(page.getByRole("alert")).toHaveCount(0);
+
+    const englishBox = await englishQuestion.boundingBox();
+    const thaiBox = await thaiQuestion.boundingBox();
+    const firstChoiceBox = await page.locator(".choice").first().boundingBox();
+    expect(englishBox!.y + englishBox!.height).toBeLessThan(thaiBox!.y);
+    expect(thaiBox!.y + thaiBox!.height).toBeLessThan(firstChoiceBox!.y);
+    expect(firstChoiceBox!.height).toBeGreaterThanOrEqual(44);
+
+    const thaiMetrics = await thaiQuestion.evaluate((node) => {
+      const style = getComputedStyle(node);
+      return {
+        clientHeight: node.clientHeight,
+        scrollHeight: node.scrollHeight,
+        lineHeight: Number.parseFloat(style.lineHeight),
+        fontSize: Number.parseFloat(style.fontSize),
+        overflow: style.overflow,
+        textOverflow: style.textOverflow,
+        whiteSpace: style.whiteSpace,
+      };
+    });
+    expect(thaiMetrics.scrollHeight - thaiMetrics.clientHeight).toBeLessThanOrEqual(1);
+    expect(thaiMetrics.lineHeight).toBeGreaterThan(thaiMetrics.fontSize);
+    expect(thaiMetrics.textOverflow).not.toBe("ellipsis");
+    expect(thaiMetrics.whiteSpace).not.toBe("nowrap");
+    await expectNoDocumentOverflow(page);
+  }
 });
 
 test("judgment practice is probability-labelled only after submission and remains unscored", async ({

@@ -1920,7 +1920,9 @@
   }
 
   .translation-block p {
+    line-height: 1.75;
     margin: 0.25rem 0 0;
+    overflow-wrap: anywhere;
   }
 
   .question-visuals {
@@ -2004,6 +2006,28 @@
     font-weight: 800;
     margin: 0 0 1.5rem;
     padding: 0.9rem 1rem;
+  }
+
+  .translation-warning,
+  .translation-review-warning {
+    border-radius: var(--radius);
+    font-weight: 800;
+    line-height: 1.65;
+    margin: 0 0 1.5rem;
+    overflow-wrap: anywhere;
+    padding: 0.9rem 1rem;
+  }
+
+  .translation-warning {
+    background: var(--danger-pale);
+    border: 1px solid var(--danger);
+    color: var(--danger);
+  }
+
+  .translation-review-warning {
+    background: var(--gold-pale);
+    border: 1px solid #c7942e;
+    color: var(--ink);
   }
 
   .visual-modal-backdrop {
@@ -2198,7 +2222,9 @@
 
   .choice__copy small {
     color: var(--ink-soft);
+    line-height: 1.65;
     margin-top: 0.2rem;
+    overflow-wrap: anywhere;
   }
 
   .choice .question-visuals {
@@ -2221,6 +2247,7 @@
 
   .choice__explanation em {
     font-style: normal;
+    line-height: 1.65;
     margin-top: 0.25rem;
   }
 
@@ -2260,6 +2287,19 @@
   .external-evidence {
     display: grid;
     gap: 0.8rem;
+  }
+
+  .bilingual-secondary {
+    color: var(--ink-soft);
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.65;
+    margin-top: 0.2rem;
+    overflow-wrap: anywhere;
+  }
+
+  .evidence-details li {
+    overflow-wrap: anywhere;
   }
 
   .external-evidence h4,
@@ -2313,6 +2353,18 @@
     margin-top: 1.5rem;
     overflow-wrap: anywhere;
     padding-top: 0.8rem;
+  }
+
+  .source-note {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .source-note small {
+    line-height: 1.55;
+    margin-top: 0.15rem;
   }
 
   .exam-actions {

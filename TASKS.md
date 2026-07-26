@@ -76,7 +76,7 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` completed · `[!]` blocked
 
 ## BILINGUAL-TRANSLATION-INTEGRITY
 
-- [~] **P9-01 · Phase 9 · Complete examination Thai-translation audit and repair**  
+- [x] **P9-01 · Phase 9 · Complete examination Thai-translation audit and repair**  
   Dependencies: completed Phase 8 question bank and immutable pre-translation checkpoint.  
   Expected output: contextual audit of all 105 questions, all choices and explanations; repaired natural Thai; terminology glossary; translation status metadata; five reports; bilingual frontend safeguards.  
-  Validation: English/ID/answer-key preservation; placeholder and untranslated-text rejection; terminology and completeness audit; unit, responsive browser, production-build, and UTF-8 gates.
+  Validation: Phase 9 validator passes 105 questions/525 choices/24 glossary terms with 0 errors and 0 warnings; Phase 8 English/ID/order/answer and visual preservation passes; 40/40 unit/integration tests and 12/12 browser tests pass; all seven required bilingual viewports pass; production build and 18/18 production visual-asset checks pass; 0 dependency vulnerabilities.

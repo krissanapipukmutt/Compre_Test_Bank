@@ -68,6 +68,16 @@ def load(relative: str) -> dict[str, Any]:
     return json.loads((ROOT / relative).read_text(encoding="utf-8"))
 
 
+def preserved_choice_fields(choice: dict[str, Any]) -> tuple[Any, ...]:
+    """Return academic choice fields; Phase 9 may repair Thai renderings."""
+    return (
+        choice.get("choice_id"),
+        choice.get("original_text_en"),
+        choice.get("is_correct"),
+        choice.get("explanation_en"),
+    )
+
+
 def original_questions() -> list[dict[str, Any]]:
     backups = sorted((ROOT / "backups").glob("pre-external-research-*.tar.gz"))
     if not backups:
@@ -135,14 +145,16 @@ def validate(check_links: bool) -> Checks:
         checks.require(item.get("original_answer") == original.get("correct_answer"), f"{question_id}: original answer not preserved")
         checks.require(item.get("original_answer_status") == original.get("answer_status"), f"{question_id}: original status not preserved")
         checks.require(item.get("original_explanation_en") == original.get("explanation_en"), f"{question_id}: original English explanation not preserved")
-        checks.require(item.get("original_explanation_th") == original.get("explanation_th"), f"{question_id}: original Thai explanation not preserved")
         checks.require(item.get("original_course_material_references") == original.get("source_references"), f"{question_id}: original course references not preserved")
-        checks.require(item.get("original_choices") == original.get("choices"), f"{question_id}: original choice records not preserved")
+        checks.require(
+            [preserved_choice_fields(choice) for choice in item.get("original_choices", [])]
+            == [preserved_choice_fields(choice) for choice in original.get("choices", [])],
+            f"{question_id}: original choice academic records not preserved",
+        )
         checks.require(item.get("original_question_en") == original.get("original_question_en"), f"{question_id}: English question changed")
-        checks.require(item.get("question_th") == original.get("question_th"), f"{question_id}: Thai question changed")
-        current_choice_text = [(x["choice_id"], x["original_text_en"], x["text_th"]) for x in item["choices"]]
-        original_choice_text = [(x["choice_id"], x["original_text_en"], x["text_th"]) for x in original["choices"]]
-        checks.require(current_choice_text == original_choice_text, f"{question_id}: question choice text changed")
+        current_choice_text = [(x["choice_id"], x["original_text_en"]) for x in item["choices"]]
+        original_choice_text = [(x["choice_id"], x["original_text_en"]) for x in original["choices"]]
+        checks.require(current_choice_text == original_choice_text, f"{question_id}: English question choice text changed")
         answer = item.get("correct_answer")
         marked = [choice["choice_id"] for choice in item["choices"] if choice.get("is_correct")]
         checks.require(marked == ([] if answer is None else [answer]), f"{question_id}: answer key/choice flag mismatch")

@@ -30,6 +30,25 @@ VISUAL_FIELDS = {
     "visual_audit_completed_at",
     "visual_scoring_eligible",
 }
+TRANSLATION_FIELDS = {
+    "question_th",
+    "explanation_th",
+    "original_explanation_th",
+    "external_evidence_summary_th",
+    "final_explanation_th",
+    "confidence_rationale_th",
+    "elimination_reasoning_th",
+    "probability_warning_th",
+    "remaining_uncertainty_th",
+    "unresolved_reason_th",
+    "translation_note",
+    "translation_note_th",
+    "translation_status",
+    "translation_quality",
+    "translation_review_note",
+    "translation_completed_at",
+    "translation_audit_log",
+}
 ALLOWED_STATUSES = {
     "complete",
     "repaired",
@@ -87,7 +106,29 @@ def backup_questions() -> list[dict[str, Any]]:
 
 
 def without_visual_fields(question: dict[str, Any]) -> dict[str, Any]:
-    return {key: value for key, value in question.items() if key not in VISUAL_FIELDS}
+    preserved = {
+        key: value
+        for key, value in question.items()
+        if key not in VISUAL_FIELDS and key not in TRANSLATION_FIELDS
+    }
+    for field in ("choices", "original_choices"):
+        if field not in preserved:
+            continue
+        preserved[field] = [
+            {
+                key: value
+                for key, value in choice.items()
+                if key
+                not in {
+                    "text_th",
+                    "explanation_th",
+                    "translation_status",
+                    "translation_review_note",
+                }
+            }
+            for choice in preserved[field]
+        ]
+    return preserved
 
 
 def validate(check_build: bool) -> Checks:
@@ -115,7 +156,7 @@ def validate(check_build: bool) -> Checks:
     for question_id, question in question_by_id.items():
         original = original_by_id[question_id]
         checks.require(
-            without_visual_fields(question) == original,
+            without_visual_fields(question) == without_visual_fields(original),
             f"{question_id}: non-visual question data changed after the checkpoint",
         )
         missing_fields = sorted(VISUAL_FIELDS.difference(question))

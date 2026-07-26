@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-26T23:20:30+07:00",
+  "terms": [
+    {
+      "term_en": "line extension",
+      "preferred_term_th": "การขยายสายผลิตภัณฑ์ (Line Extension)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS603"
+      ],
+      "notes": "ใช้เมื่อเพิ่มรูปแบบสินค้าในหมวดหมู่เดิมภายใต้ตราสินค้าเดิม",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "brand extension",
+      "preferred_term_th": "การขยายตราสินค้า (Brand Extension)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS603"
+      ],
+      "notes": "ใช้เมื่อนำชื่อตราสินค้าเดิมไปใช้กับหมวดหมู่ผลิตภัณฑ์ใหม่",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "multi-branding",
+      "preferred_term_th": "การใช้หลายตราสินค้า (Multi-branding)",
+      "alternative_terms_th": [
+        "กลยุทธ์หลายตราสินค้า"
+      ],
+      "subject_codes": [
+        "BIS603"
+      ],
+      "notes": "คงคำอังกฤษในวงเล็บเพื่อแยกจาก Brand Extension",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "product development",
+      "preferred_term_th": "การพัฒนาผลิตภัณฑ์ (Product Development)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS603"
+      ],
+      "notes": "คำมาตรฐานด้านกลยุทธ์ผลิตภัณฑ์",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "data warehouse",
+      "preferred_term_th": "คลังข้อมูล (Data Warehouse)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS602"
+      ],
+      "notes": "ใช้กับคลังข้อมูลรวมเพื่อการวิเคราะห์",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "data mart",
+      "preferred_term_th": "คลังข้อมูลย่อย (Data Mart)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS602"
+      ],
+      "notes": "คลังข้อมูลเฉพาะหัวข้อหรือหน่วยงาน",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "database management system",
+      "preferred_term_th": "ระบบจัดการฐานข้อมูล (Database Management System: DBMS)",
+      "alternative_terms_th": [
+        "ระบบบริหารจัดการฐานข้อมูล"
+      ],
+      "subject_codes": [
+        "BIS604"
+      ],
+      "notes": "คงอักษรย่อ DBMS",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "decision support system",
+      "preferred_term_th": "ระบบสนับสนุนการตัดสินใจ (Decision Support System: DSS)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS602"
+      ],
+      "notes": "คงอักษรย่อ DSS",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "business process",
+      "preferred_term_th": "กระบวนการธุรกิจ (Business Process)",
+      "alternative_terms_th": [
+        "กระบวนการทางธุรกิจ"
+      ],
+      "subject_codes": [
+        "BIS601",
+        "BIS602"
+      ],
+      "notes": "ใช้ทั้งสองรูปตามไวยากรณ์ แต่คำหลักใช้ “กระบวนการธุรกิจ”",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "information security",
+      "preferred_term_th": "ความมั่นคงปลอดภัยสารสนเทศ (Information Security)",
+      "alternative_terms_th": [
+        "การรักษาความปลอดภัยสารสนเทศ"
+      ],
+      "subject_codes": [
+        "BIS606"
+      ],
+      "notes": "เลือกตามบริบทวิชาการหรือภาษาทั่วไป",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "competitive advantage",
+      "preferred_term_th": "ความได้เปรียบในการแข่งขัน (Competitive Advantage)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS602",
+        "BIS603"
+      ],
+      "notes": "คำมาตรฐานด้านกลยุทธ์",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "market segmentation",
+      "preferred_term_th": "การแบ่งส่วนตลาด (Market Segmentation)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS603"
+      ],
+      "notes": "คำกริยา Segment แปลว่า “แบ่งส่วน”",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "regression analysis",
+      "preferred_term_th": "การวิเคราะห์ถดถอย (Regression Analysis)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS602"
+      ],
+      "notes": "คำมาตรฐานทางสถิติ",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "hypothesis testing",
+      "preferred_term_th": "การทดสอบสมมติฐาน (Hypothesis Testing)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS602"
+      ],
+      "notes": "คำมาตรฐานทางสถิติ",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "primary key",
+      "preferred_term_th": "คีย์หลัก (Primary Key)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS604"
+      ],
+      "notes": "คงคำอังกฤษในวงเล็บเมื่อกล่าวครั้งแรก",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "candidate key",
+      "preferred_term_th": "คีย์ผู้สมัคร (Candidate Key)",
+      "alternative_terms_th": [
+        "คีย์ตัวเลือก"
+      ],
+      "subject_codes": [
+        "BIS604"
+      ],
+      "notes": "ใช้ “คีย์ผู้สมัคร” ให้สม่ำเสมอในชุดข้อสอบนี้",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "foreign key",
+      "preferred_term_th": "คีย์นอก (Foreign Key)",
+      "alternative_terms_th": [
+        "กุญแจนอก"
+      ],
+      "subject_codes": [
+        "BIS604"
+      ],
+      "notes": "ใช้ “คีย์” ให้สอดคล้องกับ Primary Key",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "normalization",
+      "preferred_term_th": "การทำให้อยู่ในรูปแบบบรรทัดฐาน (Normalization)",
+      "alternative_terms_th": [
+        "นอร์มัลไลเซชัน"
+      ],
+      "subject_codes": [
+        "BIS604"
+      ],
+      "notes": "หลีกเลี่ยงการทับศัพท์เมื่ออธิบายความหมายได้",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "system requirements",
+      "preferred_term_th": "ความต้องการของระบบ (System Requirements)",
+      "alternative_terms_th": [
+        "ข้อกำหนดความต้องการของระบบ"
+      ],
+      "subject_codes": [
+        "BIS601",
+        "BIS605"
+      ],
+      "notes": "เลือก “ข้อกำหนด” เมื่อหมายถึงเอกสาร specification",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "enterprise application integration",
+      "preferred_term_th": "การบูรณาการแอปพลิเคชันระดับองค์กร (Enterprise Application Integration: EAI)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS602"
+      ],
+      "notes": "คงอักษรย่อ EAI",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "system architecture",
+      "preferred_term_th": "สถาปัตยกรรมระบบ (System Architecture)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS605"
+      ],
+      "notes": "คำมาตรฐานด้านวิศวกรรมซอฟต์แวร์",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "modularity",
+      "preferred_term_th": "ความเป็นโมดูล (Modularity)",
+      "alternative_terms_th": [
+        "การออกแบบแบบโมดูล"
+      ],
+      "subject_codes": [
+        "BIS605"
+      ],
+      "notes": "เลือกตามชนิดคำในประโยค",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "quality of service",
+      "preferred_term_th": "คุณภาพการให้บริการ (Quality of Service: QoS)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS606"
+      ],
+      "notes": "คงอักษรย่อ QoS",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    },
+    {
+      "term_en": "sliding window",
+      "preferred_term_th": "หน้าต่างเลื่อน (Sliding Window)",
+      "alternative_terms_th": [],
+      "subject_codes": [
+        "BIS606"
+      ],
+      "notes": "คำเทคนิคด้านโพรโทคอล",
+      "source_reference": "Reviewed against the supplied course corpus and established terminology used in the question bank."
+    }
+  ]
+}
