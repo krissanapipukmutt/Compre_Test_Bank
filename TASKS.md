@@ -73,3 +73,10 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` completed · `[!]` blocked
   Dependencies: P8-01 and immutable source/checkpoint baselines.  
   Expected output: second-pass verification of all 105 source mappings, trigger-word questions, every essential asset/crop, frontend order and safeguards, production packaging, and `reports/final-question-visual-verification.md`.  
   Validation: final source-boundary verifier passes 105 questions/16 pages with 0 errors; Phase 8 validation passes with 0 errors and 0 warnings; 32/32 unit/integration and 11/11 browser tests pass; responsive, blocking-warning, scoring, production build, and all 18 production-asset checks pass.
+
+## BILINGUAL-TRANSLATION-INTEGRITY
+
+- [~] **P9-01 · Phase 9 · Complete examination Thai-translation audit and repair**  
+  Dependencies: completed Phase 8 question bank and immutable pre-translation checkpoint.  
+  Expected output: contextual audit of all 105 questions, all choices and explanations; repaired natural Thai; terminology glossary; translation status metadata; five reports; bilingual frontend safeguards.  
+  Validation: English/ID/answer-key preservation; placeholder and untranslated-text rejection; terminology and completeness audit; unit, responsive browser, production-build, and UTF-8 gates.
