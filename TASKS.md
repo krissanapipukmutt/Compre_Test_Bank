@@ -80,3 +80,10 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` completed · `[!]` blocked
   Dependencies: completed Phase 8 question bank and immutable pre-translation checkpoint.  
   Expected output: contextual audit of all 105 questions, all choices and explanations; repaired natural Thai; terminology glossary; translation status metadata; five reports; bilingual frontend safeguards.  
   Validation: Phase 9 validator passes 105 questions/525 choices/24 glossary terms with 0 errors and 0 warnings; Phase 8 English/ID/order/answer and visual preservation passes; 40/40 unit/integration tests and 12/12 browser tests pass; all seven required bilingual viewports pass; production build and 18/18 production visual-asset checks pass; 0 dependency vulnerabilities.
+
+## VERCEL-PRODUCTION-DEPLOYMENT
+
+- [x] **P10-01 · Phase 10 · Configure, deploy, and verify Vercel production**
+  Dependencies: P9-01, passing production build, authenticated access to the existing `compre-test-bank` Vercel project.
+  Expected output: explicit Vite deployment configuration under `web/`, ignored local Vercel metadata and credentials, successful production deployment, and `reports/vercel-production-deployment.md`.
+  Validation: Vercel deployment `dpl_Fz6QMJniENF9nVSNUT5wT6PqeibL` is `Ready`; canonical URL returns HTTP 200 HTML; CSS and JavaScript return HTTP 200 with correct content types; the application renders and reloads its hash route without console, page, network, blank-page, overflow, or 404 failures; all 18 visual assets return HTTP 200 and match local SHA-256 hashes; immutable-data and translation validation, lint, strict type check, 40/40 unit/integration tests, 12/12 browser tests, and production build pass.

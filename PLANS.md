@@ -44,6 +44,12 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 9. **Phase 8 — examination visual-integrity audit and repair**  
    Dependency: Phase 7 evidence-preserving question bank and a safe pre-visual-integrity checkpoint.  
    Gate: every question is compared with its original page; essential visuals use source-faithful assets; missing/partial visual states are unscored and excluded from mock exams; accessible responsive rendering, asset provenance, production packaging, and preservation checks pass.
+10. **Phase 9 — bilingual translation-integrity audit and repair**
+    Dependency: Phase 8 visually complete question bank and a safe pre-translation checkpoint.
+    Gate: all questions, choices, explanations, and terminology are contextually audited; incomplete translations remain blocked; English, answers, visuals, and historical translation evidence remain preserved.
+11. **Phase 10 — Vercel production deployment**
+    Dependency: Phase 9 validated production build and safe Vercel project access.
+    Gate: the Vite application builds from `web/`, deploys to production, serves HTML/CSS/JavaScript and all referenced visual assets, renders without browser errors, and supports its hash routes on responsive viewports.
 
 ## Phase 5 subphases
 
@@ -60,12 +66,14 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 
 - React + Vite + TypeScript is preferred because the application is local-first and statically deployable; no server-rendering requirement exists.
 - Academic extraction and validation will use local scripts so results are reproducible and source files stay private.
-- Git commits are skipped until a Git repository exists; Git will not be initialized implicitly.
+- The existing Git repository is used for intentional release checkpoints; Git is never initialized implicitly.
+- Vercel deploys the `web/` Vite application with Node 22, `npm install`, `npm run build`, and `dist` as the output directory.
+- The application uses hash routing, so a server-side SPA catch-all rewrite is unnecessary.
 
 ## Discoveries
 
 - The project root is accessible.
-- No Git repository is present at the project root.
+- An existing Git repository and the Vercel project `compre-test-bank` are available.
 - Initial inspection found Term 1 and Term 2 trees, multiple office/PDF formats, source-code exercises, images, archives/installers, and a root `แนวข้อสอบ.pdf`.
 - Course-code conflict risk exists in `TERM2/BIS603_BIS604 Bussiness Data Management` and requires document-content verification.
 
@@ -90,10 +98,12 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 - [x] Phase 7: all 89 flagged questions rechecked; 33 newly course-verified, 47 externally verified, 2 strongly externally supported, 2 probability-only, and 5 unresolvable.
 - [x] Phase 8: all 105 questions compared with all 16 original exam pages; 9 essential-visual questions repaired from embedded originals, 96 text-only questions confirmed complete, 18 source assets packaged, and no visual-loss review item remains.
 - [x] Phase 8 final verification: all source boundaries, 48 wording triggers, 2 code-format items, 9 inline visuals, and 9 reference crops independently rechecked; one clipped Q79 supplemental reference crop repaired; no academic answer changed; final validators, 32 unit/integration tests, 11 browser tests, responsive checks, and production build pass.
+- [x] Phase 9: all 105 questions and 525 choices contextually audited; translation validation, preservation checks, 40 unit/integration tests, 12 browser tests, responsive checks, and production build pass.
+- [x] Phase 10: production deployment is ready at `https://compre-test-bank.vercel.app`; HTML, CSS, JavaScript, hash-route reload, responsive rendering, and all 18 visual assets verified.
 
 ## Remaining work
 
-No required automated work remains. Human academic adjudication remains for 10 questions (2 strongly externally supported, 2 probability-only, 5 unresolvable, and the Q96 answer-key contradiction). Optional follow-up includes native-speaker Thai review, code-splitting, formal screen-reader checks, and independent Firefox/Safari certification.
+No required automated or deployment work remains. Human academic adjudication remains for 10 questions (2 strongly externally supported, 2 probability-only, 5 unresolvable, and the Q96 answer-key contradiction). Optional follow-up includes native-speaker Thai review, code-splitting, formal screen-reader checks, and independent Firefox/Safari certification.
 
 ## Recovery instructions
 
