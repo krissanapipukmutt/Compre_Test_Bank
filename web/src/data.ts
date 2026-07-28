@@ -4,12 +4,17 @@ import topicsJson from "./data/topics.json";
 import glossaryJson from "./data/glossary.json";
 import referencesJson from "./data/source-references.json";
 import questionsJson from "./data/questions.json";
+import externalSourcesJson from "./data/external-sources.json";
+import questionStudyCoverageJson from "./data/question-study-coverage.json";
+import studyTopicQuestionMapJson from "./data/study-topic-question-map.json";
 import type {
   AcademicData,
   Chapter,
   GlossaryEntry,
   Question,
+  QuestionStudyCoverage,
   SourceReference,
+  StudyTopicQuestionMap,
   Subject,
   Topic,
 } from "./domain";
@@ -247,6 +252,9 @@ export interface RawAcademicPayloads {
   glossary: unknown;
   sourceReferences: unknown;
   questions: unknown;
+  externalSources: unknown;
+  questionStudyCoverage: unknown;
+  studyTopicQuestionMap: unknown;
 }
 
 export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
@@ -259,6 +267,18 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
     "source_references",
   );
   const questionRecords = payloadList(raw.questions, "questions");
+  const externalSourceRecords = payloadList(
+    raw.externalSources,
+    "external_sources",
+  );
+  const coverageRecords = payloadList(
+    raw.questionStudyCoverage,
+    "question_study_coverage",
+  );
+  const topicQuestionMapRecords = payloadList(
+    raw.studyTopicQuestionMap,
+    "study_topic_question_map",
+  );
 
   const subjectIds = uniqueIds(subjectRecords, "subject_id", "subjects");
   const subjectCodes = uniqueIds(subjectRecords, "course_code", "subjects");
@@ -271,6 +291,21 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
     "source_references",
   );
   uniqueIds(questionRecords, "question_id", "questions");
+  const externalSourceIds = uniqueIds(
+    externalSourceRecords,
+    "source_id",
+    "external sources",
+  );
+  const coverageQuestionIds = uniqueIds(
+    coverageRecords,
+    "question_id",
+    "question study coverage",
+  );
+  const mappedTopicIds = uniqueIds(
+    topicQuestionMapRecords,
+    "topic_id",
+    "study topic question map",
+  );
 
   for (const item of subjectRecords) {
     text(item.course_title_en, "subject.course_title_en");
@@ -729,13 +764,188 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
     }
   }
 
+  if (
+    coverageQuestionIds.size !== questionRecords.length ||
+    questionRecords.some(
+      (question) =>
+        !coverageQuestionIds.has(String(question.question_id)),
+    )
+  ) {
+    throw new AcademicDataError(
+      "question study coverage must include every question exactly once",
+    );
+  }
+  if (
+    mappedTopicIds.size !== topicRecords.length ||
+    topicRecords.some(
+      (topic) => !mappedTopicIds.has(String(topic.topic_id)),
+    )
+  ) {
+    throw new AcademicDataError(
+      "study topic question map must include every topic exactly once",
+    );
+  }
+
+  const questionIdSet = new Set(
+    questionRecords.map((question) => String(question.question_id)),
+  );
+  const coverageByQuestion = new Map<string, UnknownRecord>();
+  const allowedOrigins = new Set([
+    "COURSE_MATERIAL",
+    "EXTERNAL_AUTHORITATIVE",
+    "SUPPLEMENTARY_EXPLANATION",
+  ]);
+  const allowedFinalCoverage = new Set([
+    "fully_covered",
+    "covered_with_supplementary_content",
+    "covered_with_external_sources",
+    "still_partial",
+    "unresolved",
+  ]);
+  for (const coverage of coverageRecords) {
+    const questionId = text(coverage.question_id, "coverage.question_id");
+    coverageByQuestion.set(questionId, coverage);
+    if (!questionIdSet.has(questionId)) {
+      throw new AcademicDataError(`${questionId} coverage has no question`);
+    }
+    const relatedTopics = stringList(
+      coverage.related_study_topic_ids,
+      `${questionId}.related_study_topic_ids`,
+    );
+    if (
+      !relatedTopics.length ||
+      relatedTopics.some((topicId) => !topicIds.has(topicId))
+    ) {
+      throw new AcademicDataError(`${questionId} coverage has an invalid topic`);
+    }
+    if (
+      !relatedTopics.includes(
+        text(
+          coverage.primary_study_topic_id,
+          `${questionId}.primary_study_topic_id`,
+        ),
+      )
+    ) {
+      throw new AcademicDataError(
+        `${questionId} coverage primary topic is not related`,
+      );
+    }
+    translationPair(
+      coverage.tested_concept_en,
+      coverage.tested_concept_th,
+      `${questionId}.tested_concept`,
+    );
+    text(coverage.tested_skill, `${questionId}.tested_skill`);
+    if (
+      coverage.current_coverage_status !== "fully_covered" ||
+      !allowedFinalCoverage.has(
+        text(
+          coverage.final_coverage_status,
+          `${questionId}.final_coverage_status`,
+        ),
+      )
+    ) {
+      throw new AcademicDataError(`${questionId} remains uncovered`);
+    }
+    const origin = text(coverage.evidence_origin, `${questionId}.evidence_origin`);
+    if (!allowedOrigins.has(origin)) {
+      throw new AcademicDataError(`${questionId} has an invalid evidence origin`);
+    }
+    for (const sourceId of stringList(
+      coverage.source_reference_ids,
+      `${questionId}.coverage source references`,
+    )) {
+      if (!referenceIds.has(sourceId)) {
+        throw new AcademicDataError(
+          `${questionId} coverage has an invalid source reference`,
+        );
+      }
+    }
+    const coverageExternalIds = stringList(
+      coverage.external_source_ids,
+      `${questionId}.coverage external sources`,
+    );
+    if (coverageExternalIds.some((sourceId) => !externalSourceIds.has(sourceId))) {
+      throw new AcademicDataError(
+        `${questionId} coverage has an invalid external source`,
+      );
+    }
+    if (
+      origin === "EXTERNAL_AUTHORITATIVE" &&
+      coverageExternalIds.length === 0
+    ) {
+      throw new AcademicDataError(
+        `${questionId} external coverage has no authoritative source`,
+      );
+    }
+    const forbiddenCoverageKeys = [
+      "correct_answer",
+      "final_answer",
+      "recommended_answer",
+      "answer_choice",
+      "probability_distribution",
+      "explanation_en",
+      "explanation_th",
+    ];
+    if (forbiddenCoverageKeys.some((key) => key in coverage)) {
+      throw new AcademicDataError(
+        `${questionId} coverage contains answer-leakage data`,
+      );
+    }
+  }
+
+  for (const mappedTopic of topicQuestionMapRecords) {
+    const topicId = text(mappedTopic.topic_id, "topic map topic_id");
+    const relatedQuestionIds = stringList(
+      mappedTopic.related_question_ids,
+      `${topicId}.related_question_ids`,
+    );
+    if (
+      finiteNumber(mappedTopic.question_count, `${topicId}.question_count`) !==
+      relatedQuestionIds.length
+    ) {
+      throw new AcademicDataError(`${topicId} question count is inconsistent`);
+    }
+    for (const questionId of relatedQuestionIds) {
+      if (!questionIdSet.has(questionId)) {
+        throw new AcademicDataError(`${topicId} links an invalid question`);
+      }
+      const coverage = coverageByQuestion.get(questionId);
+      if (
+        !coverage ||
+        !list(
+          coverage.related_study_topic_ids,
+          `${questionId}.related_study_topic_ids`,
+        ).includes(topicId)
+      ) {
+        throw new AcademicDataError(
+          `${topicId} and ${questionId} are not bidirectionally linked`,
+        );
+      }
+    }
+  }
+
   const subjects = subjectRecords as unknown as Subject[];
   const chapters = chapterRecords as unknown as Chapter[];
   const topics = topicRecords as unknown as Topic[];
   const glossary = glossaryRecords as unknown as GlossaryEntry[];
   const sourceReferences =
     referenceRecords as unknown as SourceReference[];
-  const questions = questionRecords as unknown as Question[];
+  const questionStudyCoverage =
+    coverageRecords as unknown as QuestionStudyCoverage[];
+  const studyTopicQuestionMap =
+    topicQuestionMapRecords as unknown as StudyTopicQuestionMap[];
+  const preciseTopicsByQuestionId = new Map(
+    questionStudyCoverage.map((item) => [
+      item.question_id,
+      item.related_study_topic_ids,
+    ]),
+  );
+  const questions = questionRecords.map((item) => ({
+    ...item,
+    study_topic_ids:
+      preciseTopicsByQuestionId.get(String(item.question_id)) ?? [],
+  })) as unknown as Question[];
   return {
     subjects,
     chapters,
@@ -743,11 +953,19 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
     glossary,
     sourceReferences,
     questions,
+    questionStudyCoverage,
+    studyTopicQuestionMap,
     subjectByCode: new Map(subjects.map((item) => [item.course_code, item])),
     chapterById: new Map(chapters.map((item) => [item.chapter_id, item])),
     topicById: new Map(topics.map((item) => [item.topic_id, item])),
     referenceById: new Map(
       sourceReferences.map((item) => [item.source_reference_id, item]),
+    ),
+    coverageByQuestionId: new Map(
+      questionStudyCoverage.map((item) => [item.question_id, item]),
+    ),
+    questionMapByTopicId: new Map(
+      studyTopicQuestionMap.map((item) => [item.topic_id, item]),
     ),
   };
 }
@@ -759,4 +977,7 @@ export const academicData = validateAcademicData({
   glossary: glossaryJson,
   sourceReferences: referencesJson,
   questions: questionsJson,
+  externalSources: externalSourcesJson,
+  questionStudyCoverage: questionStudyCoverageJson,
+  studyTopicQuestionMap: studyTopicQuestionMapJson,
 });

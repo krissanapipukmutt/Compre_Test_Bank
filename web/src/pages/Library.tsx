@@ -606,6 +606,11 @@ function TopicTableOfContents({ topic }: { topic: Topic }) {
     ["topic-examples", "Practical example", "ตัวอย่าง"],
     ["topic-misunderstandings", "Common misunderstandings", "ความเข้าใจผิด"],
     ["topic-exam-focus", "Examination focus", "จุดเน้นข้อสอบ"],
+    [
+      "topic-related-exam",
+      "Related examination topics",
+      "หัวข้อที่เกี่ยวข้องกับแนวข้อสอบ",
+    ],
     ["topic-quick-review", "Quick review", "ทบทวนด่วน"],
     ["topic-sources", "Source references", "แหล่งอ้างอิง"],
   ];
@@ -659,6 +664,7 @@ export function TopicPage({
   const sources = topic.source_reference_ids
     .map((id) => data.referenceById.get(id))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
+  const examMap = data.questionMapByTopicId.get(topicId);
 
   return (
     <div className="page page--reader topic-page">
@@ -928,6 +934,94 @@ export function TopicPage({
                 </p>
               ) : null}
             </div>
+          </section>
+
+          <section className="topic-exam-links" id="topic-related-exam">
+            <div className="section-heading section-heading--compact">
+              <div>
+                <span className="eyebrow">
+                  Supplied-exam traceability · การสืบย้อนข้อสอบที่ได้รับ
+                </span>
+                <h2>
+                  Related examination topics
+                  <small lang="th">หัวข้อที่เกี่ยวข้องกับแนวข้อสอบ</small>
+                </h2>
+              </div>
+              <Badge tone={examMap?.question_count ? "teal" : "warning"}>
+                {examMap?.question_count ?? 0} questions
+              </Badge>
+            </div>
+            {examMap?.question_count ? (
+              <>
+                <div className="topic-exam-links__summary">
+                  <div>
+                    <strong>Difficulty · ระดับความยาก</strong>
+                    <span>
+                      Easy {examMap.difficulty_counts.easy} · Medium{" "}
+                      {examMap.difficulty_counts.medium} · Hard{" "}
+                      {examMap.difficulty_counts.hard}
+                    </span>
+                  </div>
+                  <div>
+                    <strong>Observed frequency · ความถี่ที่พบ</strong>
+                    <span>
+                      {examMap.exam_frequency_signal ===
+                      "appears_multiple_times_in_supplied_exam_examples"
+                        ? "Appears multiple times in the supplied exam examples"
+                        : "Appears once in the supplied exam examples"}
+                    </span>
+                  </div>
+                </div>
+                <h3>Tested concepts · แนวคิดที่ทดสอบ</h3>
+                <ul className="bilingual-lesson-list">
+                  {examMap.tested_concepts.map((concept) => (
+                    <li key={concept.question_id}>
+                      <span>{concept.concept_en}</span>
+                      <small lang="th">{concept.concept_th}</small>
+                    </li>
+                  ))}
+                </ul>
+                {examMap.answer_status_warning_count ? (
+                  <AcademicNotice
+                    severity="warning"
+                    title="Answer-status warning · คำเตือนสถานะคำตอบ"
+                  >
+                    <p>
+                      {examMap.answer_status_warning_count} related{" "}
+                      {examMap.answer_status_warning_count === 1
+                        ? "question retains"
+                        : "questions retain"}{" "}
+                      an academic-review or scoring warning. The concept lesson
+                      does not resolve or reveal those answers.
+                    </p>
+                    <p lang="th">
+                      ข้อสอบที่เกี่ยวข้องจำนวน{" "}
+                      {examMap.answer_status_warning_count} ข้อยังคงมีคำเตือนด้าน
+                      การตรวจทานทางวิชาการหรือการให้คะแนน บทเรียนแนวคิดนี้ไม่ตัดสิน
+                      หรือเปิดเผยคำตอบ
+                    </p>
+                  </AcademicNotice>
+                ) : null}
+                <a
+                  className="button button--primary"
+                  href={`${routeHref({ name: "practice" })}?topic=${encodeURIComponent(topicId)}`}
+                >
+                  Practice this topic · ฝึกหัวข้อนี้
+                </a>
+              </>
+            ) : (
+              <AcademicNotice title="No supplied exam example found · ไม่พบตัวอย่างในข้อสอบที่ได้รับ">
+                <p>
+                  This does not mean the topic is unimportant. It only records
+                  that no question in the supplied examination set maps directly
+                  to this topic.
+                </p>
+                <p lang="th">
+                  ข้อมูลนี้ไม่ได้หมายความว่าหัวข้อไม่สำคัญ แต่หมายถึงยังไม่มีข้อใน
+                  ชุดข้อสอบที่ได้รับซึ่งเชื่อมตรงกับหัวข้อนี้
+                </p>
+              </AcademicNotice>
+            )}
           </section>
 
           <section className="review-card" id="topic-quick-review">

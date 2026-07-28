@@ -170,6 +170,11 @@ describe("QuestionCard", () => {
     expect(screen.getByText(scoreable.question_th)).toBeInTheDocument();
     expect(screen.queryByText(scoreable.explanation_en)).not.toBeInTheDocument();
     expect(
+      screen.queryByRole("link", {
+        name: /Review the most relevant Study Library topic/,
+      }),
+    ).not.toBeInTheDocument();
+    expect(
       screen.queryByText(/Verified from course materials/),
     ).not.toBeInTheDocument();
     await user.click(screen.getAllByRole("radio")[0]!);
@@ -195,6 +200,13 @@ describe("QuestionCard", () => {
         Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy();
     expect(screen.getByText(/Correct · ถูกต้อง/)).toBeInTheDocument();
+    const studyLink = screen.getByRole("link", {
+      name: /Review the most relevant Study Library topic/,
+    });
+    expect(studyLink).toHaveAttribute(
+      "href",
+      expect.stringContaining(scoreable.study_topic_ids[0]!),
+    );
   });
 
   it("keeps unresolved status sealed until review", () => {

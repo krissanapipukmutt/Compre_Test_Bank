@@ -1,0 +1,3060 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-28T00:00:00+07:00",
+  "study_topic_question_map": [
+    {
+      "topic_id": "topic-bis601-analyst-and-system-success-01",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-analyst-and-system-success-02",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "related_question_ids": [
+        "question-comprehensive-001",
+        "question-comprehensive-002",
+        "question-comprehensive-003",
+        "question-comprehensive-004",
+        "question-comprehensive-007",
+        "question-comprehensive-008",
+        "question-comprehensive-009",
+        "question-comprehensive-019"
+      ],
+      "question_count": 8,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-001",
+          "concept_en": "Product funding and customer roles",
+          "concept_th": "บทบาทผู้ให้ทุนและลูกค้าของผลิตภัณฑ์"
+        },
+        {
+          "question_id": "question-comprehensive-002",
+          "concept_en": "Product Owner and stakeholder representation",
+          "concept_th": "เจ้าของผลิตภัณฑ์และการเป็นตัวแทนผู้มีส่วนได้ส่วนเสีย"
+        },
+        {
+          "question_id": "question-comprehensive-003",
+          "concept_en": "Subject-matter expert role",
+          "concept_th": "บทบาทผู้เชี่ยวชาญเฉพาะด้าน"
+        },
+        {
+          "question_id": "question-comprehensive-004",
+          "concept_en": "Project governance and status reporting",
+          "concept_th": "ธรรมาภิบาลโครงการและการรายงานสถานะ"
+        },
+        {
+          "question_id": "question-comprehensive-007",
+          "concept_en": "Business-analyst competencies",
+          "concept_th": "สมรรถนะของนักวิเคราะห์ธุรกิจ"
+        },
+        {
+          "question_id": "question-comprehensive-009",
+          "concept_en": "Business analyst as a change agent",
+          "concept_th": "นักวิเคราะห์ธุรกิจในฐานะตัวแทนการเปลี่ยนแปลง"
+        },
+        {
+          "question_id": "question-comprehensive-008",
+          "concept_en": "Business analyst and project manager responsibilities",
+          "concept_th": "ความรับผิดชอบของนักวิเคราะห์ธุรกิจกับผู้จัดการโครงการ"
+        },
+        {
+          "question_id": "question-comprehensive-019",
+          "concept_en": "Business analyst versus systems analyst",
+          "concept_th": "นักวิเคราะห์ธุรกิจกับนักวิเคราะห์ระบบ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 4,
+        "hard": 4
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-analyst-and-system-success-03",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-development-methods-01",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-development-methods",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-development-methods-02",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-development-methods",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-development-methods-03",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-development-methods",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-project-identification-01",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-project-identification",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-project-identification-02",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-project-identification",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-project-identification-03",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-project-identification",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-requirements-01",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-requirements-02",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-requirements-03",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "related_question_ids": [
+        "question-comprehensive-005",
+        "question-comprehensive-006",
+        "question-comprehensive-010",
+        "question-comprehensive-020"
+      ],
+      "question_count": 4,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-005",
+          "concept_en": "Interview-question preparation",
+          "concept_th": "การเตรียมคำถามสัมภาษณ์"
+        },
+        {
+          "question_id": "question-comprehensive-006",
+          "concept_en": "Opening an information-gathering session",
+          "concept_th": "การเปิดการประชุมเก็บรวบรวมข้อมูล"
+        },
+        {
+          "question_id": "question-comprehensive-010",
+          "concept_en": "Question selection and business context",
+          "concept_th": "การเลือกคำถามและบริบททางธุรกิจ"
+        },
+        {
+          "question_id": "question-comprehensive-020",
+          "concept_en": "Interview conduct and corrective probing",
+          "concept_th": "การดำเนินการสัมภาษณ์และการถามเจาะเพื่อแก้ความคลาดเคลื่อน"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 3,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-behavior-models-01",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-behavior-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-behavior-models-02",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-behavior-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-behavior-models-03",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-behavior-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-process-models-01",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-process-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-process-models-02",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-process-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-process-models-03",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-process-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-bpmn-01",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-bpmn",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-bpmn-02",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-bpmn",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis601-bpmn-03",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-bpmn",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-strategy-and-competition-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "related_question_ids": [
+        "question-comprehensive-025",
+        "question-comprehensive-026",
+        "question-comprehensive-028",
+        "question-comprehensive-040"
+      ],
+      "question_count": 4,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-025",
+          "concept_en": "Digital transformation",
+          "concept_th": "การเปลี่ยนผ่านสู่ดิจิทัล"
+        },
+        {
+          "question_id": "question-comprehensive-026",
+          "concept_en": "Sources of competitive advantage",
+          "concept_th": "แหล่งที่มาของความได้เปรียบทางการแข่งขัน"
+        },
+        {
+          "question_id": "question-comprehensive-028",
+          "concept_en": "Differentiation strategy",
+          "concept_th": "กลยุทธ์สร้างความแตกต่าง"
+        },
+        {
+          "question_id": "question-comprehensive-040",
+          "concept_en": "Strategic decision level",
+          "concept_th": "ระดับการตัดสินใจเชิงกลยุทธ์"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 3,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-strategy-and-competition-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-strategy-and-competition-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-process-and-kpi-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "related_question_ids": [
+        "question-comprehensive-027",
+        "question-comprehensive-030"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-027",
+          "concept_en": "Primary and support business processes",
+          "concept_th": "กระบวนการธุรกิจหลักและกระบวนการสนับสนุน"
+        },
+        {
+          "question_id": "question-comprehensive-030",
+          "concept_en": "Effectiveness versus efficiency",
+          "concept_th": "ประสิทธิผลกับประสิทธิภาพ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 1,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-process-and-kpi-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "related_question_ids": [
+        "question-comprehensive-029"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-029",
+          "concept_en": "KPI alignment with responsiveness",
+          "concept_th": "การจัดตัวชี้วัดให้สอดคล้องกับการตอบสนอง"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 1,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-process-and-kpi-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "related_question_ids": [
+        "question-comprehensive-031"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-031",
+          "concept_en": "Balanced Scorecard measures and targets",
+          "concept_th": "ตัววัดและค่าเป้าหมายใน Balanced Scorecard"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 1,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-investment-decisions-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-investment-decisions",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-investment-decisions-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-investment-decisions",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-investment-decisions-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-investment-decisions",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-enterprise-data-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "related_question_ids": [
+        "question-comprehensive-072"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-072",
+          "concept_en": "Information quality and granularity",
+          "concept_th": "คุณภาพและระดับรายละเอียดของสารสนเทศ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 1,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-enterprise-data-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "related_question_ids": [
+        "question-comprehensive-061",
+        "question-comprehensive-064"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-061",
+          "concept_en": "Enterprise application integration",
+          "concept_th": "การบูรณาการแอปพลิเคชันระดับองค์การ"
+        },
+        {
+          "question_id": "question-comprehensive-064",
+          "concept_en": "Information technology for alliance strategy",
+          "concept_th": "เทคโนโลยีสารสนเทศเพื่อกลยุทธ์พันธมิตร"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 1,
+        "hard": 0
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-enterprise-data-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-probability-and-statistics-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "related_question_ids": [
+        "question-comprehensive-039"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-039",
+          "concept_en": "Discrete variables and the normal distribution",
+          "concept_th": "ตัวแปรไม่ต่อเนื่องกับการแจกแจงปกติ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-probability-and-statistics-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "related_question_ids": [
+        "question-comprehensive-021",
+        "question-comprehensive-024",
+        "question-comprehensive-033",
+        "question-comprehensive-034"
+      ],
+      "question_count": 4,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-021",
+          "concept_en": "Distribution shape from a plotted pattern",
+          "concept_th": "รูปร่างการแจกแจงจากรูปแบบที่พล็อต"
+        },
+        {
+          "question_id": "question-comprehensive-024",
+          "concept_en": "Median location in a boxplot",
+          "concept_th": "ตำแหน่งมัธยฐานในแผนภาพกล่อง"
+        },
+        {
+          "question_id": "question-comprehensive-033",
+          "concept_en": "Median calculation for an even-sized dataset",
+          "concept_th": "การคำนวณมัธยฐานของชุดข้อมูลจำนวนคู่"
+        },
+        {
+          "question_id": "question-comprehensive-034",
+          "concept_en": "Random-variable definition",
+          "concept_th": "ความหมายของตัวแปรสุ่ม"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 2,
+        "medium": 0,
+        "hard": 2
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-probability-and-statistics-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "related_question_ids": [
+        "question-comprehensive-032",
+        "question-comprehensive-035"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-032",
+          "concept_en": "Z-score interpretation for outliers",
+          "concept_th": "การตีความคะแนนมาตรฐานเพื่อระบุค่าผิดปกติ"
+        },
+        {
+          "question_id": "question-comprehensive-035",
+          "concept_en": "Z-score input requirements",
+          "concept_th": "ข้อมูลที่จำเป็นในการคำนวณคะแนนมาตรฐาน"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 2
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-data-treatment-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-data-treatment",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-data-treatment-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-data-treatment",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-data-treatment-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-data-treatment",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-bi-and-visualization-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "related_question_ids": [
+        "question-comprehensive-036",
+        "question-comprehensive-037",
+        "question-comprehensive-038",
+        "question-comprehensive-063",
+        "question-comprehensive-067",
+        "question-comprehensive-068",
+        "question-comprehensive-070",
+        "question-comprehensive-071",
+        "question-comprehensive-076",
+        "question-comprehensive-078"
+      ],
+      "question_count": 10,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-036",
+          "concept_en": "Marketing data mart purpose",
+          "concept_th": "วัตถุประสงค์ของดาต้ามาร์ตการตลาด"
+        },
+        {
+          "question_id": "question-comprehensive-037",
+          "concept_en": "Business intelligence versus data mining",
+          "concept_th": "ธุรกิจอัจฉริยะกับการทำเหมืองข้อมูล"
+        },
+        {
+          "question_id": "question-comprehensive-038",
+          "concept_en": "Big data versus blockchain",
+          "concept_th": "บิ๊กดาต้ากับบล็อกเชน"
+        },
+        {
+          "question_id": "question-comprehensive-063",
+          "concept_en": "Electronic communication and collaboration tools",
+          "concept_th": "เครื่องมือสื่อสารและทำงานร่วมกันทางอิเล็กทรอนิกส์"
+        },
+        {
+          "question_id": "question-comprehensive-070",
+          "concept_en": "Information-system activities",
+          "concept_th": "กิจกรรมของระบบสารสนเทศ"
+        },
+        {
+          "question_id": "question-comprehensive-071",
+          "concept_en": "Electronic business",
+          "concept_th": "ธุรกิจอิเล็กทรอนิกส์"
+        },
+        {
+          "question_id": "question-comprehensive-076",
+          "concept_en": "Fundamental roles of information systems",
+          "concept_th": "บทบาทพื้นฐานของระบบสารสนเทศ"
+        },
+        {
+          "question_id": "question-comprehensive-067",
+          "concept_en": "Decision-support analytical models",
+          "concept_th": "แบบจำลองวิเคราะห์เพื่อสนับสนุนการตัดสินใจ"
+        },
+        {
+          "question_id": "question-comprehensive-068",
+          "concept_en": "Customer relationship management",
+          "concept_th": "การบริหารความสัมพันธ์ลูกค้า"
+        },
+        {
+          "question_id": "question-comprehensive-078",
+          "concept_en": "Management decision-support system types",
+          "concept_th": "ประเภทระบบสารสนเทศเพื่อสนับสนุนการตัดสินใจของผู้บริหาร"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 4,
+        "medium": 5,
+        "hard": 1
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-bi-and-visualization-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "related_question_ids": [
+        "question-comprehensive-074"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-074",
+          "concept_en": "OLAP slice-and-dice operations",
+          "concept_th": "การดำเนินการ slice และ dice ใน OLAP"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-bi-and-visualization-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-clustering-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-clustering",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-clustering-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-clustering",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-clustering-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-clustering",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-classification-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-classification",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-classification-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-classification",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-classification-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-classification",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-regression-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-regression",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-regression-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-regression",
+      "related_question_ids": [
+        "question-comprehensive-023"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-023",
+          "concept_en": "Regression coefficient significance",
+          "concept_th": "นัยสำคัญของสัมประสิทธิ์ถดถอย"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-regression-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-regression",
+      "related_question_ids": [
+        "question-comprehensive-022"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-022",
+          "concept_en": "Regression goodness-of-fit comparison",
+          "concept_th": "การเปรียบเทียบความพอดีของแบบจำลองถดถอย"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-association-and-simulation-01",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-association-and-simulation",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-association-and-simulation-02",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-association-and-simulation",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis602-association-and-simulation-03",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-association-and-simulation",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-architecture-and-sdlc-01",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "related_question_ids": [
+        "question-comprehensive-081",
+        "question-comprehensive-082"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-081",
+          "concept_en": "System-architecture scope",
+          "concept_th": "ขอบเขตของสถาปัตยกรรมระบบ"
+        },
+        {
+          "question_id": "question-comprehensive-082",
+          "concept_en": "Client-server architecture of the Web",
+          "concept_th": "สถาปัตยกรรมไคลเอนต์-เซิร์ฟเวอร์ของเว็บ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 2,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-architecture-and-sdlc-02",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "related_question_ids": [
+        "question-comprehensive-085"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-085",
+          "concept_en": "Software-development process activities",
+          "concept_th": "กิจกรรมในกระบวนการพัฒนาซอฟต์แวร์"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-architecture-and-sdlc-03",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-software-design-01",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "related_question_ids": [
+        "question-comprehensive-083",
+        "question-comprehensive-084",
+        "question-comprehensive-096",
+        "question-comprehensive-097"
+      ],
+      "question_count": 4,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-083",
+          "concept_en": "Modularity as a design principle",
+          "concept_th": "มอดูลาริตีในฐานะหลักการออกแบบ"
+        },
+        {
+          "question_id": "question-comprehensive-084",
+          "concept_en": "Software-design objectives",
+          "concept_th": "วัตถุประสงค์ของการออกแบบซอฟต์แวร์"
+        },
+        {
+          "question_id": "question-comprehensive-096",
+          "concept_en": "Software-modeling languages",
+          "concept_th": "ภาษาสำหรับสร้างแบบจำลองซอฟต์แวร์"
+        },
+        {
+          "question_id": "question-comprehensive-097",
+          "concept_en": "Object-oriented system diagrams",
+          "concept_th": "แผนภาพระบบเชิงวัตถุ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 4,
+        "hard": 0
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-software-design-02",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-software-design-03",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-web-and-ui-design-01",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-web-and-ui-design-02",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-web-and-ui-design-03",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "related_question_ids": [
+        "question-comprehensive-095"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-095",
+          "concept_en": "User-interface prototyping tools",
+          "concept_th": "เครื่องมือสร้างต้นแบบส่วนติดต่อผู้ใช้"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-development-technologies-01",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "related_question_ids": [
+        "question-comprehensive-065"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-065",
+          "concept_en": "Commercial off-the-shelf software",
+          "concept_th": "ซอฟต์แวร์สำเร็จรูปเชิงพาณิชย์"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-development-technologies-02",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "related_question_ids": [
+        "question-comprehensive-094"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-094",
+          "concept_en": "Software-development tool categories",
+          "concept_th": "หมวดหมู่เครื่องมือพัฒนาซอฟต์แวร์"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-development-technologies-03",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-frontend-01",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-frontend",
+      "related_question_ids": [
+        "question-comprehensive-098"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-098",
+          "concept_en": "HTML inline style syntax",
+          "concept_th": "ไวยากรณ์สไตล์แบบอินไลน์ใน HTML"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-frontend-02",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-frontend",
+      "related_question_ids": [
+        "question-comprehensive-100"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-100",
+          "concept_en": "CSS layout techniques",
+          "concept_th": "เทคนิคการจัดวางด้วย CSS"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 1,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-frontend-03",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-frontend",
+      "related_question_ids": [
+        "question-comprehensive-099"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-099",
+          "concept_en": "JavaScript function declarations",
+          "concept_th": "การประกาศฟังก์ชันใน JavaScript"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-backend-data-api-cloud-mobile-01",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "related_question_ids": [
+        "question-comprehensive-086",
+        "question-comprehensive-087",
+        "question-comprehensive-089",
+        "question-comprehensive-090"
+      ],
+      "question_count": 4,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-086",
+          "concept_en": "Web-server request and response handling",
+          "concept_th": "การรับคำขอและส่งผลตอบกลับของเว็บเซิร์ฟเวอร์"
+        },
+        {
+          "question_id": "question-comprehensive-087",
+          "concept_en": "Browser and database responsibilities",
+          "concept_th": "หน้าที่ของเว็บเบราว์เซอร์และฐานข้อมูล"
+        },
+        {
+          "question_id": "question-comprehensive-089",
+          "concept_en": "Front-end technology classification",
+          "concept_th": "การจำแนกเทคโนโลยีส่วนหน้า"
+        },
+        {
+          "question_id": "question-comprehensive-090",
+          "concept_en": "Back-end technology classification",
+          "concept_th": "การจำแนกเทคโนโลยีส่วนหลัง"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 2,
+        "medium": 2,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-backend-data-api-cloud-mobile-02",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "related_question_ids": [
+        "question-comprehensive-091",
+        "question-comprehensive-092",
+        "question-comprehensive-093"
+      ],
+      "question_count": 3,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-091",
+          "concept_en": "Mobile-development frameworks",
+          "concept_th": "เฟรมเวิร์กสำหรับพัฒนาอุปกรณ์เคลื่อนที่"
+        },
+        {
+          "question_id": "question-comprehensive-093",
+          "concept_en": "Internet of Things components",
+          "concept_th": "องค์ประกอบของอินเทอร์เน็ตของสรรพสิ่ง"
+        },
+        {
+          "question_id": "question-comprehensive-092",
+          "concept_en": "API scope and contract",
+          "concept_th": "ขอบเขตและข้อตกลงของ API"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 2,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis605-backend-data-api-cloud-mobile-03",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "related_question_ids": [
+        "question-comprehensive-088"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-088",
+          "concept_en": "Cloud-development benefits and constraints",
+          "concept_th": "ประโยชน์และข้อจำกัดของการพัฒนาบนคลาวด์"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-communications-foundations-01",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-communications-foundations",
+      "related_question_ids": [
+        "question-comprehensive-102",
+        "question-comprehensive-103"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-102",
+          "concept_en": "Host, client-server, and tiered architectures",
+          "concept_th": "สถาปัตยกรรมโฮสต์ ไคลเอนต์-เซิร์ฟเวอร์ และหลายชั้น"
+        },
+        {
+          "question_id": "question-comprehensive-103",
+          "concept_en": "SMTP delivery and email storage",
+          "concept_th": "การส่งอีเมลด้วย SMTP และตำแหน่งจัดเก็บ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-communications-foundations-02",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-communications-foundations",
+      "related_question_ids": [
+        "question-comprehensive-101"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-101",
+          "concept_en": "Five-layer Internet model",
+          "concept_th": "แบบจำลองอินเทอร์เน็ตห้าชั้น"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-communications-foundations-03",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-communications-foundations",
+      "related_question_ids": [
+        "question-comprehensive-104",
+        "question-comprehensive-105"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-104",
+          "concept_en": "Wavelength-division multiplexing and fiber",
+          "concept_th": "การมัลติเพล็กซ์แบ่งความยาวคลื่นกับใยแก้วนำแสง"
+        },
+        {
+          "question_id": "question-comprehensive-105",
+          "concept_en": "Manchester encoding transitions",
+          "concept_th": "การเปลี่ยนระดับสัญญาณในการเข้ารหัสแมนเชสเตอร์"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-data-link-and-tcpip-01",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "related_question_ids": [
+        "question-comprehensive-106",
+        "question-comprehensive-107"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-106",
+          "concept_en": "Sliding-window flow control and ARQ",
+          "concept_th": "การควบคุมการไหลแบบหน้าต่างเลื่อนและ ARQ"
+        },
+        {
+          "question_id": "question-comprehensive-107",
+          "concept_en": "Ethernet MAC address length",
+          "concept_th": "ความยาวที่อยู่ MAC ของอีเทอร์เน็ต"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-data-link-and-tcpip-02",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "related_question_ids": [
+        "question-comprehensive-108",
+        "question-comprehensive-109",
+        "question-comprehensive-110"
+      ],
+      "question_count": 3,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-108",
+          "concept_en": "Quality of Service prioritization",
+          "concept_th": "การจัดลำดับความสำคัญด้วยคุณภาพการให้บริการ"
+        },
+        {
+          "question_id": "question-comprehensive-109",
+          "concept_en": "Exterior routing and BGP",
+          "concept_th": "การกำหนดเส้นทางภายนอกและ BGP"
+        },
+        {
+          "question_id": "question-comprehensive-110",
+          "concept_en": "IPv6 as the IPv4 successor",
+          "concept_th": "IPv6 ในฐานะรุ่นสืบทอดจาก IPv4"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 2,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-data-link-and-tcpip-03",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-lan-wan-internet-01",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-lan-wan-internet",
+      "related_question_ids": [
+        "question-comprehensive-112",
+        "question-comprehensive-113"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-112",
+          "concept_en": "Wireless LAN security protocols",
+          "concept_th": "โพรโทคอลความมั่นคงปลอดภัยของ LAN ไร้สาย"
+        },
+        {
+          "question_id": "question-comprehensive-113",
+          "concept_en": "Chassis-switch flexibility",
+          "concept_th": "ความยืดหยุ่นของสวิตช์แบบแชสซี"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 2,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-lan-wan-internet-02",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-lan-wan-internet",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-lan-wan-internet-03",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-lan-wan-internet",
+      "related_question_ids": [
+        "question-comprehensive-111"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-111",
+          "concept_en": "Network-design cost assessment and proposal approval",
+          "concept_th": "การประเมินต้นทุนและการขออนุมัติข้อเสนอออกแบบเครือข่าย"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-cybersecurity-foundations-01",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-cybersecurity-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-cybersecurity-foundations-02",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-cybersecurity-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-cybersecurity-foundations-03",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-cybersecurity-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-continuity-and-risk-01",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-continuity-and-risk",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-continuity-and-risk-02",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-continuity-and-risk",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-continuity-and-risk-03",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-continuity-and-risk",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-infrastructure-security-01",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-infrastructure-security",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-infrastructure-security-02",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-infrastructure-security",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-infrastructure-security-03",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-infrastructure-security",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-security-frameworks-01",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-security-frameworks",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-security-frameworks-02",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-security-frameworks",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis606-security-frameworks-03",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-security-frameworks",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-strategy-foundations-01",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-foundations",
+      "related_question_ids": [
+        "question-comprehensive-049"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-049",
+          "concept_en": "Competitive advantage",
+          "concept_th": "ความได้เปรียบทางการแข่งขัน"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-strategy-foundations-02",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-strategy-foundations-03",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-external-analysis-01",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-external-analysis",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-external-analysis-02",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-external-analysis",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-external-analysis-03",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-external-analysis",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-internal-analysis-01",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-internal-analysis",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-internal-analysis-02",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-internal-analysis",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-internal-analysis-03",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-internal-analysis",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-strategy-formulation-01",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "related_question_ids": [
+        "question-comprehensive-041",
+        "question-comprehensive-051",
+        "question-comprehensive-059"
+      ],
+      "question_count": 3,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-041",
+          "concept_en": "Concentric diversification",
+          "concept_th": "การกระจายธุรกิจแบบสัมพันธ์"
+        },
+        {
+          "question_id": "question-comprehensive-051",
+          "concept_en": "Market-development growth strategy",
+          "concept_th": "กลยุทธ์การเติบโตด้วยการพัฒนาตลาด"
+        },
+        {
+          "question_id": "question-comprehensive-059",
+          "concept_en": "Horizontal integration",
+          "concept_th": "การรวมกิจการในแนวราบ"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 3,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-strategy-formulation-02",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-strategy-formulation-03",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "related_question_ids": [
+        "question-comprehensive-046"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-046",
+          "concept_en": "Customer-satisfaction success factors",
+          "concept_th": "ปัจจัยความสำเร็จของความพึงพอใจลูกค้า"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 1,
+        "hard": 0
+      },
+      "answer_status_warning_count": 1,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-marketing-foundations-01",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "related_question_ids": [
+        "question-comprehensive-044",
+        "question-comprehensive-045",
+        "question-comprehensive-060"
+      ],
+      "question_count": 3,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-044",
+          "concept_en": "Segmentation-targeting-positioning sequence",
+          "concept_th": "ลำดับการแบ่งส่วนตลาด การเลือกตลาดเป้าหมาย และการวางตำแหน่ง"
+        },
+        {
+          "question_id": "question-comprehensive-045",
+          "concept_en": "Marketing-channel participants",
+          "concept_th": "ผู้มีส่วนร่วมในช่องทางการตลาด"
+        },
+        {
+          "question_id": "question-comprehensive-060",
+          "concept_en": "Demographic market segmentation",
+          "concept_th": "การแบ่งส่วนตลาดตามประชากรศาสตร์"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 2,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-marketing-foundations-02",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "related_question_ids": [
+        "question-comprehensive-042",
+        "question-comprehensive-043",
+        "question-comprehensive-047",
+        "question-comprehensive-048",
+        "question-comprehensive-050",
+        "question-comprehensive-052",
+        "question-comprehensive-053",
+        "question-comprehensive-054",
+        "question-comprehensive-055",
+        "question-comprehensive-056",
+        "question-comprehensive-057",
+        "question-comprehensive-058"
+      ],
+      "question_count": 12,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-042",
+          "concept_en": "Social marketing",
+          "concept_th": "การตลาดเพื่อสังคม"
+        },
+        {
+          "question_id": "question-comprehensive-048",
+          "concept_en": "Marketing as value exchange",
+          "concept_th": "การตลาดในฐานะกระบวนการแลกเปลี่ยนคุณค่า"
+        },
+        {
+          "question_id": "question-comprehensive-050",
+          "concept_en": "Marketing concept and organizational goals",
+          "concept_th": "แนวคิดการตลาดและเป้าหมายองค์การ"
+        },
+        {
+          "question_id": "question-comprehensive-047",
+          "concept_en": "Pricing across the product life cycle",
+          "concept_th": "การกำหนดราคาตลอดวงจรชีวิตผลิตภัณฑ์"
+        },
+        {
+          "question_id": "question-comprehensive-052",
+          "concept_en": "Line extension",
+          "concept_th": "การขยายสายผลิตภัณฑ์"
+        },
+        {
+          "question_id": "question-comprehensive-053",
+          "concept_en": "Brand extension",
+          "concept_th": "การขยายตราสินค้า"
+        },
+        {
+          "question_id": "question-comprehensive-054",
+          "concept_en": "Industrial-product classification",
+          "concept_th": "การจำแนกผลิตภัณฑ์อุตสาหกรรม"
+        },
+        {
+          "question_id": "question-comprehensive-055",
+          "concept_en": "Product-mix length",
+          "concept_th": "ความยาวของส่วนประสมผลิตภัณฑ์"
+        },
+        {
+          "question_id": "question-comprehensive-043",
+          "concept_en": "Promotion within the marketing mix",
+          "concept_th": "การส่งเสริมการตลาดในส่วนประสมการตลาด"
+        },
+        {
+          "question_id": "question-comprehensive-056",
+          "concept_en": "Advertising reach characteristics",
+          "concept_th": "ลักษณะการเข้าถึงของการโฆษณา"
+        },
+        {
+          "question_id": "question-comprehensive-057",
+          "concept_en": "Service inseparability",
+          "concept_th": "ลักษณะไม่สามารถแยกการผลิตกับการบริโภคบริการ"
+        },
+        {
+          "question_id": "question-comprehensive-058",
+          "concept_en": "Push promotion strategy",
+          "concept_th": "กลยุทธ์ส่งเสริมการตลาดแบบผลัก"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 12,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-marketing-foundations-03",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-digital-marketing-data-ai-01",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-digital-marketing-data-ai",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-digital-marketing-data-ai-02",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-digital-marketing-data-ai",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-digital-marketing-data-ai-03",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-digital-marketing-data-ai",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-financial-strategy-01",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-financial-strategy",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-financial-strategy-02",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-financial-strategy",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis603-financial-strategy-03",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-financial-strategy",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-database-foundations-01",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-database-foundations-02",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "related_question_ids": [
+        "question-comprehensive-066"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-066",
+          "concept_en": "Database-system components",
+          "concept_th": "องค์ประกอบของระบบฐานข้อมูล"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-database-foundations-03",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-data-models-01",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-data-models",
+      "related_question_ids": [
+        "question-comprehensive-069"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-069",
+          "concept_en": "External, conceptual, and internal database models",
+          "concept_th": "แบบจำลองฐานข้อมูลระดับภายนอก แนวคิด และภายใน"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-data-models-02",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-data-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-data-models-03",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-data-models",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-relational-model-01",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-relational-model",
+      "related_question_ids": [
+        "question-comprehensive-062"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-062",
+          "concept_en": "Primary keys and candidate keys",
+          "concept_th": "คีย์หลักและคีย์ตัวเลือก"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 1
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-relational-model-02",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-relational-model",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-relational-model-03",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-relational-model",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-business-rules-and-erd-01",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-business-rules-and-erd-02",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "related_question_ids": [
+        "question-comprehensive-073",
+        "question-comprehensive-077"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-073",
+          "concept_en": "Multivalued-attribute notation",
+          "concept_th": "สัญลักษณ์แอตทริบิวต์หลายค่า"
+        },
+        {
+          "question_id": "question-comprehensive-077",
+          "concept_en": "Required versus optional attributes",
+          "concept_th": "แอตทริบิวต์บังคับกับแอตทริบิวต์ที่เลือกได้"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 2
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-business-rules-and-erd-03",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-normalization-01",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-normalization",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-normalization-02",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-normalization",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-normalization-03",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-normalization",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-sql-and-implementation-01",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "related_question_ids": [
+        "question-comprehensive-075"
+      ],
+      "question_count": 1,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-075",
+          "concept_en": "SQL definition and language roles",
+          "concept_th": "ความหมายและบทบาทของภาษา SQL"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 1,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-sql-and-implementation-02",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "related_question_ids": [],
+      "question_count": 0,
+      "tested_concepts": [],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "no_supplied_exam_example_found",
+      "source_exam_files": [],
+      "updated_at": "2026-07-28"
+    },
+    {
+      "topic_id": "topic-bis604-sql-and-implementation-03",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "related_question_ids": [
+        "question-comprehensive-079",
+        "question-comprehensive-080"
+      ],
+      "question_count": 2,
+      "tested_concepts": [
+        {
+          "question_id": "question-comprehensive-079",
+          "concept_en": "INTERSECT set operation",
+          "concept_th": "การดำเนินการเซต INTERSECT"
+        },
+        {
+          "question_id": "question-comprehensive-080",
+          "concept_en": "UNION set operation",
+          "concept_th": "การดำเนินการเซต UNION"
+        }
+      ],
+      "difficulty_counts": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 2
+      },
+      "answer_status_warning_count": 0,
+      "exam_frequency_signal": "appears_multiple_times_in_supplied_exam_examples",
+      "source_exam_files": [
+        "แนวข้อสอบ.pdf"
+      ],
+      "updated_at": "2026-07-28"
+    }
+  ]
+}

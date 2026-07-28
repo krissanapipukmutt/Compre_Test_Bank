@@ -137,6 +137,18 @@ describe("question engine", () => {
     ).toBe(true);
   });
 
+  it("filters practice by the precise Study Library topic mapping", () => {
+    const topicId = "topic-bis604-sql-and-implementation-03";
+    const result = filterQuestions(academicData.questions, { topicId });
+    expect(result.map((question) => question.question_id)).toEqual([
+      "question-comprehensive-079",
+      "question-comprehensive-080",
+    ]);
+    expect(
+      result.every((question) => question.study_topic_ids.includes(topicId)),
+    ).toBe(true);
+  });
+
   it("tracks unanswered and unscored questions", () => {
     const summary = scoreAttempt([scoreable, review], {});
     expect(summary.unanswered).toBe(2);

@@ -57,6 +57,14 @@ export interface LessonSection extends SourceLabelled {
   content_format: LessonContentFormat;
   evidence_type: string;
   source_reference_ids: string[];
+  evidence_origin?:
+    | "COURSE_MATERIAL"
+    | "EXTERNAL_AUTHORITATIVE"
+    | "SUPPLEMENTARY_EXPLANATION";
+  external_source_ids?: string[];
+  evidence_summary_en?: string;
+  evidence_summary_th?: string;
+  related_question_ids?: string[];
 }
 
 export interface QuickReview {
@@ -419,6 +427,7 @@ export interface Question {
   subject_name: string;
   chapter_id: string;
   topic_ids: string[];
+  study_topic_ids: string[];
   question_type:
     | "single_choice"
     | "multiple_select"
@@ -520,6 +529,74 @@ export interface Question {
   normalization_human_review_note: string | null;
 }
 
+export type InitialStudyCoverageStatus =
+  | "fully_covered"
+  | "partially_covered"
+  | "missing"
+  | "keyword_only"
+  | "conflicting_or_uncertain";
+
+export type FinalStudyCoverageStatus =
+  | "fully_covered"
+  | "covered_with_supplementary_content"
+  | "covered_with_external_sources"
+  | "still_partial"
+  | "unresolved";
+
+export interface QuestionStudyCoverage {
+  question_id: string;
+  subject_code: string;
+  chapter_id: string;
+  tested_topic_ids: string[];
+  related_study_topic_ids: string[];
+  primary_study_topic_id: string;
+  tested_concept_en: string;
+  tested_concept_th: string;
+  tested_skill: string;
+  required_prerequisite_topics: string[];
+  initial_coverage_status: InitialStudyCoverageStatus;
+  current_coverage_status: "fully_covered" | "still_partial" | "unresolved";
+  final_coverage_status: FinalStudyCoverageStatus;
+  coverage_quality: string;
+  evidence_origin:
+    | "COURSE_MATERIAL"
+    | "EXTERNAL_AUTHORITATIVE"
+    | "SUPPLEMENTARY_EXPLANATION";
+  missing_content: string[];
+  recommended_action: string;
+  changes_made: string[];
+  source_reference_ids: string[];
+  external_source_ids: string[];
+  answer_status_warning: boolean;
+  answer_status_warning_en: string;
+  answer_status_warning_th: string;
+  human_review_note: string | null;
+  audited_at: string;
+}
+
+export interface TopicTestedConcept {
+  question_id: string;
+  concept_en: string;
+  concept_th: string;
+}
+
+export interface StudyTopicQuestionMap {
+  topic_id: string;
+  subject_code: string;
+  chapter_id: string;
+  related_question_ids: string[];
+  question_count: number;
+  tested_concepts: TopicTestedConcept[];
+  difficulty_counts: Record<Difficulty, number>;
+  answer_status_warning_count: number;
+  exam_frequency_signal:
+    | "no_supplied_exam_example_found"
+    | "appears_in_supplied_exam_examples"
+    | "appears_multiple_times_in_supplied_exam_examples";
+  source_exam_files: string[];
+  updated_at: string;
+}
+
 export interface AcademicData {
   subjects: Subject[];
   chapters: Chapter[];
@@ -527,10 +604,14 @@ export interface AcademicData {
   glossary: GlossaryEntry[];
   sourceReferences: SourceReference[];
   questions: Question[];
+  questionStudyCoverage: QuestionStudyCoverage[];
+  studyTopicQuestionMap: StudyTopicQuestionMap[];
   subjectByCode: Map<string, Subject>;
   chapterById: Map<string, Chapter>;
   topicById: Map<string, Topic>;
   referenceById: Map<string, SourceReference>;
+  coverageByQuestionId: Map<string, QuestionStudyCoverage>;
+  questionMapByTopicId: Map<string, StudyTopicQuestionMap>;
 }
 
 export interface QuestionFilters {

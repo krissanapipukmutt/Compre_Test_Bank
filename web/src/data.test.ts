@@ -5,6 +5,9 @@ import topics from "./data/topics.json";
 import glossary from "./data/glossary.json";
 import references from "./data/source-references.json";
 import questions from "./data/questions.json";
+import externalSources from "./data/external-sources.json";
+import questionStudyCoverage from "./data/question-study-coverage.json";
+import studyTopicQuestionMap from "./data/study-topic-question-map.json";
 import {
   AcademicDataError,
   validateAcademicData,
@@ -18,6 +21,9 @@ const valid: RawAcademicPayloads = {
   glossary,
   sourceReferences: references,
   questions,
+  externalSources,
+  questionStudyCoverage,
+  studyTopicQuestionMap,
 };
 
 describe("academic data validation", () => {
@@ -27,6 +33,8 @@ describe("academic data validation", () => {
     expect(data.chapters).toHaveLength(44);
     expect(data.topics).toHaveLength(132);
     expect(data.questions).toHaveLength(105);
+    expect(data.questionStudyCoverage).toHaveLength(105);
+    expect(data.studyTopicQuestionMap).toHaveLength(132);
     expect(data.questions[0]?.question_th).toMatch(/[\u0E00-\u0E7F]/);
   });
 
@@ -48,6 +56,38 @@ describe("academic data validation", () => {
       );
       expect(topic.quick_review.key_points_en.length).toBeGreaterThanOrEqual(3);
     }
+  });
+
+  it("loads complete bidirectional exam-to-study coverage without answer leakage", () => {
+    const data = validateAcademicData(valid);
+    expect(data.questionStudyCoverage).toHaveLength(data.questions.length);
+    expect(data.studyTopicQuestionMap).toHaveLength(data.topics.length);
+    expect(
+      data.questionStudyCoverage.every(
+        (item) => item.current_coverage_status === "fully_covered",
+      ),
+    ).toBe(true);
+    expect(
+      data.studyTopicQuestionMap.reduce(
+        (total, item) => total + item.question_count,
+        0,
+      ),
+    ).toBe(105);
+    for (const coverage of data.questionStudyCoverage) {
+      const reverse = data.questionMapByTopicId.get(
+        coverage.primary_study_topic_id,
+      );
+      expect(reverse?.related_question_ids).toContain(coverage.question_id);
+      expect(
+        data.questions.find(
+          (question) => question.question_id === coverage.question_id,
+        )?.study_topic_ids,
+      ).toEqual(coverage.related_study_topic_ids);
+    }
+    const serialized = JSON.stringify(data.questionStudyCoverage);
+    expect(serialized).not.toContain('"correct_answer"');
+    expect(serialized).not.toContain('"final_answer"');
+    expect(serialized).not.toContain("choice-");
   });
 
   it("loads only the nine source-verified embedded-statement questions", () => {

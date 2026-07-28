@@ -15,7 +15,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "npm run build && playwright test",
-    "validate:data": "../.venv/bin/python ../scripts/validate_data.py --phase 8 && python3 ../scripts/validate_translation_integrity.py && ../.venv/bin/python ../scripts/normalize_question_structure.py --check && ../.venv/bin/python ../scripts/validate_phase11.py && ../.venv/bin/python ../scripts/validate_final_readability.py",
+    "validate:data": "../.venv/bin/python ../scripts/validate_data.py --phase 8 && python3 ../scripts/validate_translation_integrity.py && ../.venv/bin/python ../scripts/normalize_question_structure.py --check && ../.venv/bin/python ../scripts/validate_phase11.py && ../.venv/bin/python ../scripts/validate_final_readability.py && ../.venv/bin/python ../scripts/audit_exam_study_coverage.py --check && ../.venv/bin/python ../scripts/validate_exam_study_coverage.py",
     "check": "npm run validate:data && npm run lint && npm run typecheck && npm run test && npm run build"
   },
   "dependencies": {

@@ -37,6 +37,7 @@ export function PracticeSetup({
   const params = queryParameters();
   const [subjectCode, setSubjectCode] = useState(params.get("subject") ?? "");
   const [chapterId, setChapterId] = useState(params.get("chapter") ?? "");
+  const [topicId, setTopicId] = useState(params.get("topic") ?? "");
   const [difficulty, setDifficulty] = useState<Difficulty | "all">("all");
   const [answerStatus, setAnswerStatus] = useState<AnswerStatus | "all">("all");
   const [count, setCount] = useState(10);
@@ -83,6 +84,7 @@ export function PracticeSetup({
   const available = data.questions.filter((question) => {
     if (subjectCode && question.subject_code !== subjectCode) return false;
     if (chapterId && question.chapter_id !== chapterId) return false;
+    if (topicId && !question.study_topic_ids.includes(topicId)) return false;
     if (difficulty !== "all" && question.difficulty !== difficulty) return false;
     if (
       answerStatus !== "all" &&
@@ -116,6 +118,13 @@ export function PracticeSetup({
   const chapters = data.chapters.filter(
     (chapter) => !subjectCode || chapter.course_code === subjectCode,
   );
+  const topics = data.topics.filter(
+    (topic) =>
+      (!subjectCode ||
+        data.subjects.find((subject) => subject.subject_id === topic.subject_id)
+          ?.course_code === subjectCode) &&
+      (!chapterId || topic.chapter_id === chapterId),
+  );
 
   const start = () =>
     onStart({
@@ -123,6 +132,7 @@ export function PracticeSetup({
       filters: {
         subjectCode: subjectCode || undefined,
         chapterId: chapterId || undefined,
+        topicId: topicId || undefined,
         difficulty,
         answerStatus,
       },
@@ -171,6 +181,7 @@ export function PracticeSetup({
                 onChange={(event) => {
                   setSubjectCode(event.currentTarget.value);
                   setChapterId("");
+                  setTopicId("");
                 }}
                 value={subjectCode}
               >
@@ -185,13 +196,31 @@ export function PracticeSetup({
             <label>
               <span>Chapter</span>
               <select
-                onChange={(event) => setChapterId(event.currentTarget.value)}
+                onChange={(event) => {
+                  setChapterId(event.currentTarget.value);
+                  setTopicId("");
+                }}
                 value={chapterId}
               >
                 <option value="">All chapters</option>
                 {chapters.map((chapter) => (
                   <option key={chapter.chapter_id} value={chapter.chapter_id}>
                     {chapter.title_en}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              <span>Study topic</span>
+              <select
+                aria-label="Study topic"
+                onChange={(event) => setTopicId(event.currentTarget.value)}
+                value={topicId}
+              >
+                <option value="">All topics</option>
+                {topics.map((topic) => (
+                  <option key={topic.topic_id} value={topic.topic_id}>
+                    {topic.title_en} — {topic.title_th}
                   </option>
                 ))}
               </select>

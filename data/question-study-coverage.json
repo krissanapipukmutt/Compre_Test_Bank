@@ -1,0 +1,4242 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-28T00:00:00+07:00",
+  "audit_scope": "All supplied comprehensive-examination questions mapped to the actual bilingual Study Library teaching needed to solve them.",
+  "answer_leakage_policy": "No correct-answer identifiers, correct-choice text, probability distributions, or answer explanations are stored in this mapping.",
+  "question_study_coverage": [
+    {
+      "question_id": "question-comprehensive-001",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Product funding and customer roles",
+      "tested_concept_th": "บทบาทผู้ให้ทุนและลูกค้าของผลิตภัณฑ์",
+      "tested_skill": "distinguish stakeholder accountabilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-stakeholder-roles",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-002",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Product Owner and stakeholder representation",
+      "tested_concept_th": "เจ้าของผลิตภัณฑ์และการเป็นตัวแทนผู้มีส่วนได้ส่วนเสีย",
+      "tested_skill": "distinguish stakeholder accountabilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-stakeholder-roles",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012",
+        "ext-scrum-guide-2020"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-003",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Subject-matter expert role",
+      "tested_concept_th": "บทบาทผู้เชี่ยวชาญเฉพาะด้าน",
+      "tested_skill": "distinguish stakeholder accountabilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-stakeholder-roles",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012",
+        "ext-iiba-glossary"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-004",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Project governance and status reporting",
+      "tested_concept_th": "ธรรมาภิบาลโครงการและการรายงานสถานะ",
+      "tested_skill": "distinguish stakeholder accountabilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-stakeholder-roles",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-005",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "tested_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "primary_study_topic_id": "topic-bis601-requirements-03",
+      "tested_concept_en": "Interview-question preparation",
+      "tested_concept_th": "การเตรียมคำถามสัมภาษณ์",
+      "tested_skill": "plan and evaluate elicitation",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-elicitation-planning",
+        "Linked the question precisely to topic-bis601-requirements-03"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-006",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "tested_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "primary_study_topic_id": "topic-bis601-requirements-03",
+      "tested_concept_en": "Opening an information-gathering session",
+      "tested_concept_th": "การเปิดการประชุมเก็บรวบรวมข้อมูล",
+      "tested_skill": "plan and evaluate elicitation",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-elicitation-planning",
+        "Linked the question precisely to topic-bis601-requirements-03"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-007",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Business-analyst competencies",
+      "tested_concept_th": "สมรรถนะของนักวิเคราะห์ธุรกิจ",
+      "tested_skill": "classify analyst competencies",
+      "required_prerequisite_topics": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-competencies",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-008",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Business analyst and project manager responsibilities",
+      "tested_concept_th": "ความรับผิดชอบของนักวิเคราะห์ธุรกิจกับผู้จัดการโครงการ",
+      "tested_skill": "compare professional responsibilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-role-boundaries",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-009",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Business analyst as a change agent",
+      "tested_concept_th": "นักวิเคราะห์ธุรกิจในฐานะตัวแทนการเปลี่ยนแปลง",
+      "tested_skill": "classify analyst competencies",
+      "required_prerequisite_topics": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-competencies",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-010",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "tested_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "primary_study_topic_id": "topic-bis601-requirements-03",
+      "tested_concept_en": "Question selection and business context",
+      "tested_concept_th": "การเลือกคำถามและบริบททางธุรกิจ",
+      "tested_skill": "plan and evaluate elicitation",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-elicitation-planning",
+        "Linked the question precisely to topic-bis601-requirements-03"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-019",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-analyst-and-system-success",
+      "tested_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-analyst-and-system-success-02"
+      ],
+      "primary_study_topic_id": "topic-bis601-analyst-and-system-success-02",
+      "tested_concept_en": "Business analyst versus systems analyst",
+      "tested_concept_th": "นักวิเคราะห์ธุรกิจกับนักวิเคราะห์ระบบ",
+      "tested_skill": "compare professional responsibilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "fully_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-ba-role-boundaries",
+        "Linked the question precisely to topic-bis601-analyst-and-system-success-02"
+      ],
+      "source_reference_ids": [
+        "ref-df3d0f3ce677"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-020",
+      "subject_code": "BIS601",
+      "chapter_id": "chapter-bis601-requirements",
+      "tested_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis601-requirements-03"
+      ],
+      "primary_study_topic_id": "topic-bis601-requirements-03",
+      "tested_concept_en": "Interview conduct and corrective probing",
+      "tested_concept_th": "การดำเนินการสัมภาษณ์และการถามเจาะเพื่อแก้ความคลาดเคลื่อน",
+      "tested_skill": "plan and evaluate elicitation",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-elicitation-planning",
+        "Linked the question precisely to topic-bis601-requirements-03"
+      ],
+      "source_reference_ids": [
+        "ref-8d8ca54e4d69"
+      ],
+      "external_source_ids": [
+        "ext-blais-2012"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-021",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "tested_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-probability-and-statistics-02",
+      "tested_concept_en": "Distribution shape from a plotted pattern",
+      "tested_concept_th": "รูปร่างการแจกแจงจากรูปแบบที่พล็อต",
+      "tested_skill": "interpret statistical representations",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-descriptive-distributions",
+        "Linked the question precisely to topic-bis602-probability-and-statistics-02"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-022",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-regression",
+      "tested_topic_ids": [
+        "topic-bis602-regression-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-regression-03"
+      ],
+      "primary_study_topic_id": "topic-bis602-regression-03",
+      "tested_concept_en": "Regression goodness-of-fit comparison",
+      "tested_concept_th": "การเปรียบเทียบความพอดีของแบบจำลองถดถอย",
+      "tested_skill": "evaluate conflicting model evidence",
+      "required_prerequisite_topics": [
+        "topic-bis602-regression-01",
+        "topic-bis602-regression-02"
+      ],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_supplementary_content",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "SUPPLEMENTARY_EXPLANATION",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-regression-fit",
+        "Linked the question precisely to topic-bis602-regression-03"
+      ],
+      "source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-023",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-regression",
+      "tested_topic_ids": [
+        "topic-bis602-regression-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-regression-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-regression-02",
+      "tested_concept_en": "Regression coefficient significance",
+      "tested_concept_th": "นัยสำคัญของสัมประสิทธิ์ถดถอย",
+      "tested_skill": "judge statistical evidence quality",
+      "required_prerequisite_topics": [
+        "topic-bis602-regression-01"
+      ],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_supplementary_content",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "SUPPLEMENTARY_EXPLANATION",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-regression-significance",
+        "Linked the question precisely to topic-bis602-regression-02"
+      ],
+      "source_reference_ids": [
+        "ref-6db4296cdaf8"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-024",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "tested_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-probability-and-statistics-02",
+      "tested_concept_en": "Median location in a boxplot",
+      "tested_concept_th": "ตำแหน่งมัธยฐานในแผนภาพกล่อง",
+      "tested_skill": "interpret statistical representations",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-descriptive-distributions",
+        "Linked the question precisely to topic-bis602-probability-and-statistics-02"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-025",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "tested_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-strategy-and-competition-01",
+      "tested_concept_en": "Digital transformation",
+      "tested_concept_th": "การเปลี่ยนผ่านสู่ดิจิทัล",
+      "tested_skill": "differentiate digital and strategic outcomes",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-digital-strategy",
+        "Linked the question precisely to topic-bis602-strategy-and-competition-01"
+      ],
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "external_source_ids": [
+        "ext-salesforce-digital-transformation"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-026",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "tested_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-strategy-and-competition-01",
+      "tested_concept_en": "Sources of competitive advantage",
+      "tested_concept_th": "แหล่งที่มาของความได้เปรียบทางการแข่งขัน",
+      "tested_skill": "differentiate digital and strategic outcomes",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-digital-strategy",
+        "Linked the question precisely to topic-bis602-strategy-and-competition-01"
+      ],
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "external_source_ids": [
+        "ext-openstax-management-advantage"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-027",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "tested_topic_ids": [
+        "topic-bis602-process-and-kpi-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-process-and-kpi-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-process-and-kpi-01",
+      "tested_concept_en": "Primary and support business processes",
+      "tested_concept_th": "กระบวนการธุรกิจหลักและกระบวนการสนับสนุน",
+      "tested_skill": "classify processes and performance intent",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-process-effectiveness",
+        "Linked the question precisely to topic-bis602-process-and-kpi-01"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-028",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "tested_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-strategy-and-competition-01",
+      "tested_concept_en": "Differentiation strategy",
+      "tested_concept_th": "กลยุทธ์สร้างความแตกต่าง",
+      "tested_skill": "classify competitive actions and decision levels",
+      "required_prerequisite_topics": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-differentiation-decisions",
+        "Linked the question precisely to topic-bis602-strategy-and-competition-01"
+      ],
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-029",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "tested_topic_ids": [
+        "topic-bis602-process-and-kpi-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-process-and-kpi-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-process-and-kpi-02",
+      "tested_concept_en": "KPI alignment with responsiveness",
+      "tested_concept_th": "การจัดตัวชี้วัดให้สอดคล้องกับการตอบสนอง",
+      "tested_skill": "construct an aligned performance indicator",
+      "required_prerequisite_topics": [
+        "topic-bis602-process-and-kpi-01"
+      ],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-kpi-design",
+        "Linked the question precisely to topic-bis602-process-and-kpi-02"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-030",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "tested_topic_ids": [
+        "topic-bis602-process-and-kpi-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-process-and-kpi-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-process-and-kpi-01",
+      "tested_concept_en": "Effectiveness versus efficiency",
+      "tested_concept_th": "ประสิทธิผลกับประสิทธิภาพ",
+      "tested_skill": "classify processes and performance intent",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-process-effectiveness",
+        "Linked the question precisely to topic-bis602-process-and-kpi-01"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-031",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "tested_topic_ids": [
+        "topic-bis602-process-and-kpi-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-process-and-kpi-03"
+      ],
+      "primary_study_topic_id": "topic-bis602-process-and-kpi-03",
+      "tested_concept_en": "Balanced Scorecard measures and targets",
+      "tested_concept_th": "ตัววัดและค่าเป้าหมายใน Balanced Scorecard",
+      "tested_skill": "distinguish scorecard elements",
+      "required_prerequisite_topics": [
+        "topic-bis602-process-and-kpi-02"
+      ],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-bsc-targets",
+        "Linked the question precisely to topic-bis602-process-and-kpi-03"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-032",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "tested_topic_ids": [
+        "topic-bis602-probability-and-statistics-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-probability-and-statistics-03"
+      ],
+      "primary_study_topic_id": "topic-bis602-probability-and-statistics-03",
+      "tested_concept_en": "Z-score interpretation for outliers",
+      "tested_concept_th": "การตีความคะแนนมาตรฐานเพื่อระบุค่าผิดปกติ",
+      "tested_skill": "calculate and interpret a standardized value",
+      "required_prerequisite_topics": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "initial_coverage_status": "fully_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-z-score",
+        "Linked the question precisely to topic-bis602-probability-and-statistics-03"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-033",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "tested_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-probability-and-statistics-02",
+      "tested_concept_en": "Median calculation for an even-sized dataset",
+      "tested_concept_th": "การคำนวณมัธยฐานของชุดข้อมูลจำนวนคู่",
+      "tested_skill": "interpret statistical representations",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-descriptive-distributions",
+        "Linked the question precisely to topic-bis602-probability-and-statistics-02"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-034",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "tested_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-probability-and-statistics-02",
+      "tested_concept_en": "Random-variable definition",
+      "tested_concept_th": "ความหมายของตัวแปรสุ่ม",
+      "tested_skill": "interpret statistical representations",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-descriptive-distributions",
+        "Linked the question precisely to topic-bis602-probability-and-statistics-02"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-035",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "tested_topic_ids": [
+        "topic-bis602-probability-and-statistics-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-probability-and-statistics-03"
+      ],
+      "primary_study_topic_id": "topic-bis602-probability-and-statistics-03",
+      "tested_concept_en": "Z-score input requirements",
+      "tested_concept_th": "ข้อมูลที่จำเป็นในการคำนวณคะแนนมาตรฐาน",
+      "tested_skill": "identify insufficient quantitative information",
+      "required_prerequisite_topics": [
+        "topic-bis602-probability-and-statistics-02"
+      ],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_supplementary_content",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "SUPPLEMENTARY_EXPLANATION",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-z-score-missing-input",
+        "Linked the question precisely to topic-bis602-probability-and-statistics-03"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-036",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Marketing data mart purpose",
+      "tested_concept_th": "วัตถุประสงค์ของดาต้ามาร์ตการตลาด",
+      "tested_skill": "compare enterprise data technologies",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-bi-data-technologies",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "external_source_ids": [
+        "ext-ibm-data-mart"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-037",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Business intelligence versus data mining",
+      "tested_concept_th": "ธุรกิจอัจฉริยะกับการทำเหมืองข้อมูล",
+      "tested_skill": "compare enterprise data technologies",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-bi-data-technologies",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "external_source_ids": [
+        "ext-ibm-business-intelligence",
+        "ext-ibm-data-mining"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-038",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Big data versus blockchain",
+      "tested_concept_th": "บิ๊กดาต้ากับบล็อกเชน",
+      "tested_skill": "compare enterprise data technologies",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-bi-data-technologies",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "external_source_ids": [
+        "ext-ibm-big-data",
+        "ext-ibm-blockchain"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-039",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-probability-and-statistics",
+      "tested_topic_ids": [
+        "topic-bis602-probability-and-statistics-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-probability-and-statistics-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-probability-and-statistics-01",
+      "tested_concept_en": "Discrete variables and the normal distribution",
+      "tested_concept_th": "ตัวแปรไม่ต่อเนื่องกับการแจกแจงปกติ",
+      "tested_skill": "distinguish probability model types",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-normal-variable-types",
+        "Linked the question precisely to topic-bis602-probability-and-statistics-01"
+      ],
+      "source_reference_ids": [
+        "ref-56af112c07c5",
+        "ref-679e87864421"
+      ],
+      "external_source_ids": [
+        "ext-nist-normal-probability"
+      ],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-040",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "tested_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-strategy-and-competition-01",
+      "tested_concept_en": "Strategic decision level",
+      "tested_concept_th": "ระดับการตัดสินใจเชิงกลยุทธ์",
+      "tested_skill": "classify competitive actions and decision levels",
+      "required_prerequisite_topics": [
+        "topic-bis602-strategy-and-competition-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-differentiation-decisions",
+        "Linked the question precisely to topic-bis602-strategy-and-competition-01"
+      ],
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-041",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "tested_topic_ids": [
+        "topic-bis603-strategy-formulation-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-strategy-formulation-01"
+      ],
+      "primary_study_topic_id": "topic-bis603-strategy-formulation-01",
+      "tested_concept_en": "Concentric diversification",
+      "tested_concept_th": "การกระจายธุรกิจแบบสัมพันธ์",
+      "tested_skill": "classify corporate growth alternatives",
+      "required_prerequisite_topics": [
+        "topic-bis603-strategy-foundations-01"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-growth-strategies",
+        "Linked the question precisely to topic-bis603-strategy-formulation-01"
+      ],
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "external_source_ids": [
+        "ext-asu-diversification"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-042",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Social marketing",
+      "tested_concept_th": "การตลาดเพื่อสังคม",
+      "tested_skill": "distinguish related marketing concepts",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-marketing-fundamentals",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-cdc-social-marketing"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-043",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Promotion within the marketing mix",
+      "tested_concept_th": "การส่งเสริมการตลาดในส่วนประสมการตลาด",
+      "tested_skill": "classify marketing-mix and service decisions",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-promotion-services",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-promotion"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-044",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-01"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-01",
+      "tested_concept_en": "Segmentation-targeting-positioning sequence",
+      "tested_concept_th": "ลำดับการแบ่งส่วนตลาด การเลือกตลาดเป้าหมาย และการวางตำแหน่ง",
+      "tested_skill": "apply the STP and channel framework",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-stp-channels",
+        "Linked the question precisely to topic-bis603-marketing-foundations-01"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-segmentation"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-045",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-01"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-01",
+      "tested_concept_en": "Marketing-channel participants",
+      "tested_concept_th": "ผู้มีส่วนร่วมในช่องทางการตลาด",
+      "tested_skill": "apply the STP and channel framework",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-stp-channels",
+        "Linked the question precisely to topic-bis603-marketing-foundations-01"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-channels"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-046",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-strategy-formulation-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-strategy-formulation-03"
+      ],
+      "primary_study_topic_id": "topic-bis603-strategy-formulation-03",
+      "tested_concept_en": "Customer-satisfaction success factors",
+      "tested_concept_th": "ปัจจัยความสำเร็จของความพึงพอใจลูกค้า",
+      "tested_skill": "evaluate under-specified success factors",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_supplementary_content",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "SUPPLEMENTARY_EXPLANATION",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-customer-satisfaction",
+        "Linked the question precisely to topic-bis603-strategy-formulation-03"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-047",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Pricing across the product life cycle",
+      "tested_concept_th": "การกำหนดราคาตลอดวงจรชีวิตผลิตภัณฑ์",
+      "tested_skill": "differentiate product-management terms",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-product-portfolio",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-product-life-cycle",
+        "ext-unilag-pricing"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-048",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Marketing as value exchange",
+      "tested_concept_th": "การตลาดในฐานะกระบวนการแลกเปลี่ยนคุณค่า",
+      "tested_skill": "distinguish related marketing concepts",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-marketing-fundamentals",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-marketing-definition"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-049",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "tested_topic_ids": [
+        "topic-bis603-strategy-foundations-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-strategy-foundations-01"
+      ],
+      "primary_study_topic_id": "topic-bis603-strategy-foundations-01",
+      "tested_concept_en": "Competitive advantage",
+      "tested_concept_th": "ความได้เปรียบทางการแข่งขัน",
+      "tested_skill": "evaluate strategic fit",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-competitive-advantage-marketing",
+        "Linked the question precisely to topic-bis603-strategy-foundations-01"
+      ],
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "external_source_ids": [
+        "ext-openstax-management-advantage"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-050",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Marketing concept and organizational goals",
+      "tested_concept_th": "แนวคิดการตลาดและเป้าหมายองค์การ",
+      "tested_skill": "distinguish related marketing concepts",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-marketing-fundamentals",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-marketing-concept"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-051",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "tested_topic_ids": [
+        "topic-bis603-strategy-formulation-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-strategy-formulation-01"
+      ],
+      "primary_study_topic_id": "topic-bis603-strategy-formulation-01",
+      "tested_concept_en": "Market-development growth strategy",
+      "tested_concept_th": "กลยุทธ์การเติบโตด้วยการพัฒนาตลาด",
+      "tested_skill": "classify corporate growth alternatives",
+      "required_prerequisite_topics": [
+        "topic-bis603-strategy-foundations-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-growth-strategies",
+        "Linked the question precisely to topic-bis603-strategy-formulation-01"
+      ],
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "external_source_ids": [
+        "ext-openstax-strategic-growth"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-052",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Line extension",
+      "tested_concept_th": "การขยายสายผลิตภัณฑ์",
+      "tested_skill": "differentiate product-management terms",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-product-portfolio",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-brand-development"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-053",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Brand extension",
+      "tested_concept_th": "การขยายตราสินค้า",
+      "tested_skill": "differentiate product-management terms",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-product-portfolio",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-brand-development"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-054",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Industrial-product classification",
+      "tested_concept_th": "การจำแนกผลิตภัณฑ์อุตสาหกรรม",
+      "tested_skill": "differentiate product-management terms",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-product-portfolio",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-products"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-055",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Product-mix length",
+      "tested_concept_th": "ความยาวของส่วนประสมผลิตภัณฑ์",
+      "tested_skill": "differentiate product-management terms",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-product-portfolio",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-product-mix"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-056",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Advertising reach characteristics",
+      "tested_concept_th": "ลักษณะการเข้าถึงของการโฆษณา",
+      "tested_skill": "classify marketing-mix and service decisions",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-promotion-services",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-promotion"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-057",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Service inseparability",
+      "tested_concept_th": "ลักษณะไม่สามารถแยกการผลิตกับการบริโภคบริการ",
+      "tested_skill": "classify marketing-mix and service decisions",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-promotion-services",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-services"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-058",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-02",
+      "tested_concept_en": "Push promotion strategy",
+      "tested_concept_th": "กลยุทธ์ส่งเสริมการตลาดแบบผลัก",
+      "tested_skill": "classify marketing-mix and service decisions",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-promotion-services",
+        "Linked the question precisely to topic-bis603-marketing-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-push-strategy"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-059",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-strategy-formulation",
+      "tested_topic_ids": [
+        "topic-bis603-strategy-formulation-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-strategy-formulation-01"
+      ],
+      "primary_study_topic_id": "topic-bis603-strategy-formulation-01",
+      "tested_concept_en": "Horizontal integration",
+      "tested_concept_th": "การรวมกิจการในแนวราบ",
+      "tested_skill": "classify corporate growth alternatives",
+      "required_prerequisite_topics": [
+        "topic-bis603-strategy-foundations-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-growth-strategies",
+        "Linked the question precisely to topic-bis603-strategy-formulation-01"
+      ],
+      "source_reference_ids": [
+        "ref-5ec412be8100"
+      ],
+      "external_source_ids": [
+        "ext-vt-horizontal-integration"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-060",
+      "subject_code": "BIS603",
+      "chapter_id": "chapter-bis603-marketing-foundations",
+      "tested_topic_ids": [
+        "topic-bis603-marketing-foundations-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis603-marketing-foundations-01"
+      ],
+      "primary_study_topic_id": "topic-bis603-marketing-foundations-01",
+      "tested_concept_en": "Demographic market segmentation",
+      "tested_concept_th": "การแบ่งส่วนตลาดตามประชากรศาสตร์",
+      "tested_skill": "apply the STP and channel framework",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-stp-channels",
+        "Linked the question precisely to topic-bis603-marketing-foundations-01"
+      ],
+      "source_reference_ids": [
+        "ref-055aacce6886"
+      ],
+      "external_source_ids": [
+        "ext-openstax-segmentation"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-061",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "tested_topic_ids": [
+        "topic-bis602-enterprise-data-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-enterprise-data-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-enterprise-data-02",
+      "tested_concept_en": "Enterprise application integration",
+      "tested_concept_th": "การบูรณาการแอปพลิเคชันระดับองค์การ",
+      "tested_skill": "explain integration mechanisms",
+      "required_prerequisite_topics": [
+        "topic-bis602-enterprise-data-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-enterprise-integration",
+        "Linked the question precisely to topic-bis602-enterprise-data-02"
+      ],
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "external_source_ids": [
+        "ext-ibm-eai"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-062",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "tested_topic_ids": [
+        "topic-bis604-relational-model-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-relational-model-01"
+      ],
+      "primary_study_topic_id": "topic-bis604-relational-model-01",
+      "tested_concept_en": "Primary keys and candidate keys",
+      "tested_concept_th": "คีย์หลักและคีย์ตัวเลือก",
+      "tested_skill": "derive keys from a relation",
+      "required_prerequisite_topics": [
+        "topic-bis604-data-models-02"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-database-keys",
+        "Linked the question precisely to topic-bis604-relational-model-01"
+      ],
+      "source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-063",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Electronic communication and collaboration tools",
+      "tested_concept_th": "เครื่องมือสื่อสารและทำงานร่วมกันทางอิเล็กทรอนิกส์",
+      "tested_skill": "apply an explicit classification rule",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_supplementary_content",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "SUPPLEMENTARY_EXPLANATION",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-electronic-collaboration",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-064",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-strategy-and-competition",
+      "tested_topic_ids": [
+        "topic-bis602-enterprise-data-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-enterprise-data-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-enterprise-data-02",
+      "tested_concept_en": "Information technology for alliance strategy",
+      "tested_concept_th": "เทคโนโลยีสารสนเทศเพื่อกลยุทธ์พันธมิตร",
+      "tested_skill": "explain integration mechanisms",
+      "required_prerequisite_topics": [
+        "topic-bis602-enterprise-data-01"
+      ],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-enterprise-integration",
+        "Linked the question precisely to topic-bis602-enterprise-data-02"
+      ],
+      "source_reference_ids": [
+        "ref-577959f5bfdc"
+      ],
+      "external_source_ids": [
+        "ext-ibm-eai"
+      ],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-065",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "tested_topic_ids": [
+        "topic-bis605-development-technologies-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-development-technologies-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-development-technologies-01",
+      "tested_concept_en": "Commercial off-the-shelf software",
+      "tested_concept_th": "ซอฟต์แวร์สำเร็จรูปเชิงพาณิชย์",
+      "tested_skill": "evaluate build-versus-buy terminology",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-cots",
+        "Linked the question precisely to topic-bis605-development-technologies-01"
+      ],
+      "source_reference_ids": [
+        "ref-cebc3781d70f"
+      ],
+      "external_source_ids": [
+        "ext-iiba-glossary"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-066",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-database-foundations",
+      "tested_topic_ids": [
+        "topic-bis604-database-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-database-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis604-database-foundations-02",
+      "tested_concept_en": "Database-system components",
+      "tested_concept_th": "องค์ประกอบของระบบฐานข้อมูล",
+      "tested_skill": "classify database-system components",
+      "required_prerequisite_topics": [
+        "topic-bis604-database-foundations-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-database-system",
+        "Linked the question precisely to topic-bis604-database-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-067",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Decision-support analytical models",
+      "tested_concept_th": "แบบจำลองวิเคราะห์เพื่อสนับสนุนการตัดสินใจ",
+      "tested_skill": "classify decision and customer systems",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-dss-crm",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "external_source_ids": [
+        "ext-ibm-what-if"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-068",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Customer relationship management",
+      "tested_concept_th": "การบริหารความสัมพันธ์ลูกค้า",
+      "tested_skill": "classify decision and customer systems",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-dss-crm",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "external_source_ids": [
+        "ext-ibm-crm"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-069",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-data-models",
+      "tested_topic_ids": [
+        "topic-bis604-data-models-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-data-models-01"
+      ],
+      "primary_study_topic_id": "topic-bis604-data-models-01",
+      "tested_concept_en": "External, conceptual, and internal database models",
+      "tested_concept_th": "แบบจำลองฐานข้อมูลระดับภายนอก แนวคิด และภายใน",
+      "tested_skill": "distinguish abstraction levels",
+      "required_prerequisite_topics": [
+        "topic-bis604-database-foundations-01"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-database-levels",
+        "Linked the question precisely to topic-bis604-data-models-01"
+      ],
+      "source_reference_ids": [
+        "ref-7e62c0bcdcdb"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-070",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Information-system activities",
+      "tested_concept_th": "กิจกรรมของระบบสารสนเทศ",
+      "tested_skill": "relate system activities to organizational roles",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-is-foundations",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "external_source_ids": [
+        "ext-openstax-information-systems"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-071",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-enterprise-data",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Electronic business",
+      "tested_concept_th": "ธุรกิจอิเล็กทรอนิกส์",
+      "tested_skill": "relate system activities to organizational roles",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-is-foundations",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-9fb1166a3197"
+      ],
+      "external_source_ids": [
+        "ext-oecd-ebusiness",
+        "ext-openstax-information-systems"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-072",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "tested_topic_ids": [
+        "topic-bis602-enterprise-data-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-enterprise-data-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-enterprise-data-01",
+      "tested_concept_en": "Information quality and granularity",
+      "tested_concept_th": "คุณภาพและระดับรายละเอียดของสารสนเทศ",
+      "tested_skill": "evaluate fitness of information",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-information-quality",
+        "Linked the question precisely to topic-bis602-enterprise-data-01"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "external_source_ids": [
+        "ext-fao-information-quality"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-073",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "tested_topic_ids": [
+        "topic-bis604-business-rules-and-erd-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-business-rules-and-erd-02"
+      ],
+      "primary_study_topic_id": "topic-bis604-business-rules-and-erd-02",
+      "tested_concept_en": "Multivalued-attribute notation",
+      "tested_concept_th": "สัญลักษณ์แอตทริบิวต์หลายค่า",
+      "tested_skill": "interpret ERD notation",
+      "required_prerequisite_topics": [
+        "topic-bis604-data-models-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-erd-attributes",
+        "Linked the question precisely to topic-bis604-business-rules-and-erd-02"
+      ],
+      "source_reference_ids": [
+        "ref-3d8e8353d4d8",
+        "ref-b7d56889cebd"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-074",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-02"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-02",
+      "tested_concept_en": "OLAP slice-and-dice operations",
+      "tested_concept_th": "การดำเนินการ slice และ dice ใน OLAP",
+      "tested_skill": "distinguish multidimensional operations",
+      "required_prerequisite_topics": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "initial_coverage_status": "fully_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-olap-operations",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-02"
+      ],
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-075",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "tested_topic_ids": [
+        "topic-bis604-sql-and-implementation-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-sql-and-implementation-01"
+      ],
+      "primary_study_topic_id": "topic-bis604-sql-and-implementation-01",
+      "tested_concept_en": "SQL definition and language roles",
+      "tested_concept_th": "ความหมายและบทบาทของภาษา SQL",
+      "tested_skill": "classify SQL statements",
+      "required_prerequisite_topics": [
+        "topic-bis604-database-foundations-01"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-sql-roles",
+        "Linked the question precisely to topic-bis604-sql-and-implementation-01"
+      ],
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-076",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-process-and-kpi",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Fundamental roles of information systems",
+      "tested_concept_th": "บทบาทพื้นฐานของระบบสารสนเทศ",
+      "tested_skill": "relate system activities to organizational roles",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-is-foundations",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-7f0ef008a19f"
+      ],
+      "external_source_ids": [
+        "ext-openstax-information-systems"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-077",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-business-rules-and-erd",
+      "tested_topic_ids": [
+        "topic-bis604-business-rules-and-erd-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-business-rules-and-erd-02"
+      ],
+      "primary_study_topic_id": "topic-bis604-business-rules-and-erd-02",
+      "tested_concept_en": "Required versus optional attributes",
+      "tested_concept_th": "แอตทริบิวต์บังคับกับแอตทริบิวต์ที่เลือกได้",
+      "tested_skill": "interpret ERD notation",
+      "required_prerequisite_topics": [
+        "topic-bis604-data-models-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-erd-attributes",
+        "Linked the question precisely to topic-bis604-business-rules-and-erd-02"
+      ],
+      "source_reference_ids": [
+        "ref-3d8e8353d4d8",
+        "ref-b7d56889cebd"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-078",
+      "subject_code": "BIS602",
+      "chapter_id": "chapter-bis602-bi-and-visualization",
+      "tested_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis602-bi-and-visualization-01"
+      ],
+      "primary_study_topic_id": "topic-bis602-bi-and-visualization-01",
+      "tested_concept_en": "Management decision-support system types",
+      "tested_concept_th": "ประเภทระบบสารสนเทศเพื่อสนับสนุนการตัดสินใจของผู้บริหาร",
+      "tested_skill": "classify decision and customer systems",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-dss-crm",
+        "Linked the question precisely to topic-bis602-bi-and-visualization-01"
+      ],
+      "source_reference_ids": [
+        "ref-39852560330e",
+        "ref-5db458a4f6f1"
+      ],
+      "external_source_ids": [
+        "ext-ibm-data-mining",
+        "ext-openstax-information-systems"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-079",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "tested_topic_ids": [
+        "topic-bis604-sql-and-implementation-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-sql-and-implementation-03"
+      ],
+      "primary_study_topic_id": "topic-bis604-sql-and-implementation-03",
+      "tested_concept_en": "INTERSECT set operation",
+      "tested_concept_th": "การดำเนินการเซต INTERSECT",
+      "tested_skill": "execute relational set operations",
+      "required_prerequisite_topics": [
+        "topic-bis604-sql-and-implementation-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-sql-set-operations",
+        "Linked the question precisely to topic-bis604-sql-and-implementation-03"
+      ],
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-080",
+      "subject_code": "BIS604",
+      "chapter_id": "chapter-bis604-sql-and-implementation",
+      "tested_topic_ids": [
+        "topic-bis604-sql-and-implementation-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis604-sql-and-implementation-03"
+      ],
+      "primary_study_topic_id": "topic-bis604-sql-and-implementation-03",
+      "tested_concept_en": "UNION set operation",
+      "tested_concept_th": "การดำเนินการเซต UNION",
+      "tested_skill": "execute relational set operations",
+      "required_prerequisite_topics": [
+        "topic-bis604-sql-and-implementation-01"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-sql-set-operations",
+        "Linked the question precisely to topic-bis604-sql-and-implementation-03"
+      ],
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-410210966360"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-081",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "tested_topic_ids": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-architecture-and-sdlc-01",
+      "tested_concept_en": "System-architecture scope",
+      "tested_concept_th": "ขอบเขตของสถาปัตยกรรมระบบ",
+      "tested_skill": "identify architectural responsibilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-system-architecture",
+        "Linked the question precisely to topic-bis605-architecture-and-sdlc-01"
+      ],
+      "source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-082",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-architecture-and-sdlc",
+      "tested_topic_ids": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-architecture-and-sdlc-01",
+      "tested_concept_en": "Client-server architecture of the Web",
+      "tested_concept_th": "สถาปัตยกรรมไคลเอนต์-เซิร์ฟเวอร์ของเว็บ",
+      "tested_skill": "identify architectural responsibilities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-system-architecture",
+        "Linked the question precisely to topic-bis605-architecture-and-sdlc-01"
+      ],
+      "source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-d6823ad3b758"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-083",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "tested_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-software-design-01",
+      "tested_concept_en": "Modularity as a design principle",
+      "tested_concept_th": "มอดูลาริตีในฐานะหลักการออกแบบ",
+      "tested_skill": "evaluate software-design qualities",
+      "required_prerequisite_topics": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "initial_coverage_status": "fully_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-software-design",
+        "Linked the question precisely to topic-bis605-software-design-01"
+      ],
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-084",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "tested_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-software-design-01",
+      "tested_concept_en": "Software-design objectives",
+      "tested_concept_th": "วัตถุประสงค์ของการออกแบบซอฟต์แวร์",
+      "tested_skill": "evaluate software-design qualities",
+      "required_prerequisite_topics": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-software-design",
+        "Linked the question precisely to topic-bis605-software-design-01"
+      ],
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-085",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "tested_topic_ids": [
+        "topic-bis605-architecture-and-sdlc-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-architecture-and-sdlc-02"
+      ],
+      "primary_study_topic_id": "topic-bis605-architecture-and-sdlc-02",
+      "tested_concept_en": "Software-development process activities",
+      "tested_concept_th": "กิจกรรมในกระบวนการพัฒนาซอฟต์แวร์",
+      "tested_skill": "classify lifecycle activities",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-development-process",
+        "Linked the question precisely to topic-bis605-architecture-and-sdlc-02"
+      ],
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-086",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-01",
+      "tested_concept_en": "Web-server request and response handling",
+      "tested_concept_th": "การรับคำขอและส่งผลตอบกลับของเว็บเซิร์ฟเวอร์",
+      "tested_skill": "classify web-stack components",
+      "required_prerequisite_topics": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-web-stack",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-087",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-01",
+      "tested_concept_en": "Browser and database responsibilities",
+      "tested_concept_th": "หน้าที่ของเว็บเบราว์เซอร์และฐานข้อมูล",
+      "tested_skill": "classify web-stack components",
+      "required_prerequisite_topics": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-web-stack",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-088",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-03"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-03",
+      "tested_concept_en": "Cloud-development benefits and constraints",
+      "tested_concept_th": "ประโยชน์และข้อจำกัดของการพัฒนาบนคลาวด์",
+      "tested_skill": "evaluate contextual technology tradeoffs",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_supplementary_content",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "SUPPLEMENTARY_EXPLANATION",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-cloud-tradeoffs",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-03"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-089",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-01",
+      "tested_concept_en": "Front-end technology classification",
+      "tested_concept_th": "การจำแนกเทคโนโลยีส่วนหน้า",
+      "tested_skill": "classify web-stack components",
+      "required_prerequisite_topics": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-web-stack",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-090",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-01",
+      "tested_concept_en": "Back-end technology classification",
+      "tested_concept_th": "การจำแนกเทคโนโลยีส่วนหลัง",
+      "tested_skill": "classify web-stack components",
+      "required_prerequisite_topics": [
+        "topic-bis605-architecture-and-sdlc-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-web-stack",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-01"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-091",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-02",
+      "tested_concept_en": "Mobile-development frameworks",
+      "tested_concept_th": "เฟรมเวิร์กสำหรับพัฒนาอุปกรณ์เคลื่อนที่",
+      "tested_skill": "identify platform and IoT components",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-mobile-api-iot",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-092",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-02",
+      "tested_concept_en": "API scope and contract",
+      "tested_concept_th": "ขอบเขตและข้อตกลงของ API",
+      "tested_skill": "evaluate API definitions and scope",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_supplementary_content",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "SUPPLEMENTARY_EXPLANATION",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-api-scope",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-093",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-backend-data-api-cloud-mobile",
+      "tested_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "primary_study_topic_id": "topic-bis605-backend-data-api-cloud-mobile-02",
+      "tested_concept_en": "Internet of Things components",
+      "tested_concept_th": "องค์ประกอบของอินเทอร์เน็ตของสรรพสิ่ง",
+      "tested_skill": "identify platform and IoT components",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-mobile-api-iot",
+        "Linked the question precisely to topic-bis605-backend-data-api-cloud-mobile-02"
+      ],
+      "source_reference_ids": [
+        "ref-2a63c16321f4",
+        "ref-53572c7966e8",
+        "ref-b3b1200576f0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-094",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-development-technologies",
+      "tested_topic_ids": [
+        "topic-bis605-development-technologies-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-development-technologies-02"
+      ],
+      "primary_study_topic_id": "topic-bis605-development-technologies-02",
+      "tested_concept_en": "Software-development tool categories",
+      "tested_concept_th": "หมวดหมู่เครื่องมือพัฒนาซอฟต์แวร์",
+      "tested_skill": "classify software development tools",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-development-tool-categories",
+        "Linked the question precisely to topic-bis605-development-technologies-02"
+      ],
+      "source_reference_ids": [
+        "ref-cebc3781d70f"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-095",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-web-and-ui-design",
+      "tested_topic_ids": [
+        "topic-bis605-web-and-ui-design-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-web-and-ui-design-03"
+      ],
+      "primary_study_topic_id": "topic-bis605-web-and-ui-design-03",
+      "tested_concept_en": "User-interface prototyping tools",
+      "tested_concept_th": "เครื่องมือสร้างต้นแบบส่วนติดต่อผู้ใช้",
+      "tested_skill": "identify prototyping tools",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-prototyping-tools",
+        "Linked the question precisely to topic-bis605-web-and-ui-design-03"
+      ],
+      "source_reference_ids": [
+        "ref-3df30e359a7a",
+        "ref-48b117d4f581"
+      ],
+      "external_source_ids": [
+        "ext-figma-prototyping",
+        "ext-sketch-prototyping"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-096",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "tested_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-software-design-01",
+      "tested_concept_en": "Software-modeling languages",
+      "tested_concept_th": "ภาษาสำหรับสร้างแบบจำลองซอฟต์แวร์",
+      "tested_skill": "select an appropriate modeling notation",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "conflicting_or_uncertain",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: conflicting or uncertain for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-modeling-diagrams",
+        "Linked the question precisely to topic-bis605-software-design-01"
+      ],
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": true,
+      "answer_status_warning_en": "The academic answer record retains a review or scoring warning; the Study Library teaches the concept without resolving the answer.",
+      "answer_status_warning_th": "ระเบียนคำตอบทางวิชาการยังมีคำเตือนด้านการตรวจทานหรือการให้คะแนน คลังบทเรียนสอนแนวคิดโดยไม่ตัดสินคำตอบ",
+      "human_review_note": "Coverage is complete, but the pre-existing academic-answer review state is preserved.",
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-097",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-software-design",
+      "tested_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-software-design-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-software-design-01",
+      "tested_concept_en": "Object-oriented system diagrams",
+      "tested_concept_th": "แผนภาพระบบเชิงวัตถุ",
+      "tested_skill": "select an appropriate modeling notation",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-modeling-diagrams",
+        "Linked the question precisely to topic-bis605-software-design-01"
+      ],
+      "source_reference_ids": [
+        "ref-a0b013b733e0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-098",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-frontend",
+      "tested_topic_ids": [
+        "topic-bis605-frontend-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-frontend-01"
+      ],
+      "primary_study_topic_id": "topic-bis605-frontend-01",
+      "tested_concept_en": "HTML inline style syntax",
+      "tested_concept_th": "ไวยากรณ์สไตล์แบบอินไลน์ใน HTML",
+      "tested_skill": "recognize valid HTML and CSS syntax",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-html-style",
+        "Linked the question precisely to topic-bis605-frontend-01"
+      ],
+      "source_reference_ids": [
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd",
+        "ref-a21db17e35c0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-099",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-frontend",
+      "tested_topic_ids": [
+        "topic-bis605-frontend-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-frontend-03"
+      ],
+      "primary_study_topic_id": "topic-bis605-frontend-03",
+      "tested_concept_en": "JavaScript function declarations",
+      "tested_concept_th": "การประกาศฟังก์ชันใน JavaScript",
+      "tested_skill": "recognize JavaScript function syntax",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-javascript-functions",
+        "Linked the question precisely to topic-bis605-frontend-03"
+      ],
+      "source_reference_ids": [
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd",
+        "ref-a21db17e35c0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-100",
+      "subject_code": "BIS605",
+      "chapter_id": "chapter-bis605-frontend",
+      "tested_topic_ids": [
+        "topic-bis605-frontend-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis605-frontend-02"
+      ],
+      "primary_study_topic_id": "topic-bis605-frontend-02",
+      "tested_concept_en": "CSS layout techniques",
+      "tested_concept_th": "เทคนิคการจัดวางด้วย CSS",
+      "tested_skill": "classify CSS layout mechanisms",
+      "required_prerequisite_topics": [
+        "topic-bis605-frontend-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-css-layout",
+        "Linked the question precisely to topic-bis605-frontend-02"
+      ],
+      "source_reference_ids": [
+        "ref-2ec19f686cd1",
+        "ref-9ce3a90c33fd",
+        "ref-a21db17e35c0"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-101",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-communications-foundations-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-communications-foundations-02"
+      ],
+      "primary_study_topic_id": "topic-bis606-communications-foundations-02",
+      "tested_concept_en": "Five-layer Internet model",
+      "tested_concept_th": "แบบจำลองอินเทอร์เน็ตห้าชั้น",
+      "tested_skill": "classify networking layers",
+      "required_prerequisite_topics": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-internet-model",
+        "Linked the question precisely to topic-bis606-communications-foundations-02"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-102",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "primary_study_topic_id": "topic-bis606-communications-foundations-01",
+      "tested_concept_en": "Host, client-server, and tiered architectures",
+      "tested_concept_th": "สถาปัตยกรรมโฮสต์ ไคลเอนต์-เซิร์ฟเวอร์ และหลายชั้น",
+      "tested_skill": "trace responsibilities in a communication architecture",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-communication-architectures",
+        "Linked the question precisely to topic-bis606-communications-foundations-01"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-103",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "primary_study_topic_id": "topic-bis606-communications-foundations-01",
+      "tested_concept_en": "SMTP delivery and email storage",
+      "tested_concept_th": "การส่งอีเมลด้วย SMTP และตำแหน่งจัดเก็บ",
+      "tested_skill": "trace responsibilities in a communication architecture",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-communication-architectures",
+        "Linked the question precisely to topic-bis606-communications-foundations-01"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-104",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-communications-foundations-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-communications-foundations-03"
+      ],
+      "primary_study_topic_id": "topic-bis606-communications-foundations-03",
+      "tested_concept_en": "Wavelength-division multiplexing and fiber",
+      "tested_concept_th": "การมัลติเพล็กซ์แบ่งความยาวคลื่นกับใยแก้วนำแสง",
+      "tested_skill": "interpret transmission and signaling methods",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-signals-media",
+        "Linked the question precisely to topic-bis606-communications-foundations-03"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-105",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-communications-foundations-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-communications-foundations-03"
+      ],
+      "primary_study_topic_id": "topic-bis606-communications-foundations-03",
+      "tested_concept_en": "Manchester encoding transitions",
+      "tested_concept_th": "การเปลี่ยนระดับสัญญาณในการเข้ารหัสแมนเชสเตอร์",
+      "tested_skill": "interpret transmission and signaling methods",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-signals-media",
+        "Linked the question precisely to topic-bis606-communications-foundations-03"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-106",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-01"
+      ],
+      "primary_study_topic_id": "topic-bis606-data-link-and-tcpip-01",
+      "tested_concept_en": "Sliding-window flow control and ARQ",
+      "tested_concept_th": "การควบคุมการไหลแบบหน้าต่างเลื่อนและ ARQ",
+      "tested_skill": "apply data-link control and addressing",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-data-link",
+        "Linked the question precisely to topic-bis606-data-link-and-tcpip-01"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-107",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-01"
+      ],
+      "primary_study_topic_id": "topic-bis606-data-link-and-tcpip-01",
+      "tested_concept_en": "Ethernet MAC address length",
+      "tested_concept_th": "ความยาวที่อยู่ MAC ของอีเทอร์เน็ต",
+      "tested_skill": "apply data-link control and addressing",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-data-link",
+        "Linked the question precisely to topic-bis606-data-link-and-tcpip-01"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-108",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-02"
+      ],
+      "primary_study_topic_id": "topic-bis606-data-link-and-tcpip-02",
+      "tested_concept_en": "Quality of Service prioritization",
+      "tested_concept_th": "การจัดลำดับความสำคัญด้วยคุณภาพการให้บริการ",
+      "tested_skill": "distinguish network-layer services",
+      "required_prerequisite_topics": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "initial_coverage_status": "partially_covered",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: partially covered for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-routing-qos-ipv6",
+        "Linked the question precisely to topic-bis606-data-link-and-tcpip-02"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-109",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-02"
+      ],
+      "primary_study_topic_id": "topic-bis606-data-link-and-tcpip-02",
+      "tested_concept_en": "Exterior routing and BGP",
+      "tested_concept_th": "การกำหนดเส้นทางภายนอกและ BGP",
+      "tested_skill": "distinguish network-layer services",
+      "required_prerequisite_topics": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-routing-qos-ipv6",
+        "Linked the question precisely to topic-bis606-data-link-and-tcpip-02"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-110",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-02"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-data-link-and-tcpip-02"
+      ],
+      "primary_study_topic_id": "topic-bis606-data-link-and-tcpip-02",
+      "tested_concept_en": "IPv6 as the IPv4 successor",
+      "tested_concept_th": "IPv6 ในฐานะรุ่นสืบทอดจาก IPv4",
+      "tested_skill": "distinguish network-layer services",
+      "required_prerequisite_topics": [
+        "topic-bis606-communications-foundations-01"
+      ],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-routing-qos-ipv6",
+        "Linked the question precisely to topic-bis606-data-link-and-tcpip-02"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-111",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-lan-wan-internet-03"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-lan-wan-internet-03"
+      ],
+      "primary_study_topic_id": "topic-bis606-lan-wan-internet-03",
+      "tested_concept_en": "Network-design cost assessment and proposal approval",
+      "tested_concept_th": "การประเมินต้นทุนและการขออนุมัติข้อเสนอออกแบบเครือข่าย",
+      "tested_skill": "place approval work in a design lifecycle",
+      "required_prerequisite_topics": [],
+      "initial_coverage_status": "keyword_only",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "covered_with_external_sources",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "EXTERNAL_AUTHORITATIVE",
+      "missing_content": [
+        "Before repair: keyword only for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-network-proposal",
+        "Linked the question precisely to topic-bis606-lan-wan-internet-03"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [
+        "ext-wiley-network-design"
+      ],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-112",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-lan-wan-internet-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-lan-wan-internet-01"
+      ],
+      "primary_study_topic_id": "topic-bis606-lan-wan-internet-01",
+      "tested_concept_en": "Wireless LAN security protocols",
+      "tested_concept_th": "โพรโทคอลความมั่นคงปลอดภัยของ LAN ไร้สาย",
+      "tested_skill": "compare LAN technologies",
+      "required_prerequisite_topics": [
+        "topic-bis606-data-link-and-tcpip-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-wireless-switching",
+        "Linked the question precisely to topic-bis606-lan-wan-internet-01"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    },
+    {
+      "question_id": "question-comprehensive-113",
+      "subject_code": "BIS606",
+      "chapter_id": "chapter-bis606-data-link-and-tcpip",
+      "tested_topic_ids": [
+        "topic-bis606-lan-wan-internet-01"
+      ],
+      "related_study_topic_ids": [
+        "topic-bis606-lan-wan-internet-01"
+      ],
+      "primary_study_topic_id": "topic-bis606-lan-wan-internet-01",
+      "tested_concept_en": "Chassis-switch flexibility",
+      "tested_concept_th": "ความยืดหยุ่นของสวิตช์แบบแชสซี",
+      "tested_skill": "compare LAN technologies",
+      "required_prerequisite_topics": [
+        "topic-bis606-data-link-and-tcpip-01"
+      ],
+      "initial_coverage_status": "missing",
+      "current_coverage_status": "fully_covered",
+      "final_coverage_status": "fully_covered",
+      "coverage_quality": "sufficient_for_guided_self-study_with_bilingual_definition, comparison_or_rule, and decision guidance",
+      "evidence_origin": "COURSE_MATERIAL",
+      "missing_content": [
+        "Before repair: missing for the exact tested concept"
+      ],
+      "recommended_action": "Retain the source-labelled concept lesson and bidirectional link.",
+      "changes_made": [
+        "Added or confirmed bilingual teaching section coverage-wireless-switching",
+        "Linked the question precisely to topic-bis606-lan-wan-internet-01"
+      ],
+      "source_reference_ids": [
+        "ref-64c8aeb51ea7",
+        "ref-940a2c55cfb9",
+        "ref-a13b7ae81781"
+      ],
+      "external_source_ids": [],
+      "answer_status_warning": false,
+      "answer_status_warning_en": "",
+      "answer_status_warning_th": "",
+      "human_review_note": null,
+      "audited_at": "2026-07-28"
+    }
+  ]
+}

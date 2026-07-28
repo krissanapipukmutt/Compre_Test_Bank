@@ -71,7 +71,10 @@ export function filterQuestions(
     if (filters.chapterId && question.chapter_id !== filters.chapterId) {
       return false;
     }
-    if (filters.topicId && !question.topic_ids.includes(filters.topicId)) {
+    if (
+      filters.topicId &&
+      !question.study_topic_ids.includes(filters.topicId)
+    ) {
       return false;
     }
     if (

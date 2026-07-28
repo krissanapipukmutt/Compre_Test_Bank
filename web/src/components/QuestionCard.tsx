@@ -18,6 +18,7 @@ import {
   TRANSLATION_REVIEW_WARNING,
 } from "../translation";
 import { FormattedQuestionBlock } from "./QuestionStem";
+import { routeHref } from "../router";
 
 const externalSourceById = new Map(
   (externalSourcesJson.external_sources as ExternalSource[]).map((source) => [
@@ -341,6 +342,18 @@ export function QuestionCard({
           <p lang="th">{question.explanation_th}</p>
           <EvidenceDetails question={question} />
           <SourceList compact sources={question.source_references} />
+          {question.study_topic_ids[0] ? (
+            <a
+              className="answer-panel__study-link button button--secondary"
+              href={routeHref({
+                name: "topic",
+                topicId: question.study_topic_ids[0],
+              })}
+            >
+              Review the most relevant Study Library topic ·
+              ทบทวนหัวข้อที่เกี่ยวข้องที่สุด
+            </a>
+          ) : null}
         </section>
       ) : null}
 

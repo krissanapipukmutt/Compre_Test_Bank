@@ -53,6 +53,9 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 12. **Phase 11 — Study Library enrichment and question-structure normalization**
     Dependency: Phase 10 production baseline, recoverable pre-change checkpoint, and verified access to immutable course and examination sources.
     Gate: all subjects, chapters, and topics provide structured source-labelled bilingual learning content; every embedded-choice candidate is source-verified and preserves raw text, choice IDs, and answer keys; reusable responsive renderers, validators, reports, and all automated gates pass.
+13. **Phase 12 — Examination-to-Study-Library coverage audit**
+    Dependency: Phase 11 complete bilingual content, preserved question bank, and a recoverable pre-coverage checkpoint.
+    Gate: all 105 questions are audited for the actual concept and skill tested; each has sufficient source-labelled bilingual teaching and a precise bidirectional topic link; topic-filtered practice and post-submission review links work without answer leakage; exact unresolved coverage is reported; academic answers remain unchanged; data, lint, strict TypeScript, unit/component, responsive browser, and production-build gates pass.
 
 ## Phase 5 subphases
 
@@ -104,10 +107,11 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 - [x] Phase 9: all 105 questions and 525 choices contextually audited; translation validation, preservation checks, 40 unit/integration tests, 12 browser tests, responsive checks, and production build pass.
 - [x] Phase 10: production deployment is ready at `https://compre-test-bank.vercel.app`; HTML, CSS, JavaScript, hash-route reload, responsive rendering, and all 18 visual assets verified.
 - [x] Phase 11: all 6 subjects, 44 chapters, and 132 topics enriched; 105 questions audited and 9 source-verified embedded-statement questions normalized without answer changes; final topic-depth, provenance, duplication, bilingual-order, and preservation audit passes; 54 unit/component and 17 browser tests, eight-viewport readability review, production build, validators, and seven reports complete.
+- [x] Phase 12: all 105 questions concept-audited; 57 missing, 21 keyword-only, 13 partial, 10 conflicting/uncertain, and 4 fully covered initial records repaired or confirmed through 56 grouped bilingual teaching sections; 105 precise links reconcile across 44 tested topics and all 132 topic-map records; 0 coverage concepts remain unresolved; 10 pre-existing academic-answer warnings and all answer data remain preserved.
 
 ## Remaining work
 
-No required automated or deployment work remains. Human academic adjudication remains for 10 questions (2 strongly externally supported, 2 probability-only, 5 unresolvable, and the Q96 answer-key contradiction). Optional follow-up includes native-speaker Thai review, code-splitting, formal screen-reader checks, and independent Firefox/Safari certification.
+No required Phase 12 coverage work remains. Human academic adjudication remains for the same 10 questions (2 strongly externally supported, 2 probability-only, 5 unresolvable, and the Q96 answer-key contradiction); these are answer-review issues, not uncovered Study Library concepts. Optional follow-up includes native-speaker Thai review, code-splitting, formal screen-reader checks, and independent Firefox/Safari certification.
 
 ## Recovery instructions
 

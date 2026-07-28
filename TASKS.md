@@ -113,3 +113,22 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` completed · `[!]` blocked
   Dependencies: P11-01, P11-02, and P11-03.
   Expected output: corpus-wide topic depth, provenance, embedded-marker, duplication, raw-preservation, answer-preservation, bilingual ordering, typography, and responsive audit with `reports/final-study-and-question-readability-audit.md`.
   Validation: final readability validator passes all 132 topics and 105 questions with minimum structured content of 2,429 English/2,037 Thai characters, 9/9 marker-bearing questions normalized, 0 choice duplications, 0 raw failures, and 0 answer changes; lint, strict TypeScript, 54/54 unit/component tests, 17/17 browser tests, all eight required viewports, production build, and npm audit pass.
+
+## EXAM-TO-STUDY-COVERAGE-AUDIT
+
+- [x] **P12-01 · Phase 12 · Audit every examination concept against actual Study Library teaching**
+  Dependencies: P11-04 and recoverable pre-coverage archive.
+  Expected output: question-level tested concepts, skills, prerequisites, initial/final coverage quality, evidence origins, repairs, and exact unresolved coverage for all 105 questions.
+  Validation: 105/105 records validate; initial audit distinguishes 57 missing, 21 keyword-only, 13 partial, 10 conflicting/uncertain, and 4 fully covered concepts; all source and evidence origins resolve; exact unresolved coverage is empty.
+- [x] **P12-02 · Phase 12 · Add precise bidirectional question/topic mappings and bilingual teaching**
+  Dependencies: P12-01.
+  Expected output: `data/question-study-coverage.json`, `data/study-topic-question-map.json`, synchronized web data, and reusable source-labelled bilingual teaching repairs.
+  Validation: 56 coverage lessons support 105 precise links across 44 directly tested topics; all 132 topic-map records reconcile; no learner-facing question IDs, choice IDs, answer keys, or answer explanations leak into teaching.
+- [x] **P12-03 · Phase 12 · Add learner-facing topic traceability and filtered practice**
+  Dependencies: P12-02.
+  Expected output: bilingual related-examination topic section, counts, tested concepts, difficulty, observed frequency, generic warning state, topic-filtered practice, and sealed post-submission Study Library review links.
+  Validation: topic practice returns only precise mapped questions; review links remain hidden before submission; zero-example topics avoid unsupported importance claims; all seven required responsive viewports have no tested document overflow.
+- [x] **P12-04 · Phase 12 · Validate, report, and preserve academic answers**
+  Dependencies: P12-01 through P12-03.
+  Expected output: dedicated deterministic generator/validator, seven required reports, controls update, production build, and final recoverable Git checkpoint.
+  Validation: Phase 8, translation, structure, Phase 11, readability, and Phase 12 validators pass; lint and strict TypeScript pass; 56/56 unit/component tests and 20/20 browser tests pass; production build succeeds; all answer-related fields match pre-audit Git baseline `e722f98`; 10 pre-existing answer warnings remain unchanged.
