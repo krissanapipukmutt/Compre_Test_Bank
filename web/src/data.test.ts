@@ -24,8 +24,62 @@ describe("academic data validation", () => {
   it("parses the complete bilingual dataset", () => {
     const data = validateAcademicData(valid);
     expect(data.subjects).toHaveLength(6);
+    expect(data.chapters).toHaveLength(44);
+    expect(data.topics).toHaveLength(132);
     expect(data.questions).toHaveLength(105);
     expect(data.questions[0]?.question_th).toMatch(/[\u0E00-\u0E7F]/);
+  });
+
+  it("loads structured bilingual learning content for every topic", () => {
+    const data = validateAcademicData(valid);
+    for (const topic of data.topics) {
+      expect(topic.learning_objectives_en).toHaveLength(
+        topic.learning_objectives_th.length,
+      );
+      expect(topic.learning_objectives_en.length).toBeGreaterThanOrEqual(3);
+      expect(topic.lesson_sections.length).toBeGreaterThanOrEqual(3);
+      expect(topic.key_terms.length).toBeGreaterThanOrEqual(1);
+      expect(topic.comparisons.length).toBeGreaterThanOrEqual(1);
+      expect(topic.process_steps.length).toBeGreaterThanOrEqual(3);
+      expect(topic.examples.length).toBeGreaterThanOrEqual(1);
+      expect(topic.common_misunderstandings.length).toBeGreaterThanOrEqual(1);
+      expect(topic.exam_focus.points_en).toHaveLength(
+        topic.exam_focus.points_th?.length ?? 0,
+      );
+      expect(topic.quick_review.key_points_en.length).toBeGreaterThanOrEqual(3);
+    }
+  });
+
+  it("loads only the nine source-verified embedded-statement questions", () => {
+    const data = validateAcademicData(valid);
+    const normalized = data.questions
+      .filter((question) => question.embedded_choices_detected)
+      .map((question) => question.question_id);
+
+    expect(normalized).toEqual([
+      "question-comprehensive-004",
+      "question-comprehensive-006",
+      "question-comprehensive-007",
+      "question-comprehensive-008",
+      "question-comprehensive-009",
+      "question-comprehensive-010",
+      "question-comprehensive-019",
+      "question-comprehensive-020",
+      "question-comprehensive-028",
+    ]);
+    for (const question of data.questions) {
+      expect(question.raw_original_question_en).toBe(
+        question.original_question_en,
+      );
+      expect(question.raw_original_question_th).toBe(question.question_th);
+      if (question.embedded_choices_detected) {
+        expect(question.normalization_status).toBe("normalized");
+        expect(question.embedded_options).toHaveLength(3);
+      } else {
+        expect(question.normalization_status).toBe("not_required");
+        expect(question.embedded_options).toHaveLength(0);
+      }
+    }
   });
 
   it("rejects invalid structures", () => {

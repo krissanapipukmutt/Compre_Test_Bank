@@ -53,6 +53,13 @@ const table = presentQuestion(
   "table",
   false,
 );
+const embedded = presentQuestion(
+  academicData.questions.find(
+    (question) => question.question_id === "question-comprehensive-019",
+  )!,
+  "embedded",
+  false,
+);
 
 function renderQuestion(question: PresentedQuestion) {
   return render(
@@ -84,6 +91,40 @@ describe("QuestionCard", () => {
       englishChoice.compareDocumentPosition(thaiChoice) &
         Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy();
+  });
+
+  it("renders source-verified embedded statements on separate bilingual lines without changing selectable choices", () => {
+    renderQuestion(embedded);
+    expect(
+      screen.getByRole("heading", {
+        name: "Which of the following is Incorrect?",
+      }),
+    ).toBeVisible();
+    expect(
+      screen.queryByText(embedded.raw_original_question_en, { exact: true }),
+    ).not.toBeInTheDocument();
+    const englishStatements = document.querySelectorAll(
+      '.embedded-option-list[data-language="en"] li',
+    );
+    const thaiStatements = document.querySelectorAll(
+      '.embedded-option-list[data-language="th"] li',
+    );
+    expect(englishStatements).toHaveLength(3);
+    expect(thaiStatements).toHaveLength(3);
+    expect(englishStatements[0]).toHaveTextContent(
+      "A)The business analyst, determines what must be done",
+    );
+    expect(thaiStatements[0]).toHaveTextContent(
+      "A)นักวิเคราะห์ธุรกิจกำหนดว่าธุรกิจต้องทำอะไร",
+    );
+    expect(
+      englishStatements[2]!.compareDocumentPosition(thaiStatements[0]!) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(screen.getAllByRole("radio")).toHaveLength(5);
+    expect(embedded.correct_answer).toBe(
+      "question-comprehensive-019-choice-3",
+    );
   });
 
   it("blocks a question and shows a bilingual warning when Thai is missing", () => {

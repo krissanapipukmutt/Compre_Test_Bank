@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "generated_at": "2026-07-26T11:14:16.798547+00:00",
+  "schema_version": "2.0.0",
+  "generated_at": "2026-07-28T09:30:00+07:00",
   "subjects": [
     {
       "subject_id": "subject-bis601",
@@ -57,7 +57,112 @@
         "chapter-bis601-bpmn"
       ],
       "mapping_confidence": "high",
-      "mapping_note": "Course code and subject title are present across the supplied BIS601 course materials."
+      "mapping_note": "Course code and subject title are present across the supplied BIS601 course materials.",
+      "source_reference_ids": [
+        "ref-28b6241dc035",
+        "ref-48fadbe6b0c2",
+        "ref-5347df2602b3",
+        "ref-76f6bb70a4fa",
+        "ref-8d8ca54e4d69",
+        "ref-94fddec5992b",
+        "ref-a0ca361426ba",
+        "ref-cc0c959ac842",
+        "ref-df3d0f3ce677"
+      ],
+      "lesson_sections": [
+        {
+          "section_id": "subject-bis601-overview",
+          "heading_en": "Course overview",
+          "heading_th": "ภาพรวมรายวิชา",
+          "content_en": [
+            "BIS601 follows an analysis-to-design path: understand business problems, identify feasible projects, elicit and structure requirements, and model behavior, data flow, decisions, and end-to-end processes."
+          ],
+          "content_th": [
+            "BIS601 ดำเนินจากการวิเคราะห์ไปสู่การออกแบบ ได้แก่ ทำความเข้าใจปัญหาธุรกิจ ระบุโครงการที่เป็นไปได้ เก็บและจัดโครงสร้างความต้องการ และสร้างแบบจำลองพฤติกรรม การไหลของข้อมูล การตัดสินใจ และกระบวนการตั้งแต่ต้นจนจบ"
+          ],
+          "content_format": "paragraph",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-28b6241dc035",
+            "ref-48fadbe6b0c2",
+            "ref-5347df2602b3",
+            "ref-76f6bb70a4fa",
+            "ref-8d8ca54e4d69",
+            "ref-94fddec5992b",
+            "ref-a0ca361426ba",
+            "ref-cc0c959ac842",
+            "ref-df3d0f3ce677"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        },
+        {
+          "section_id": "subject-bis601-learning-path",
+          "heading_en": "How the chapters connect",
+          "heading_th": "ความเชื่อมโยงของบทเรียน",
+          "content_en": [
+            "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+            "Systems analysis begins by defining success, understanding failure, and distinguishing the analyst's business-facing responsibilities from technical implementation roles.",
+            "Development methods organize planning, analysis, design, implementation, and evolution; method choice changes feedback speed, documentation, and risk handling.",
+            "Project selection translates business needs into a scoped proposal and tests organizational, technical, economic, and schedule feasibility before major commitment.",
+            "Requirements work identifies stakeholders, elicits needs through suitable techniques, resolves conflicts, and expresses verifiable functional and quality expectations.",
+            "Activity models show workflow, while use cases describe goal-oriented interactions between actors and the system boundary.",
+            "DFDs separate processes, flows, stores, and external entities; decision models make conditional business logic complete and testable.",
+            "BPMN models events, activities, gateways, sequence flow, message flow, and responsibility across participants in an end-to-end process."
+          ],
+          "content_th": [
+            "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+            "การวิเคราะห์ระบบเริ่มจากนิยามความสำเร็จ ทำความเข้าใจความล้มเหลว และแยกความรับผิดชอบที่มุ่งธุรกิจของนักวิเคราะห์ออกจากบทบาทการนำเทคนิคไปใช้",
+            "วิธีพัฒนาระบบจัดระเบียบการวางแผน วิเคราะห์ ออกแบบ นำไปใช้ และปรับปรุง โดยการเลือกวิธีมีผลต่อความเร็วของข้อเสนอแนะ เอกสาร และการจัดการความเสี่ยง",
+            "การคัดเลือกโครงการแปลงความต้องการธุรกิจเป็นข้อเสนอที่มีขอบเขต และทดสอบความเป็นไปได้ด้านองค์กร เทคนิค เศรษฐศาสตร์ และเวลา ก่อนผูกพันทรัพยากรจำนวนมาก",
+            "งานความต้องการระบุผู้มีส่วนได้ส่วนเสีย เก็บความต้องการด้วยเทคนิคที่เหมาะสม แก้ความขัดแย้ง และระบุความคาดหวังเชิงหน้าที่และคุณภาพที่ตรวจสอบได้",
+            "Activity Diagram แสดงลำดับงาน ส่วน Use Case อธิบายปฏิสัมพันธ์ที่มุ่งเป้าหมายระหว่าง Actor กับขอบเขตระบบ",
+            "DFD แยก Process, Data Flow, Data Store และ External Entity ส่วนแบบจำลองการตัดสินใจทำให้ตรรกะเงื่อนไขครบถ้วนและทดสอบได้",
+            "BPMN ใช้ Event, Activity, Gateway, Sequence Flow, Message Flow และความรับผิดชอบของผู้มีส่วนร่วมเพื่อแสดงกระบวนการตั้งแต่ต้นจนจบ"
+          ],
+          "content_format": "bullet_list",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-28b6241dc035",
+            "ref-48fadbe6b0c2",
+            "ref-5347df2602b3",
+            "ref-76f6bb70a4fa",
+            "ref-8d8ca54e4d69",
+            "ref-94fddec5992b",
+            "ref-a0ca361426ba",
+            "ref-cc0c959ac842",
+            "ref-df3d0f3ce677"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        }
+      ],
+      "quick_review": {
+        "key_points_en": [
+          "Analyst role and information-system success",
+          "Development methods and lifecycle",
+          "Project identification and feasibility",
+          "Requirements determination and elicitation",
+          "Activity and use-case modeling",
+          "Data-flow and decision modeling",
+          "Business Process Model and Notation"
+        ],
+        "key_points_th": [
+          "บทบาทนักวิเคราะห์และความสำเร็จของระบบสารสนเทศ",
+          "วิธีและวงจรชีวิตการพัฒนาระบบ",
+          "การระบุโครงการและความเป็นไปได้",
+          "การกำหนดและเก็บความต้องการ",
+          "การสร้างแบบจำลองกิจกรรมและกรณีใช้งาน",
+          "การสร้างแบบจำลองการไหลของข้อมูลและการตัดสินใจ",
+          "แบบจำลองและสัญลักษณ์กระบวนการธุรกิจ"
+        ],
+        "memory_aid_en": "Move from foundation → method → application → evidence.",
+        "memory_aid_th": "ทบทวนจาก พื้นฐาน → วิธีการ → การประยุกต์ → หลักฐาน"
+      },
+      "content_status": "enriched",
+      "content_updated_at": "2026-07-28T09:30:00+07:00"
     },
     {
       "subject_id": "subject-bis602",
@@ -127,7 +232,135 @@
         "chapter-bis602-association-and-simulation"
       ],
       "mapping_confidence": "high",
-      "mapping_note": "Verified from `BIS602 2024 outline.pdf`, which states the code, English title, Thai title, and schedule."
+      "mapping_note": "Verified from `BIS602 2024 outline.pdf`, which states the code, English title, Thai title, and schedule.",
+      "source_reference_ids": [
+        "ref-258f80d9b977",
+        "ref-39852560330e",
+        "ref-43f347e0b01d",
+        "ref-56af112c07c5",
+        "ref-577959f5bfdc",
+        "ref-57e236c282a1",
+        "ref-5db458a4f6f1",
+        "ref-679e87864421",
+        "ref-6c7a93d5070f",
+        "ref-6db4296cdaf8",
+        "ref-7f0ef008a19f",
+        "ref-9fb1166a3197",
+        "ref-b6f3f17069ca",
+        "ref-c42f8dd03ad7"
+      ],
+      "lesson_sections": [
+        {
+          "section_id": "subject-bis602-overview",
+          "heading_en": "Course overview",
+          "heading_th": "ภาพรวมรายวิชา",
+          "content_en": [
+            "BIS602 connects business strategy and performance decisions with enterprise data management, statistics, descriptive analytics, predictive models, association discovery, and simulation."
+          ],
+          "content_th": [
+            "BIS602 เชื่อมกลยุทธ์และการตัดสินใจด้านผลการดำเนินงานเข้ากับการจัดการข้อมูลองค์กร สถิติ การวิเคราะห์เชิงพรรณนา แบบจำลองเชิงพยากรณ์ การค้นหาความสัมพันธ์ และการจำลอง"
+          ],
+          "content_format": "paragraph",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-258f80d9b977",
+            "ref-39852560330e",
+            "ref-43f347e0b01d",
+            "ref-56af112c07c5",
+            "ref-577959f5bfdc",
+            "ref-57e236c282a1",
+            "ref-5db458a4f6f1",
+            "ref-679e87864421",
+            "ref-6c7a93d5070f",
+            "ref-6db4296cdaf8",
+            "ref-7f0ef008a19f",
+            "ref-9fb1166a3197",
+            "ref-b6f3f17069ca",
+            "ref-c42f8dd03ad7"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        },
+        {
+          "section_id": "subject-bis602-learning-path",
+          "heading_en": "How the chapters connect",
+          "heading_th": "ความเชื่อมโยงของบทเรียน",
+          "content_en": [
+            "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+            "Business strategy sets goals and uses value-chain and industry analysis to select defensible ways to compete with digital capabilities.",
+            "Process management links objectives to measurable outcomes through suitable KPIs, baselines, targets, and causal interpretation.",
+            "Investment analysis compares cash flows across time using discounting, present value, NPV, and risk-aware assumptions.",
+            "Enterprise data management coordinates data sources, quality, integration, governance, and lifecycle so analytics uses consistent and trustworthy data.",
+            "Probability represents uncertainty; descriptive statistics, distributions, z-scores, and outlier analysis support evidence-based business decisions.",
+            "Preparation resolves missing values, invalid records, outliers, scale differences, and representation choices before analysis.",
+            "BI integrates data for reporting and multidimensional analysis; visualization selects encodings that reveal comparisons, trends, composition, and relationships without distortion.",
+            "Clustering is unsupervised learning that groups observations by similarity; k-means iteratively assigns points to centroids and updates those centroids.",
+            "Classification learns labeled categories; kNN predicts from nearby observations, while a confusion matrix separates types of correct and incorrect predictions.",
+            "Regression estimates a numeric outcome from explanatory variables and requires interpretation of coefficients, fit, residuals, and assumptions.",
+            "Association rules reveal co-occurrence patterns through support, confidence, and lift; simulation samples uncertain inputs to study a distribution of possible outcomes."
+          ],
+          "content_th": [
+            "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+            "กลยุทธ์ธุรกิจกำหนดเป้าหมายและใช้การวิเคราะห์ห่วงโซ่คุณค่าและอุตสาหกรรมเพื่อเลือกแนวทางแข่งขันที่ปกป้องได้ด้วยความสามารถดิจิทัล",
+            "การจัดการกระบวนการเชื่อมวัตถุประสงค์กับผลลัพธ์ที่วัดได้ผ่าน KPI ที่เหมาะสม ค่าฐาน เป้าหมาย และการตีความเชิงเหตุผล",
+            "การวิเคราะห์การลงทุนเปรียบเทียบกระแสเงินสดต่างเวลาด้วยการคิดลด มูลค่าปัจจุบัน NPV และสมมติฐานที่คำนึงถึงความเสี่ยง",
+            "การจัดการข้อมูลองค์กรประสานแหล่งข้อมูล คุณภาพ การบูรณาการ ธรรมาภิบาล และวงจรชีวิต เพื่อให้การวิเคราะห์ใช้ข้อมูลที่สอดคล้องและเชื่อถือได้",
+            "ความน่าจะเป็นแทนความไม่แน่นอน ส่วนสถิติเชิงพรรณนา การแจกแจง z-score และการวิเคราะห์ Outlier สนับสนุนการตัดสินใจด้วยหลักฐาน",
+            "การเตรียมข้อมูลจัดการค่าสูญหาย ระเบียนผิดปกติ Outlier ความต่างของสเกล และรูปแบบการแทนข้อมูลก่อนวิเคราะห์",
+            "BI บูรณาการข้อมูลเพื่อรายงานและวิเคราะห์หลายมิติ ส่วนการแสดงภาพเลือกการเข้ารหัสที่เปิดเผยการเปรียบเทียบ แนวโน้ม องค์ประกอบ และความสัมพันธ์โดยไม่บิดเบือน",
+            "Clustering เป็นการเรียนรู้แบบไม่มี Label เพื่อจัดกลุ่มตามความคล้าย โดย k-means จะวนกำหนดจุดให้ Centroid และปรับ Centroid ใหม่",
+            "Classification เรียนรู้หมวดหมู่ที่มี Label โดย kNN พยากรณ์จากข้อมูลใกล้เคียง และ Confusion Matrix แยกประเภทผลทำนายที่ถูกและผิด",
+            "Regression ประมาณค่าผลลัพธ์เชิงตัวเลขจากตัวแปรอธิบาย และต้องตีความสัมประสิทธิ์ ความพอดี Residual และสมมติฐาน",
+            "กฎความสัมพันธ์เปิดเผยรูปแบบการเกิดร่วมด้วย Support, Confidence และ Lift ส่วนการจำลองสุ่ม Input ที่ไม่แน่นอนเพื่อศึกษาการแจกแจงของผลลัพธ์ที่เป็นไปได้"
+          ],
+          "content_format": "bullet_list",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-258f80d9b977",
+            "ref-39852560330e",
+            "ref-43f347e0b01d",
+            "ref-56af112c07c5",
+            "ref-577959f5bfdc",
+            "ref-57e236c282a1",
+            "ref-5db458a4f6f1",
+            "ref-679e87864421",
+            "ref-6c7a93d5070f",
+            "ref-6db4296cdaf8",
+            "ref-7f0ef008a19f",
+            "ref-9fb1166a3197",
+            "ref-b6f3f17069ca",
+            "ref-c42f8dd03ad7"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        }
+      ],
+      "quick_review": {
+        "key_points_en": [
+          "Business strategy and competitive advantage",
+          "Business processes and performance measures",
+          "Business investment decisions",
+          "Enterprise data management",
+          "Probability and business statistics",
+          "Data treatment and transformation",
+          "Business intelligence and visualization"
+        ],
+        "key_points_th": [
+          "กลยุทธ์ธุรกิจและความได้เปรียบในการแข่งขัน",
+          "กระบวนการธุรกิจและตัวชี้วัดผลการดำเนินงาน",
+          "การตัดสินใจลงทุนทางธุรกิจ",
+          "การจัดการข้อมูลองค์กร",
+          "ความน่าจะเป็นและสถิติธุรกิจ",
+          "การจัดการและแปลงข้อมูล",
+          "ข่าวกรองธุรกิจและการแสดงภาพข้อมูล"
+        ],
+        "memory_aid_en": "Move from foundation → method → application → evidence.",
+        "memory_aid_th": "ทบทวนจาก พื้นฐาน → วิธีการ → การประยุกต์ → หลักฐาน"
+      },
+      "content_status": "enriched",
+      "content_updated_at": "2026-07-28T09:30:00+07:00"
     },
     {
       "subject_id": "subject-bis603",
@@ -184,7 +417,112 @@
         "chapter-bis603-financial-strategy"
       ],
       "mapping_confidence": "medium",
-      "mapping_note": "The folder supplies the BIS603 code and a misspelled title; sampled lecture content confirms strategy/marketing topics but no authoritative course outline states the exact code-title pair."
+      "mapping_note": "The folder supplies the BIS603 code and a misspelled title; sampled lecture content confirms strategy/marketing topics but no authoritative course outline states the exact code-title pair.",
+      "source_reference_ids": [
+        "ref-055aacce6886",
+        "ref-5ec412be8100",
+        "ref-68183f8364be",
+        "ref-7f1a793312b7",
+        "ref-b8fc1abdab20",
+        "ref-bf1b2241e57c",
+        "ref-bf3b0a5330cb",
+        "ref-f55706a5f2b5",
+        "ref-feddaee048e5"
+      ],
+      "lesson_sections": [
+        {
+          "section_id": "subject-bis603-overview",
+          "heading_en": "Course overview",
+          "heading_th": "ภาพรวมรายวิชา",
+          "content_en": [
+            "The supplied BIS603-context materials combine corporate strategy analysis and formulation with marketing foundations, digital campaigns, customer data, AI, and entrepreneurial financial strategy."
+          ],
+          "content_th": [
+            "เอกสารในบริบท BIS603 ผสานการวิเคราะห์และกำหนดกลยุทธ์องค์กรกับพื้นฐานการตลาด แคมเปญดิจิทัล ข้อมูลลูกค้า AI และกลยุทธ์การเงินสำหรับผู้ประกอบการ"
+          ],
+          "content_format": "paragraph",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-055aacce6886",
+            "ref-5ec412be8100",
+            "ref-68183f8364be",
+            "ref-7f1a793312b7",
+            "ref-b8fc1abdab20",
+            "ref-bf1b2241e57c",
+            "ref-bf3b0a5330cb",
+            "ref-f55706a5f2b5",
+            "ref-feddaee048e5"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        },
+        {
+          "section_id": "subject-bis603-learning-path",
+          "heading_en": "How the chapters connect",
+          "heading_th": "ความเชื่อมโยงของบทเรียน",
+          "content_en": [
+            "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+            "Strategy links a diagnosis of conditions, guiding choices, and coordinated actions; digital strategy connects business goals to changing technologies and capabilities.",
+            "External analysis examines macro forces, industry structure, stakeholders, competitors, opportunities, threats, and uncertainty outside the firm.",
+            "Internal analysis evaluates resources, capabilities, processes, culture, cost drivers, and distinctive strengths that can support advantage.",
+            "Formulation converts analysis into objectives, strategic alternatives, tradeoffs, a coherent choice, implementation priorities, and measures.",
+            "Marketing identifies and serves selected customer needs through segmentation, targeting, positioning, coordinated value choices, situation analysis, and planned execution.",
+            "Digital marketing coordinates paid, owned, and earned channels with measurable journeys; customer data and AI can improve targeting and decisions but introduce privacy, bias, and governance risks.",
+            "Financial strategy connects business models and growth plans to revenue logic, cost structure, cash needs, funding choices, risk, and investor expectations."
+          ],
+          "content_th": [
+            "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+            "กลยุทธ์เชื่อมการวินิจฉัยเงื่อนไข ทางเลือกนำทาง และการกระทำที่ประสานกัน ส่วนกลยุทธ์ดิจิทัลเชื่อมเป้าหมายธุรกิจกับเทคโนโลยีและความสามารถที่เปลี่ยนแปลง",
+            "การวิเคราะห์ภายนอกพิจารณาแรงระดับมหภาค โครงสร้างอุตสาหกรรม ผู้มีส่วนได้ส่วนเสีย คู่แข่ง โอกาส ภัยคุกคาม และความไม่แน่นอนภายนอกองค์กร",
+            "การวิเคราะห์ภายในประเมินทรัพยากร ความสามารถ กระบวนการ วัฒนธรรม ตัวขับต้นทุน และจุดแข็งที่แตกต่างซึ่งสนับสนุนความได้เปรียบ",
+            "การกำหนดกลยุทธ์แปลงผลวิเคราะห์เป็นวัตถุประสงค์ ทางเลือก ข้อแลกเปลี่ยน ทางเลือกที่สอดคล้อง ลำดับการนำไปใช้ และตัววัด",
+            "การตลาดระบุและตอบสนองความต้องการลูกค้าเป้าหมายผ่าน Segmentation, Targeting, Positioning การกำหนดคุณค่า การวิเคราะห์สถานการณ์ และการดำเนินงานตามแผน",
+            "การตลาดดิจิทัลประสานช่องทาง Paid, Owned และ Earned กับ Customer Journey ที่วัดได้ ข้อมูลลูกค้าและ AI ช่วย Targeting/Decision แต่เพิ่มความเสี่ยงด้านความเป็นส่วนตัว Bias และ Governance",
+            "กลยุทธ์การเงินเชื่อมโมเดลธุรกิจและแผนเติบโตกับตรรกะรายได้ โครงสร้างต้นทุน เงินสดที่ต้องใช้ ทางเลือกเงินทุน ความเสี่ยง และความคาดหวังนักลงทุน"
+          ],
+          "content_format": "bullet_list",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-055aacce6886",
+            "ref-5ec412be8100",
+            "ref-68183f8364be",
+            "ref-7f1a793312b7",
+            "ref-b8fc1abdab20",
+            "ref-bf1b2241e57c",
+            "ref-bf3b0a5330cb",
+            "ref-f55706a5f2b5",
+            "ref-feddaee048e5"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        }
+      ],
+      "quick_review": {
+        "key_points_en": [
+          "Strategy foundations and foresight",
+          "External strategic analysis",
+          "Internal strategic analysis",
+          "Strategy formulation and alignment",
+          "Marketing foundations and planning",
+          "Digital marketing, customer data, and AI",
+          "Financial strategy for entrepreneurs"
+        ],
+        "key_points_th": [
+          "พื้นฐานกลยุทธ์และการมองอนาคต",
+          "การวิเคราะห์กลยุทธ์ภายนอก",
+          "การวิเคราะห์กลยุทธ์ภายใน",
+          "การกำหนดและทำให้กลยุทธ์สอดคล้อง",
+          "พื้นฐานและการวางแผนการตลาด",
+          "การตลาดดิจิทัล ข้อมูลลูกค้า และ AI",
+          "กลยุทธ์การเงินสำหรับผู้ประกอบการ"
+        ],
+        "memory_aid_en": "Move from foundation → method → application → evidence.",
+        "memory_aid_th": "ทบทวนจาก พื้นฐาน → วิธีการ → การประยุกต์ → หลักฐาน"
+      },
+      "content_status": "enriched",
+      "content_updated_at": "2026-07-28T09:30:00+07:00"
     },
     {
       "subject_id": "subject-bis604",
@@ -239,7 +577,108 @@
         "chapter-bis604-sql-and-implementation"
       ],
       "mapping_confidence": "high",
-      "mapping_note": "Verified from `OutlineBIS604_1_2025_New1.pdf`, which states `BIS604 Business Data Management`."
+      "mapping_note": "Verified from `OutlineBIS604_1_2025_New1.pdf`, which states `BIS604 Business Data Management`.",
+      "source_reference_ids": [
+        "ref-0361f1ec60b4",
+        "ref-1f0a58974a9f",
+        "ref-3d8e8353d4d8",
+        "ref-410210966360",
+        "ref-43dd91a3ecad",
+        "ref-5390a6e35b61",
+        "ref-5e8a26483129",
+        "ref-7e62c0bcdcdb",
+        "ref-b7d56889cebd"
+      ],
+      "lesson_sections": [
+        {
+          "section_id": "subject-bis604-overview",
+          "heading_en": "Course overview",
+          "heading_th": "ภาพรวมรายวิชา",
+          "content_en": [
+            "BIS604 develops database literacy from data-management foundations and data models through relational design, business rules, ER modeling, normalization, SQL implementation, and business use."
+          ],
+          "content_th": [
+            "BIS604 พัฒนาความรู้ฐานข้อมูลตั้งแต่พื้นฐานการจัดการข้อมูลและแบบจำลองข้อมูล ผ่านการออกแบบเชิงสัมพันธ์ กฎธุรกิจ ER การทำ Normalization การใช้ SQL และการนำข้อมูลไปใช้ในธุรกิจ"
+          ],
+          "content_format": "paragraph",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-0361f1ec60b4",
+            "ref-1f0a58974a9f",
+            "ref-3d8e8353d4d8",
+            "ref-410210966360",
+            "ref-43dd91a3ecad",
+            "ref-5390a6e35b61",
+            "ref-5e8a26483129",
+            "ref-7e62c0bcdcdb",
+            "ref-b7d56889cebd"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        },
+        {
+          "section_id": "subject-bis604-learning-path",
+          "heading_en": "How the chapters connect",
+          "heading_th": "ความเชื่อมโยงของบทเรียน",
+          "content_en": [
+            "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+            "Database management replaces isolated files with shared, controlled data, metadata, integrity rules, security, and concurrent access managed through a DBMS.",
+            "A data model provides concepts and rules for describing entities, relationships, constraints, and operations at conceptual, logical, and physical levels.",
+            "The relational model organizes tuples in relations, uses keys to identify and connect records, and enforces entity and referential integrity.",
+            "Business rules define entities, attributes, relationships, cardinality, participation, and constraints that an ER model makes explicit.",
+            "Normalization uses functional dependencies and normal forms to reduce redundancy and prevent insert, update, and delete anomalies while preserving required relationships.",
+            "SQL defines schema and constraints, changes stored data, and retrieves it through selection, projection, joins, grouping, expressions, and transactions."
+          ],
+          "content_th": [
+            "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+            "การจัดการฐานข้อมูลแทนไฟล์แยกส่วนด้วยข้อมูลร่วมที่ควบคุมได้ Metadata กฎความถูกต้อง Security และการเข้าถึงพร้อมกันผ่าน DBMS",
+            "แบบจำลองข้อมูลให้แนวคิดและกฎเพื่ออธิบาย Entity, Relationship, Constraint และ Operation ในระดับ Conceptual, Logical และ Physical",
+            "แบบจำลองเชิงสัมพันธ์จัด Tuple ใน Relation ใช้ Key ระบุและเชื่อม Record และบังคับ Entity/Referential Integrity",
+            "กฎธุรกิจกำหนด Entity, Attribute, Relationship, Cardinality, Participation และ Constraint ซึ่ง ER Model ทำให้เห็นชัด",
+            "Normalization ใช้ Functional Dependency และ Normal Form เพื่อลดความซ้ำและป้องกัน Insert, Update, Delete Anomaly โดยรักษาความสัมพันธ์ที่จำเป็น",
+            "SQL กำหนด Schema/Constraint เปลี่ยนข้อมูล และสืบค้นด้วย Selection, Projection, Join, Grouping, Expression และ Transaction"
+          ],
+          "content_format": "bullet_list",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-0361f1ec60b4",
+            "ref-1f0a58974a9f",
+            "ref-3d8e8353d4d8",
+            "ref-410210966360",
+            "ref-43dd91a3ecad",
+            "ref-5390a6e35b61",
+            "ref-5e8a26483129",
+            "ref-7e62c0bcdcdb",
+            "ref-b7d56889cebd"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        }
+      ],
+      "quick_review": {
+        "key_points_en": [
+          "Database and data-management foundations",
+          "Data models",
+          "Relational model and keys",
+          "Business rules and ER modeling",
+          "Normalization",
+          "SQL and database implementation"
+        ],
+        "key_points_th": [
+          "พื้นฐานฐานข้อมูลและการจัดการข้อมูล",
+          "แบบจำลองข้อมูล",
+          "แบบจำลองเชิงสัมพันธ์และคีย์",
+          "กฎธุรกิจและแบบจำลอง ER",
+          "การทำ Normalization",
+          "SQL และการสร้างฐานข้อมูล"
+        ],
+        "memory_aid_en": "Move from foundation → method → application → evidence.",
+        "memory_aid_th": "ทบทวนจาก พื้นฐาน → วิธีการ → การประยุกต์ → หลักฐาน"
+      },
+      "content_status": "enriched",
+      "content_updated_at": "2026-07-28T09:30:00+07:00"
     },
     {
       "subject_id": "subject-bis605",
@@ -297,7 +736,117 @@
         "chapter-bis605-backend-data-api-cloud-mobile"
       ],
       "mapping_confidence": "high",
-      "mapping_note": "Verified from the supplied BIS605 combined course material and chapter slides."
+      "mapping_note": "Verified from the supplied BIS605 combined course material and chapter slides.",
+      "source_reference_ids": [
+        "ref-1a455307b1a8",
+        "ref-2a63c16321f4",
+        "ref-2ec19f686cd1",
+        "ref-3df30e359a7a",
+        "ref-48b117d4f581",
+        "ref-53572c7966e8",
+        "ref-9ce3a90c33fd",
+        "ref-a0b013b733e0",
+        "ref-a21db17e35c0",
+        "ref-b3b1200576f0",
+        "ref-cebc3781d70f",
+        "ref-d6823ad3b758"
+      ],
+      "lesson_sections": [
+        {
+          "section_id": "subject-bis605-overview",
+          "heading_en": "Course overview",
+          "heading_th": "ภาพรวมรายวิชา",
+          "content_en": [
+            "BIS605 covers the software lifecycle and design foundations, then applies them through front-end, back-end, database, API, cloud, and mobile technologies for digital-business solutions."
+          ],
+          "content_th": [
+            "BIS605 ครอบคลุมวงจรชีวิตและพื้นฐานการออกแบบซอฟต์แวร์ แล้วนำไปประยุกต์ผ่านเทคโนโลยี Front-end, Back-end, ฐานข้อมูล, API, Cloud และ Mobile สำหรับโซลูชันธุรกิจดิจิทัล"
+          ],
+          "content_format": "paragraph",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-1a455307b1a8",
+            "ref-2a63c16321f4",
+            "ref-2ec19f686cd1",
+            "ref-3df30e359a7a",
+            "ref-48b117d4f581",
+            "ref-53572c7966e8",
+            "ref-9ce3a90c33fd",
+            "ref-a0b013b733e0",
+            "ref-a21db17e35c0",
+            "ref-b3b1200576f0",
+            "ref-cebc3781d70f",
+            "ref-d6823ad3b758"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        },
+        {
+          "section_id": "subject-bis605-learning-path",
+          "heading_en": "How the chapters connect",
+          "heading_th": "ความเชื่อมโยงของบทเรียน",
+          "content_en": [
+            "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+            "Architecture describes components, responsibilities, and interactions; the lifecycle organizes how a team discovers, designs, builds, tests, deploys, and evolves the solution.",
+            "Design transforms requirements into modular responsibilities, interfaces, data, and interaction choices while controlling coupling and change impact.",
+            "Good interfaces align information hierarchy, consistency, feedback, error prevention, accessibility, and responsive behavior with user tasks.",
+            "Development technologies package conventions, reusable components, version control, containers, and service interfaces to improve delivery consistency.",
+            "HTML provides semantic structure, CSS controls presentation and responsive layout, and JavaScript adds behavior and state in the browser.",
+            "Server-side logic validates requests and coordinates data; databases persist state; APIs define contracts; cloud and mobile technologies shape deployment and client constraints."
+          ],
+          "content_th": [
+            "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+            "สถาปัตยกรรมอธิบายองค์ประกอบ ความรับผิดชอบ และปฏิสัมพันธ์ ส่วนวงจรชีวิตจัดระเบียบการค้นหา ออกแบบ สร้าง ทดสอบ นำไปใช้ และปรับปรุงโซลูชัน",
+            "การออกแบบแปลงความต้องการเป็นความรับผิดชอบแบบโมดูล Interface ข้อมูล และปฏิสัมพันธ์ พร้อมควบคุม Coupling และผลกระทบจากการเปลี่ยนแปลง",
+            "ส่วนติดต่อที่ดีจัดลำดับข้อมูล ความสอดคล้อง Feedback การป้องกันข้อผิดพลาด การเข้าถึง และ Responsive ให้ตรงกับงานผู้ใช้",
+            "เทคโนโลยีการพัฒนารวม Convention ส่วนประกอบใช้ซ้ำ Version Control Container และ Service Interface เพื่อเพิ่มความสม่ำเสมอในการส่งมอบ",
+            "HTML ให้โครงสร้างเชิงความหมาย CSS ควบคุมการนำเสนอและ Layout แบบ Responsive ส่วน JavaScript เพิ่มพฤติกรรมและ State ใน Browser",
+            "ตรรกะฝั่ง Server ตรวจสอบ Request และประสานข้อมูล ฐานข้อมูลเก็บ State API กำหนด Contract ส่วน Cloud และ Mobile กำหนดข้อจำกัดการ Deploy และ Client"
+          ],
+          "content_format": "bullet_list",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-1a455307b1a8",
+            "ref-2a63c16321f4",
+            "ref-2ec19f686cd1",
+            "ref-3df30e359a7a",
+            "ref-48b117d4f581",
+            "ref-53572c7966e8",
+            "ref-9ce3a90c33fd",
+            "ref-a0b013b733e0",
+            "ref-a21db17e35c0",
+            "ref-b3b1200576f0",
+            "ref-cebc3781d70f",
+            "ref-d6823ad3b758"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        }
+      ],
+      "quick_review": {
+        "key_points_en": [
+          "System architecture and software lifecycle",
+          "Software design and requirements",
+          "Web and interface design principles",
+          "Frameworks and development technologies",
+          "HTML, CSS, and JavaScript",
+          "Back-end, database, API, cloud, and mobile technologies"
+        ],
+        "key_points_th": [
+          "สถาปัตยกรรมระบบและวงจรชีวิตซอฟต์แวร์",
+          "การออกแบบซอฟต์แวร์และความต้องการ",
+          "หลักการออกแบบเว็บและส่วนติดต่อ",
+          "เฟรมเวิร์กและเทคโนโลยีการพัฒนา",
+          "HTML, CSS และ JavaScript",
+          "Back-end ฐานข้อมูล API Cloud และ Mobile"
+        ],
+        "memory_aid_en": "Move from foundation → method → application → evidence.",
+        "memory_aid_th": "ทบทวนจาก พื้นฐาน → วิธีการ → การประยุกต์ → หลักฐาน"
+      },
+      "content_status": "enriched",
+      "content_updated_at": "2026-07-28T09:30:00+07:00"
     },
     {
       "subject_id": "subject-bis606",
@@ -362,7 +911,136 @@
         "chapter-bis606-security-frameworks"
       ],
       "mapping_confidence": "high",
-      "mapping_note": "Verified from `BIS606Syllabus_2_2024.docx` and the supplied combined course material."
+      "mapping_note": "Verified from `BIS606Syllabus_2_2024.docx` and the supplied combined course material.",
+      "source_reference_ids": [
+        "ref-167835356c1e",
+        "ref-21d50dd40ada",
+        "ref-24b4b54571d9",
+        "ref-3de2a3994c20",
+        "ref-40f7a71f1253",
+        "ref-47bba284bfe3",
+        "ref-64c8aeb51ea7",
+        "ref-6cdcc3e69303",
+        "ref-702a4ec030dd",
+        "ref-940a2c55cfb9",
+        "ref-9a7e704561b4",
+        "ref-a00b8a30917b",
+        "ref-a13b7ae81781",
+        "ref-c297674e8f66",
+        "ref-d568e27df9b3",
+        "ref-d71e0fac4451",
+        "ref-fce1a389b139"
+      ],
+      "lesson_sections": [
+        {
+          "section_id": "subject-bis606-overview",
+          "heading_en": "Course overview",
+          "heading_th": "ภาพรวมรายวิชา",
+          "content_en": [
+            "BIS606 spans data communications and network infrastructure, then applies continuity, risk, defense-in-depth, host/network controls, and security frameworks to protect digital services."
+          ],
+          "content_th": [
+            "BIS606 ครอบคลุมการสื่อสารข้อมูลและโครงสร้างพื้นฐานเครือข่าย ก่อนประยุกต์ความต่อเนื่องทางธุรกิจ ความเสี่ยง การป้องกันหลายชั้น การควบคุม Host/Network และกรอบความมั่นคงปลอดภัยเพื่อคุ้มครองบริการดิจิทัล"
+          ],
+          "content_format": "paragraph",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-167835356c1e",
+            "ref-21d50dd40ada",
+            "ref-24b4b54571d9",
+            "ref-3de2a3994c20",
+            "ref-40f7a71f1253",
+            "ref-47bba284bfe3",
+            "ref-64c8aeb51ea7",
+            "ref-6cdcc3e69303",
+            "ref-702a4ec030dd",
+            "ref-940a2c55cfb9",
+            "ref-9a7e704561b4",
+            "ref-a00b8a30917b",
+            "ref-a13b7ae81781",
+            "ref-c297674e8f66",
+            "ref-d568e27df9b3",
+            "ref-d71e0fac4451",
+            "ref-fce1a389b139"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        },
+        {
+          "section_id": "subject-bis606-learning-path",
+          "heading_en": "How the chapters connect",
+          "heading_th": "ความเชื่อมโยงของบทเรียน",
+          "content_en": [
+            "The chapters progress from foundations and problem framing to analysis/design techniques and applied decision or implementation concerns.",
+            "Network communication is organized in layers that define services, protocols, encapsulation, addressing, and physical transmission.",
+            "Frames provide local delivery, IP routes packets across networks, and transport protocols provide application-to-application delivery with different reliability tradeoffs.",
+            "LANs connect local devices, backbones aggregate segments, WANs span locations, the Internet interconnects networks, and management observes and controls service health.",
+            "Cybersecurity protects confidentiality, integrity, and availability by managing threats, vulnerabilities, likelihood, impact, controls, and residual risk.",
+            "Risk management prioritizes treatment using likelihood and impact; continuity planning prepares people, processes, sites, data, and technology to sustain or restore critical services.",
+            "Infrastructure security combines segmentation, secure protocols, filtering, hardening, patching, identity, logging, endpoint controls, and monitoring.",
+            "Security frameworks turn risk decisions into governance, policies, control objectives, implementation evidence, measurement, audit, and continual improvement."
+          ],
+          "content_th": [
+            "บทเรียนดำเนินจากพื้นฐานและการกำหนดปัญหา ไปสู่เทคนิควิเคราะห์/ออกแบบและประเด็นการตัดสินใจหรือนำไปใช้",
+            "การสื่อสารเครือข่ายจัดเป็นชั้นที่กำหนด Service, Protocol, Encapsulation, Addressing และการส่งสัญญาณทางกายภาพ",
+            "Frame ส่งข้อมูลในเครือข่ายท้องถิ่น IP กำหนดเส้นทาง Packet ข้ามเครือข่าย และ Transport Protocol ส่งระหว่าง Application ด้วยข้อแลกเปลี่ยนด้านความน่าเชื่อถือ",
+            "LAN เชื่อมอุปกรณ์ในพื้นที่ Backbone รวม Segment, WAN เชื่อมพื้นที่ห่างไกล, Internet เชื่อมเครือข่าย และการจัดการติดตาม/ควบคุมสุขภาพบริการ",
+            "Cybersecurity คุ้มครอง Confidentiality, Integrity และ Availability ผ่านการจัดการภัยคุกคาม ช่องโหว่ โอกาส ผลกระทบ การควบคุม และความเสี่ยงคงเหลือ",
+            "การจัดการความเสี่ยงจัดลำดับการตอบสนองด้วยโอกาสและผลกระทบ ส่วนแผนความต่อเนื่องเตรียมคน กระบวนการ สถานที่ ข้อมูล และเทคโนโลยีเพื่อคงหรือกู้บริการสำคัญ",
+            "ความมั่นคงปลอดภัยโครงสร้างพื้นฐานผสาน Segmentation, Secure Protocol, Filtering, Hardening, Patching, Identity, Logging, Endpoint Control และ Monitoring",
+            "กรอบความมั่นคงปลอดภัยแปลงการตัดสินใจด้านความเสี่ยงเป็นธรรมาภิบาล นโยบาย วัตถุประสงค์การควบคุม หลักฐานการดำเนินงาน การวัด Audit และการปรับปรุงต่อเนื่อง"
+          ],
+          "content_format": "bullet_list",
+          "evidence_type": "summarized_from_source",
+          "source_reference_ids": [
+            "ref-167835356c1e",
+            "ref-21d50dd40ada",
+            "ref-24b4b54571d9",
+            "ref-3de2a3994c20",
+            "ref-40f7a71f1253",
+            "ref-47bba284bfe3",
+            "ref-64c8aeb51ea7",
+            "ref-6cdcc3e69303",
+            "ref-702a4ec030dd",
+            "ref-940a2c55cfb9",
+            "ref-9a7e704561b4",
+            "ref-a00b8a30917b",
+            "ref-a13b7ae81781",
+            "ref-c297674e8f66",
+            "ref-d568e27df9b3",
+            "ref-d71e0fac4451",
+            "ref-fce1a389b139"
+          ],
+          "source_category": "course_material",
+          "source_label_en": "From course materials",
+          "source_label_th": "จากเอกสารการเรียน"
+        }
+      ],
+      "quick_review": {
+        "key_points_en": [
+          "Network communication foundations",
+          "Data link, network, and transport layers",
+          "LAN, backbone, WAN, Internet, and network management",
+          "Cybersecurity foundations",
+          "Business continuity and risk management",
+          "Network, server, and system security",
+          "ISO 27001 and CIS controls"
+        ],
+        "key_points_th": [
+          "พื้นฐานการสื่อสารเครือข่าย",
+          "ชั้น Data Link, Network และ Transport",
+          "LAN, Backbone, WAN, Internet และการจัดการเครือข่าย",
+          "พื้นฐานความมั่นคงปลอดภัยไซเบอร์",
+          "ความต่อเนื่องทางธุรกิจและการจัดการความเสี่ยง",
+          "ความมั่นคงปลอดภัยเครือข่าย เซิร์ฟเวอร์ และระบบ",
+          "ISO 27001 และ CIS Controls"
+        ],
+        "memory_aid_en": "Move from foundation → method → application → evidence.",
+        "memory_aid_th": "ทบทวนจาก พื้นฐาน → วิธีการ → การประยุกต์ → หลักฐาน"
+      },
+      "content_status": "enriched",
+      "content_updated_at": "2026-07-28T09:30:00+07:00"
     }
   ]
 }

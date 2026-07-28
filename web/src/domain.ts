@@ -26,6 +26,47 @@ export interface SourceReference {
   evidence_type: string;
 }
 
+export type SourceCategory =
+  | "course_material"
+  | "supplementary_explanation"
+  | "external_authoritative_source";
+
+export interface SourceLabelled {
+  source_category: SourceCategory;
+  source_label_en: string;
+  source_label_th: string;
+}
+
+export type LessonContentFormat =
+  | "paragraph"
+  | "bullet_list"
+  | "numbered_steps"
+  | "comparison_table"
+  | "formula"
+  | "code"
+  | "example"
+  | "warning"
+  | "callout";
+
+export interface LessonSection extends SourceLabelled {
+  section_id: string;
+  heading_en: string;
+  heading_th: string;
+  content_en: string[];
+  content_th: string[];
+  content_format: LessonContentFormat;
+  evidence_type: string;
+  source_reference_ids: string[];
+}
+
+export interface QuickReview {
+  key_points_en: string[];
+  key_points_th: string[];
+  memory_aid_en: string;
+  memory_aid_th: string;
+  related_glossary_ids?: string[];
+}
+
 export interface Subject {
   subject_id: string;
   course_code: string;
@@ -44,6 +85,11 @@ export interface Subject {
   chapter_ids: string[];
   mapping_confidence: Confidence;
   mapping_note: string;
+  source_reference_ids: string[];
+  lesson_sections: LessonSection[];
+  quick_review: QuickReview;
+  content_status: "enriched";
+  content_updated_at: string;
 }
 
 export interface ChapterDefinition {
@@ -79,6 +125,106 @@ export interface Chapter {
   confidence: Confidence;
   evidence_type: string;
   order: number;
+  learning_objectives_en: string[];
+  learning_objectives_th: string[];
+  overview_en: string;
+  overview_th: string;
+  lesson_sections: LessonSection[];
+  formula_details: FormulaDetail[];
+  exam_focus: ExamFocus;
+  quick_review: QuickReview;
+  content_status: "enriched";
+  content_updated_at: string;
+}
+
+export interface KeyTerm extends SourceLabelled {
+  glossary_id: string;
+  term_en: string;
+  term_th: string;
+  definition_en: string;
+  explanation_th: string;
+  evidence_type: string;
+  confidence: Confidence;
+  source_reference_ids: string[];
+}
+
+export interface ComparisonRow {
+  aspect_en: string;
+  aspect_th: string;
+  left_en: string;
+  left_th: string;
+  right_en: string;
+  right_th: string;
+}
+
+export interface ConceptComparison extends SourceLabelled {
+  comparison_id: string;
+  title_en: string;
+  title_th: string;
+  columns_en: string[];
+  columns_th: string[];
+  rows: ComparisonRow[];
+  evidence_type: string;
+  source_reference_ids: string[];
+  source_question_ids: string[];
+}
+
+export interface ProcessStep extends SourceLabelled {
+  step: number;
+  title_en: string;
+  title_th: string;
+  description_en: string;
+  description_th: string;
+}
+
+export interface FormulaVariable {
+  symbol: string;
+  meaning_en: string;
+  meaning_th: string;
+}
+
+export interface FormulaDetail extends SourceLabelled {
+  formula: string;
+  title_en: string;
+  title_th: string;
+  meaning_en: string;
+  meaning_th: string;
+  variables: FormulaVariable[];
+  when_en: string;
+  when_th: string;
+  example_en: string;
+  example_th: string;
+  mistake_en: string;
+  mistake_th: string;
+  source_reference_ids: string[];
+  evidence_type: string;
+  worked_example_category: "supplementary_explanation";
+}
+
+export interface PracticalExample extends SourceLabelled {
+  example_id: string;
+  title_en: string;
+  title_th: string;
+  scenario_en: string;
+  scenario_th: string;
+  walkthrough_en: string[];
+  walkthrough_th: string[];
+}
+
+export interface CommonMisunderstanding extends SourceLabelled {
+  misunderstanding_en: string;
+  misunderstanding_th: string;
+  correction_en: string;
+  correction_th: string;
+}
+
+export interface ExamFocus extends SourceLabelled {
+  supported_question_ids: string[];
+  wording_signals: string[];
+  points_en?: string[];
+  points_th?: string[];
+  note_en?: string;
+  note_th?: string;
 }
 
 export interface Topic {
@@ -93,6 +239,22 @@ export interface Topic {
   confidence: Confidence;
   evidence_type: string;
   order: number;
+  learning_objectives_en: string[];
+  learning_objectives_th: string[];
+  overview_en: string;
+  overview_th: string;
+  lesson_sections: LessonSection[];
+  key_terms: KeyTerm[];
+  comparisons: ConceptComparison[];
+  process_steps: ProcessStep[];
+  formulas: FormulaDetail[];
+  examples: PracticalExample[];
+  common_misunderstandings: CommonMisunderstanding[];
+  exam_focus: ExamFocus;
+  quick_review: QuickReview;
+  human_review_note: string | null;
+  content_status: "enriched";
+  content_updated_at: string;
 }
 
 export interface GlossaryEntry {
@@ -195,6 +357,36 @@ export interface ResearchAuditEntry {
   action: string;
   result: string;
   source_ids: string[];
+}
+
+export interface EmbeddedOption {
+  embedded_option_id: string;
+  marker: string;
+  original_text_en: string;
+  text_th: string;
+  source_page_or_slide: number;
+}
+
+export type NormalizationStatus =
+  | "not_required"
+  | "normalized"
+  | "display_formatted_only"
+  | "ambiguous"
+  | "requires_human_review";
+
+export interface NormalizationAuditEntry {
+  completed_at: string;
+  action: string;
+  source_file_id: string;
+  source_relative_path: string;
+  source_page_or_slide: number;
+  raw_question_sha256: string;
+  detected_pattern: string;
+  result: string;
+  answer_key_before: string | string[] | null;
+  answer_key_after: string | string[] | null;
+  choice_ids_preserved: boolean;
+  human_review_required: boolean;
 }
 
 export interface ExternalSource {
@@ -314,6 +506,18 @@ export interface Question {
   };
   visual_audit_completed_at: string;
   visual_scoring_eligible: boolean;
+  raw_original_question_en: string;
+  raw_original_question_th: string;
+  normalized_question_en: string;
+  normalized_question_th: string;
+  embedded_choices_detected: boolean;
+  embedded_choice_pattern: string | null;
+  embedded_options: EmbeddedOption[];
+  normalization_status: NormalizationStatus;
+  normalization_confidence: Confidence;
+  normalization_audit_log: NormalizationAuditEntry[];
+  normalization_requires_human_review: boolean;
+  normalization_human_review_note: string | null;
 }
 
 export interface AcademicData {

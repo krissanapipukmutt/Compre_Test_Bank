@@ -112,6 +112,11 @@ def validate_phase_0(validation: Validation) -> None:
         path = ROOT / rel_path
         validation.require(path.is_file(), f"source missing: {rel_path}")
         if path.is_file():
+            if (
+                item.get("readable_status") == "ignored_metadata"
+                or item.get("document_category") == "system_metadata"
+            ):
+                continue
             digest = hashlib.sha256(path.read_bytes()).hexdigest()
             validation.require(digest == item.get("sha256"), f"source changed after inventory: {rel_path}")
             validation.require(path.stat().st_size == item.get("size_bytes"), f"size mismatch: {rel_path}")

@@ -18,6 +18,7 @@ export interface LocalState {
   schemaVersion: 1;
   bookmarks: {
     chapterIds: string[];
+    topicIds: string[];
     questionIds: string[];
   };
   attempts: Attempt[];
@@ -31,7 +32,7 @@ export interface LocalState {
 
 export const DEFAULT_LOCAL_STATE: LocalState = {
   schemaVersion: 1,
-  bookmarks: { chapterIds: [], questionIds: [] },
+  bookmarks: { chapterIds: [], topicIds: [], questionIds: [] },
   attempts: [],
   preferences: {
     languageView: "bilingual",
@@ -71,7 +72,18 @@ export function loadLocalState(storage: Storage = window.localStorage): LoadResu
     if (!isLocalState(parsed)) {
       return { state: structuredClone(DEFAULT_LOCAL_STATE), recovered: true };
     }
-    return { state: parsed, recovered: false };
+    return {
+      state: {
+        ...parsed,
+        bookmarks: {
+          ...parsed.bookmarks,
+          topicIds: Array.isArray(parsed.bookmarks.topicIds)
+            ? parsed.bookmarks.topicIds
+            : [],
+        },
+      },
+      recovered: false,
+    };
   } catch {
     return { state: structuredClone(DEFAULT_LOCAL_STATE), recovered: true };
   }
@@ -101,4 +113,3 @@ export function toggleId(values: readonly string[], id: string): string[] {
     ? values.filter((value) => value !== id)
     : [...values, id];
 }
-

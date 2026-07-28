@@ -1,5 +1,12 @@
 import { useMemo, useState } from "react";
-import type { AcademicData, Chapter, Subject } from "../domain";
+import type {
+  AcademicData,
+  Chapter,
+  LessonSection,
+  SourceLabelled,
+  Subject,
+  Topic,
+} from "../domain";
 import { routeHref } from "../router";
 import {
   AcademicNotice,
@@ -44,6 +51,54 @@ function SubjectCard({
   );
 }
 
+function SourceCategoryLabel({ item }: { item: SourceLabelled }) {
+  return (
+    <span
+      className={`content-source-label content-source-label--${item.source_category}`}
+    >
+      <strong>{item.source_label_en}</strong>
+      <span lang="th">{item.source_label_th}</span>
+    </span>
+  );
+}
+
+function LessonSectionCard({ section }: { section: LessonSection }) {
+  const listContent =
+    section.content_format === "bullet_list" ||
+    section.content_format === "numbered_steps";
+  const ListTag = section.content_format === "numbered_steps" ? "ol" : "ul";
+  return (
+    <section className="lesson-section" id={section.section_id}>
+      <SourceCategoryLabel item={section} />
+      <h2>{section.heading_en}</h2>
+      <p className="lesson-section__thai-heading" lang="th">
+        {section.heading_th}
+      </p>
+      {listContent ? (
+        <ListTag className="bilingual-lesson-list">
+          {section.content_en.map((content, index) => (
+            <li key={`${section.section_id}-${index}`}>
+              <span>{content}</span>
+              <small lang="th">{section.content_th[index]}</small>
+            </li>
+          ))}
+        </ListTag>
+      ) : (
+        <div className="lesson-paragraphs">
+          {section.content_en.map((content, index) => (
+            <div key={`${section.section_id}-${index}`}>
+              <p>{content}</p>
+              {section.content_th[index] ? (
+                <p lang="th">{section.content_th[index]}</p>
+              ) : null}
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
 export function LibraryPage({ data }: { data: AcademicData }) {
   const [term, setTerm] = useState<"all" | "term-1" | "term-2">("all");
   const [query, setQuery] = useState("");
@@ -85,7 +140,7 @@ export function LibraryPage({ data }: { data: AcademicData }) {
         id: topic.topic_id,
         label: topic.title_en,
         sublabel: topic.title_th,
-        route: routeHref({ name: "chapter", chapterId: topic.chapter_id }),
+        route: routeHref({ name: "topic", topicId: topic.topic_id }),
         kind: "Topic",
       }));
     const questionResults = data.questions
@@ -281,6 +336,10 @@ export function SubjectPage({
               </li>
             ))}
           </ul>
+          <hr />
+          <h3>How the chapters connect</h3>
+          <p>{subject.topic_relationships_en}</p>
+          <p lang="th">{subject.topic_relationships_th}</p>
         </article>
         <aside className="study-callout">
           <span className="study-callout__number">{questions.length}</span>
@@ -396,12 +455,27 @@ export function ChapterPage({
 
       <div className="reader-layout">
         <article className="reader-content">
-          <section>
-            <span className="eyebrow">Detailed explanation · คำอธิบาย</span>
-            <p className="thai-detail" lang="th">
-              {chapter.detailed_explanation_th}
-            </p>
+          <section className="learning-objectives" id="chapter-objectives">
+            <span className="eyebrow">Learning objectives · วัตถุประสงค์การเรียนรู้</span>
+            <h2>After this chapter</h2>
+            <ul className="check-list">
+              {chapter.learning_objectives_en.map((objective, index) => (
+                <li key={objective}>
+                  <Icon name="check" size={18} />
+                  <span>
+                    {objective}
+                    <small lang="th">
+                      {chapter.learning_objectives_th[index]}
+                    </small>
+                  </span>
+                </li>
+              ))}
+            </ul>
           </section>
+
+          {chapter.lesson_sections.map((section) => (
+            <LessonSectionCard key={section.section_id} section={section} />
+          ))}
 
           <section>
             <div className="section-heading section-heading--compact">
@@ -431,15 +505,21 @@ export function ChapterPage({
             </div>
             <div className="topic-stack">
               {topics.map((topic, index) => (
-                <article key={topic!.topic_id}>
+                <a
+                  href={routeHref({ name: "topic", topicId: topic!.topic_id })}
+                  key={topic!.topic_id}
+                >
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <div>
                     <h3>{topic!.title_en}</h3>
                     <strong lang="th">{topic!.title_th}</strong>
                     <p>{topic!.summary_en}</p>
                     <p lang="th">{topic!.summary_th}</p>
+                    <strong className="topic-stack__open">
+                      Open full lesson <Icon name="arrow" size={16} />
+                    </strong>
                   </div>
-                </article>
+                </a>
               ))}
             </div>
           </section>
@@ -508,3 +588,397 @@ export function ChapterPage({
   );
 }
 
+function TopicTableOfContents({ topic }: { topic: Topic }) {
+  const links = [
+    ["topic-objectives", "Learning objectives", "วัตถุประสงค์"],
+    ["topic-overview", "Overview", "ภาพรวม"],
+    ...topic.lesson_sections.map((section) => [
+      section.section_id,
+      section.heading_en,
+      section.heading_th,
+    ]),
+    ["topic-terms", "Key terminology", "คำศัพท์สำคัญ"],
+    ["topic-comparisons", "Concept comparison", "การเปรียบเทียบ"],
+    ["topic-process", "Workflow", "ขั้นตอน"],
+    ...(topic.formulas.length
+      ? [["topic-formulas", "Formulas", "สูตร"]]
+      : []),
+    ["topic-examples", "Practical example", "ตัวอย่าง"],
+    ["topic-misunderstandings", "Common misunderstandings", "ความเข้าใจผิด"],
+    ["topic-exam-focus", "Examination focus", "จุดเน้นข้อสอบ"],
+    ["topic-quick-review", "Quick review", "ทบทวนด่วน"],
+    ["topic-sources", "Source references", "แหล่งอ้างอิง"],
+  ];
+  return (
+    <details className="topic-toc">
+      <summary>On this page · เนื้อหาในหน้านี้</summary>
+      <nav aria-label="Topic table of contents">
+        {links.map(([id, english, thai]) => (
+          <a href={`#${id}`} key={id}>
+            <span>{english}</span>
+            <small lang="th">{thai}</small>
+          </a>
+        ))}
+      </nav>
+    </details>
+  );
+}
+
+export function TopicPage({
+  data,
+  topicId,
+  bookmarked,
+  onBookmark,
+}: {
+  data: AcademicData;
+  topicId: string;
+  bookmarked: boolean;
+  onBookmark: () => void;
+}) {
+  const topic = data.topicById.get(topicId);
+  if (!topic) {
+    return (
+      <EmptyState title="Topic not found">
+        <a className="button button--primary" href={routeHref({ name: "library" })}>
+          Back to library
+        </a>
+      </EmptyState>
+    );
+  }
+  const chapter = data.chapterById.get(topic.chapter_id)!;
+  const subject = data.subjects.find(
+    (item) => item.subject_id === topic.subject_id,
+  )!;
+  const chapterTopics = chapter.topic_ids
+    .map((id) => data.topicById.get(id))
+    .filter((item): item is Topic => Boolean(item));
+  const topicIndex = chapterTopics.findIndex((item) => item.topic_id === topicId);
+  const previous = topicIndex > 0 ? chapterTopics[topicIndex - 1] : null;
+  const next =
+    topicIndex < chapterTopics.length - 1 ? chapterTopics[topicIndex + 1] : null;
+  const sources = topic.source_reference_ids
+    .map((id) => data.referenceById.get(id))
+    .filter((item): item is NonNullable<typeof item> => Boolean(item));
+
+  return (
+    <div className="page page--reader topic-page">
+      <nav aria-label="Breadcrumb" className="breadcrumbs">
+        <a href={routeHref({ name: "library" })}>Library</a>
+        <Icon name="arrow" size={14} />
+        <a href={routeHref({ name: "subject", code: subject.course_code })}>
+          {subject.course_code}
+        </a>
+        <Icon name="arrow" size={14} />
+        <a href={routeHref({ name: "chapter", chapterId: chapter.chapter_id })}>
+          {chapter.title_en}
+        </a>
+        <Icon name="arrow" size={14} />
+        <span>Topic</span>
+      </nav>
+
+      <header className="chapter-hero topic-hero">
+        <div className="question-meta">
+          <Badge tone="teal">{subject.course_code}</Badge>
+          <ConfidenceBadge confidence={topic.confidence} />
+          <Badge>{topic.evidence_type.replaceAll("_", " ")}</Badge>
+        </div>
+        <div className="chapter-hero__title">
+          <div>
+            <span className="eyebrow">
+              Topic {topicIndex + 1} of {chapterTopics.length}
+            </span>
+            <h1>{topic.title_en}</h1>
+            <p lang="th">{topic.title_th}</p>
+          </div>
+          <BookmarkButton
+            active={bookmarked}
+            label={bookmarked ? "Remove topic bookmark" : "Bookmark topic"}
+            onClick={onBookmark}
+          />
+        </div>
+        <p className="chapter-lead">{topic.overview_en}</p>
+        <p className="chapter-lead chapter-lead--thai" lang="th">
+          {topic.overview_th}
+        </p>
+      </header>
+
+      <div className="topic-reader-layout">
+        <aside className="topic-reader-nav">
+          <TopicTableOfContents topic={topic} />
+          <div className="chapter-topic-nav">
+            <strong>{chapter.title_en}</strong>
+            <small lang="th">{chapter.title_th}</small>
+            {chapterTopics.map((item) => (
+              <a
+                aria-current={item.topic_id === topicId ? "page" : undefined}
+                href={routeHref({ name: "topic", topicId: item.topic_id })}
+                key={item.topic_id}
+              >
+                {item.title_en}
+                <small lang="th">{item.title_th}</small>
+              </a>
+            ))}
+          </div>
+        </aside>
+
+        <article className="reader-content topic-content">
+          <section className="learning-objectives" id="topic-objectives">
+            <span className="eyebrow">Learning objectives · วัตถุประสงค์การเรียนรู้</span>
+            <h2>What you should understand</h2>
+            <ul className="check-list">
+              {topic.learning_objectives_en.map((objective, index) => (
+                <li key={objective}>
+                  <Icon name="check" size={18} />
+                  <span>
+                    {objective}
+                    <small lang="th">{topic.learning_objectives_th[index]}</small>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section className="topic-overview-card" id="topic-overview">
+            <SourceCategoryLabel item={topic.key_terms[0]!} />
+            <h2>Overview</h2>
+            <p>{topic.overview_en}</p>
+            <p lang="th">{topic.overview_th}</p>
+          </section>
+
+          {topic.lesson_sections.map((section) => (
+            <LessonSectionCard key={section.section_id} section={section} />
+          ))}
+
+          <section id="topic-terms">
+            <span className="eyebrow">Key terminology · คำศัพท์สำคัญ</span>
+            <h2>Terms and definitions</h2>
+            <div className="definition-grid">
+              {topic.key_terms.map((term) => (
+                <article id={term.glossary_id} key={term.glossary_id}>
+                  <SourceCategoryLabel item={term} />
+                  <h3>{term.term_en}</h3>
+                  <strong lang="th">{term.term_th}</strong>
+                  <p>{term.definition_en}</p>
+                  <p lang="th">{term.explanation_th}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section id="topic-comparisons">
+            <span className="eyebrow">Concept comparison · เปรียบเทียบแนวคิด</span>
+            <h2>{topic.comparisons[0]!.title_en}</h2>
+            <p lang="th">{topic.comparisons[0]!.title_th}</p>
+            {topic.comparisons.map((comparison) => (
+              <div className="comparison-block" key={comparison.comparison_id}>
+                <SourceCategoryLabel item={comparison} />
+                <div className="comparison-scroll" role="region" tabIndex={0}>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Aspect · ประเด็น</th>
+                        <th>
+                          {comparison.columns_en[0]}
+                          <small lang="th">{comparison.columns_th[0]}</small>
+                        </th>
+                        <th>
+                          {comparison.columns_en[1]}
+                          <small lang="th">{comparison.columns_th[1]}</small>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {comparison.rows.map((row) => (
+                        <tr key={row.aspect_en}>
+                          <th>
+                            {row.aspect_en}
+                            <small lang="th">{row.aspect_th}</small>
+                          </th>
+                          <td>
+                            {row.left_en}
+                            <small lang="th">{row.left_th}</small>
+                          </td>
+                          <td>
+                            {row.right_en}
+                            <small lang="th">{row.right_th}</small>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </section>
+
+          <section id="topic-process">
+            <span className="eyebrow">Process or workflow · ขั้นตอน</span>
+            <h2>Use the concept step by step</h2>
+            <ol className="process-list">
+              {topic.process_steps.map((step) => (
+                <li key={step.step}>
+                  <span>{step.step}</span>
+                  <div>
+                    <SourceCategoryLabel item={step} />
+                    <h3>{step.title_en}</h3>
+                    <strong lang="th">{step.title_th}</strong>
+                    <p>{step.description_en}</p>
+                    <p lang="th">{step.description_th}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
+
+          {topic.formulas.length ? (
+            <section id="topic-formulas">
+              <span className="eyebrow">Formula or rule · สูตรหรือกฎ</span>
+              <h2>Formula guide</h2>
+              <div className="formula-detail-list">
+                {topic.formulas.map((formula) => (
+                  <article key={formula.formula}>
+                    <SourceCategoryLabel item={formula} />
+                    <h3>{formula.title_en}</h3>
+                    <strong lang="th">{formula.title_th}</strong>
+                    <code>{formula.formula}</code>
+                    <p>{formula.meaning_en}</p>
+                    <p lang="th">{formula.meaning_th}</p>
+                    <dl>
+                      {formula.variables.map((variable) => (
+                        <div key={variable.symbol}>
+                          <dt>{variable.symbol}</dt>
+                          <dd>
+                            {variable.meaning_en}
+                            <small lang="th">{variable.meaning_th}</small>
+                          </dd>
+                        </div>
+                      ))}
+                    </dl>
+                    <h4>When to use · ใช้เมื่อใด</h4>
+                    <p>{formula.when_en}</p>
+                    <p lang="th">{formula.when_th}</p>
+                    <h4>Worked example · ตัวอย่างคำนวณ</h4>
+                    <p>{formula.example_en}</p>
+                    <p lang="th">{formula.example_th}</p>
+                    <h4>Common mistake · ข้อผิดพลาดที่พบบ่อย</h4>
+                    <p>{formula.mistake_en}</p>
+                    <p lang="th">{formula.mistake_th}</p>
+                  </article>
+                ))}
+              </div>
+            </section>
+          ) : null}
+
+          <section id="topic-examples">
+            <span className="eyebrow">Practical example · ตัวอย่างการประยุกต์</span>
+            <h2>Guided application</h2>
+            {topic.examples.map((example) => (
+              <article className="example-card" key={example.example_id}>
+                <SourceCategoryLabel item={example} />
+                <h3>{example.title_en}</h3>
+                <strong lang="th">{example.title_th}</strong>
+                <p>{example.scenario_en}</p>
+                <p lang="th">{example.scenario_th}</p>
+                <ol className="bilingual-lesson-list">
+                  {example.walkthrough_en.map((step, index) => (
+                    <li key={step}>
+                      <span>{step}</span>
+                      <small lang="th">{example.walkthrough_th[index]}</small>
+                    </li>
+                  ))}
+                </ol>
+              </article>
+            ))}
+          </section>
+
+          <section id="topic-misunderstandings">
+            <span className="eyebrow">Common misunderstandings · ความเข้าใจผิด</span>
+            <h2>Watch for these traps</h2>
+            <div className="misunderstanding-list">
+              {topic.common_misunderstandings.map((item) => (
+                <article key={item.misunderstanding_en}>
+                  <SourceCategoryLabel item={item} />
+                  <h3>{item.misunderstanding_en}</h3>
+                  <p lang="th">{item.misunderstanding_th}</p>
+                  <strong>Correction · แนวทางที่ถูก</strong>
+                  <p>{item.correction_en}</p>
+                  <p lang="th">{item.correction_th}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="study-aids" id="topic-exam-focus">
+            <div>
+              <SourceCategoryLabel item={topic.exam_focus} />
+              <span className="eyebrow">Examination focus · จุดเน้นข้อสอบ</span>
+              <h2>Read the wording carefully</h2>
+              <ul>
+                {topic.exam_focus.points_en?.map((point, index) => (
+                  <li key={point}>
+                    {point}
+                    <small lang="th">{topic.exam_focus.points_th?.[index]}</small>
+                  </li>
+                ))}
+              </ul>
+              {topic.exam_focus.wording_signals.length ? (
+                <p>
+                  <strong>Observed wording:</strong>{" "}
+                  {topic.exam_focus.wording_signals.join(", ")}
+                </p>
+              ) : null}
+            </div>
+          </section>
+
+          <section className="review-card" id="topic-quick-review">
+            <span className="eyebrow">Quick review · ทบทวนด่วน</span>
+            <blockquote>{topic.quick_review.memory_aid_en}</blockquote>
+            <p lang="th">{topic.quick_review.memory_aid_th}</p>
+            <ul className="bilingual-lesson-list">
+              {topic.quick_review.key_points_en.map((point, index) => (
+                <li key={`${point}-${index}`}>
+                  <span>{point}</span>
+                  <small lang="th">
+                    {topic.quick_review.key_points_th[index]}
+                  </small>
+                </li>
+              ))}
+            </ul>
+            <p className="glossary-links">
+              <strong>Related glossary terms:</strong>{" "}
+              {topic.quick_review.related_glossary_ids?.map((id) => (
+                <a href={`#${id}`} key={id}>
+                  {data.glossary.find((entry) => entry.glossary_id === id)
+                    ?.term_en ?? id}
+                </a>
+              ))}
+            </p>
+          </section>
+
+          <section id="topic-sources">
+            <SourceList sources={sources} />
+          </section>
+
+          <nav aria-label="Previous and next topic" className="topic-pagination">
+            {previous ? (
+              <a href={routeHref({ name: "topic", topicId: previous.topic_id })}>
+                <span>Previous topic</span>
+                <strong>{previous.title_en}</strong>
+                <small lang="th">{previous.title_th}</small>
+              </a>
+            ) : (
+              <span />
+            )}
+            {next ? (
+              <a href={routeHref({ name: "topic", topicId: next.topic_id })}>
+                <span>Next topic</span>
+                <strong>{next.title_en}</strong>
+                <small lang="th">{next.title_th}</small>
+              </a>
+            ) : null}
+          </nav>
+        </article>
+      </div>
+    </div>
+  );
+}

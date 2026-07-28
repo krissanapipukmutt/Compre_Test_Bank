@@ -239,7 +239,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "_____ is the one paying for the product in be developed.",
+      "raw_original_question_th": "_____ คือผู้ชำระเงินสำหรับผลิตภัณฑ์ที่จะพัฒนา",
+      "normalized_question_en": "_____ is the one paying for the product in be developed.",
+      "normalized_question_th": "_____ คือผู้ชำระเงินสำหรับผลิตภัณฑ์ที่จะพัฒนา",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-002",
@@ -481,7 +493,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "_____ represents the product stakeholders to the development team.",
+      "raw_original_question_th": "_____ ทำหน้าที่เป็นตัวแทนผู้มีส่วนได้ส่วนเสียของผลิตภัณฑ์ต่อทีมพัฒนา",
+      "normalized_question_en": "_____ represents the product stakeholders to the development team.",
+      "normalized_question_th": "_____ ทำหน้าที่เป็นตัวแทนผู้มีส่วนได้ส่วนเสียของผลิตภัณฑ์ต่อทีมพัฒนา",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-003",
@@ -723,7 +747,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "_____ has in-depth knowledge of a topic relevant to the business need or solution scope.",
+      "raw_original_question_th": "_____ มีความรู้เชิงลึกในหัวข้อที่เกี่ยวข้องกับความต้องการทางธุรกิจหรือขอบเขตของแนวทางแก้ไข",
+      "normalized_question_en": "_____ has in-depth knowledge of a topic relevant to the business need or solution scope.",
+      "normalized_question_th": "_____ มีความรู้เชิงลึกในหัวข้อที่เกี่ยวข้องกับความต้องการทางธุรกิจหรือขอบเขตของแนวทางแก้ไข",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-004",
@@ -964,7 +1000,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Upper-level management is informed about the status of the IT project by A) IT management B) The project manager C) The business analyst",
+      "raw_original_question_th": "ผู้บริหารระดับสูงได้รับแจ้งสถานะของโครงการไอทีจาก A) ฝ่ายบริหารไอที B) ผู้จัดการโครงการ C) นักวิเคราะห์ธุรกิจ",
+      "normalized_question_en": "Upper-level management is informed about the status of the IT project by",
+      "normalized_question_th": "ผู้บริหารระดับสูงได้รับแจ้งสถานะของโครงการไอทีจาก",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-004-statement-1",
+          "marker": "A",
+          "original_text_en": "IT management",
+          "text_th": "ฝ่ายบริหารไอที",
+          "source_page_or_slide": 1
+        },
+        {
+          "embedded_option_id": "question-comprehensive-004-statement-2",
+          "marker": "B",
+          "original_text_en": "The project manager",
+          "text_th": "ผู้จัดการโครงการ",
+          "source_page_or_slide": 1
+        },
+        {
+          "embedded_option_id": "question-comprehensive-004-statement-3",
+          "marker": "C",
+          "original_text_en": "The business analyst",
+          "text_th": "นักวิเคราะห์ธุรกิจ",
+          "source_page_or_slide": 1
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 1,
+          "raw_question_sha256": "3dd70fecb9416ffc185791810d800a322b3ffe2c2adf131b70d80a320f87df77",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-004-choice-4",
+          "answer_key_after": "question-comprehensive-004-choice-4",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-005",
@@ -1205,7 +1290,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Why should you write down the questions you intend to ask in an information gathering session?",
+      "raw_original_question_th": "เหตุใดจึงควรเขียนคำถามที่ตั้งใจจะถามในช่วงการรวบรวมข้อมูลไว้ล่วงหน้า",
+      "normalized_question_en": "Why should you write down the questions you intend to ask in an information gathering session?",
+      "normalized_question_th": "เหตุใดจึงควรเขียนคำถามที่ตั้งใจจะถามในช่วงการรวบรวมข้อมูลไว้ล่วงหน้า",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-006",
@@ -1446,7 +1543,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is what you should do to start an information-gathering session? A) Identify the problem to be solved. B) Express the expected result of solving the problem. C)Express why the session is important to the responder personally.",
+      "raw_original_question_th": "ข้อใดต่อไปนี้คือสิ่งที่ควรทำเมื่อเริ่มช่วงการรวบรวมข้อมูล A) ระบุปัญหาที่ต้องแก้ไข B) อธิบายผลลัพธ์ที่คาดหวังจากการแก้ปัญหา C) อธิบายว่าเหตุใดช่วงการรวบรวมข้อมูลนี้จึงสำคัญต่อผู้ให้ข้อมูลเป็นการส่วนตัว",
+      "normalized_question_en": "Which of the following is what you should do to start an information-gathering session?",
+      "normalized_question_th": "ข้อใดต่อไปนี้คือสิ่งที่ควรทำเมื่อเริ่มช่วงการรวบรวมข้อมูล",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-006-statement-1",
+          "marker": "A",
+          "original_text_en": "Identify the problem to be solved.",
+          "text_th": "ระบุปัญหาที่ต้องแก้ไข",
+          "source_page_or_slide": 1
+        },
+        {
+          "embedded_option_id": "question-comprehensive-006-statement-2",
+          "marker": "B",
+          "original_text_en": "Express the expected result of solving the problem.",
+          "text_th": "อธิบายผลลัพธ์ที่คาดหวังจากการแก้ปัญหา",
+          "source_page_or_slide": 1
+        },
+        {
+          "embedded_option_id": "question-comprehensive-006-statement-3",
+          "marker": "C",
+          "original_text_en": "Express why the session is important to the responder personally.",
+          "text_th": "อธิบายว่าเหตุใดช่วงการรวบรวมข้อมูลนี้จึงสำคัญต่อผู้ให้ข้อมูลเป็นการส่วนตัว",
+          "source_page_or_slide": 1
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 1,
+          "raw_question_sha256": "0a911c07f3f5f5944e788c759dcad67c430c4cf70158b38b0bd30ebb7aacc909",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-006-choice-5",
+          "answer_key_after": "question-comprehensive-006-choice-5",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-007",
@@ -1687,7 +1833,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is the attribute that a business analyst should have'? A) Ability to ask the right kinds of questions. B) Ability to plan, develop, and conduct acceptance test. C) Ability to manage project",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นคุณลักษณะที่นักวิเคราะห์ธุรกิจควรมี A) ความสามารถในการถามคำถามที่เหมาะสม B) ความสามารถในการวางแผน พัฒนา และดำเนินการทดสอบการยอมรับ C) ความสามารถในการบริหารโครงการ",
+      "normalized_question_en": "Which of the following is the attribute that a business analyst should have'?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นคุณลักษณะที่นักวิเคราะห์ธุรกิจควรมี",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-007-statement-1",
+          "marker": "A",
+          "original_text_en": "Ability to ask the right kinds of questions.",
+          "text_th": "ความสามารถในการถามคำถามที่เหมาะสม",
+          "source_page_or_slide": 1
+        },
+        {
+          "embedded_option_id": "question-comprehensive-007-statement-2",
+          "marker": "B",
+          "original_text_en": "Ability to plan, develop, and conduct acceptance test.",
+          "text_th": "ความสามารถในการวางแผน พัฒนา และดำเนินการทดสอบการยอมรับ",
+          "source_page_or_slide": 1
+        },
+        {
+          "embedded_option_id": "question-comprehensive-007-statement-3",
+          "marker": "C",
+          "original_text_en": "Ability to manage project",
+          "text_th": "ความสามารถในการบริหารโครงการ",
+          "source_page_or_slide": 1
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 1,
+          "raw_question_sha256": "3eb87c409d1139b25faf549c78f63fc5a221b89de05d7d44efe9f83e3a9f54fb",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-007-choice-3",
+          "answer_key_after": "question-comprehensive-007-choice-3",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-008",
@@ -1926,7 +2121,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is correct? A) The business analyst considers a project a unique, specific, und definable piece of work B) The business analyst should not inform the IT project manager about the feelings of the business community. C) The IT project manager focuses on bringing the project on time, within budget, and delivering everything promised for that time and budget.",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ถูกต้อง A) นักวิเคราะห์ธุรกิจมองว่าโครงการเป็นงานที่มีเอกลักษณ์ เฉพาะเจาะจง และกำหนดขอบเขตได้ B) นักวิเคราะห์ธุรกิจไม่ควรแจ้งผู้จัดการโครงการไอทีเกี่ยวกับความรู้สึกของชุมชนธุรกิจ C) ผู้จัดการโครงการไอทีมุ่งให้งานเสร็จตรงเวลา อยู่ภายในงบประมาณ และส่งมอบทุกสิ่งที่สัญญาไว้ภายใต้เวลาและงบประมาณนั้น",
+      "normalized_question_en": "Which of the following is correct?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ถูกต้อง",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-008-statement-1",
+          "marker": "A",
+          "original_text_en": "The business analyst considers a project a unique, specific, und definable piece of work",
+          "text_th": "นักวิเคราะห์ธุรกิจมองว่าโครงการเป็นงานที่มีเอกลักษณ์ เฉพาะเจาะจง และกำหนดขอบเขตได้",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-008-statement-2",
+          "marker": "B",
+          "original_text_en": "The business analyst should not inform the IT project manager about the feelings of the business community.",
+          "text_th": "นักวิเคราะห์ธุรกิจไม่ควรแจ้งผู้จัดการโครงการไอทีเกี่ยวกับความรู้สึกของชุมชนธุรกิจ",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-008-statement-3",
+          "marker": "C",
+          "original_text_en": "The IT project manager focuses on bringing the project on time, within budget, and delivering everything promised for that time and budget.",
+          "text_th": "ผู้จัดการโครงการไอทีมุ่งให้งานเสร็จตรงเวลา อยู่ภายในงบประมาณ และส่งมอบทุกสิ่งที่สัญญาไว้ภายใต้เวลาและงบประมาณนั้น",
+          "source_page_or_slide": 2
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 2,
+          "raw_question_sha256": "dd4c9cc4c4d661126409209f88720c89eade83ecb067b4ca64db818c53c45969",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-008-choice-3",
+          "answer_key_after": "question-comprehensive-008-choice-3",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-009",
@@ -2167,7 +2411,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is correct? A) The business analyst is an agent for change in the business. B) Users have the requirements, and the business analyst has to gather them. C) Project may live or die based on expectations, perceptions, or both rather than results.",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ถูกต้อง A) นักวิเคราะห์ธุรกิจเป็นตัวแทนของการเปลี่ยนแปลงในธุรกิจ B) ผู้ใช้มีความต้องการอยู่แล้ว และนักวิเคราะห์ธุรกิจมีหน้าที่เพียงรวบรวมความต้องการเหล่านั้น C) โครงการอาจอยู่รอดหรือล้มเหลวจากความคาดหวัง การรับรู้ หรือทั้งสองอย่าง มากกว่าจากผลลัพธ์",
+      "normalized_question_en": "Which of the following is correct?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ถูกต้อง",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-009-statement-1",
+          "marker": "A",
+          "original_text_en": "The business analyst is an agent for change in the business.",
+          "text_th": "นักวิเคราะห์ธุรกิจเป็นตัวแทนของการเปลี่ยนแปลงในธุรกิจ",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-009-statement-2",
+          "marker": "B",
+          "original_text_en": "Users have the requirements, and the business analyst has to gather them.",
+          "text_th": "ผู้ใช้มีความต้องการอยู่แล้ว และนักวิเคราะห์ธุรกิจมีหน้าที่เพียงรวบรวมความต้องการเหล่านั้น",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-009-statement-3",
+          "marker": "C",
+          "original_text_en": "Project may live or die based on expectations, perceptions, or both rather than results.",
+          "text_th": "โครงการอาจอยู่รอดหรือล้มเหลวจากความคาดหวัง การรับรู้ หรือทั้งสองอย่าง มากกว่าจากผลลัพธ์",
+          "source_page_or_slide": 2
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 2,
+          "raw_question_sha256": "6b727669bfc6ef9ba66f1b516d18c8525288098890dd6b5cf7d26c67300dca01",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-009-choice-4",
+          "answer_key_after": "question-comprehensive-009-choice-4",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-010",
@@ -2408,7 +2701,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is correct? A) The type of question asked is irrelevant from the type of information desired. B) A problem is the difference between someone's desires and the way things seem to be. C) The business analyst with the business background can bring more different perspective about the business problem than the business analyst with the IT background.",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ถูกต้อง A) ประเภทของคำถามที่ถามไม่เกี่ยวข้องกับประเภทข้อมูลที่ต้องการ B) ปัญหาคือความแตกต่างระหว่างสิ่งที่บุคคลต้องการกับสภาพที่ดูเหมือนเป็นอยู่ C) นักวิเคราะห์ธุรกิจที่มีพื้นฐานด้านธุรกิจสามารถนำเสนอมุมมองต่อปัญหาธุรกิจที่แตกต่างจากนักวิเคราะห์ธุรกิจที่มีพื้นฐานด้านไอทีได้มากกว่า",
+      "normalized_question_en": "Which of the following is correct?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ถูกต้อง",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-010-statement-1",
+          "marker": "A",
+          "original_text_en": "The type of question asked is irrelevant from the type of information desired.",
+          "text_th": "ประเภทของคำถามที่ถามไม่เกี่ยวข้องกับประเภทข้อมูลที่ต้องการ",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-010-statement-2",
+          "marker": "B",
+          "original_text_en": "A problem is the difference between someone's desires and the way things seem to be.",
+          "text_th": "ปัญหาคือความแตกต่างระหว่างสิ่งที่บุคคลต้องการกับสภาพที่ดูเหมือนเป็นอยู่",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-010-statement-3",
+          "marker": "C",
+          "original_text_en": "The business analyst with the business background can bring more different perspective about the business problem than the business analyst with the IT background.",
+          "text_th": "นักวิเคราะห์ธุรกิจที่มีพื้นฐานด้านธุรกิจสามารถนำเสนอมุมมองต่อปัญหาธุรกิจที่แตกต่างจากนักวิเคราะห์ธุรกิจที่มีพื้นฐานด้านไอทีได้มากกว่า",
+          "source_page_or_slide": 2
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 2,
+          "raw_question_sha256": "beb24f130880613628381b21d25f0f27e2eda77ff2f8de8f70a0ebe2b8a01ae4",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-010-choice-2",
+          "answer_key_after": "question-comprehensive-010-choice-2",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-019",
@@ -2649,7 +2991,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is Incorrect? A) The business analyst, determines what must be done by business to solve the problem. B) The systems analyst determines how to implement the solution using computer / technology. C) The business analyst makes technical and business trade-offs ta determine the one best solution.",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ไม่ถูกต้อง A) นักวิเคราะห์ธุรกิจกำหนดว่าธุรกิจต้องทำอะไรเพื่อแก้ปัญหา B) นักวิเคราะห์ระบบกำหนดว่าจะนำแนวทางแก้ไขไปใช้ด้วยคอมพิวเตอร์หรือเทคโนโลยีอย่างไร C) นักวิเคราะห์ธุรกิจพิจารณาข้อแลกเปลี่ยนด้านเทคนิคและธุรกิจเพื่อกำหนดแนวทางแก้ไขที่ดีที่สุดเพียงแนวทางเดียว",
+      "normalized_question_en": "Which of the following is Incorrect?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ไม่ถูกต้อง",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-019-statement-1",
+          "marker": "A",
+          "original_text_en": "The business analyst, determines what must be done by business to solve the problem.",
+          "text_th": "นักวิเคราะห์ธุรกิจกำหนดว่าธุรกิจต้องทำอะไรเพื่อแก้ปัญหา",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-019-statement-2",
+          "marker": "B",
+          "original_text_en": "The systems analyst determines how to implement the solution using computer / technology.",
+          "text_th": "นักวิเคราะห์ระบบกำหนดว่าจะนำแนวทางแก้ไขไปใช้ด้วยคอมพิวเตอร์หรือเทคโนโลยีอย่างไร",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-019-statement-3",
+          "marker": "C",
+          "original_text_en": "The business analyst makes technical and business trade-offs ta determine the one best solution.",
+          "text_th": "นักวิเคราะห์ธุรกิจพิจารณาข้อแลกเปลี่ยนด้านเทคนิคและธุรกิจเพื่อกำหนดแนวทางแก้ไขที่ดีที่สุดเพียงแนวทางเดียว",
+          "source_page_or_slide": 2
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 2,
+          "raw_question_sha256": "368b4c53a45265bd60ab69ab8a4d4ba87770e12c6ad6a7599e0f48369d9d612a",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-019-choice-3",
+          "answer_key_after": "question-comprehensive-019-choice-3",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-020",
@@ -2890,7 +3281,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is incorrect about an information-gathering session? A) Responders stop giving you information when you have corrected them. B) Responders give you information even though they believe you already know. C) Responders stop giving you Information when you have challenged the information they have given.",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ไม่ถูกต้องเกี่ยวกับช่วงการรวบรวมข้อมูล A) ผู้ให้ข้อมูลจะหยุดให้ข้อมูลเมื่อคุณแก้ไขสิ่งที่เขาพูด B) ผู้ให้ข้อมูลจะให้ข้อมูลแม้เชื่อว่าคุณรู้อยู่แล้ว C) ผู้ให้ข้อมูลจะหยุดให้ข้อมูลเมื่อคุณโต้แย้งข้อมูลที่เขาให้",
+      "normalized_question_en": "Which of the following is incorrect about an information-gathering session?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ไม่ถูกต้องเกี่ยวกับช่วงการรวบรวมข้อมูล",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "letter_parenthesis_A_B_C",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-020-statement-1",
+          "marker": "A",
+          "original_text_en": "Responders stop giving you information when you have corrected them.",
+          "text_th": "ผู้ให้ข้อมูลจะหยุดให้ข้อมูลเมื่อคุณแก้ไขสิ่งที่เขาพูด",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-020-statement-2",
+          "marker": "B",
+          "original_text_en": "Responders give you information even though they believe you already know.",
+          "text_th": "ผู้ให้ข้อมูลจะให้ข้อมูลแม้เชื่อว่าคุณรู้อยู่แล้ว",
+          "source_page_or_slide": 2
+        },
+        {
+          "embedded_option_id": "question-comprehensive-020-statement-3",
+          "marker": "C",
+          "original_text_en": "Responders stop giving you Information when you have challenged the information they have given.",
+          "text_th": "ผู้ให้ข้อมูลจะหยุดให้ข้อมูลเมื่อคุณโต้แย้งข้อมูลที่เขาให้",
+          "source_page_or_slide": 2
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 2,
+          "raw_question_sha256": "504407a06b261bac92d8d1603639b346fa4dd1c4f42f5bae8794bb8e7943929b",
+          "detected_pattern": "letter_parenthesis_A_B_C",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-020-choice-2",
+          "answer_key_after": "question-comprehensive-020-choice-2",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-021",
@@ -3212,7 +3652,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "For the following pint, how would the distribution be described?",
+      "raw_original_question_th": "จากแผนภาพต่อไปนี้ ควรอธิบายลักษณะการแจกแจงว่าอย่างไร",
+      "normalized_question_en": "For the following pint, how would the distribution be described?",
+      "normalized_question_th": "จากแผนภาพต่อไปนี้ ควรอธิบายลักษณะการแจกแจงว่าอย่างไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-022",
@@ -3512,7 +3964,19 @@
           "review_note": "คำแปลครบถ้วน แต่โจทย์และตัวเลือกภาษาอังกฤษไม่ให้เกณฑ์ที่ชี้แบบจำลองที่ดีที่สุดได้เพียงแบบเดียว"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "Based on goodness-of-fit measures, which model is with the best performance?",
+      "raw_original_question_th": "เมื่อพิจารณาจากตัววัดความเหมาะสมของแบบจำลอง แบบจำลองใดมีประสิทธิภาพดีที่สุด",
+      "normalized_question_en": "Based on goodness-of-fit measures, which model is with the best performance?",
+      "normalized_question_th": "เมื่อพิจารณาจากตัววัดความเหมาะสมของแบบจำลอง แบบจำลองใดมีประสิทธิภาพดีที่สุด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-023",
@@ -3812,7 +4276,19 @@
           "review_note": "ถ่ายทอดตัวเลข 739% ตามต้นฉบับโดยไม่แก้ไข ต้องให้ผู้รับผิดชอบต้นฉบับยืนยันระดับช่วงความเชื่อมั่น"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "Based on the results of regression analysis shown below, which variable could be taken out of the system for a better goodness of fit, given 739% confidence interval'?",
+      "raw_original_question_th": "จากผลการวิเคราะห์ถดถอยที่แสดงด้านล่าง ควรนำตัวแปรใดออกจากระบบเพื่อให้ความเหมาะสมของแบบจำลองดีขึ้น เมื่อกำหนดช่วงความเชื่อมั่น 739%",
+      "normalized_question_en": "Based on the results of regression analysis shown below, which variable could be taken out of the system for a better goodness of fit, given 739% confidence interval'?",
+      "normalized_question_th": "จากผลการวิเคราะห์ถดถอยที่แสดงด้านล่าง ควรนำตัวแปรใดออกจากระบบเพื่อให้ความเหมาะสมของแบบจำลองดีขึ้น เมื่อกำหนดช่วงความเชื่อมั่น 739%",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-024",
@@ -4134,7 +4610,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Using the following Boxplot, identify the median.",
+      "raw_original_question_th": "จากแผนภาพกล่อง (Boxplot) ต่อไปนี้ จงระบุค่ามัธยฐาน",
+      "normalized_question_en": "Using the following Boxplot, identify the median.",
+      "normalized_question_th": "จากแผนภาพกล่อง (Boxplot) ต่อไปนี้ จงระบุค่ามัธยฐาน",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-025",
@@ -4375,7 +4863,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Digital _____ is the process of using digital technologies to create new, or modify existing business processes, culture, and customer experiences to meet changing business and market requirements",
+      "raw_original_question_th": "_____ ดิจิทัล คือกระบวนการใช้เทคโนโลยีดิจิทัลเพื่อสร้างกระบวนการทางธุรกิจ วัฒนธรรม และประสบการณ์ของลูกค้าแบบใหม่ หรือปรับเปลี่ยนสิ่งที่มีอยู่ เพื่อให้สอดคล้องกับความต้องการทางธุรกิจและตลาดที่เปลี่ยนแปลงไป",
+      "normalized_question_en": "Digital _____ is the process of using digital technologies to create new, or modify existing business processes, culture, and customer experiences to meet changing business and market requirements",
+      "normalized_question_th": "_____ ดิจิทัล คือกระบวนการใช้เทคโนโลยีดิจิทัลเพื่อสร้างกระบวนการทางธุรกิจ วัฒนธรรม และประสบการณ์ของลูกค้าแบบใหม่ หรือปรับเปลี่ยนสิ่งที่มีอยู่ เพื่อให้สอดคล้องกับความต้องการทางธุรกิจและตลาดที่เปลี่ยนแปลงไป",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-026",
@@ -4616,7 +5116,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "A ____is created when a company matches its distinctive competency to the opportunities it has discovered in the market.",
+      "raw_original_question_th": "_____ เกิดขึ้นเมื่อบริษัทเชื่อมโยงความสามารถเฉพาะของตนเข้ากับโอกาสที่ค้นพบในตลาด",
+      "normalized_question_en": "A ____is created when a company matches its distinctive competency to the opportunities it has discovered in the market.",
+      "normalized_question_th": "_____ เกิดขึ้นเมื่อบริษัทเชื่อมโยงความสามารถเฉพาะของตนเข้ากับโอกาสที่ค้นพบในตลาด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-027",
@@ -4853,7 +5365,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which one is an example of primary business process?",
+      "raw_original_question_th": "ข้อใดเป็นตัวอย่างของกระบวนการธุรกิจหลัก",
+      "normalized_question_en": "Which one is an example of primary business process?",
+      "normalized_question_th": "ข้อใดเป็นตัวอย่างของกระบวนการธุรกิจหลัก",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-028",
@@ -5092,7 +5616,56 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the followings may lead to \"Differentiation\" strategy? A) Invests heavily in research and development to create innovative features B) Redesign the service center emphasis on providing a seamless and intuitive use experience. C) Streamline business process to reduce cost and high quality products.",
+      "raw_original_question_th": "ข้อใดต่อไปนี้อาจนำไปสู่กลยุทธ์ “การสร้างความแตกต่าง” A) ลงทุนอย่างมากในการวิจัยและพัฒนาเพื่อสร้างคุณลักษณะที่เป็นนวัตกรรม B) ออกแบบศูนย์บริการใหม่โดยเน้นประสบการณ์การใช้งานที่ต่อเนื่องและเข้าใจง่าย C) ปรับกระบวนการธุรกิจให้คล่องตัวเพื่อลดต้นทุนและผลิตสินค้าคุณภาพสูง",
+      "normalized_question_en": "Which of the followings may lead to \"Differentiation\" strategy?",
+      "normalized_question_th": "ข้อใดต่อไปนี้อาจนำไปสู่กลยุทธ์ “การสร้างความแตกต่าง”",
+      "embedded_choices_detected": true,
+      "embedded_choice_pattern": "source_numbered_statements_1_2_3",
+      "embedded_options": [
+        {
+          "embedded_option_id": "question-comprehensive-028-statement-1",
+          "marker": "1",
+          "original_text_en": "Invests heavily in research and development to create innovative features",
+          "text_th": "ลงทุนอย่างมากในการวิจัยและพัฒนาเพื่อสร้างคุณลักษณะที่เป็นนวัตกรรม",
+          "source_page_or_slide": 4
+        },
+        {
+          "embedded_option_id": "question-comprehensive-028-statement-2",
+          "marker": "2",
+          "original_text_en": "Redesign the service center emphasis on providing a seamless and intuitive use experience.",
+          "text_th": "ออกแบบศูนย์บริการใหม่โดยเน้นประสบการณ์การใช้งานที่ต่อเนื่องและเข้าใจง่าย",
+          "source_page_or_slide": 4
+        },
+        {
+          "embedded_option_id": "question-comprehensive-028-statement-3",
+          "marker": "3",
+          "original_text_en": "Streamline business process to reduce cost and high quality products.",
+          "text_th": "ปรับกระบวนการธุรกิจให้คล่องตัวเพื่อลดต้นทุนและผลิตสินค้าคุณภาพสูง",
+          "source_page_or_slide": 4
+        }
+      ],
+      "normalization_status": "normalized",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [
+        {
+          "completed_at": "2026-07-28T09:00:00+07:00",
+          "action": "source_verified_embedded_statement_normalization",
+          "source_file_id": "file-7357a61279704b42",
+          "source_relative_path": "แนวข้อสอบ.pdf",
+          "source_page_or_slide": 4,
+          "raw_question_sha256": "0a04d3e53f0c44ac62b5d5e22aa9ea962b36b2d5220c69321fe912eb35a07387",
+          "detected_pattern": "source_numbered_statements_1_2_3",
+          "result": "Separated the learner-facing bilingual stem and embedded statement lines; preserved raw text, selectable choices, choice IDs, ordering, and all answer pointers.",
+          "answer_key_before": "question-comprehensive-028-choice-1",
+          "answer_key_after": "question-comprehensive-028-choice-1",
+          "choice_ids_preserved": true,
+          "human_review_required": false
+        }
+      ],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-029",
@@ -5329,7 +5902,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which one is a good KPI for the critical success factor of \"improving responsiveness\"! If the responsiveness means the ability of a company to promptly address customer inquiries, concerts, and issues in a timely manner.",
+      "raw_original_question_th": "ข้อใดเป็นตัวชี้วัดผลการดำเนินงาน (KPI) ที่ดีสำหรับปัจจัยแห่งความสำเร็จที่สำคัญด้าน “การเพิ่มความสามารถในการตอบสนอง” หากความสามารถในการตอบสนองหมายถึงความสามารถของบริษัทในการจัดการข้อซักถาม ข้อกังวล และปัญหาของลูกค้าอย่างทันท่วงที",
+      "normalized_question_en": "Which one is a good KPI for the critical success factor of \"improving responsiveness\"! If the responsiveness means the ability of a company to promptly address customer inquiries, concerts, and issues in a timely manner.",
+      "normalized_question_th": "ข้อใดเป็นตัวชี้วัดผลการดำเนินงาน (KPI) ที่ดีสำหรับปัจจัยแห่งความสำเร็จที่สำคัญด้าน “การเพิ่มความสามารถในการตอบสนอง” หากความสามารถในการตอบสนองหมายถึงความสามารถของบริษัทในการจัดการข้อซักถาม ข้อกังวล และปัญหาของลูกค้าอย่างทันท่วงที",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-030",
@@ -5566,7 +6151,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following action is for targeting effectiveness of the business goal?",
+      "raw_original_question_th": "การดำเนินการข้อใดมุ่งเป้าไปที่ประสิทธิผลของเป้าหมายทางธุรกิจ",
+      "normalized_question_en": "Which of the following action is for targeting effectiveness of the business goal?",
+      "normalized_question_th": "การดำเนินการข้อใดมุ่งเป้าไปที่ประสิทธิผลของเป้าหมายทางธุรกิจ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-031",
@@ -5803,7 +6400,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What can be an example of measurement and Target that set for the objective \"High efficient in delivering\", when creating Balanced ScoreCard for food delivery servicing company?",
+      "raw_original_question_th": "ข้อใดเป็นตัวอย่างของตัววัดและค่าเป้าหมายสำหรับวัตถุประสงค์ “มีประสิทธิภาพสูงในการจัดส่ง” เมื่อจัดทำ Balanced Scorecard สำหรับบริษัทบริการจัดส่งอาหาร",
+      "normalized_question_en": "What can be an example of measurement and Target that set for the objective \"High efficient in delivering\", when creating Balanced ScoreCard for food delivery servicing company?",
+      "normalized_question_th": "ข้อใดเป็นตัวอย่างของตัววัดและค่าเป้าหมายสำหรับวัตถุประสงค์ “มีประสิทธิภาพสูงในการจัดส่ง” เมื่อจัดทำ Balanced Scorecard สำหรับบริษัทบริการจัดส่งอาหาร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-032",
@@ -6039,7 +6648,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "In a dataset of exam scores, a student scores 42 marks, while the mean score is 75 with a standard deviation of 10. Compute z-score for this student's score? Is this un outlier?",
+      "raw_original_question_th": "ในชุดข้อมูลคะแนนสอบ นักศึกษาคนหนึ่งได้ 42 คะแนน ขณะที่คะแนนเฉลี่ยเท่ากับ 75 และส่วนเบี่ยงเบนมาตรฐานเท่ากับ 10 จงคำนวณคะแนนมาตรฐาน (z-score) ของนักศึกษาคนนี้ และพิจารณาว่าเป็นค่าผิดปกติหรือไม่",
+      "normalized_question_en": "In a dataset of exam scores, a student scores 42 marks, while the mean score is 75 with a standard deviation of 10. Compute z-score for this student's score? Is this un outlier?",
+      "normalized_question_th": "ในชุดข้อมูลคะแนนสอบ นักศึกษาคนหนึ่งได้ 42 คะแนน ขณะที่คะแนนเฉลี่ยเท่ากับ 75 และส่วนเบี่ยงเบนมาตรฐานเท่ากับ 10 จงคำนวณคะแนนมาตรฐาน (z-score) ของนักศึกษาคนนี้ และพิจารณาว่าเป็นค่าผิดปกติหรือไม่",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-033",
@@ -6275,7 +6896,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Given the following dataset: 12, 15, 18, 20, 22, 25, 28, 30, what is the median of the data?",
+      "raw_original_question_th": "กำหนดชุดข้อมูลต่อไปนี้: 12, 15, 18, 20, 22, 25, 28, 30 ค่ามัธยฐานของข้อมูลคือเท่าใด",
+      "normalized_question_en": "Given the following dataset: 12, 15, 18, 20, 22, 25, 28, 30, what is the median of the data?",
+      "normalized_question_th": "กำหนดชุดข้อมูลต่อไปนี้: 12, 15, 18, 20, 22, 25, 28, 30 ค่ามัธยฐานของข้อมูลคือเท่าใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-034",
@@ -6532,7 +7165,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following best defines a random variable?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ให้คำจำกัดความของตัวแปรสุ่มได้ดีที่สุด",
+      "normalized_question_en": "Which of the following best defines a random variable?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ให้คำจำกัดความของตัวแปรสุ่มได้ดีที่สุด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-035",
@@ -6785,7 +7430,19 @@
           "review_note": "ต้นฉบับจบหลังคำว่า “of” และไม่มีค่าที่ต้องนำมาคำนวณ คำแปลใช้ช่องว่างเพื่อคงส่วนที่ขาดหาย"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "The mean (average) of a dataset is 50 and the standard deviation is 10. What is Z- score of",
+      "raw_original_question_th": "ค่าเฉลี่ยของชุดข้อมูลเท่ากับ 50 และส่วนเบี่ยงเบนมาตรฐานเท่ากับ 10 คะแนนมาตรฐาน (Z-score) ของ _____ คือเท่าใด",
+      "normalized_question_en": "The mean (average) of a dataset is 50 and the standard deviation is 10. What is Z- score of",
+      "normalized_question_th": "ค่าเฉลี่ยของชุดข้อมูลเท่ากับ 50 และส่วนเบี่ยงเบนมาตรฐานเท่ากับ 10 คะแนนมาตรฐาน (Z-score) ของ _____ คือเท่าใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-036",
@@ -7026,7 +7683,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the primary purpose of a marketing data mart in a business?",
+      "raw_original_question_th": "วัตถุประสงค์หลักของคลังข้อมูลย่อยด้านการตลาด (Marketing Data Mart) ในธุรกิจคืออะไร",
+      "normalized_question_en": "What is the primary purpose of a marketing data mart in a business?",
+      "normalized_question_th": "วัตถุประสงค์หลักของคลังข้อมูลย่อยด้านการตลาด (Marketing Data Mart) ในธุรกิจคืออะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-037",
@@ -7290,7 +7959,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the key distinction between Business Intelligence (BI) and Data Mining?",
+      "raw_original_question_th": "ความแตกต่างสำคัญระหว่างระบบธุรกิจอัจฉริยะ (Business Intelligence: BI) กับการทำเหมืองข้อมูล (Data Mining) คืออะไร",
+      "normalized_question_en": "What is the key distinction between Business Intelligence (BI) and Data Mining?",
+      "normalized_question_th": "ความแตกต่างสำคัญระหว่างระบบธุรกิจอัจฉริยะ (Business Intelligence: BI) กับการทำเหมืองข้อมูล (Data Mining) คืออะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-038",
@@ -7554,7 +8235,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is a primary difference between big data and blockchain technology?",
+      "raw_original_question_th": "ข้อใดเป็นความแตกต่างหลักระหว่างบิกดาต้า (Big Data) กับเทคโนโลยีบล็อกเชน (Blockchain)",
+      "normalized_question_en": "What is a primary difference between big data and blockchain technology?",
+      "normalized_question_th": "ข้อใดเป็นความแตกต่างหลักระหว่างบิกดาต้า (Big Data) กับเทคโนโลยีบล็อกเชน (Blockchain)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-039",
@@ -7813,7 +8506,19 @@
           "review_note": "ตรวจแก้คำแปลครบทั้งโจทย์และตัวเลือกแล้ว โดยคงความหมายและลำดับตามต้นฉบับภาษาอังกฤษ"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "Which of the following statements best describes the concept of discrete normal distribution?",
+      "raw_original_question_th": "ข้อความใดต่อไปนี้อธิบายแนวคิดของ “การแจกแจงปกติแบบไม่ต่อเนื่อง” ได้ดีที่สุด",
+      "normalized_question_en": "Which of the following statements best describes the concept of discrete normal distribution?",
+      "normalized_question_th": "ข้อความใดต่อไปนี้อธิบายแนวคิดของ “การแจกแจงปกติแบบไม่ต่อเนื่อง” ได้ดีที่สุด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-040",
@@ -8050,7 +8755,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "In the context of business decision-making, which level typically involves decisions that affect the long-term direction of the organization?",
+      "raw_original_question_th": "ในบริบทของการตัดสินใจทางธุรกิจ การตัดสินใจระดับใดโดยทั่วไปส่งผลต่อทิศทางระยะยาวขององค์กร",
+      "normalized_question_en": "In the context of business decision-making, which level typically involves decisions that affect the long-term direction of the organization?",
+      "normalized_question_th": "ในบริบทของการตัดสินใจทางธุรกิจ การตัดสินใจระดับใดโดยทั่วไปส่งผลต่อทิศทางระยะยาวขององค์กร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-041",
@@ -8291,7 +9008,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "In _________, the marketing and technology of new products are related to current products, but the new ones are introduced into new markets.",
+      "raw_original_question_th": "ในกลยุทธ์ _____ การตลาดและเทคโนโลยีของผลิตภัณฑ์ใหม่มีความเกี่ยวข้องกับผลิตภัณฑ์ปัจจุบัน แต่ผลิตภัณฑ์ใหม่ถูกนำเข้าสู่ตลาดใหม่",
+      "normalized_question_en": "In _________, the marketing and technology of new products are related to current products, but the new ones are introduced into new markets.",
+      "normalized_question_th": "ในกลยุทธ์ _____ การตลาดและเทคโนโลยีของผลิตภัณฑ์ใหม่มีความเกี่ยวข้องกับผลิตภัณฑ์ปัจจุบัน แต่ผลิตภัณฑ์ใหม่ถูกนำเข้าสู่ตลาดใหม่",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-042",
@@ -8532,7 +9261,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "An advertising campaign that tries to persuade people to avoid drinking and driving is an example of:",
+      "raw_original_question_th": "แคมเปญโฆษณาที่พยายามโน้มน้าวให้ผู้คนหลีกเลี่ยงการดื่มแล้วขับเป็นตัวอย่างของข้อใด",
+      "normalized_question_en": "An advertising campaign that tries to persuade people to avoid drinking and driving is an example of:",
+      "normalized_question_th": "แคมเปญโฆษณาที่พยายามโน้มน้าวให้ผู้คนหลีกเลี่ยงการดื่มแล้วขับเป็นตัวอย่างของข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-043",
@@ -8773,7 +9514,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "When Thai Carpets Int. develops new carpets that are highly stain resistant and durable, it must educate consumers about the product's benefits. This calls for activity in which of the following marketing mix variables?",
+      "raw_original_question_th": "เมื่อบริษัท Thai Carpets Int. พัฒนาพรมชนิดใหม่ที่ทนต่อคราบและมีความทนทานสูง บริษัทต้องให้ความรู้แก่ผู้บริโภคเกี่ยวกับประโยชน์ของผลิตภัณฑ์ การดำเนินการนี้อยู่ในตัวแปรใดของส่วนประสมทางการตลาด",
+      "normalized_question_en": "When Thai Carpets Int. develops new carpets that are highly stain resistant and durable, it must educate consumers about the product's benefits. This calls for activity in which of the following marketing mix variables?",
+      "normalized_question_th": "เมื่อบริษัท Thai Carpets Int. พัฒนาพรมชนิดใหม่ที่ทนต่อคราบและมีความทนทานสูง บริษัทต้องให้ความรู้แก่ผู้บริโภคเกี่ยวกับประโยชน์ของผลิตภัณฑ์ การดำเนินการนี้อยู่ในตัวแปรใดของส่วนประสมทางการตลาด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-044",
@@ -9014,7 +9767,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "The first step in segmentation, targeting and positioning for competitive advantage is",
+      "raw_original_question_th": "ขั้นตอนแรกของการแบ่งส่วนตลาด การกำหนดตลาดเป้าหมาย และการวางตำแหน่งเพื่อสร้างความได้เปรียบในการแข่งขันคือข้อใด",
+      "normalized_question_en": "The first step in segmentation, targeting and positioning for competitive advantage is",
+      "normalized_question_th": "ขั้นตอนแรกของการแบ่งส่วนตลาด การกำหนดตลาดเป้าหมาย และการวางตำแหน่งเพื่อสร้างความได้เปรียบในการแข่งขันคือข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-045",
@@ -9255,7 +10020,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Large retailers such as Tesco and Big C are MOST likely to participate in which of the following channels?",
+      "raw_original_question_th": "ผู้ค้าปลีกรายใหญ่ เช่น Tesco และ Big C มีแนวโน้มมากที่สุดที่จะอยู่ในช่องทางจัดจำหน่ายข้อใด",
+      "normalized_question_en": "Large retailers such as Tesco and Big C are MOST likely to participate in which of the following channels?",
+      "normalized_question_th": "ผู้ค้าปลีกรายใหญ่ เช่น Tesco และ Big C มีแนวโน้มมากที่สุดที่จะอยู่ในช่องทางจัดจำหน่ายข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-046",
@@ -9553,7 +10330,19 @@
           "human_review_required": false,
           "review_note": "ตรวจแก้คำแปลครบทั้งโจทย์และตัวเลือกแล้ว โดยคงความหมายและลำดับตามต้นฉบับภาษาอังกฤษ"
         }
-      ]
+      ],
+      "raw_original_question_en": "What is the critical success factor for customer satisfaction?",
+      "raw_original_question_th": "ปัจจัยแห่งความสำเร็จที่สำคัญสำหรับความพึงพอใจของลูกค้าคือข้อใด",
+      "normalized_question_en": "What is the critical success factor for customer satisfaction?",
+      "normalized_question_th": "ปัจจัยแห่งความสำเร็จที่สำคัญสำหรับความพึงพอใจของลูกค้าคือข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-047",
@@ -9797,7 +10586,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Aggressive pricing is typical during the stage of the product life cycle.",
+      "raw_original_question_th": "การกำหนดราคาเชิงรุกมักพบในขั้นใดของวงจรชีวิตผลิตภัณฑ์",
+      "normalized_question_en": "Aggressive pricing is typical during the stage of the product life cycle.",
+      "normalized_question_th": "การกำหนดราคาเชิงรุกมักพบในขั้นใดของวงจรชีวิตผลิตภัณฑ์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-048",
@@ -10038,7 +10839,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "In your context, _______ is a societal process by which individuals and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others.",
+      "raw_original_question_th": "ในบริบทนี้ _____ คือกระบวนการทางสังคมที่บุคคลและกลุ่มได้รับสิ่งที่จำเป็นและต้องการ ผ่านการสร้าง การนำเสนอ และการแลกเปลี่ยนผลิตภัณฑ์และบริการที่มีคุณค่ากับผู้อื่นอย่างเสรี",
+      "normalized_question_en": "In your context, _______ is a societal process by which individuals and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others.",
+      "normalized_question_th": "ในบริบทนี้ _____ คือกระบวนการทางสังคมที่บุคคลและกลุ่มได้รับสิ่งที่จำเป็นและต้องการ ผ่านการสร้าง การนำเสนอ และการแลกเปลี่ยนผลิตภัณฑ์และบริการที่มีคุณค่ากับผู้อื่นอย่างเสรี",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-049",
@@ -10279,7 +11092,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "A ___ is created when a company matches its distinctive competency to the opportunities it has discovered in the market.",
+      "raw_original_question_th": "_____ เกิดขึ้นเมื่อบริษัทจับคู่ความสามารถเฉพาะของตนกับโอกาสที่ค้นพบในตลาด",
+      "normalized_question_en": "A ___ is created when a company matches its distinctive competency to the opportunities it has discovered in the market.",
+      "normalized_question_th": "_____ เกิดขึ้นเมื่อบริษัทจับคู่ความสามารถเฉพาะของตนกับโอกาสที่ค้นพบในตลาด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-050",
@@ -10520,7 +11345,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "The marketing concept is a philosophy that states that an organization should try to satisfy customers' needs and at the same time:",
+      "raw_original_question_th": "แนวคิดทางการตลาดเป็นปรัชญาที่ระบุว่าองค์กรควรพยายามตอบสนองความต้องการของลูกค้า และในเวลาเดียวกันควรทำสิ่งใด",
+      "normalized_question_en": "The marketing concept is a philosophy that states that an organization should try to satisfy customers' needs and at the same time:",
+      "normalized_question_th": "แนวคิดทางการตลาดเป็นปรัชญาที่ระบุว่าองค์กรควรพยายามตอบสนองความต้องการของลูกค้า และในเวลาเดียวกันควรทำสิ่งใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-051",
@@ -10761,7 +11598,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "The publishers of The Manager developed a campaign to market the magazine to university and college students studying business and management courses. This would best be refer to as a strategy centering on",
+      "raw_original_question_th": "ผู้จัดพิมพ์นิตยสาร The Manager พัฒนาแคมเปญเพื่อทำการตลาดนิตยสารให้แก่นักศึกษามหาวิทยาลัยและวิทยาลัยที่เรียนด้านธุรกิจและการจัดการ กลยุทธ์นี้เรียกว่าอะไรได้เหมาะสมที่สุด",
+      "normalized_question_en": "The publishers of The Manager developed a campaign to market the magazine to university and college students studying business and management courses. This would best be refer to as a strategy centering on",
+      "normalized_question_th": "ผู้จัดพิมพ์นิตยสาร The Manager พัฒนาแคมเปญเพื่อทำการตลาดนิตยสารให้แก่นักศึกษามหาวิทยาลัยและวิทยาลัยที่เรียนด้านธุรกิจและการจัดการ กลยุทธ์นี้เรียกว่าอะไรได้เหมาะสมที่สุด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-052",
@@ -11002,7 +11851,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Using a successful brand name to introduce additional items in a given product category under the same brand name (such as new colors, package sizes, flavors, or forms) is called a(n):",
+      "raw_original_question_th": "การใช้ชื่อตราสินค้าที่ประสบความสำเร็จเพื่อเพิ่มสินค้าใหม่ภายใต้ตราสินค้าเดิมในหมวดหมู่ผลิตภัณฑ์เดียวกัน เช่น การเพิ่มสี ขนาดบรรจุภัณฑ์ รสชาติ หรือรูปแบบ เรียกว่าอะไร",
+      "normalized_question_en": "Using a successful brand name to introduce additional items in a given product category under the same brand name (such as new colors, package sizes, flavors, or forms) is called a(n):",
+      "normalized_question_th": "การใช้ชื่อตราสินค้าที่ประสบความสำเร็จเพื่อเพิ่มสินค้าใหม่ภายใต้ตราสินค้าเดิมในหมวดหมู่ผลิตภัณฑ์เดียวกัน เช่น การเพิ่มสี ขนาดบรรจุภัณฑ์ รสชาติ หรือรูปแบบ เรียกว่าอะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-053",
@@ -11243,7 +12104,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "If Honda uses its company name to cover such different products as its automobiles, lawn mowers, and motorcycles, it is practicing which of the following strategies?",
+      "raw_original_question_th": "หาก Honda ใช้ชื่อบริษัทของตนครอบคลุมผลิตภัณฑ์ที่แตกต่างกัน เช่น รถยนต์ เครื่องตัดหญ้า และรถจักรยานยนต์ บริษัทกำลังใช้กลยุทธ์ใด",
+      "normalized_question_en": "If Honda uses its company name to cover such different products as its automobiles, lawn mowers, and motorcycles, it is practicing which of the following strategies?",
+      "normalized_question_th": "หาก Honda ใช้ชื่อบริษัทของตนครอบคลุมผลิตภัณฑ์ที่แตกต่างกัน เช่น รถยนต์ เครื่องตัดหญ้า และรถจักรยานยนต์ บริษัทกำลังใช้กลยุทธ์ใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-054",
@@ -11484,7 +12357,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "____ are products bought by individuals and organizations for further processing or for use in conducting a business.",
+      "raw_original_question_th": "_____ คือผลิตภัณฑ์ที่บุคคลและองค์กรซื้อเพื่อนำไปแปรรูปต่อ หรือใช้ในการดำเนินธุรกิจ",
+      "normalized_question_en": "____ are products bought by individuals and organizations for further processing or for use in conducting a business.",
+      "normalized_question_th": "_____ คือผลิตภัณฑ์ที่บุคคลและองค์กรซื้อเพื่อนำไปแปรรูปต่อ หรือใช้ในการดำเนินธุรกิจ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-055",
@@ -11725,7 +12610,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "The total number of items that the the company carries within its product lines refers to",
+      "raw_original_question_th": "จำนวนรายการสินค้าทั้งหมดที่บริษัทมีอยู่ภายในสายผลิตภัณฑ์ของตนเรียกว่าอะไร",
+      "normalized_question_en": "The total number of items that the the company carries within its product lines refers to",
+      "normalized_question_th": "จำนวนรายการสินค้าทั้งหมดที่บริษัทมีอยู่ภายในสายผลิตภัณฑ์ของตนเรียกว่าอะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-056",
@@ -11966,7 +12863,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "If a company's objectives were to reach masses of buyers that were geographically dispersed at a low cost per exposure, the company would likely choose which of the following promotion forms?",
+      "raw_original_question_th": "หากบริษัทมีวัตถุประสงค์เพื่อเข้าถึงผู้ซื้อจำนวนมากที่กระจายตัวทางภูมิศาสตร์ด้วยต้นทุนต่อการเข้าถึงต่ำ บริษัทน่าจะเลือกรูปแบบการส่งเสริมการตลาดใด",
+      "normalized_question_en": "If a company's objectives were to reach masses of buyers that were geographically dispersed at a low cost per exposure, the company would likely choose which of the following promotion forms?",
+      "normalized_question_th": "หากบริษัทมีวัตถุประสงค์เพื่อเข้าถึงผู้ซื้อจำนวนมากที่กระจายตัวทางภูมิศาสตร์ด้วยต้นทุนต่อการเข้าถึงต่ำ บริษัทน่าจะเลือกรูปแบบการส่งเสริมการตลาดใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-057",
@@ -12207,7 +13116,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "The fact that services are sold, produced, the following service characteristics? and consumed at the same time refers to which of",
+      "raw_original_question_th": "ลักษณะที่บริการถูกขาย ผลิต และบริโภคในเวลาเดียวกัน หมายถึงคุณลักษณะของบริการข้อใดต่อไปนี้",
+      "normalized_question_en": "The fact that services are sold, produced, the following service characteristics? and consumed at the same time refers to which of",
+      "normalized_question_th": "ลักษณะที่บริการถูกขาย ผลิต และบริโภคในเวลาเดียวกัน หมายถึงคุณลักษณะของบริการข้อใดต่อไปนี้",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-058",
@@ -12448,7 +13369,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "A _____ is a promotion strategy that calls for using the sales force and trade promotion to move the product through channels.",
+      "raw_original_question_th": "_____ คือกลยุทธ์การส่งเสริมการตลาดที่ใช้พนักงานขายและการส่งเสริมการค้าผลักดันผลิตภัณฑ์ผ่านช่องทางจัดจำหน่าย",
+      "normalized_question_en": "A _____ is a promotion strategy that calls for using the sales force and trade promotion to move the product through channels.",
+      "normalized_question_th": "_____ คือกลยุทธ์การส่งเสริมการตลาดที่ใช้พนักงานขายและการส่งเสริมการค้าผลักดันผลิตภัณฑ์ผ่านช่องทางจัดจำหน่าย",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-059",
@@ -12689,7 +13622,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "_____ is to acquire additional business activities which operate at the same level of the value chain in similar or different industries.",
+      "raw_original_question_th": "_____ คือการเข้าซื้อกิจกรรมทางธุรกิจเพิ่มเติมที่ดำเนินงานในระดับเดียวกันของห่วงโซ่คุณค่า ไม่ว่าจะอยู่ในอุตสาหกรรมที่คล้ายกันหรือแตกต่างกัน",
+      "normalized_question_en": "_____ is to acquire additional business activities which operate at the same level of the value chain in similar or different industries.",
+      "normalized_question_th": "_____ คือการเข้าซื้อกิจกรรมทางธุรกิจเพิ่มเติมที่ดำเนินงานในระดับเดียวกันของห่วงโซ่คุณค่า ไม่ว่าจะอยู่ในอุตสาหกรรมที่คล้ายกันหรือแตกต่างกัน",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-060",
@@ -12930,7 +13875,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "7-Up beverage is using an irreverent advertising campaign that pokes fun at other Up is using demographics to campaigns that appeal to Generation X members who are cynical about advertising. 7-Up is using demographics to _____ its market",
+      "raw_original_question_th": "เครื่องดื่ม 7‑Up ใช้แคมเปญโฆษณาแบบไม่ยึดกรอบที่ล้อเลียนผู้อื่น และใช้ข้อมูลประชากรศาสตร์สำหรับแคมเปญที่ดึงดูดสมาชิก Generation X ซึ่งมีทัศนคติไม่เชื่อถือโฆษณา 7‑Up กำลังใช้ข้อมูลประชากรศาสตร์เพื่อ _____ ตลาดของตน",
+      "normalized_question_en": "7-Up beverage is using an irreverent advertising campaign that pokes fun at other Up is using demographics to campaigns that appeal to Generation X members who are cynical about advertising. 7-Up is using demographics to _____ its market",
+      "normalized_question_th": "เครื่องดื่ม 7‑Up ใช้แคมเปญโฆษณาแบบไม่ยึดกรอบที่ล้อเลียนผู้อื่น และใช้ข้อมูลประชากรศาสตร์สำหรับแคมเปญที่ดึงดูดสมาชิก Generation X ซึ่งมีทัศนคติไม่เชื่อถือโฆษณา 7‑Up กำลังใช้ข้อมูลประชากรศาสตร์เพื่อ _____ ตลาดของตน",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-061",
@@ -13171,7 +14128,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the software being used by companies to connect the e-Business applications?",
+      "raw_original_question_th": "ซอฟต์แวร์ใดที่บริษัทใช้เชื่อมต่อแอปพลิเคชันธุรกิจอิเล็กทรอนิกส์ (e-Business)",
+      "normalized_question_en": "What is the software being used by companies to connect the e-Business applications?",
+      "normalized_question_th": "ซอฟต์แวร์ใดที่บริษัทใช้เชื่อมต่อแอปพลิเคชันธุรกิจอิเล็กทรอนิกส์ (e-Business)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-062",
@@ -13493,7 +14462,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Consider the following table. What are the primary key and candidate key in EMPLOYEE table?",
+      "raw_original_question_th": "พิจารณาตารางต่อไปนี้ คีย์หลัก (Primary Key) และคีย์ผู้สมัคร (Candidate Key) ในตาราง EMPLOYEE คือข้อใด",
+      "normalized_question_en": "Consider the following table. What are the primary key and candidate key in EMPLOYEE table?",
+      "normalized_question_th": "พิจารณาตารางต่อไปนี้ คีย์หลัก (Primary Key) และคีย์ผู้สมัคร (Candidate Key) ในตาราง EMPLOYEE คือข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-063",
@@ -13726,7 +14707,19 @@
           "review_note": "คำแปลครบถ้วน แต่ความกำกวมอยู่ในโจทย์ต้นฉบับซึ่งมีหลายคำตอบที่เป็นไปได้"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "What is Electronic Communications tool?",
+      "raw_original_question_th": "ข้อใดเป็นเครื่องมือสื่อสารอิเล็กทรอนิกส์",
+      "normalized_question_en": "What is Electronic Communications tool?",
+      "normalized_question_th": "ข้อใดเป็นเครื่องมือสื่อสารอิเล็กทรอนิกส์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-064",
@@ -13967,7 +14960,19 @@
           "review_note": "ตรวจแก้คำแปลครบทั้งโจทย์และตัวเลือกแล้ว โดยคงความหมายและลำดับตามต้นฉบับภาษาอังกฤษ"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "How can you use the information technology to support the \"Alliance Strategies\" which is a competitive strategy that can be implemented for competitive advantage?",
+      "raw_original_question_th": "คุณจะใช้เทคโนโลยีสารสนเทศเพื่อสนับสนุน “กลยุทธ์พันธมิตร” ซึ่งเป็นกลยุทธ์การแข่งขันเพื่อสร้างความได้เปรียบในการแข่งขันได้อย่างไร",
+      "normalized_question_en": "How can you use the information technology to support the \"Alliance Strategies\" which is a competitive strategy that can be implemented for competitive advantage?",
+      "normalized_question_th": "คุณจะใช้เทคโนโลยีสารสนเทศเพื่อสนับสนุน “กลยุทธ์พันธมิตร” ซึ่งเป็นกลยุทธ์การแข่งขันเพื่อสร้างความได้เปรียบในการแข่งขันได้อย่างไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-065",
@@ -14208,7 +15213,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is COTS software?",
+      "raw_original_question_th": "ซอฟต์แวร์สำเร็จรูปเชิงพาณิชย์ (Commercial Off-the-Shelf: COTS) คืออะไร",
+      "normalized_question_en": "What is COTS software?",
+      "normalized_question_th": "ซอฟต์แวร์สำเร็จรูปเชิงพาณิชย์ (Commercial Off-the-Shelf: COTS) คืออะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-066",
@@ -14465,7 +15482,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What are five major parts of a database system?",
+      "raw_original_question_th": "องค์ประกอบหลักห้าส่วนของระบบฐานข้อมูลมีอะไรบ้าง",
+      "normalized_question_en": "What are five major parts of a database system?",
+      "normalized_question_th": "องค์ประกอบหลักห้าส่วนของระบบฐานข้อมูลมีอะไรบ้าง",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-067",
@@ -14726,7 +15755,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is not the basic type of analytical modeling activities which are involved in using a decision support system?",
+      "raw_original_question_th": "ข้อใดไม่ใช่กิจกรรมพื้นฐานของการสร้างแบบจำลองเชิงวิเคราะห์ที่ใช้ในระบบสนับสนุนการตัดสินใจ",
+      "normalized_question_en": "What is not the basic type of analytical modeling activities which are involved in using a decision support system?",
+      "normalized_question_th": "ข้อใดไม่ใช่กิจกรรมพื้นฐานของการสร้างแบบจำลองเชิงวิเคราะห์ที่ใช้ในระบบสนับสนุนการตัดสินใจ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-068",
@@ -14987,7 +16028,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Assume that you are the business owner and you want to improve your customer focus, what is the suitable information system that can help you achieve your task?",
+      "raw_original_question_th": "สมมติว่าคุณเป็นเจ้าของธุรกิจและต้องการเพิ่มการมุ่งเน้นลูกค้า ระบบสารสนเทศใดเหมาะสมที่จะช่วยให้บรรลุงานนี้",
+      "normalized_question_en": "Assume that you are the business owner and you want to improve your customer focus, what is the suitable information system that can help you achieve your task?",
+      "normalized_question_th": "สมมติว่าคุณเป็นเจ้าของธุรกิจและต้องการเพิ่มการมุ่งเน้นลูกค้า ระบบสารสนเทศใดเหมาะสมที่จะช่วยให้บรรลุงานนี้",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-069",
@@ -15224,7 +16277,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the suitable word that can be filled in to complete the following sentence? \"The is the representation of the database as seen by the DBMS",
+      "raw_original_question_th": "คำใดเหมาะสมสำหรับเติมให้ประโยคต่อไปนี้สมบูรณ์: “_____ คือการแทนภาพของฐานข้อมูลตามที่ระบบจัดการฐานข้อมูล (DBMS) มองเห็น”",
+      "normalized_question_en": "What is the suitable word that can be filled in to complete the following sentence? \"The is the representation of the database as seen by the DBMS",
+      "normalized_question_th": "คำใดเหมาะสมสำหรับเติมให้ประโยคต่อไปนี้สมบูรณ์: “_____ คือการแทนภาพของฐานข้อมูลตามที่ระบบจัดการฐานข้อมูล (DBMS) มองเห็น”",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-070",
@@ -15465,7 +16530,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What are the activities of information system?",
+      "raw_original_question_th": "กิจกรรมของระบบสารสนเทศมีอะไรบ้าง",
+      "normalized_question_en": "What are the activities of information system?",
+      "normalized_question_th": "กิจกรรมของระบบสารสนเทศมีอะไรบ้าง",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-071",
@@ -15709,7 +16786,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the key term to explain the following definition?\" Using the Internet and other networks for e-commerce, enterprise collaboration, and web-enabled business processes\"",
+      "raw_original_question_th": "คำสำคัญใดอธิบายคำจำกัดความต่อไปนี้: “การใช้อินเทอร์เน็ตและเครือข่ายอื่นเพื่อการพาณิชย์อิเล็กทรอนิกส์ ความร่วมมือระดับองค์กร และกระบวนการธุรกิจที่ทำงานผ่านเว็บ”",
+      "normalized_question_en": "What is the key term to explain the following definition?\" Using the Internet and other networks for e-commerce, enterprise collaboration, and web-enabled business processes\"",
+      "normalized_question_th": "คำสำคัญใดอธิบายคำจำกัดความต่อไปนี้: “การใช้อินเทอร์เน็ตและเครือข่ายอื่นเพื่อการพาณิชย์อิเล็กทรอนิกส์ ความร่วมมือระดับองค์กร และกระบวนการธุรกิจที่ทำงานผ่านเว็บ”",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-072",
@@ -15950,7 +17039,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What characteristic of information make them valuable and useful?",
+      "raw_original_question_th": "คุณลักษณะใดของสารสนเทศทำให้สารสนเทศมีคุณค่าและเป็นประโยชน์",
+      "normalized_question_en": "What characteristic of information make them valuable and useful?",
+      "normalized_question_th": "คุณลักษณะใดของสารสนเทศทำให้สารสนเทศมีคุณค่าและเป็นประโยชน์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-073",
@@ -16272,7 +17373,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Consider the following Chen model. What is(are) NOT the multivalued attribute?",
+      "raw_original_question_th": "พิจารณาแบบจำลอง Chen ต่อไปนี้ แอตทริบิวต์ใดไม่ใช่แอตทริบิวต์หลายค่า (Multivalued Attribute)",
+      "normalized_question_en": "Consider the following Chen model. What is(are) NOT the multivalued attribute?",
+      "normalized_question_th": "พิจารณาแบบจำลอง Chen ต่อไปนี้ แอตทริบิวต์ใดไม่ใช่แอตทริบิวต์หลายค่า (Multivalued Attribute)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-074",
@@ -16529,7 +17642,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What can we call the basic analytical operation of Online Analytical Processing ( OLAP) that has the ability to look at the database from difference viewpoints?",
+      "raw_original_question_th": "การดำเนินการวิเคราะห์พื้นฐานของการประมวลผลเชิงวิเคราะห์ออนไลน์ (Online Analytical Processing: OLAP) ที่ช่วยให้มองฐานข้อมูลจากมุมมองต่าง ๆ เรียกว่าอะไร",
+      "normalized_question_en": "What can we call the basic analytical operation of Online Analytical Processing ( OLAP) that has the ability to look at the database from difference viewpoints?",
+      "normalized_question_th": "การดำเนินการวิเคราะห์พื้นฐานของการประมวลผลเชิงวิเคราะห์ออนไลน์ (Online Analytical Processing: OLAP) ที่ช่วยให้มองฐานข้อมูลจากมุมมองต่าง ๆ เรียกว่าอะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-075",
@@ -16765,7 +17890,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the language that enables users to create database, perform data manipulation, and query the database to extract useful information?",
+      "raw_original_question_th": "ภาษาใดช่วยให้ผู้ใช้สร้างฐานข้อมูล จัดการข้อมูล และสืบค้นฐานข้อมูลเพื่อดึงสารสนเทศที่เป็นประโยชน์",
+      "normalized_question_en": "What is the language that enables users to create database, perform data manipulation, and query the database to extract useful information?",
+      "normalized_question_th": "ภาษาใดช่วยให้ผู้ใช้สร้างฐานข้อมูล จัดการข้อมูล และสืบค้นฐานข้อมูลเพื่อดึงสารสนเทศที่เป็นประโยชน์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-076",
@@ -17006,7 +18143,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is (are) the fundamental role(s) of information system in business?",
+      "raw_original_question_th": "บทบาทพื้นฐานของระบบสารสนเทศในธุรกิจมีอะไรบ้าง",
+      "normalized_question_en": "What is (are) the fundamental role(s) of information system in business?",
+      "normalized_question_th": "บทบาทพื้นฐานของระบบสารสนเทศในธุรกิจมีอะไรบ้าง",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-077",
@@ -17328,7 +18477,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Consider the following Crow's foot notation which represents the conceptual database modeling of customer. What are the required attributes?",
+      "raw_original_question_th": "พิจารณาสัญลักษณ์ Crow’s Foot ต่อไปนี้ซึ่งแสดงแบบจำลองฐานข้อมูลเชิงแนวคิดของลูกค้า แอตทริบิวต์ใดเป็นแอตทริบิวต์บังคับ",
+      "normalized_question_en": "Consider the following Crow's foot notation which represents the conceptual database modeling of customer. What are the required attributes?",
+      "normalized_question_th": "พิจารณาสัญลักษณ์ Crow’s Foot ต่อไปนี้ซึ่งแสดงแบบจำลองฐานข้อมูลเชิงแนวคิดของลูกค้า แอตทริบิวต์ใดเป็นแอตทริบิวต์บังคับ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-078",
@@ -17592,7 +18753,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What are the types of information system support for effective decision making by managers",
+      "raw_original_question_th": "ระบบสารสนเทศประเภทใดสนับสนุนการตัดสินใจอย่างมีประสิทธิผลของผู้จัดการ",
+      "normalized_question_en": "What are the types of information system support for effective decision making by managers",
+      "normalized_question_th": "ระบบสารสนเทศประเภทใดสนับสนุนการตัดสินใจอย่างมีประสิทธิผลของผู้จัดการ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-079",
@@ -17914,7 +19087,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the result from the following INTERSECT operator?",
+      "raw_original_question_th": "ผลลัพธ์จากตัวดำเนินการ INTERSECT ต่อไปนี้คือข้อใด",
+      "normalized_question_en": "What is the result from the following INTERSECT operator?",
+      "normalized_question_th": "ผลลัพธ์จากตัวดำเนินการ INTERSECT ต่อไปนี้คือข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-080",
@@ -18236,7 +19421,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the result from the following UNION operator?",
+      "raw_original_question_th": "ผลลัพธ์จากตัวดำเนินการ UNION ต่อไปนี้คือข้อใด",
+      "normalized_question_en": "What is the result from the following UNION operator?",
+      "normalized_question_th": "ผลลัพธ์จากตัวดำเนินการ UNION ต่อไปนี้คือข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-081",
@@ -18472,7 +19669,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is NOT described by \"System Architecture\"?",
+      "raw_original_question_th": "ข้อใดไม่ใช่สิ่งที่ “สถาปัตยกรรมระบบ” (System Architecture) อธิบาย",
+      "normalized_question_en": "What is NOT described by \"System Architecture\"?",
+      "normalized_question_th": "ข้อใดไม่ใช่สิ่งที่ “สถาปัตยกรรมระบบ” (System Architecture) อธิบาย",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-082",
@@ -18708,7 +19917,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which is the most suitable pattern of system architecture used to describe World Wide Web?",
+      "raw_original_question_th": "รูปแบบสถาปัตยกรรมระบบใดเหมาะสมที่สุดสำหรับอธิบายเวิลด์ไวด์เว็บ (World Wide Web)",
+      "normalized_question_en": "Which is the most suitable pattern of system architecture used to describe World Wide Web?",
+      "normalized_question_th": "รูปแบบสถาปัตยกรรมระบบใดเหมาะสมที่สุดสำหรับอธิบายเวิลด์ไวด์เว็บ (World Wide Web)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-083",
@@ -18924,7 +20145,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is a software design principle that separate the functionality of a program into independent, interchangeable unit where each unit contains everything necessary to execute the desired functionality?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นหลักการออกแบบซอฟต์แวร์ที่แยกการทำงานของโปรแกรมออกเป็นหน่วยอิสระซึ่งสับเปลี่ยนกันได้ โดยแต่ละหน่วยมีทุกสิ่งที่จำเป็นสำหรับทำงานตามหน้าที่ที่ต้องการ",
+      "normalized_question_en": "Which of the following is a software design principle that separate the functionality of a program into independent, interchangeable unit where each unit contains everything necessary to execute the desired functionality?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นหลักการออกแบบซอฟต์แวร์ที่แยกการทำงานของโปรแกรมออกเป็นหน่วยอิสระซึ่งสับเปลี่ยนกันได้ โดยแต่ละหน่วยมีทุกสิ่งที่จำเป็นสำหรับทำงานตามหน้าที่ที่ต้องการ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-084",
@@ -19161,7 +20394,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is NOT an objective of software design?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ไม่ใช่วัตถุประสงค์ของการออกแบบซอฟต์แวร์",
+      "normalized_question_en": "Which of the following is NOT an objective of software design?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ไม่ใช่วัตถุประสงค์ของการออกแบบซอฟต์แวร์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-085",
@@ -19398,7 +20643,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What are common activities in software development process?",
+      "raw_original_question_th": "กิจกรรมทั่วไปในกระบวนการพัฒนาซอฟต์แวร์มีอะไรบ้าง",
+      "normalized_question_en": "What are common activities in software development process?",
+      "normalized_question_th": "กิจกรรมทั่วไปในกระบวนการพัฒนาซอฟต์แวร์มีอะไรบ้าง",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-086",
@@ -19654,7 +20911,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "In the web architecture, which of the following is the component is used to handle receiving and sending request from clients?",
+      "raw_original_question_th": "ในสถาปัตยกรรมเว็บ องค์ประกอบใดใช้รับและส่งคำขอจากไคลเอนต์",
+      "normalized_question_en": "In the web architecture, which of the following is the component is used to handle receiving and sending request from clients?",
+      "normalized_question_th": "ในสถาปัตยกรรมเว็บ องค์ประกอบใดใช้รับและส่งคำขอจากไคลเอนต์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-087",
@@ -19910,7 +21179,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which component is NOT supported by web browser?",
+      "raw_original_question_th": "องค์ประกอบใดที่เว็บเบราว์เซอร์ไม่รองรับโดยตรง",
+      "normalized_question_en": "Which component is NOT supported by web browser?",
+      "normalized_question_th": "องค์ประกอบใดที่เว็บเบราว์เซอร์ไม่รองรับโดยตรง",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-088",
@@ -20246,7 +21527,19 @@
           "human_review_required": false,
           "review_note": "ตรวจแก้คำแปลครบทั้งโจทย์และตัวเลือกแล้ว โดยคงความหมายและลำดับตามต้นฉบับภาษาอังกฤษ"
         }
-      ]
+      ],
+      "raw_original_question_en": "Which is NOT the advantage of cloud-based software development?",
+      "raw_original_question_th": "ข้อใดไม่ใช่ข้อดีของการพัฒนาซอฟต์แวร์บนคลาวด์",
+      "normalized_question_en": "Which is NOT the advantage of cloud-based software development?",
+      "normalized_question_th": "ข้อใดไม่ใช่ข้อดีของการพัฒนาซอฟต์แวร์บนคลาวด์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-089",
@@ -20523,7 +21816,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is a common front-end technology based on JavaScript?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นเทคโนโลยีส่วนหน้าที่ใช้ JavaScript โดยทั่วไป",
+      "normalized_question_en": "Which of the following is a common front-end technology based on JavaScript?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นเทคโนโลยีส่วนหน้าที่ใช้ JavaScript โดยทั่วไป",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-090",
@@ -20802,7 +22107,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is a common back-end technology?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นเทคโนโลยีส่วนหลังที่ใช้โดยทั่วไป",
+      "normalized_question_en": "Which of the following is a common back-end technology?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นเทคโนโลยีส่วนหลังที่ใช้โดยทั่วไป",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-091",
@@ -21079,7 +22396,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the followings is a common framework for mobile development?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นเฟรมเวิร์กที่ใช้โดยทั่วไปสำหรับการพัฒนาแอปพลิเคชันบนอุปกรณ์เคลื่อนที่",
+      "normalized_question_en": "Which of the followings is a common framework for mobile development?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นเฟรมเวิร์กที่ใช้โดยทั่วไปสำหรับการพัฒนาแอปพลิเคชันบนอุปกรณ์เคลื่อนที่",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-092",
@@ -21352,7 +22681,19 @@
           "review_note": "คำแปลรักษาถ้อยคำเชิงเด็ดขาดของต้นฉบับและไม่แก้ชุดตัวเลือกที่บกพร่อง"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "Which of the following is true about APIs?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นจริงเกี่ยวกับส่วนต่อประสานโปรแกรมประยุกต์ (Application Programming Interface: API)",
+      "normalized_question_en": "Which of the following is true about APIs?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นจริงเกี่ยวกับส่วนต่อประสานโปรแกรมประยุกต์ (Application Programming Interface: API)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-093",
@@ -21629,7 +22970,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What are three main parts of Internet of Things (IoT)?",
+      "raw_original_question_th": "องค์ประกอบหลักสามส่วนของอินเทอร์เน็ตของสรรพสิ่ง (Internet of Things: IoT) คืออะไร",
+      "normalized_question_en": "What are three main parts of Internet of Things (IoT)?",
+      "normalized_question_th": "องค์ประกอบหลักสามส่วนของอินเทอร์เน็ตของสรรพสิ่ง (Internet of Things: IoT) คืออะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-094",
@@ -21866,7 +23219,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is NOT a common software development tool?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ไม่ใช่เครื่องมือพัฒนาซอฟต์แวร์ที่ใช้โดยทั่วไป",
+      "normalized_question_en": "Which of the following is NOT a common software development tool?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ไม่ใช่เครื่องมือพัฒนาซอฟต์แวร์ที่ใช้โดยทั่วไป",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-095",
@@ -22130,7 +23495,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "which of the following is a prototype tool?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นเครื่องมือสร้างต้นแบบ (Prototype)",
+      "normalized_question_en": "which of the following is a prototype tool?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นเครื่องมือสร้างต้นแบบ (Prototype)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-096",
@@ -22367,7 +23744,19 @@
           "review_note": "ตรวจแก้คำแปลครบทั้งโจทย์และตัวเลือกแล้ว โดยคงความหมายและลำดับตามต้นฉบับภาษาอังกฤษ"
         }
       ],
-      "remaining_uncertainty_th": null
+      "remaining_uncertainty_th": null,
+      "raw_original_question_en": "Which of the following is a common modeling language used in software design task?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นภาษาสำหรับสร้างแบบจำลองที่ใช้โดยทั่วไปในงานออกแบบซอฟต์แวร์",
+      "normalized_question_en": "Which of the following is a common modeling language used in software design task?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นภาษาสำหรับสร้างแบบจำลองที่ใช้โดยทั่วไปในงานออกแบบซอฟต์แวร์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-097",
@@ -22604,7 +23993,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is a diagram commonly used to describe object-oriented system?",
+      "raw_original_question_th": "แผนภาพใดต่อไปนี้ใช้โดยทั่วไปเพื่ออธิบายระบบเชิงวัตถุ",
+      "normalized_question_en": "Which of the following is a diagram commonly used to describe object-oriented system?",
+      "normalized_question_th": "แผนภาพใดต่อไปนี้ใช้โดยทั่วไปเพื่ออธิบายระบบเชิงวัตถุ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-098",
@@ -22860,7 +24261,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the correct HTML for making a paragraph with background color?",
+      "raw_original_question_th": "โค้ด HTML ที่ถูกต้องสำหรับสร้างย่อหน้าที่มีสีพื้นหลังคือข้อใด",
+      "normalized_question_en": "What is the correct HTML for making a paragraph with background color?",
+      "normalized_question_th": "โค้ด HTML ที่ถูกต้องสำหรับสร้างย่อหน้าที่มีสีพื้นหลังคือข้อใด",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-099",
@@ -23116,7 +24529,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "How can we create a function in JavaScript?",
+      "raw_original_question_th": "เราจะสร้างฟังก์ชันใน JavaScript ได้อย่างไร",
+      "normalized_question_en": "How can we create a function in JavaScript?",
+      "normalized_question_th": "เราจะสร้างฟังก์ชันใน JavaScript ได้อย่างไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-100",
@@ -23393,7 +24818,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is a HTML layout technique?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นเทคนิคการจัดวางหน้า HTML",
+      "normalized_question_en": "Which of the following is a HTML layout technique?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นเทคนิคการจัดวางหน้า HTML",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-101",
@@ -23649,7 +25086,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which layer is not one of five layers of the Internet Model?",
+      "raw_original_question_th": "ชั้นใดไม่ใช่หนึ่งในห้าชั้นของแบบจำลองอินเทอร์เน็ต (Internet Model)",
+      "normalized_question_en": "Which layer is not one of five layers of the Internet Model?",
+      "normalized_question_th": "ชั้นใดไม่ใช่หนึ่งในห้าชั้นของแบบจำลองอินเทอร์เน็ต (Internet Model)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-102",
@@ -23926,7 +25375,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which is not true?",
+      "raw_original_question_th": "ข้อใดไม่เป็นจริง",
+      "normalized_question_en": "Which is not true?",
+      "normalized_question_th": "ข้อใดไม่เป็นจริง",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-103",
@@ -24203,7 +25664,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Where is an email stored, immediately after, SMTP send it successfully?",
+      "raw_original_question_th": "อีเมลถูกจัดเก็บไว้ที่ใดทันทีหลังจาก SMTP ส่งอีเมลสำเร็จ",
+      "normalized_question_en": "Where is an email stored, immediately after, SMTP send it successfully?",
+      "normalized_question_th": "อีเมลถูกจัดเก็บไว้ที่ใดทันทีหลังจาก SMTP ส่งอีเมลสำเร็จ",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-104",
@@ -24459,7 +25932,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which media uses Wavelength Division Multiplexing?",
+      "raw_original_question_th": "สื่อชนิดใดใช้การมัลติเพล็กซ์แบบแบ่งความยาวคลื่น (Wavelength Division Multiplexing: WDM)",
+      "normalized_question_en": "Which media uses Wavelength Division Multiplexing?",
+      "normalized_question_th": "สื่อชนิดใดใช้การมัลติเพล็กซ์แบบแบ่งความยาวคลื่น (Wavelength Division Multiplexing: WDM)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-105",
@@ -24736,7 +26221,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "How does Manchester encoding signal 0 or 1?",
+      "raw_original_question_th": "การเข้ารหัสแมนเชสเตอร์ (Manchester Encoding) แทนสัญญาณ 0 หรือ 1 อย่างไร",
+      "normalized_question_en": "How does Manchester encoding signal 0 or 1?",
+      "normalized_question_th": "การเข้ารหัสแมนเชสเตอร์ (Manchester Encoding) แทนสัญญาณ 0 หรือ 1 อย่างไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-106",
@@ -25013,7 +26510,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following uses \"sliding window\"?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้ใช้ “หน้าต่างเลื่อน” (Sliding Window)",
+      "normalized_question_en": "Which of the following uses \"sliding window\"?",
+      "normalized_question_th": "ข้อใดต่อไปนี้ใช้ “หน้าต่างเลื่อน” (Sliding Window)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-107",
@@ -25269,7 +26778,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "How many bytes are used for an address of Ethernet?",
+      "raw_original_question_th": "ที่อยู่ของอีเทอร์เน็ต (Ethernet Address) ใช้กี่ไบต์",
+      "normalized_question_en": "How many bytes are used for an address of Ethernet?",
+      "normalized_question_th": "ที่อยู่ของอีเทอร์เน็ต (Ethernet Address) ใช้กี่ไบต์",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-108",
@@ -25546,7 +27067,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is true about Quality of Service, QoS?",
+      "raw_original_question_th": "ข้อใดเป็นจริงเกี่ยวกับคุณภาพการให้บริการ (Quality of Service: QoS)",
+      "normalized_question_en": "What is true about Quality of Service, QoS?",
+      "normalized_question_th": "ข้อใดเป็นจริงเกี่ยวกับคุณภาพการให้บริการ (Quality of Service: QoS)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-109",
@@ -25802,7 +27335,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which protocol is used for exterior routing?",
+      "raw_original_question_th": "โพรโทคอลใดใช้สำหรับการกำหนดเส้นทางภายนอก (Exterior Routing)",
+      "normalized_question_en": "Which protocol is used for exterior routing?",
+      "normalized_question_th": "โพรโทคอลใดใช้สำหรับการกำหนดเส้นทางภายนอก (Exterior Routing)",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-110",
@@ -26058,7 +27603,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which version of IP is replacing IPv4?",
+      "raw_original_question_th": "IP รุ่นใดกำลังมาแทนที่ IPv4",
+      "normalized_question_en": "Which version of IP is replacing IPv4?",
+      "normalized_question_th": "IP รุ่นใดกำลังมาแทนที่ IPv4",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-111",
@@ -26339,7 +27896,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which stage of network design does network manager have to \"sell the network proposal to management\"?",
+      "raw_original_question_th": "ในขั้นตอนใดของการออกแบบเครือข่าย ผู้จัดการเครือข่ายต้อง “นำเสนอข้อเสนอเครือข่ายให้ฝ่ายบริหารยอมรับ”",
+      "normalized_question_en": "Which stage of network design does network manager have to \"sell the network proposal to management\"?",
+      "normalized_question_th": "ในขั้นตอนใดของการออกแบบเครือข่าย ผู้จัดการเครือข่ายต้อง “นำเสนอข้อเสนอเครือข่ายให้ฝ่ายบริหารยอมรับ”",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-112",
@@ -26595,7 +28164,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "Which of the following is a type of security on wireless LAN?",
+      "raw_original_question_th": "ข้อใดต่อไปนี้เป็นการรักษาความมั่นคงปลอดภัยของเครือข่าย LAN ไร้สาย",
+      "normalized_question_en": "Which of the following is a type of security on wireless LAN?",
+      "normalized_question_th": "ข้อใดต่อไปนี้เป็นการรักษาความมั่นคงปลอดภัยของเครือข่าย LAN ไร้สาย",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     },
     {
       "question_id": "question-comprehensive-113",
@@ -26872,7 +28453,19 @@
         }
       ],
       "remaining_uncertainty_th": null,
-      "unresolved_reason_th": null
+      "unresolved_reason_th": null,
+      "raw_original_question_en": "What is the key advantage of chassis switch?",
+      "raw_original_question_th": "ข้อได้เปรียบสำคัญของสวิตช์แบบแชสซี (Chassis Switch) คืออะไร",
+      "normalized_question_en": "What is the key advantage of chassis switch?",
+      "normalized_question_th": "ข้อได้เปรียบสำคัญของสวิตช์แบบแชสซี (Chassis Switch) คืออะไร",
+      "embedded_choices_detected": false,
+      "embedded_choice_pattern": null,
+      "embedded_options": [],
+      "normalization_status": "not_required",
+      "normalization_confidence": "high",
+      "normalization_audit_log": [],
+      "normalization_requires_human_review": false,
+      "normalization_human_review_note": null
     }
   ]
 }

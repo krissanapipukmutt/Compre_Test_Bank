@@ -17,6 +17,7 @@ import {
   MISSING_TRANSLATION_WARNING,
   TRANSLATION_REVIEW_WARNING,
 } from "../translation";
+import { FormattedQuestionBlock } from "./QuestionStem";
 
 const externalSourceById = new Map(
   (externalSourcesJson.external_sources as ExternalSource[]).map((source) => [
@@ -238,16 +239,7 @@ export function QuestionCard({
         />
       </header>
 
-      <div className="question-copy">
-        <span className="eyebrow" data-language="en">
-          Original English · ต้นฉบับภาษาอังกฤษ
-        </span>
-        <h2>{question.original_question_en}</h2>
-        <div className="translation-block" data-language="th" lang="th">
-          <span>คำแปลภาษาไทย</span>
-          <p>{question.question_th}</p>
-        </div>
-      </div>
+      <FormattedQuestionBlock question={question} />
 
       {translationInvalid ? (
         <p className="translation-warning" role="alert">

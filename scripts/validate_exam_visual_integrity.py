@@ -49,6 +49,20 @@ TRANSLATION_FIELDS = {
     "translation_completed_at",
     "translation_audit_log",
 }
+NORMALIZATION_FIELDS = {
+    "raw_original_question_en",
+    "raw_original_question_th",
+    "normalized_question_en",
+    "normalized_question_th",
+    "embedded_choices_detected",
+    "embedded_choice_pattern",
+    "embedded_options",
+    "normalization_status",
+    "normalization_confidence",
+    "normalization_audit_log",
+    "normalization_requires_human_review",
+    "normalization_human_review_note",
+}
 ALLOWED_STATUSES = {
     "complete",
     "repaired",
@@ -109,7 +123,11 @@ def without_visual_fields(question: dict[str, Any]) -> dict[str, Any]:
     preserved = {
         key: value
         for key, value in question.items()
-        if key not in VISUAL_FIELDS and key not in TRANSLATION_FIELDS
+        if (
+            key not in VISUAL_FIELDS
+            and key not in TRANSLATION_FIELDS
+            and key not in NORMALIZATION_FIELDS
+        )
     }
     for field in ("choices", "original_choices"):
         if field not in preserved:

@@ -50,6 +50,9 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 11. **Phase 10 — Vercel production deployment**
     Dependency: Phase 9 validated production build and safe Vercel project access.
     Gate: the Vite application builds from `web/`, deploys to production, serves HTML/CSS/JavaScript and all referenced visual assets, renders without browser errors, and supports its hash routes on responsive viewports.
+12. **Phase 11 — Study Library enrichment and question-structure normalization**
+    Dependency: Phase 10 production baseline, recoverable pre-change checkpoint, and verified access to immutable course and examination sources.
+    Gate: all subjects, chapters, and topics provide structured source-labelled bilingual learning content; every embedded-choice candidate is source-verified and preserves raw text, choice IDs, and answer keys; reusable responsive renderers, validators, reports, and all automated gates pass.
 
 ## Phase 5 subphases
 
@@ -100,6 +103,7 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 - [x] Phase 8 final verification: all source boundaries, 48 wording triggers, 2 code-format items, 9 inline visuals, and 9 reference crops independently rechecked; one clipped Q79 supplemental reference crop repaired; no academic answer changed; final validators, 32 unit/integration tests, 11 browser tests, responsive checks, and production build pass.
 - [x] Phase 9: all 105 questions and 525 choices contextually audited; translation validation, preservation checks, 40 unit/integration tests, 12 browser tests, responsive checks, and production build pass.
 - [x] Phase 10: production deployment is ready at `https://compre-test-bank.vercel.app`; HTML, CSS, JavaScript, hash-route reload, responsive rendering, and all 18 visual assets verified.
+- [x] Phase 11: all 6 subjects, 44 chapters, and 132 topics enriched; 105 questions audited and 9 source-verified embedded-statement questions normalized without answer changes; 54 unit/component and 16 browser tests, eight-viewport readability review, production build, validators, and six reports complete.
 
 ## Remaining work
 

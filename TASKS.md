@@ -87,3 +87,24 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` completed · `[!]` blocked
   Dependencies: P9-01, passing production build, authenticated access to the existing `compre-test-bank` Vercel project.
   Expected output: explicit Vite deployment configuration under `web/`, ignored local Vercel metadata and credentials, successful production deployment, and `reports/vercel-production-deployment.md`.
   Validation: Vercel deployment `dpl_Fz6QMJniENF9nVSNUT5wT6PqeibL` is `Ready`; canonical URL returns HTTP 200 HTML; CSS and JavaScript return HTTP 200 with correct content types; the application renders and reloads its hash route without console, page, network, blank-page, overflow, or 404 failures; all 18 visual assets return HTTP 200 and match local SHA-256 hashes; immutable-data and translation validation, lint, strict type check, 40/40 unit/integration tests, 12/12 browser tests, and production build pass.
+
+## STUDY-LIBRARY-ENRICHMENT
+
+- [x] **P11-01 · Phase 11 · Enrich every subject, chapter, and topic**
+  Dependencies: P10-01 and the pre-Phase-11 recoverable checkpoint.
+  Expected output: structured bilingual objectives, overviews, lesson sections, terminology, comparisons, workflows, formulas where applicable, examples, misunderstandings, exam focus, quick review, and explicit source labels for all 6 subjects, 44 chapters, and 132 topics.
+  Validation: Phase 11 validator passes 6 subjects, 44 chapters, 132 topics, and 176 supplementary chapter/topic lesson sections; every required bilingual structure and source label is present; course-material references resolve; no external content was added.
+
+## QUESTION-STRUCTURE-NORMALIZATION
+
+- [x] **P11-02 · Phase 11 · Audit and normalize embedded-choice questions**
+  Dependencies: P11-01 data baseline and original examination page review.
+  Expected output: raw-text preservation fields, normalized bilingual stems, structured embedded statement lines, stable selectable choices and answer keys, automated candidate detection, audit reports, and explicit human-review states.
+  Validation: all 105 questions audited; 9/9 candidates compared with source pages 1, 2, and 4; raw English/Thai and all selectable choice and answer fields match the preservation baseline; 9 normalized, 0 display-only, 0 ambiguous, and 0 structure-review.
+
+## BILINGUAL-READABILITY
+
+- [x] **P11-03 · Phase 11 · Implement responsive bilingual lesson and question rendering**
+  Dependencies: P11-01 and P11-02 validated data.
+  Expected output: source-labelled topic reader, chapter/topic navigation, collapsible table of contents, glossary links, bookmarks, previous/next topic controls, reusable formatted-question component, and mobile-safe comparisons and typography.
+  Validation: lint, strict TypeScript, 54/54 unit/component tests, 16/16 Playwright tests, and production build pass; all eight required viewports pass with no tested clipping, overlap, truncation, or document-level horizontal overflow; npm audit reports 0 vulnerabilities.

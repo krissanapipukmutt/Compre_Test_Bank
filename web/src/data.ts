@@ -89,6 +89,92 @@ function finiteNumber(value: unknown, label: string): number {
   return value;
 }
 
+function stringList(value: unknown, label: string): string[] {
+  return list(value, label).map((item, index) =>
+    text(item, `${label}[${index}]`),
+  );
+}
+
+const sourceLabels = {
+  course_material: ["From course materials", "จากเอกสารการเรียน"],
+  supplementary_explanation: [
+    "Supplementary explanation",
+    "คำอธิบายเสริม",
+  ],
+  external_authoritative_source: [
+    "Supplementary information from an authoritative external source",
+    "ข้อมูลเสริมจากแหล่งภายนอกที่น่าเชื่อถือ",
+  ],
+} as const;
+
+function validateSourceLabel(value: unknown, label: string): UnknownRecord {
+  const item = record(value, label);
+  const category = text(item.source_category, `${label}.source_category`);
+  if (!(category in sourceLabels)) {
+    throw new AcademicDataError(`${label} has an invalid source category`);
+  }
+  const [expectedEnglish, expectedThai] =
+    sourceLabels[category as keyof typeof sourceLabels];
+  if (
+    item.source_label_en !== expectedEnglish ||
+    item.source_label_th !== expectedThai
+  ) {
+    throw new AcademicDataError(`${label} has an invalid bilingual source label`);
+  }
+  return item;
+}
+
+function validateLessonSections(
+  value: unknown,
+  label: string,
+  referenceIds: Set<string>,
+  minimum: number,
+): void {
+  const sections = list(value, label).map((item, index) =>
+    validateSourceLabel(item, `${label}[${index}]`),
+  );
+  if (sections.length < minimum) {
+    throw new AcademicDataError(`${label} must contain at least ${minimum} sections`);
+  }
+  const allowedFormats = new Set([
+    "paragraph",
+    "bullet_list",
+    "numbered_steps",
+    "comparison_table",
+    "formula",
+    "code",
+    "example",
+    "warning",
+    "callout",
+  ]);
+  for (const section of sections) {
+    text(section.section_id, `${label}.section_id`);
+    translationPair(
+      section.heading_en,
+      section.heading_th,
+      `${label}.heading`,
+    );
+    const english = stringList(section.content_en, `${label}.content_en`);
+    const thai = stringList(section.content_th, `${label}.content_th`);
+    if (!english.length || !thai.length) {
+      throw new AcademicDataError(`${label} content cannot be empty`);
+    }
+    if (
+      !allowedFormats.has(text(section.content_format, `${label}.content_format`))
+    ) {
+      throw new AcademicDataError(`${label} has an invalid content format`);
+    }
+    for (const sourceId of stringList(
+      section.source_reference_ids,
+      `${label}.source_reference_ids`,
+    )) {
+      if (!referenceIds.has(sourceId)) {
+        throw new AcademicDataError(`${label} has an invalid source reference`);
+      }
+    }
+  }
+}
+
 function validateVisualAssets(
   rawAssets: unknown,
   questionId: string,
@@ -192,6 +278,27 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
     if (!Array.isArray(item.chapter_ids)) {
       throw new AcademicDataError("subject.chapter_ids must be an array");
     }
+    if (item.content_status !== "enriched") {
+      throw new AcademicDataError("subject content must be enriched");
+    }
+    const objectivesEn = stringList(
+      item.learning_objectives_en,
+      "subject.learning_objectives_en",
+    );
+    const objectivesTh = stringList(
+      item.learning_objectives_th,
+      "subject.learning_objectives_th",
+    );
+    if (objectivesEn.length < 3 || objectivesEn.length !== objectivesTh.length) {
+      throw new AcademicDataError("subject objectives must be complete and bilingual");
+    }
+    translationPair(item.overview_en, item.overview_th, "subject.overview");
+    validateLessonSections(
+      item.lesson_sections,
+      `subject ${String(item.subject_id)} lesson_sections`,
+      referenceIds,
+      2,
+    );
   }
   for (const item of chapterRecords) {
     if (!subjectIds.has(text(item.subject_id, "chapter.subject_id"))) {
@@ -209,6 +316,18 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
         );
       }
     }
+    if (item.content_status !== "enriched") {
+      throw new AcademicDataError(
+        `Chapter ${String(item.chapter_id)} is not enriched`,
+      );
+    }
+    translationPair(item.overview_en, item.overview_th, "chapter.overview");
+    validateLessonSections(
+      item.lesson_sections,
+      `chapter ${String(item.chapter_id)} lesson_sections`,
+      referenceIds,
+      2,
+    );
   }
   for (const item of topicRecords) {
     if (!subjectIds.has(text(item.subject_id, "topic.subject_id"))) {
@@ -219,6 +338,42 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
     if (!chapterIds.has(text(item.chapter_id, "topic.chapter_id"))) {
       throw new AcademicDataError(
         `Topic ${String(item.topic_id)} has an invalid chapter`,
+      );
+    }
+    if (item.content_status !== "enriched") {
+      throw new AcademicDataError(`Topic ${String(item.topic_id)} is not enriched`);
+    }
+    translationPair(item.overview_en, item.overview_th, "topic.overview");
+    const objectivesEn = stringList(
+      item.learning_objectives_en,
+      "topic.learning_objectives_en",
+    );
+    const objectivesTh = stringList(
+      item.learning_objectives_th,
+      "topic.learning_objectives_th",
+    );
+    if (objectivesEn.length < 3 || objectivesEn.length !== objectivesTh.length) {
+      throw new AcademicDataError("topic objectives must be complete and bilingual");
+    }
+    validateLessonSections(
+      item.lesson_sections,
+      `topic ${String(item.topic_id)} lesson_sections`,
+      referenceIds,
+      3,
+    );
+    for (const collection of [
+      "key_terms",
+      "comparisons",
+      "process_steps",
+      "examples",
+      "common_misunderstandings",
+    ] as const) {
+      const values = list(item[collection], `topic.${collection}`);
+      if (!values.length) {
+        throw new AcademicDataError(`topic.${collection} cannot be empty`);
+      }
+      values.forEach((value, index) =>
+        validateSourceLabel(value, `topic.${collection}[${index}]`),
       );
     }
   }
@@ -251,6 +406,64 @@ export function validateAcademicData(raw: RawAcademicPayloads): AcademicData {
       item.question_th,
       `${questionId}.question`,
     );
+    if (
+      item.raw_original_question_en !== item.original_question_en ||
+      item.raw_original_question_th !== item.question_th
+    ) {
+      throw new AcademicDataError(`${questionId} does not preserve raw text`);
+    }
+    translationPair(
+      item.normalized_question_en,
+      item.normalized_question_th,
+      `${questionId}.normalized_question`,
+    );
+    const normalizationStatus = text(
+      item.normalization_status,
+      `${questionId}.normalization_status`,
+    );
+    if (
+      !new Set([
+        "not_required",
+        "normalized",
+        "display_formatted_only",
+        "ambiguous",
+        "requires_human_review",
+      ]).has(normalizationStatus)
+    ) {
+      throw new AcademicDataError(
+        `${questionId} has an invalid normalization status`,
+      );
+    }
+    if (typeof item.embedded_choices_detected !== "boolean") {
+      throw new AcademicDataError(
+        `${questionId}.embedded_choices_detected must be boolean`,
+      );
+    }
+    const embeddedOptions = list(
+      item.embedded_options,
+      `${questionId}.embedded_options`,
+    ).map((option, index) =>
+      record(option, `${questionId}.embedded_options[${index}]`),
+    );
+    if (item.embedded_choices_detected === true) {
+      if (normalizationStatus !== "normalized" || embeddedOptions.length < 2) {
+        throw new AcademicDataError(
+          `${questionId} has incomplete embedded-option normalization`,
+        );
+      }
+      for (const option of embeddedOptions) {
+        text(option.marker, `${questionId} embedded marker`);
+        translationPair(
+          option.original_text_en,
+          option.text_th,
+          `${questionId} embedded option`,
+        );
+      }
+    } else if (embeddedOptions.length || normalizationStatus !== "not_required") {
+      throw new AcademicDataError(
+        `${questionId} has inconsistent normalization metadata`,
+      );
+    }
     const translationStatus = text(
       item.translation_status,
       `${questionId}.translation_status`,

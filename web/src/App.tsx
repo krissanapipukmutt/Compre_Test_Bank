@@ -18,6 +18,7 @@ import {
   ChapterPage,
   LibraryPage,
   SubjectPage,
+  TopicPage,
 } from "./pages/Library";
 import {
   ExamSessionPage,
@@ -126,6 +127,14 @@ function App() {
         questionIds: toggleId(current.bookmarks.questionIds, questionId),
       },
     }));
+  const toggleTopicBookmark = (topicId: string) =>
+    setLocalState((current) => ({
+      ...current,
+      bookmarks: {
+        ...current.bookmarks,
+        topicIds: toggleId(current.bookmarks.topicIds, topicId),
+      },
+    }));
 
   let page;
   switch (route.name) {
@@ -142,6 +151,16 @@ function App() {
           chapterId={route.chapterId}
           data={academicData}
           onBookmark={() => toggleChapterBookmark(route.chapterId)}
+        />
+      );
+      break;
+    case "topic":
+      page = (
+        <TopicPage
+          bookmarked={localState.bookmarks.topicIds.includes(route.topicId)}
+          data={academicData}
+          onBookmark={() => toggleTopicBookmark(route.topicId)}
+          topicId={route.topicId}
         />
       );
       break;
@@ -225,4 +244,3 @@ function App() {
 }
 
 export default App;
-

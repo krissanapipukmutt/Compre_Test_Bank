@@ -5,6 +5,7 @@ export type Route =
   | { name: "library" }
   | { name: "subject"; code: string }
   | { name: "chapter"; chapterId: string }
+  | { name: "topic"; topicId: string }
   | { name: "practice" }
   | { name: "practice-session" }
   | { name: "practice-review" }
@@ -22,6 +23,9 @@ export function parseRoute(hash = window.location.hash): Route {
   }
   if (parts[0] === "library" && parts[1] === "chapter" && parts[2]) {
     return { name: "chapter", chapterId: decodeURIComponent(parts[2]) };
+  }
+  if (parts[0] === "library" && parts[1] === "topic" && parts[2]) {
+    return { name: "topic", topicId: decodeURIComponent(parts[2]) };
   }
   const simple: Record<string, Route> = {
     library: { name: "library" },
@@ -45,6 +49,8 @@ export function routeHref(route: Route): string {
       return `#/library/subject/${encodeURIComponent(route.code)}`;
     case "chapter":
       return `#/library/chapter/${encodeURIComponent(route.chapterId)}`;
+    case "topic":
+      return `#/library/topic/${encodeURIComponent(route.topicId)}`;
     default:
       return `#/${route.name}`;
   }
@@ -71,7 +77,7 @@ export function useRoute(): Route {
 }
 
 export function primarySection(route: Route): string {
-  if (["subject", "chapter"].includes(route.name)) {
+  if (["subject", "chapter", "topic"].includes(route.name)) {
     return "library";
   }
   if (route.name.startsWith("practice")) {

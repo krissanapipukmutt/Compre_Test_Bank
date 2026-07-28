@@ -20,6 +20,17 @@ describe("local progress storage", () => {
     ]);
   });
 
+  it("migrates an existing bookmark payload without topic bookmarks", () => {
+    const state = structuredClone(DEFAULT_LOCAL_STATE) as unknown as {
+      bookmarks: { topicIds?: string[] };
+    };
+    delete state.bookmarks.topicIds;
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    expect(loadLocalState(window.localStorage).state.bookmarks.topicIds).toEqual(
+      [],
+    );
+  });
+
   it("recovers safely from invalid data", () => {
     window.localStorage.setItem(STORAGE_KEY, "{broken");
     const result = loadLocalState(window.localStorage);
@@ -37,4 +48,3 @@ describe("local progress storage", () => {
     expect(window.localStorage.getItem("unrelated")).toBe("keep");
   });
 });
-
