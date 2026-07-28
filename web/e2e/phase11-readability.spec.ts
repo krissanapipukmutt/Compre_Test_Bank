@@ -11,6 +11,18 @@ const viewports = [
   { width: 1440, height: 900 },
 ];
 
+const embeddedQuestionIds = [
+  "question-comprehensive-004",
+  "question-comprehensive-006",
+  "question-comprehensive-007",
+  "question-comprehensive-008",
+  "question-comprehensive-009",
+  "question-comprehensive-010",
+  "question-comprehensive-019",
+  "question-comprehensive-020",
+  "question-comprehensive-028",
+];
+
 const STORAGE_KEY = "compre-study:v1";
 
 async function expectNoDocumentOverflow(page: Page) {
@@ -103,6 +115,44 @@ test("the Business Analyst regression fixture renders separate bilingual stateme
       expect(headingSize).toBeLessThanOrEqual(28);
     }
     await expectNoDocumentOverflow(page);
+  }
+});
+
+test("every marker-bearing question renders separate bilingual statements and answer cards on mobile and desktop", async ({
+  page,
+}) => {
+  for (const viewport of [
+    { width: 390, height: 844 },
+    { width: 1440, height: 900 },
+  ]) {
+    await page.setViewportSize(viewport);
+    for (const questionId of embeddedQuestionIds) {
+      await page.goto(`/#/practice?question=${questionId}`);
+      await page.getByRole("button", { name: /Start practice/i }).click();
+
+      const english = page.locator(
+        '.embedded-option-list[data-language="en"] li',
+      );
+      const thai = page.locator(
+        '.embedded-option-list[data-language="th"] li',
+      );
+      await expect(english).toHaveCount(3);
+      await expect(thai).toHaveCount(3);
+      await expect(page.locator(".choice")).toHaveCount(5);
+      for (const statement of await english.all()) {
+        await expect(statement).toBeVisible();
+      }
+      for (const statement of await thai.all()) {
+        await expect(statement).toBeVisible();
+      }
+      const englishLast = await english.last().boundingBox();
+      const thaiFirst = await thai.first().boundingBox();
+      const thaiLast = await thai.last().boundingBox();
+      const choiceFirst = await page.locator(".choice").first().boundingBox();
+      expect(englishLast!.y + englishLast!.height).toBeLessThan(thaiFirst!.y);
+      expect(thaiLast!.y + thaiLast!.height).toBeLessThan(choiceFirst!.y);
+      await expectNoDocumentOverflow(page);
+    }
   }
 });
 

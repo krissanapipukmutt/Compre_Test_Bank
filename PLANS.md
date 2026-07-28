@@ -103,7 +103,7 @@ Transform all local Term 1 and Term 2 learning and examination materials into an
 - [x] Phase 8 final verification: all source boundaries, 48 wording triggers, 2 code-format items, 9 inline visuals, and 9 reference crops independently rechecked; one clipped Q79 supplemental reference crop repaired; no academic answer changed; final validators, 32 unit/integration tests, 11 browser tests, responsive checks, and production build pass.
 - [x] Phase 9: all 105 questions and 525 choices contextually audited; translation validation, preservation checks, 40 unit/integration tests, 12 browser tests, responsive checks, and production build pass.
 - [x] Phase 10: production deployment is ready at `https://compre-test-bank.vercel.app`; HTML, CSS, JavaScript, hash-route reload, responsive rendering, and all 18 visual assets verified.
-- [x] Phase 11: all 6 subjects, 44 chapters, and 132 topics enriched; 105 questions audited and 9 source-verified embedded-statement questions normalized without answer changes; 54 unit/component and 16 browser tests, eight-viewport readability review, production build, validators, and six reports complete.
+- [x] Phase 11: all 6 subjects, 44 chapters, and 132 topics enriched; 105 questions audited and 9 source-verified embedded-statement questions normalized without answer changes; final topic-depth, provenance, duplication, bilingual-order, and preservation audit passes; 54 unit/component and 17 browser tests, eight-viewport readability review, production build, validators, and seven reports complete.
 
 ## Remaining work
 

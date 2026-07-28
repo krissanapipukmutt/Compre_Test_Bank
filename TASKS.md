@@ -107,4 +107,9 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` completed · `[!]` blocked
 - [x] **P11-03 · Phase 11 · Implement responsive bilingual lesson and question rendering**
   Dependencies: P11-01 and P11-02 validated data.
   Expected output: source-labelled topic reader, chapter/topic navigation, collapsible table of contents, glossary links, bookmarks, previous/next topic controls, reusable formatted-question component, and mobile-safe comparisons and typography.
-  Validation: lint, strict TypeScript, 54/54 unit/component tests, 16/16 Playwright tests, and production build pass; all eight required viewports pass with no tested clipping, overlap, truncation, or document-level horizontal overflow; npm audit reports 0 vulnerabilities.
+  Validation: lint, strict TypeScript, 54/54 unit/component tests, 17/17 Playwright tests, and production build pass; all eight required viewports pass with no tested clipping, overlap, truncation, or document-level horizontal overflow; npm audit reports 0 vulnerabilities.
+
+- [x] **P11-04 · Phase 11 · Final Study Library and question-readability audit**
+  Dependencies: P11-01, P11-02, and P11-03.
+  Expected output: corpus-wide topic depth, provenance, embedded-marker, duplication, raw-preservation, answer-preservation, bilingual ordering, typography, and responsive audit with `reports/final-study-and-question-readability-audit.md`.
+  Validation: final readability validator passes all 132 topics and 105 questions with minimum structured content of 2,429 English/2,037 Thai characters, 9/9 marker-bearing questions normalized, 0 choice duplications, 0 raw failures, and 0 answer changes; lint, strict TypeScript, 54/54 unit/component tests, 17/17 browser tests, all eight required viewports, production build, and npm audit pass.
