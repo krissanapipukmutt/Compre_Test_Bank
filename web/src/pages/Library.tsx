@@ -18,6 +18,14 @@ import {
   SourceList,
 } from "../components/Common";
 
+function BilingualLabel({ en, th }: { en: string; th: string }) {
+  return (
+    <>
+      {en} <span lang="th">· {th}</span>
+    </>
+  );
+}
+
 function SubjectCard({
   subject,
   chapterCount,
@@ -456,7 +464,12 @@ export function ChapterPage({
       <div className="reader-layout">
         <article className="reader-content">
           <section className="learning-objectives" id="chapter-objectives">
-            <span className="eyebrow">Learning objectives · วัตถุประสงค์การเรียนรู้</span>
+            <span className="eyebrow">
+              <BilingualLabel
+                en="Learning objectives"
+                th="วัตถุประสงค์การเรียนรู้"
+              />
+            </span>
             <h2>After this chapter</h2>
             <ul className="check-list">
               {chapter.learning_objectives_en.map((objective, index) => (
@@ -616,7 +629,9 @@ function TopicTableOfContents({ topic }: { topic: Topic }) {
   ];
   return (
     <details className="topic-toc">
-      <summary>On this page · เนื้อหาในหน้านี้</summary>
+      <summary>
+        <BilingualLabel en="On this page" th="เนื้อหาในหน้านี้" />
+      </summary>
       <nav aria-label="Topic table of contents">
         {links.map(([id, english, thai]) => (
           <a href={`#${id}`} key={id}>
@@ -729,7 +744,12 @@ export function TopicPage({
 
         <article className="reader-content topic-content">
           <section className="learning-objectives" id="topic-objectives">
-            <span className="eyebrow">Learning objectives · วัตถุประสงค์การเรียนรู้</span>
+            <span className="eyebrow">
+              <BilingualLabel
+                en="Learning objectives"
+                th="วัตถุประสงค์การเรียนรู้"
+              />
+            </span>
             <h2>What you should understand</h2>
             <ul className="check-list">
               {topic.learning_objectives_en.map((objective, index) => (
@@ -756,7 +776,9 @@ export function TopicPage({
           ))}
 
           <section id="topic-terms">
-            <span className="eyebrow">Key terminology · คำศัพท์สำคัญ</span>
+            <span className="eyebrow">
+              <BilingualLabel en="Key terminology" th="คำศัพท์สำคัญ" />
+            </span>
             <h2>Terms and definitions</h2>
             <div className="definition-grid">
               {topic.key_terms.map((term) => (
@@ -772,7 +794,12 @@ export function TopicPage({
           </section>
 
           <section id="topic-comparisons">
-            <span className="eyebrow">Concept comparison · เปรียบเทียบแนวคิด</span>
+            <span className="eyebrow">
+              <BilingualLabel
+                en="Concept comparison"
+                th="เปรียบเทียบแนวคิด"
+              />
+            </span>
             <h2>{topic.comparisons[0]!.title_en}</h2>
             <p lang="th">{topic.comparisons[0]!.title_th}</p>
             {topic.comparisons.map((comparison) => (
@@ -782,7 +809,9 @@ export function TopicPage({
                   <table>
                     <thead>
                       <tr>
-                        <th>Aspect · ประเด็น</th>
+                        <th>
+                          <BilingualLabel en="Aspect" th="ประเด็น" />
+                        </th>
                         <th>
                           {comparison.columns_en[0]}
                           <small lang="th">{comparison.columns_th[0]}</small>
@@ -818,7 +847,9 @@ export function TopicPage({
           </section>
 
           <section id="topic-process">
-            <span className="eyebrow">Process or workflow · ขั้นตอน</span>
+            <span className="eyebrow">
+              <BilingualLabel en="Process or workflow" th="ขั้นตอน" />
+            </span>
             <h2>Use the concept step by step</h2>
             <ol className="process-list">
               {topic.process_steps.map((step) => (
@@ -838,7 +869,9 @@ export function TopicPage({
 
           {topic.formulas.length ? (
             <section id="topic-formulas">
-              <span className="eyebrow">Formula or rule · สูตรหรือกฎ</span>
+              <span className="eyebrow">
+                <BilingualLabel en="Formula or rule" th="สูตรหรือกฎ" />
+              </span>
               <h2>Formula guide</h2>
               <div className="formula-detail-list">
                 {topic.formulas.map((formula) => (
@@ -860,13 +893,22 @@ export function TopicPage({
                         </div>
                       ))}
                     </dl>
-                    <h4>When to use · ใช้เมื่อใด</h4>
+                    <h4>
+                      <BilingualLabel en="When to use" th="ใช้เมื่อใด" />
+                    </h4>
                     <p>{formula.when_en}</p>
                     <p lang="th">{formula.when_th}</p>
-                    <h4>Worked example · ตัวอย่างคำนวณ</h4>
+                    <h4>
+                      <BilingualLabel en="Worked example" th="ตัวอย่างคำนวณ" />
+                    </h4>
                     <p>{formula.example_en}</p>
                     <p lang="th">{formula.example_th}</p>
-                    <h4>Common mistake · ข้อผิดพลาดที่พบบ่อย</h4>
+                    <h4>
+                      <BilingualLabel
+                        en="Common mistake"
+                        th="ข้อผิดพลาดที่พบบ่อย"
+                      />
+                    </h4>
                     <p>{formula.mistake_en}</p>
                     <p lang="th">{formula.mistake_th}</p>
                   </article>
@@ -876,7 +918,12 @@ export function TopicPage({
           ) : null}
 
           <section id="topic-examples">
-            <span className="eyebrow">Practical example · ตัวอย่างการประยุกต์</span>
+            <span className="eyebrow">
+              <BilingualLabel
+                en="Practical example"
+                th="ตัวอย่างการประยุกต์"
+              />
+            </span>
             <h2>Guided application</h2>
             {topic.examples.map((example) => (
               <article className="example-card" key={example.example_id}>
@@ -898,7 +945,12 @@ export function TopicPage({
           </section>
 
           <section id="topic-misunderstandings">
-            <span className="eyebrow">Common misunderstandings · ความเข้าใจผิด</span>
+            <span className="eyebrow">
+              <BilingualLabel
+                en="Common misunderstandings"
+                th="ความเข้าใจผิด"
+              />
+            </span>
             <h2>Watch for these traps</h2>
             <div className="misunderstanding-list">
               {topic.common_misunderstandings.map((item) => (
@@ -906,7 +958,9 @@ export function TopicPage({
                   <SourceCategoryLabel item={item} />
                   <h3>{item.misunderstanding_en}</h3>
                   <p lang="th">{item.misunderstanding_th}</p>
-                  <strong>Correction · แนวทางที่ถูก</strong>
+                  <strong>
+                    <BilingualLabel en="Correction" th="แนวทางที่ถูก" />
+                  </strong>
                   <p>{item.correction_en}</p>
                   <p lang="th">{item.correction_th}</p>
                 </article>
@@ -917,7 +971,12 @@ export function TopicPage({
           <section className="study-aids" id="topic-exam-focus">
             <div>
               <SourceCategoryLabel item={topic.exam_focus} />
-              <span className="eyebrow">Examination focus · จุดเน้นข้อสอบ</span>
+              <span className="eyebrow">
+                <BilingualLabel
+                  en="Examination focus"
+                  th="จุดเน้นข้อสอบ"
+                />
+              </span>
               <h2>Read the wording carefully</h2>
               <ul>
                 {topic.exam_focus.points_en?.map((point, index) => (
@@ -940,7 +999,10 @@ export function TopicPage({
             <div className="section-heading section-heading--compact">
               <div>
                 <span className="eyebrow">
-                  Supplied-exam traceability · การสืบย้อนข้อสอบที่ได้รับ
+                  <BilingualLabel
+                    en="Supplied-exam traceability"
+                    th="การสืบย้อนข้อสอบที่ได้รับ"
+                  />
                 </span>
                 <h2>
                   Related examination topics
@@ -955,7 +1017,9 @@ export function TopicPage({
               <>
                 <div className="topic-exam-links__summary">
                   <div>
-                    <strong>Difficulty · ระดับความยาก</strong>
+                    <strong>
+                      <BilingualLabel en="Difficulty" th="ระดับความยาก" />
+                    </strong>
                     <span>
                       Easy {examMap.difficulty_counts.easy} · Medium{" "}
                       {examMap.difficulty_counts.medium} · Hard{" "}
@@ -963,7 +1027,12 @@ export function TopicPage({
                     </span>
                   </div>
                   <div>
-                    <strong>Observed frequency · ความถี่ที่พบ</strong>
+                    <strong>
+                      <BilingualLabel
+                        en="Observed frequency"
+                        th="ความถี่ที่พบ"
+                      />
+                    </strong>
                     <span>
                       {examMap.exam_frequency_signal ===
                       "appears_multiple_times_in_supplied_exam_examples"
@@ -972,7 +1041,9 @@ export function TopicPage({
                     </span>
                   </div>
                 </div>
-                <h3>Tested concepts · แนวคิดที่ทดสอบ</h3>
+                <h3>
+                  <BilingualLabel en="Tested concepts" th="แนวคิดที่ทดสอบ" />
+                </h3>
                 <ul className="bilingual-lesson-list">
                   {examMap.tested_concepts.map((concept) => (
                     <li key={concept.question_id}>
@@ -984,7 +1055,12 @@ export function TopicPage({
                 {examMap.answer_status_warning_count ? (
                   <AcademicNotice
                     severity="warning"
-                    title="Answer-status warning · คำเตือนสถานะคำตอบ"
+                    title={
+                      <BilingualLabel
+                        en="Answer-status warning"
+                        th="คำเตือนสถานะคำตอบ"
+                      />
+                    }
                   >
                     <p>
                       {examMap.answer_status_warning_count} related{" "}
@@ -1006,11 +1082,18 @@ export function TopicPage({
                   className="button button--primary"
                   href={`${routeHref({ name: "practice" })}?topic=${encodeURIComponent(topicId)}`}
                 >
-                  Practice this topic · ฝึกหัวข้อนี้
+                  <BilingualLabel en="Practice this topic" th="ฝึกหัวข้อนี้" />
                 </a>
               </>
             ) : (
-              <AcademicNotice title="No supplied exam example found · ไม่พบตัวอย่างในข้อสอบที่ได้รับ">
+              <AcademicNotice
+                title={
+                  <BilingualLabel
+                    en="No supplied exam example found"
+                    th="ไม่พบตัวอย่างในข้อสอบที่ได้รับ"
+                  />
+                }
+              >
                 <p>
                   This does not mean the topic is unimportant. It only records
                   that no question in the supplied examination set maps directly
@@ -1025,7 +1108,9 @@ export function TopicPage({
           </section>
 
           <section className="review-card" id="topic-quick-review">
-            <span className="eyebrow">Quick review · ทบทวนด่วน</span>
+            <span className="eyebrow">
+              <BilingualLabel en="Quick review" th="ทบทวนด่วน" />
+            </span>
             <blockquote>{topic.quick_review.memory_aid_en}</blockquote>
             <p lang="th">{topic.quick_review.memory_aid_th}</p>
             <ul className="bilingual-lesson-list">

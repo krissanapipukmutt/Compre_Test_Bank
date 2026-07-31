@@ -31,6 +31,20 @@ describe("local progress storage", () => {
     );
   });
 
+  it("removes the retired language field from progress preferences", () => {
+    const legacy = structuredClone(DEFAULT_LOCAL_STATE) as typeof DEFAULT_LOCAL_STATE & {
+      preferences: typeof DEFAULT_LOCAL_STATE.preferences & {
+        languageView: string;
+      };
+    };
+    legacy.preferences.languageView = "english";
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(legacy));
+
+    const loaded = loadLocalState(window.localStorage).state;
+    expect(loaded.preferences).not.toHaveProperty("languageView");
+    expect(loaded.bookmarks).toEqual(legacy.bookmarks);
+  });
+
   it("recovers safely from invalid data", () => {
     window.localStorage.setItem(STORAGE_KEY, "{broken");
     const result = loadLocalState(window.localStorage);

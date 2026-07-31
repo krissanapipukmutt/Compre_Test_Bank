@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { Route } from "../router";
 import { primarySection, routeHref } from "../router";
+import type { LanguageDisplayMode } from "../languageDisplay";
 import { Icon } from "./Common";
+import { LanguageDisplayControl } from "./LanguageDisplayControl";
 
 const navigation: {
   section: string;
@@ -78,9 +80,13 @@ function NavItems({
 export function AppShell({
   route,
   children,
+  languageDisplayMode,
+  onLanguageDisplayChange,
 }: {
   route: Route;
   children: ReactNode;
+  languageDisplayMode: LanguageDisplayMode;
+  onLanguageDisplayChange: (mode: LanguageDisplayMode) => void;
 }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -125,6 +131,14 @@ export function AppShell({
         <nav aria-label="Primary navigation" className="rail-nav">
           <NavItems route={route} />
         </nav>
+        <div className="rail-language">
+          <span>Language</span>
+          <LanguageDisplayControl
+            className="language-display-control--rail"
+            mode={languageDisplayMode}
+            onChange={onLanguageDisplayChange}
+          />
+        </div>
         <a className="rail-about" href="#/about">
           About the data
         </a>
@@ -152,6 +166,14 @@ export function AppShell({
         </button>
       </header>
 
+      <div className="mobile-language-bar">
+        <span>Language</span>
+        <LanguageDisplayControl
+          mode={languageDisplayMode}
+          onChange={onLanguageDisplayChange}
+        />
+      </div>
+
       {drawerOpen ? (
         <div className="drawer-backdrop" onMouseDown={closeDrawer}>
           <aside
@@ -164,7 +186,7 @@ export function AppShell({
             <div className="drawer-header">
               <div>
                 <strong>Navigate</strong>
-                <small>ไปยังส่วนต่าง ๆ</small>
+                <small lang="th">ไปยังส่วนต่าง ๆ</small>
               </div>
               <button
                 aria-label="Close navigation menu"
@@ -196,4 +218,3 @@ export function AppShell({
     </div>
   );
 }
-

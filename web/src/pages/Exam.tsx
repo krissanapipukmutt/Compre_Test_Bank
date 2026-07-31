@@ -171,7 +171,7 @@ export function PracticeSetup({
             <span className="setup-step">01</span>
             <div>
               <h2>Choose coverage</h2>
-              <p>เลือกขอบเขตคำถาม</p>
+              <p lang="th">เลือกขอบเขตคำถาม</p>
             </div>
           </section>
           <div className="form-grid">
@@ -220,7 +220,7 @@ export function PracticeSetup({
                 <option value="">All topics</option>
                 {topics.map((topic) => (
                   <option key={topic.topic_id} value={topic.topic_id}>
-                    {topic.title_en} — {topic.title_th}
+                    {topic.title_en}
                   </option>
                 ))}
               </select>
@@ -273,7 +273,7 @@ export function PracticeSetup({
             <span className="setup-step">02</span>
             <div>
               <h2>Choose a review queue</h2>
-              <p>ทบทวนตามสถานะการเรียน</p>
+              <p lang="th">ทบทวนตามสถานะการเรียน</p>
             </div>
           </section>
           <div className="radio-card-grid">
@@ -317,7 +317,7 @@ export function PracticeSetup({
             <span className="setup-step">03</span>
             <div>
               <h2>Session behavior</h2>
-              <p>กำหนดรูปแบบการฝึก</p>
+              <p lang="th">กำหนดรูปแบบการฝึก</p>
             </div>
           </section>
           <div className="form-grid">
@@ -470,7 +470,7 @@ export function MockSetup({
             <span className="setup-step">01</span>
             <div>
               <h2>Select subjects</h2>
-              <p>ไม่เลือกหมายถึงใช้ทุกวิชา</p>
+              <p lang="th">ไม่เลือกหมายถึงใช้ทุกวิชา</p>
             </div>
           </section>
           <div className="subject-check-grid">
@@ -495,7 +495,7 @@ export function MockSetup({
             <span className="setup-step">02</span>
             <div>
               <h2>Exam settings</h2>
-              <p>จำนวนข้อและเวลา</p>
+              <p lang="th">จำนวนข้อและเวลา</p>
             </div>
           </section>
           <div className="form-grid">
@@ -613,8 +613,14 @@ function Timer({
     remainingSeconds(session.startedAt, session.durationSeconds),
   );
   const expiredRef = useRef(false);
+  const onExpireRef = useRef(onExpire);
+
   useEffect(() => {
-    if (remaining === null) return;
+    onExpireRef.current = onExpire;
+  }, [onExpire]);
+
+  useEffect(() => {
+    expiredRef.current = false;
     const tick = () => {
       const next = remainingSeconds(
         session.startedAt,
@@ -623,13 +629,14 @@ function Timer({
       setRemaining(next);
       if (next === 0 && !expiredRef.current) {
         expiredRef.current = true;
-        onExpire();
+        onExpireRef.current();
       }
     };
     tick();
+    if (session.durationSeconds === null) return;
     const timerId = window.setInterval(tick, 1000);
     return () => window.clearInterval(timerId);
-  }, [onExpire, remaining, session.durationSeconds, session.startedAt]);
+  }, [session.durationSeconds, session.sessionId, session.startedAt]);
   if (remaining === null) return <span>Untimed</span>;
   const minutes = Math.floor(remaining / 60);
   const seconds = remaining % 60;

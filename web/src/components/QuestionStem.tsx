@@ -41,7 +41,7 @@ export function FormattedQuestionBlock({
   return (
     <div className="question-copy">
       <span className="eyebrow" data-language="en">
-        Original English · ต้นฉบับภาษาอังกฤษ
+        Original English <span lang="th">· ต้นฉบับภาษาอังกฤษ</span>
       </span>
       <h2 data-testid="question-stem-en">
         {question.normalized_question_en}
@@ -56,7 +56,8 @@ export function FormattedQuestionBlock({
       </div>
       {question.normalization_requires_human_review ? (
         <p className="question-format-warning" role="status">
-          Question formatting requires human review · รูปแบบคำถามต้องได้รับการตรวจทาน
+          Question formatting requires human review{" "}
+          <span lang="th">· รูปแบบคำถามต้องได้รับการตรวจทาน</span>
         </p>
       ) : null}
     </div>

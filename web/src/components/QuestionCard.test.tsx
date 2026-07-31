@@ -199,7 +199,9 @@ describe("QuestionCard", () => {
       explanationEnglish.compareDocumentPosition(explanationThai) &
         Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy();
-    expect(screen.getByText(/Correct · ถูกต้อง/)).toBeInTheDocument();
+    expect(
+      document.querySelector(".answer-panel .eyebrow"),
+    ).toHaveTextContent(/Correct · ถูกต้อง/);
     const studyLink = screen.getByRole("link", {
       name: /Review the most relevant Study Library topic/,
     });

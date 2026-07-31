@@ -132,3 +132,18 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` completed · `[!]` blocked
   Dependencies: P12-01 through P12-03.
   Expected output: dedicated deterministic generator/validator, seven required reports, controls update, production build, and final recoverable Git checkpoint.
   Validation: Phase 8, translation, structure, Phase 11, readability, and Phase 12 validators pass; lint and strict TypeScript pass; 56/56 unit/component tests and 20/20 browser tests pass; production build succeeds; all answer-related fields match pre-audit Git baseline `e722f98`; 10 pre-existing answer warnings remain unchanged.
+
+## LANGUAGE-DISPLAY-STATE-SAFETY
+
+- [x] **P13-01 · Phase 13 · Implement an independent persistent language display**
+  Dependencies: P12-04 and stable bilingual content.
+  Expected output: exact `compre-language-display-mode` preference, bilingual and English-only modes, persistent desktop/mobile controls across Study, Practice, Mock, Results, and review, complete Thai visibility markup, and legacy preference normalization.
+  Validation: the setting stores no answers or dataset; all visible Thai language blocks are hidden in English-only mode; English stays first in bilingual mode; accessible controls expose `English and Thai` and `English only` with 44-pixel targets.
+- [x] **P13-02 · Phase 13 · Preserve active examination state across switching and refresh**
+  Dependencies: P13-01 and existing stable question/choice IDs.
+  Expected output: ID-only active-session snapshot and restore, stable randomization, timer effect isolation, and uninterrupted in-session switching.
+  Validation: session ID, question/choice order, current and previous answers, submitted IDs, current index, timer start/duration, progress, and bookmarks remain unchanged by switching; corrupt snapshots block rather than reshuffle; refresh restores the same active session without copying academic wording.
+- [x] **P13-03 · Phase 13 · Validate no leakage, responsive behavior, and Results switching**
+  Dependencies: P13-01 and P13-02.
+  Expected output: dedicated unit/component and Playwright regressions plus the three language-display reports.
+  Validation: guaranteed-incorrect Results review, individual Practice feedback, repeated/final-question/pre-submit switching, no pre-submit answer panel or correctness class, mobile non-overlap, Study Library hiding, validators, lint, strict TypeScript, 63/63 unit/component tests, 25/25 browser tests, production build, and 0 dependency vulnerabilities all pass; no academic data or answer changed.

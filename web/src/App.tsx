@@ -11,6 +11,18 @@ import {
   type Attempt,
   type LocalState,
 } from "./storage";
+import {
+  clearActiveSession,
+  loadActiveSession,
+  saveActiveSession,
+} from "./activeSessionStorage";
+import {
+  applyLanguageDisplayMode,
+  loadLanguageDisplayMode,
+  resetLanguageDisplayMode,
+  saveLanguageDisplayMode,
+  type LanguageDisplayMode,
+} from "./languageDisplay";
 import { AppShell } from "./components/AppShell";
 import { AcademicNotice } from "./components/Common";
 import { Dashboard } from "./pages/Dashboard";
@@ -34,11 +46,24 @@ function App() {
   const initial = useState(() => loadLocalState());
   const [localState, setLocalState] = useState<LocalState>(initial[0].state);
   const [storageRecovered, setStorageRecovered] = useState(initial[0].recovered);
-  const [activeSession, setActiveSession] = useState<ActiveSession | null>(null);
+  const [languageDisplayMode, setLanguageDisplayMode] =
+    useState<LanguageDisplayMode>(() => loadLanguageDisplayMode());
+  const [activeSession, setActiveSession] = useState<ActiveSession | null>(() =>
+    loadActiveSession(academicData.questions),
+  );
 
   useEffect(() => {
     saveLocalState(localState);
   }, [localState]);
+
+  useEffect(() => {
+    applyLanguageDisplayMode(languageDisplayMode);
+    saveLanguageDisplayMode(languageDisplayMode);
+  }, [languageDisplayMode]);
+
+  useEffect(() => {
+    saveActiveSession(activeSession);
+  }, [activeSession]);
 
   const startSession = (config: SessionConfig) => {
     const session = createSession(academicData.questions, config);
@@ -207,6 +232,9 @@ function App() {
           onReset={() => {
             setLocalState(resetLocalState());
             setActiveSession(null);
+            clearActiveSession();
+            resetLanguageDisplayMode();
+            setLanguageDisplayMode("bilingual");
           }}
         />
       );
@@ -220,7 +248,11 @@ function App() {
   }
 
   return (
-    <AppShell route={route}>
+    <AppShell
+      languageDisplayMode={languageDisplayMode}
+      onLanguageDisplayChange={setLanguageDisplayMode}
+      route={route}
+    >
       {storageRecovered ? (
         <div className="global-notice">
           <AcademicNotice title="Local progress was recovered" severity="danger">

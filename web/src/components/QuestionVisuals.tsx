@@ -3,6 +3,7 @@ import {
   useRef,
   useState,
   type MouseEvent as ReactMouseEvent,
+  type ReactNode,
 } from "react";
 import { createPortal } from "react-dom";
 import type { VisualAsset } from "../domain";
@@ -11,11 +12,13 @@ import { selectVisualAlt } from "../visual";
 function VisualLightbox({
   asset,
   label,
+  ariaLabel,
   compact = false,
   onEssentialError,
 }: {
   asset: VisualAsset;
-  label: string;
+  label: ReactNode;
+  ariaLabel: string;
   compact?: boolean;
   onEssentialError: () => void;
 }) {
@@ -78,10 +81,9 @@ function VisualLightbox({
             />
           </div>
           <figcaption>
-            <span>
-              {document.documentElement.lang.toLowerCase().startsWith("th")
-                ? asset.caption_th
-                : asset.caption_en}
+            <span className="question-visual__caption">
+              <span>{asset.caption_en}</span>
+              <small lang="th">{asset.caption_th}</small>
             </span>
             <button
               className="question-visual__enlarge"
@@ -89,7 +91,7 @@ function VisualLightbox({
               ref={openerRef}
               type="button"
             >
-              Tap to enlarge / แตะเพื่อขยาย
+              Tap to enlarge <span lang="th">/ แตะเพื่อขยาย</span>
             </button>
           </figcaption>
         </figure>
@@ -99,7 +101,7 @@ function VisualLightbox({
         ? createPortal(
             <div className="visual-modal-backdrop" onMouseDown={close}>
               <section
-                aria-label={label}
+                aria-label={ariaLabel}
                 aria-modal="true"
                 className="visual-modal"
                 onMouseDown={(event) => event.stopPropagation()}
@@ -109,11 +111,11 @@ function VisualLightbox({
                   <div>
                     <strong>{label}</strong>
                     <small>
-                      Zoom and pan / ขยายและเลื่อนดู
+                      Zoom and pan <span lang="th">/ ขยายและเลื่อนดู</span>
                     </small>
                   </div>
                   <button
-                    aria-label="Close image viewer / ปิดตัวดูภาพ"
+                    aria-label="Close image viewer"
                     className="visual-modal__close"
                     onClick={close}
                     ref={closeRef}
@@ -153,7 +155,7 @@ function VisualLightbox({
                     +
                   </button>
                   <button onClick={() => setZoom(1)} type="button">
-                    Reset / รีเซ็ต
+                    Reset <span lang="th">/ รีเซ็ต</span>
                   </button>
                 </footer>
               </section>
@@ -184,22 +186,33 @@ export function QuestionVisuals({
   if (inlineAssets.length === 0 && !reference) return null;
   return (
     <section
-      aria-label="Question visual material / ภาพประกอบคำถาม"
+      aria-label="Question visual material"
       className="question-visuals"
     >
       {inlineAssets.map((asset) => (
         <VisualLightbox
           asset={asset}
+          ariaLabel="Question visual"
           key={asset.asset_id}
-          label="Question visual / ภาพประกอบคำถาม"
+          label={
+            <>
+              Question visual <span lang="th">/ ภาพประกอบคำถาม</span>
+            </>
+          }
           onEssentialError={onEssentialError}
         />
       ))}
       {reference ? (
         <VisualLightbox
           asset={reference}
+          ariaLabel="View original question image"
           compact
-          label="View original question image / ดูภาพโจทย์ต้นฉบับ"
+          label={
+            <>
+              View original question image{" "}
+              <span lang="th">/ ดูภาพโจทย์ต้นฉบับ</span>
+            </>
+          }
           onEssentialError={onEssentialError}
         />
       ) : null}

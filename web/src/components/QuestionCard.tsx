@@ -10,13 +10,8 @@ import {
   SourceList,
   StatusBadge,
 } from "./Common";
-import { MISSING_VISUAL_WARNING } from "../visual";
 import { QuestionVisuals } from "./QuestionVisuals";
-import {
-  hasCompleteBilingualContent,
-  MISSING_TRANSLATION_WARNING,
-  TRANSLATION_REVIEW_WARNING,
-} from "../translation";
+import { hasCompleteBilingualContent } from "../translation";
 import { FormattedQuestionBlock } from "./QuestionStem";
 import { routeHref } from "../router";
 
@@ -48,7 +43,12 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
 
       {question.answer_status === "probabilistic_recommendation" ? (
         <AcademicNotice
-          title="Probability-based recommendation · คำตอบจากการวิเคราะห์ความน่าจะเป็น"
+          title={
+            <>
+              Probability-based recommendation{" "}
+              <span lang="th">· คำตอบจากการวิเคราะห์ความน่าจะเป็น</span>
+            </>
+          }
           severity="danger"
         >
           <p>{question.probability_warning_en}</p>
@@ -113,7 +113,12 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
 
       {question.answer_status === "unresolvable_question" ? (
         <AcademicNotice
-          title="Answer remains unresolved · ยังไม่สามารถยืนยันคำตอบได้"
+          title={
+            <>
+              Answer remains unresolved{" "}
+              <span lang="th">· ยังไม่สามารถยืนยันคำตอบได้</span>
+            </>
+          }
           severity="danger"
         >
           <p>{question.unresolved_reason}</p>
@@ -127,7 +132,12 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
       question.answer_status !== "probabilistic_recommendation" &&
       question.answer_status !== "unresolvable_question" ? (
         <AcademicNotice
-          title="Human review remains required · ยังต้องตรวจสอบโดยผู้เชี่ยวชาญ"
+          title={
+            <>
+              Human review remains required{" "}
+              <span lang="th">· ยังต้องตรวจสอบโดยผู้เชี่ยวชาญ</span>
+            </>
+          }
           severity="warning"
         >
           <p>{question.unresolved_reason}</p>
@@ -139,7 +149,9 @@ function EvidenceDetails({ question }: { question: PresentedQuestion }) {
 
       {sources.length > 0 ? (
         <div className="external-evidence">
-          <h4>External evidence · หลักฐานภายนอก</h4>
+          <h4>
+            External evidence <span lang="th">· หลักฐานภายนอก</span>
+          </h4>
           <p>{question.external_evidence_summary_en}</p>
           <p lang="th">{question.external_evidence_summary_th}</p>
           {sources.map((source) => (
@@ -227,7 +239,10 @@ export function QuestionCard({
   };
 
   return (
-    <article className="question-card">
+    <article
+      className="question-card"
+      data-question-id={question.question_id}
+    >
       <header className="question-card__header">
         <div className="question-meta">
           <Badge tone="teal">{question.subject_code}</Badge>
@@ -244,13 +259,20 @@ export function QuestionCard({
 
       {translationInvalid ? (
         <p className="translation-warning" role="alert">
-          {MISSING_TRANSLATION_WARNING}
+          Thai translation is missing or invalid.{" "}
+          <span lang="th">
+            คำแปลภาษาไทยขาดหายหรือไม่สมบูรณ์ จึงปิดการตอบข้อนี้ไว้
+          </span>
         </p>
       ) : null}
 
       {translationNeedsReview ? (
         <p className="translation-review-warning">
-          {TRANSLATION_REVIEW_WARNING}
+          Translation is complete but remains flagged for source-language
+          review.{" "}
+          <span lang="th">
+            คำแปลครบถ้วนแล้ว แต่ต้นฉบับยังต้องได้รับการทบทวน
+          </span>
         </p>
       ) : null}
 
@@ -264,14 +286,20 @@ export function QuestionCard({
 
       {visualLoadFailed ? (
         <p className="missing-visual-warning" role="alert">
-          {MISSING_VISUAL_WARNING}
+          This question is missing a required visual and cannot be answered
+          reliably.{" "}
+          <span lang="th">
+            / คำถามนี้ขาดภาพที่จำเป็นและไม่สามารถตอบได้อย่างน่าเชื่อถือ
+          </span>
         </p>
       ) : null}
 
       <fieldset className="choice-list">
         <legend>
-          {multiple ? "Select all that apply" : "Choose one answer"} ·{" "}
-          {multiple ? "เลือกทุกข้อที่ถูก" : "เลือกหนึ่งคำตอบ"}
+          {multiple ? "Select all that apply" : "Choose one answer"}{" "}
+          <span lang="th">
+            · {multiple ? "เลือกทุกข้อที่ถูก" : "เลือกหนึ่งคำตอบ"}
+          </span>
         </legend>
         {question.choices.map((choice, index) => {
           const selected = selectedChoiceIds.includes(choice.choice_id);
@@ -285,6 +313,7 @@ export function QuestionCard({
           return (
             <label
               className={`choice ${selected ? "is-selected" : ""} ${revealClass}`}
+              data-choice-id={choice.choice_id}
               key={choice.choice_id}
             >
               <input
@@ -333,11 +362,20 @@ export function QuestionCard({
           <span className="eyebrow">
             {score?.scoreable
               ? score.correct
-                ? "Correct · ถูกต้อง"
-                : "Review · ทบทวน"
-              : "Unscored reflection · ไม่ให้คะแนน"}
+                ? "Correct"
+                : "Review"
+              : "Unscored reflection"}
+            <span lang="th">
+              {score?.scoreable
+                ? score.correct
+                  ? " · ถูกต้อง"
+                  : " · ทบทวน"
+                : " · ไม่ให้คะแนน"}
+            </span>
           </span>
-          <h3>Explanation · คำอธิบาย</h3>
+          <h3>
+            Explanation <span lang="th">· คำอธิบาย</span>
+          </h3>
           <p>{question.explanation_en}</p>
           <p lang="th">{question.explanation_th}</p>
           <EvidenceDetails question={question} />
@@ -350,8 +388,8 @@ export function QuestionCard({
                 topicId: question.study_topic_ids[0],
               })}
             >
-              Review the most relevant Study Library topic ·
-              ทบทวนหัวข้อที่เกี่ยวข้องที่สุด
+              Review the most relevant Study Library topic{" "}
+              <span lang="th">· ทบทวนหัวข้อที่เกี่ยวข้องที่สุด</span>
             </a>
           ) : null}
         </section>
@@ -360,11 +398,11 @@ export function QuestionCard({
       <footer className="question-card__footer">
         <span className="source-note">
           <span>
-            Source question: {question.source_exam_relative_path}, page{" "}
+            Source question: {question.source_exam_file_id}, page{" "}
             {question.source_page_or_slide}
           </span>
           <small lang="th">
-            ที่มาของข้อสอบ: {question.source_exam_relative_path}, หน้า{" "}
+            ไฟล์ต้นฉบับ: {question.source_exam_relative_path}, หน้า{" "}
             {question.source_page_or_slide}
           </small>
         </span>

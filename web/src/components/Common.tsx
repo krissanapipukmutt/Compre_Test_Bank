@@ -107,7 +107,13 @@ export function StatusBadge({ status }: { status: AnswerStatus }) {
           status === "probabilistic_recommendation"
         ? "warning"
         : "danger";
-  return <Badge tone={tone}>{answerStatusLabel(status)}</Badge>;
+  const [english, thai] = answerStatusLabel(status).split(" · ");
+  return (
+    <Badge tone={tone}>
+      {english}
+      {thai ? <span lang="th"> · {thai}</span> : null}
+    </Badge>
+  );
 }
 
 export function ConfidenceBadge({
@@ -129,7 +135,7 @@ export function AcademicNotice({
   children,
   severity = "warning",
 }: {
-  title: string;
+  title: ReactNode;
   children: ReactNode;
   severity?: "warning" | "danger" | "info";
 }) {
@@ -178,11 +184,14 @@ export function SourceList({
 }) {
   return (
     <div className={`source-list ${compact ? "source-list--compact" : ""}`}>
-      <h3>Sources · แหล่งอ้างอิง</h3>
+      <h3>
+        Sources <span lang="th">· แหล่งอ้างอิง</span>
+      </h3>
       <ul>
         {sources.map((source) => (
           <li key={source.source_reference_id}>
-            <code>{source.relative_path}</code>
+            <code>{source.file_id}</code>
+            <code data-language="th">{source.relative_path}</code>
             <span>
               {source.locator_end
                 ? `pages/slides ${source.locator_start}–${source.locator_end}`

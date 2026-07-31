@@ -23,7 +23,6 @@ export interface LocalState {
   };
   attempts: Attempt[];
   preferences: {
-    languageView: "bilingual" | "english" | "thai";
     feedbackMode: "immediate" | "delayed";
     randomizeQuestions: boolean;
     randomizeChoices: boolean;
@@ -35,7 +34,6 @@ export const DEFAULT_LOCAL_STATE: LocalState = {
   bookmarks: { chapterIds: [], topicIds: [], questionIds: [] },
   attempts: [],
   preferences: {
-    languageView: "bilingual",
     feedbackMode: "immediate",
     randomizeQuestions: true,
     randomizeChoices: true,
@@ -80,6 +78,20 @@ export function loadLocalState(storage: Storage = window.localStorage): LoadResu
           topicIds: Array.isArray(parsed.bookmarks.topicIds)
             ? parsed.bookmarks.topicIds
             : [],
+        },
+        preferences: {
+          feedbackMode:
+            parsed.preferences.feedbackMode === "delayed"
+              ? "delayed"
+              : "immediate",
+          randomizeQuestions:
+            typeof parsed.preferences.randomizeQuestions === "boolean"
+              ? parsed.preferences.randomizeQuestions
+              : DEFAULT_LOCAL_STATE.preferences.randomizeQuestions,
+          randomizeChoices:
+            typeof parsed.preferences.randomizeChoices === "boolean"
+              ? parsed.preferences.randomizeChoices
+              : DEFAULT_LOCAL_STATE.preferences.randomizeChoices,
         },
       },
       recovered: false,

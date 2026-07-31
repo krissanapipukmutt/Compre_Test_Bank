@@ -7,7 +7,11 @@ describe("responsive application navigation", () => {
   it("opens and closes the labelled mobile navigation drawer", async () => {
     const user = userEvent.setup();
     render(
-      <AppShell route={{ name: "home" }}>
+      <AppShell
+        languageDisplayMode="bilingual"
+        onLanguageDisplayChange={() => undefined}
+        route={{ name: "home" }}
+      >
         <h1>หน้าหลัก</h1>
       </AppShell>,
     );
@@ -20,4 +24,3 @@ describe("responsive application navigation", () => {
     ).not.toBeInTheDocument();
   });
 });
-
